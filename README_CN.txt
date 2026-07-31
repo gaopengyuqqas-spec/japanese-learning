@@ -1,36 +1,36 @@
-日语随身学 PWA（Prototype 1.0）
-================================
+日语随身学 PWA（Content Expansion 2.0）
+========================================
 
-一、包含功能
-- 汉字分组学习
-- 同一汉字的训读词、音读词关联
-- 单词与例句日语朗读、慢速朗读
-- 日常生活对话与 IT 工作对话
-- 逐句播放与完整对话播放
-- 收藏、熟练度和间隔复习
-- 学习天数与基础统计
-- 深色模式
-- 学习记录导入、导出
-- PWA 离线缓存
+一、本版教材规模
+- 35 个汉字学习组
+- 123 个关联单词
+- 单词支持多条例句显示与逐句朗读
+- 24 个对话场景
+- 124 句对话
+- 日常生活：便利店、医院、快递、餐厅预约、电车晚点、市役所、房屋报修、药店、退换货
+- IT 工作：进度汇报、资料确认、测试失败、merge/rebase、方案风险、PR追加Push、差分基准、AWS权限、SSM错误、DataStage进程、需求确认、冲突处理、临时与永久对策、技术选型
 
-二、最简单的部署方法
-1. 解压 ZIP。
-2. 登录 Cloudflare。
-3. 进入 Workers & Pages → Create → Pages → Direct Upload。
-4. 上传整个 japanese-learning-pwa 文件夹内的所有文件。
-5. 部署完成后，用 iPhone Safari 打开生成的网址。
-6. 点击 Safari 分享按钮 → 添加到主屏幕。
+二、新增功能
+- 一个单词可以显示多条例句
+- 每条例句可分别普通速度或慢速朗读
+- 对话增加“学习要点”
+- 对话增加“可替换表达”及单独朗读
+- 新增 CI/CD、AWS 单词筛选标签
+- 更新离线缓存版本
 
-注意：不要直接在 Windows 上双击 index.html。浏览器会限制 JSON 读取。
-本地预览可在该文件夹内运行：
-  python -m http.server 8000
-然后浏览器访问：
-  http://localhost:8000
+三、Cloudflare 部署
+1. Cloudflare Drop 可直接上传本 ZIP，无需解压。
+2. 也可解压后，在 Workers & Pages → Create → Pages → Direct Upload 中上传全部文件。
+3. 部署完成后，用 iPhone Safari 打开网址。
+4. Safari 分享 → 添加到主屏幕。
 
-三、教材修改
-- data/vocabulary.json：汉字、训读、音读、例句
-- data/dialogues.json：日常与 IT 对话
+四、更新旧版本
+- 使用同一个 Cloudflare 项目上传本版文件即可。
+- 首次打开新版后，如仍看到旧内容，请彻底关闭网页 App，再重新打开。
+- 必要时在 Safari 中刷新一次，新的 service worker 会替换旧缓存。
+- 学习进度保存在 localStorage。只要域名不变且不清除网站数据，通常会继续保留。
+- 更新前建议先在“设置”中导出学习记录。
 
-四、学习记录
-学习记录保存在当前浏览器的 localStorage 中。
-更换网址、清除 Safari 网站数据或换手机前，请在“设置”中导出学习记录。
+五、教材文件
+- data/vocabulary.json：汉字、单词、读音、标签和多条例句
+- data/dialogues.json：日常与 IT 对话、学习要点、可替换表达

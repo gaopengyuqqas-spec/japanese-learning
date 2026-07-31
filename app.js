@@ -198,6 +198,8 @@
         ${filterPill('it','IT',app.vocabFilter)}
         ${filterPill('git','Git',app.vocabFilter)}
         ${filterPill('工作','工作',app.vocabFilter)}
+        ${filterPill('CI/CD','CI/CD',app.vocabFilter)}
+        ${filterPill('aws','AWS',app.vocabFilter)}
       </div>
       <div class="card-grid">
         ${filtered.length ? filtered.map(kanjiCard).join('') : emptyState('没有匹配内容','换一个关键词或筛选条件试试。')}
@@ -235,19 +237,21 @@
 
   function vocabItem(word) {
     const progress = getProgress(word.id);
-    const sentence = word.sentences[0];
+    const sentences = Array.isArray(word.sentences) ? word.sentences : [];
     return `<article class="vocab-item">
       <div class="vocab-word"><strong>${escapeHtml(word.word)}</strong><span>${escapeHtml(word.reading)}</span><span class="tag">${escapeHtml(word.meaning)}</span></div>
       <div class="tag-row">${(word.tags || []).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>
-      <div class="sentence-box">
-        <div class="sentence-jp">${escapeHtml(sentence.jp)}</div>
-        ${app.state.settings.showReading ? `<div class="sentence-reading">${escapeHtml(sentence.reading)}</div>` : ''}
-        ${app.state.settings.showChinese ? `<div class="sentence-zh">${escapeHtml(sentence.zh)}</div>` : ''}
-      </div>
-      <div class="inline-actions">
+      ${sentences.map((sentence, index) => `<div class="sentence-box" style="margin-top:${index === 0 ? '12px' : '10px'}">
+        <div class="sentence-jp"><span class="sentence-number">例${index + 1}</span>${escapeHtml(sentence.jp)}</div>
+        ${app.state.settings.showReading ? `<div class="sentence-reading">${escapeHtml(sentence.reading || '')}</div>` : ''}
+        ${app.state.settings.showChinese ? `<div class="sentence-zh">${escapeHtml(sentence.zh || '')}</div>` : ''}
+        <div class="inline-actions" style="margin-top:8px">
+          <button class="mini-button" data-speak="${escapeHtml(sentence.jp)}">🔊 例句${index + 1}</button>
+          <button class="mini-button" data-speak-slow="${escapeHtml(sentence.jp)}">🐢 慢速</button>
+        </div>
+      </div>`).join('')}
+      <div class="inline-actions" style="margin-top:12px">
         <button class="mini-button" data-speak="${escapeHtml(word.word)}">🔊 单词</button>
-        <button class="mini-button" data-speak="${escapeHtml(sentence.jp)}">▶ 例句</button>
-        <button class="mini-button" data-speak-slow="${escapeHtml(sentence.jp)}">🐢 慢速</button>
         <button class="mini-button favorite ${progress.favorite ? 'active' : ''}" data-favorite="${escapeHtml(word.id)}">${progress.favorite ? '★ 已收藏' : '☆ 收藏'}</button>
       </div>
     </article>`;
@@ -303,7 +307,15 @@
       <section class="section">
         <div class="section-heading"><h2>重点表达</h2></div>
         <div class="card"><div class="tag-row">${d.keywords.map(k => `<span class="tag">${escapeHtml(k)}</span>`).join('')}</div></div>
-      </section>`;
+      </section>
+      ${Array.isArray(d.learningPoints) && d.learningPoints.length ? `<section class="section">
+        <div class="section-heading"><h2>学习要点</h2></div>
+        <div class="card learning-points">${d.learningPoints.map((point,index) => `<p><strong>${index + 1}.</strong> ${escapeHtml(point)}</p>`).join('')}</div>
+      </section>` : ''}
+      ${Array.isArray(d.expressions) && d.expressions.length ? `<section class="section">
+        <div class="section-heading"><h2>可替换表达</h2></div>
+        <div class="card expression-list">${d.expressions.map(item => `<div class="expression-item"><span class="tag">${escapeHtml(item.label || '表达')}</span><div class="line-jp">${escapeHtml(item.jp || '')}</div>${app.state.settings.showChinese ? `<div class="line-zh">${escapeHtml(item.zh || '')}</div>` : ''}<button class="mini-button" style="margin-top:7px" data-speak="${escapeHtml(item.jp || '')}">🔊 播放</button></div>`).join('')}</div>
+      </section>` : ''}`;
   }
 
   function prepareReviewQueue() {
@@ -384,7 +396,7 @@
         <div class="section-heading"><h2>安装说明</h2></div>
         <div class="card"><p>在 iPhone Safari 中打开本页面，点击分享按钮，再选择“添加到主屏幕”。首次完整打开后，可离线使用已缓存内容。</p></div>
       </section>
-      <section class="section"><div class="card"><p>版本：Prototype 1.0<br>教材：${app.vocab.length} 个汉字组，${allWords().length} 个单词，${app.dialogues.length} 个对话场景。</p></div></section>`;
+      <section class="section"><div class="card"><p>版本：Content Expansion 2.0<br>教材：${app.vocab.length} 个汉字组，${allWords().length} 个单词，${app.dialogues.length} 个对话场景。</p></div></section>`;
   }
 
   function settingToggle(titleText, description, key, active) {
