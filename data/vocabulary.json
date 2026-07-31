@@ -1,0 +1,138 @@
+[
+  {
+    "id": "kanji-行",
+    "kanji": "行",
+    "meanings": ["去", "进行", "执行"],
+    "level": "N5 / IT",
+    "words": [
+      {"id":"w-iku","word":"行く","reading":"いく","type":"kun","meaning":"去","tags":["日常"],"sentences":[{"jp":"明日は会社へ行きます。","reading":"あしたは かいしゃへ いきます。","zh":"明天去公司。"}]},
+      {"id":"w-okonau","word":"行う","reading":"おこなう","type":"kun","meaning":"进行、实施","tags":["工作"],"sentences":[{"jp":"本番環境で動作確認を行います。","reading":"ほんばんかんきょうで どうさかくにんを おこないます。","zh":"在生产环境进行动作确认。"}]},
+      {"id":"w-jikko","word":"実行","reading":"じっこう","type":"on","meaning":"执行","tags":["IT","CI/CD"],"sentences":[{"jp":"単体テストを実行します。","reading":"たんたいテストを じっこうします。","zh":"执行单元测试。"}]},
+      {"id":"w-ginko","word":"銀行","reading":"ぎんこう","type":"on","meaning":"银行","tags":["日常"],"sentences":[{"jp":"銀行で口座を作りました。","reading":"ぎんこうで こうざを つくりました。","zh":"在银行开了账户。"}]}
+    ]
+  },
+  {
+    "id": "kanji-食",
+    "kanji": "食",
+    "meanings": ["吃", "食物"],
+    "level": "N5",
+    "words": [
+      {"id":"w-taberu","word":"食べる","reading":"たべる","type":"kun","meaning":"吃","tags":["日常"],"sentences":[{"jp":"朝ご飯を食べます。","reading":"あさごはんを たべます。","zh":"吃早饭。"}]},
+      {"id":"w-shokuji","word":"食事","reading":"しょくじ","type":"on","meaning":"用餐、饭食","tags":["日常"],"sentences":[{"jp":"昼休みに食事をします。","reading":"ひるやすみに しょくじを します。","zh":"午休时吃饭。"}]},
+      {"id":"w-shokuhin","word":"食品","reading":"しょくひん","type":"on","meaning":"食品","tags":["日常"],"sentences":[{"jp":"この店では日本の食品を販売しています。","reading":"このみせでは にほんの しょくひんを はんばいしています。","zh":"这家店销售日本食品。"}]}
+    ]
+  },
+  {
+    "id": "kanji-見",
+    "kanji": "見",
+    "meanings": ["看", "确认", "意见"],
+    "level": "N5 / 工作",
+    "words": [
+      {"id":"w-miru","word":"見る","reading":"みる","type":"kun","meaning":"看","tags":["日常"],"sentences":[{"jp":"週末に映画を見ます。","reading":"しゅうまつに えいがを みます。","zh":"周末看电影。"}]},
+      {"id":"w-mitsukeru","word":"見つける","reading":"みつける","type":"kun","meaning":"找到、发现","tags":["工作"],"sentences":[{"jp":"ログからエラーの原因を見つけました。","reading":"ログから エラーの げんいんを みつけました。","zh":"从日志中找到了错误原因。"}]},
+      {"id":"w-kakunin","word":"確認","reading":"かくにん","type":"on","meaning":"确认","tags":["工作","IT"],"sentences":[{"jp":"修正内容をご確認ください。","reading":"しゅうせいないようを ごかくにんください。","zh":"请确认修改内容。"}]},
+      {"id":"w-iken","word":"意見","reading":"いけん","type":"on","meaning":"意见","tags":["工作"],"sentences":[{"jp":"この設計についてご意見をいただけますか。","reading":"このせっけいについて ごいけんを いただけますか。","zh":"能否请您对这个设计提出意见？"}]}
+    ]
+  },
+  {
+    "id": "kanji-取",
+    "kanji": "取",
+    "meanings": ["取", "获取", "引入"],
+    "level": "N4 / IT",
+    "words": [
+      {"id":"w-toru","word":"取る","reading":"とる","type":"kun","meaning":"拿、取得","tags":["日常"],"sentences":[{"jp":"会議のメモを取ります。","reading":"かいぎの メモを とります。","zh":"做会议记录。"}]},
+      {"id":"w-torikomu","word":"取り込む","reading":"とりこむ","type":"kun","meaning":"引入、导入","tags":["Git","IT"],"sentences":[{"jp":"featureブランチの最新内容をtopicブランチへ取り込みます。","reading":"フィーチャーブランチの さいしんないようを トピックブランチへ とりこみます。","zh":"把 feature 分支的最新内容引入 topic 分支。"}]},
+      {"id":"w-shutoku","word":"取得","reading":"しゅとく","type":"on","meaning":"获取","tags":["IT"],"sentences":[{"jp":"Gitea APIから差分情報を取得します。","reading":"ギティーエー エーピーアイから さぶんじょうほうを しゅとくします。","zh":"从 Gitea API 获取差分信息。"}]}
+    ]
+  },
+  {
+    "id": "kanji-合",
+    "kanji": "合",
+    "meanings": ["合并", "匹配", "场合"],
+    "level": "N4 / Git",
+    "words": [
+      {"id":"w-au","word":"合う","reading":"あう","type":"kun","meaning":"合适、匹配","tags":["日常"],"sentences":[{"jp":"この靴はサイズが合いません。","reading":"このくつは サイズが あいません。","zh":"这双鞋尺寸不合适。"}]},
+      {"id":"w-awaseru","word":"合わせる","reading":"あわせる","type":"kun","meaning":"配合、对齐","tags":["工作"],"sentences":[{"jp":"認識を合わせるため、前提条件を確認します。","reading":"にんしきを あわせるため、ぜんていじょうけんを かくにんします。","zh":"为了统一认识，确认前提条件。"}]},
+      {"id":"w-gappei","word":"合併","reading":"がっぺい","type":"on","meaning":"合并","tags":["一般"],"sentences":[{"jp":"二つの組織が合併しました。","reading":"ふたつの そしきが がっぺいしました。","zh":"两个组织合并了。"}]},
+      {"id":"w-baai","word":"場合","reading":"ばあい","type":"on","meaning":"情况、场合","tags":["工作"],"sentences":[{"jp":"エラーが発生した場合は処理を停止します。","reading":"エラーが はっせいした ばあいは しょりを ていしします。","zh":"发生错误时停止处理。"}]}
+    ]
+  },
+  {
+    "id": "kanji-変",
+    "kanji": "変",
+    "meanings": ["变化", "修改", "异常"],
+    "level": "N4 / IT",
+    "words": [
+      {"id":"w-kawaru","word":"変わる","reading":"かわる","type":"kun","meaning":"改变","tags":["日常"],"sentences":[{"jp":"予定が変わりました。","reading":"よていが かわりました。","zh":"计划改变了。"}]},
+      {"id":"w-kaeru","word":"変える","reading":"かえる","type":"kun","meaning":"改变某物","tags":["工作"],"sentences":[{"jp":"比較方法を新しい方式に変えます。","reading":"ひかくほうほうを あたらしい ほうしきに かえます。","zh":"把比较方法改为新方式。"}]},
+      {"id":"w-henko","word":"変更","reading":"へんこう","type":"on","meaning":"变更、修改","tags":["IT","工作"],"sentences":[{"jp":"設定ファイルを変更しました。","reading":"せっていファイルを へんこうしました。","zh":"修改了配置文件。"}]},
+      {"id":"w-ihen","word":"異変","reading":"いへん","type":"on","meaning":"异常变化","tags":["一般"],"sentences":[{"jp":"サーバーの動作に異変が見られました。","reading":"サーバーの どうさに いへんが みられました。","zh":"发现服务器运行有异常。"}]}
+    ]
+  },
+  {
+    "id": "kanji-作",
+    "kanji": "作",
+    "meanings": ["制作", "操作", "作业"],
+    "level": "N4 / IT",
+    "words": [
+      {"id":"w-tsukuru","word":"作る","reading":"つくる","type":"kun","meaning":"制作、创建","tags":["日常","IT"],"sentences":[{"jp":"新しいテストデータを作ります。","reading":"あたらしい テストデータを つくります。","zh":"制作新的测试数据。"}]},
+      {"id":"w-sagyo","word":"作業","reading":"さぎょう","type":"on","meaning":"作业、工作","tags":["工作"],"sentences":[{"jp":"本日の作業は完了しました。","reading":"ほんじつの さぎょうは かんりょうしました。","zh":"今天的工作已经完成。"}]},
+      {"id":"w-sosa","word":"操作","reading":"そうさ","type":"on","meaning":"操作","tags":["IT"],"sentences":[{"jp":"手順書に従って操作してください。","reading":"てじゅんしょに したがって そうさしてください。","zh":"请按照操作手册进行操作。"}]}
+    ]
+  },
+  {
+    "id": "kanji-開",
+    "kanji": "開",
+    "meanings": ["打开", "召开", "开发"],
+    "level": "N4 / IT",
+    "words": [
+      {"id":"w-akeru","word":"開ける","reading":"あける","type":"kun","meaning":"打开","tags":["日常"],"sentences":[{"jp":"窓を開けてもいいですか。","reading":"まどを あけても いいですか。","zh":"可以开窗吗？"}]},
+      {"id":"w-hiraku","word":"開く","reading":"ひらく","type":"kun","meaning":"召开、打开","tags":["工作"],"sentences":[{"jp":"午後三時から会議を開きます。","reading":"ごご さんじから かいぎを ひらきます。","zh":"下午三点召开会议。"}]},
+      {"id":"w-kaihatsu","word":"開発","reading":"かいはつ","type":"on","meaning":"开发","tags":["IT"],"sentences":[{"jp":"現在、追加Push機能を開発しています。","reading":"げんざい、ついかプッシュきのうを かいはつしています。","zh":"目前正在开发追加 Push 功能。"}]}
+    ]
+  },
+  {
+    "id": "kanji-直",
+    "kanji": "直",
+    "meanings": ["直接", "修复", "重新"],
+    "level": "N4 / IT",
+    "words": [
+      {"id":"w-naosu","word":"直す","reading":"なおす","type":"kun","meaning":"修理、修正","tags":["日常","IT"],"sentences":[{"jp":"不具合を修正して、もう一度テストします。","reading":"ふぐあいを しゅうせいして、もういちど テストします。","zh":"修复故障后再测试一次。"}]},
+      {"id":"w-naoru","word":"直る","reading":"なおる","type":"kun","meaning":"恢复、修好","tags":["日常"],"sentences":[{"jp":"再起動したら問題が直りました。","reading":"さいきどうしたら もんだいが なおりました。","zh":"重启后问题解决了。"}]},
+      {"id":"w-chokusetsu","word":"直接","reading":"ちょくせつ","type":"on","meaning":"直接","tags":["工作"],"sentences":[{"jp":"mainブランチへ直接Pushすることは禁止されています。","reading":"メインブランチへ ちょくせつ プッシュすることは きんしされています。","zh":"禁止直接向 main 分支 Push。"}]}
+    ]
+  },
+  {
+    "id": "kanji-分",
+    "kanji": "分",
+    "meanings": ["分", "理解", "差分"],
+    "level": "N5 / IT",
+    "words": [
+      {"id":"w-wakaru","word":"分かる","reading":"わかる","type":"kun","meaning":"明白、理解","tags":["日常"],"sentences":[{"jp":"説明の内容は分かりました。","reading":"せつめいの ないようは わかりました。","zh":"我明白说明内容了。"}]},
+      {"id":"w-wakeru","word":"分ける","reading":"わける","type":"kun","meaning":"分开、分类","tags":["工作"],"sentences":[{"jp":"正式デプロイとテスト処理を分けます。","reading":"せいしきデプロイと テストしょりを わけます。","zh":"将正式部署和测试处理分开。"}]},
+      {"id":"w-sabun","word":"差分","reading":"さぶん","type":"on","meaning":"差分","tags":["Git","CI/CD"],"sentences":[{"jp":"前回成功時のSHAを基準に差分を取得します。","reading":"ぜんかいせいこうじの エスエイチエーを きじゅんに さぶんを しゅとくします。","zh":"以前一次成功时的 SHA 为基准获取差分。"}]}
+    ]
+  },
+  {
+    "id": "kanji-確",
+    "kanji": "確",
+    "meanings": ["确认", "确定", "可靠"],
+    "level": "N3 / 工作",
+    "words": [
+      {"id":"w-tashikameru","word":"確かめる","reading":"たしかめる","type":"kun","meaning":"查明、确认","tags":["日常"],"sentences":[{"jp":"予約時間をもう一度確かめます。","reading":"よやくじかんを もういちど たしかめます。","zh":"再确认一次预约时间。"}]},
+      {"id":"w-kakujitsu","word":"確実","reading":"かくじつ","type":"on","meaning":"确实、可靠","tags":["工作"],"sentences":[{"jp":"確実に反映するため、処理を直列化します。","reading":"かくじつに はんえいするため、しょりを ちょくれつかします。","zh":"为了确保反映，将处理串行化。"}]},
+      {"id":"w-kakunin2","word":"確認","reading":"かくにん","type":"on","meaning":"确认","tags":["工作"],"sentences":[{"jp":"認識に相違がないかご確認ください。","reading":"にんしきに そういが ないか ごかくにんください。","zh":"请确认双方认识是否一致。"}]}
+    ]
+  },
+  {
+    "id": "kanji-戻",
+    "kanji": "戻",
+    "meanings": ["返回", "恢复", "回滚"],
+    "level": "N3 / IT",
+    "words": [
+      {"id":"w-modoru","word":"戻る","reading":"もどる","type":"kun","meaning":"返回、恢复","tags":["日常"],"sentences":[{"jp":"一つ前の画面に戻ります。","reading":"ひとつまえの がめんに もどります。","zh":"返回上一个页面。"}]},
+      {"id":"w-modosu","word":"戻す","reading":"もどす","type":"kun","meaning":"恢复、放回","tags":["IT"],"sentences":[{"jp":"問題があったため、設定を元に戻しました。","reading":"もんだいが あったため、せっていを もとに もどしました。","zh":"因为出现问题，把设置恢复了。"}]},
+      {"id":"w-henkyaku","word":"返却","reading":"へんきゃく","type":"on","meaning":"返还、返回","tags":["IT"],"sentences":[{"jp":"APIは処理結果をJSON形式で返却します。","reading":"エーピーアイは しょりけっかを ジェイソンけいしきで へんきゃくします。","zh":"API 以 JSON 格式返回处理结果。"}]}
+    ]
+  }
+]
