@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "packId": "business-expression-comparisons",
   "packType": "grammar",
-  "contentVersion": "2026.07.31-phase1-business-it",
+  "contentVersion": "2026.07.31-phase2-foundation-daily",
   "title": "商务表达层级对比",
   "description": "50个不同工作沟通意图，分别提供会议口头和邮件聊天形式。",
   "items": [

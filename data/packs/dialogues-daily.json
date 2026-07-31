@@ -2,9 +2,9 @@
   "schemaVersion": 3,
   "packId": "dialogues-daily",
   "packType": "dialogue",
-  "contentVersion": "2026.07.31-phase1-business-it",
-  "title": "日常生活对话",
-  "description": "第零阶段迁移后的内容包。",
+  "contentVersion": "2026.07.31-phase2-foundation-daily",
+  "title": "日常生活与职场基础对话",
+  "description": "保留既有日常对话，并新增 60 个购物、餐饮、交通、医疗、手续、住宅与职场基础场景。",
   "items": [
     {
       "id": "dialogue-daily-8997893e53ad",
@@ -664,6 +664,3775 @@
       "rolePlayPromptZh": "",
       "tags": [
         "日常"
+      ]
+    },
+    {
+      "id": "dialogue-94d8fa557249",
+      "category": "daily",
+      "title": "服装店确认尺寸",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "在服装店试穿衬衫，并询问更大的尺寸。",
+      "lines": [
+        {
+          "id": "line-7cbab9c65612",
+          "speaker": "店員",
+          "jp": "いらっしゃいませ。何かお探しですか。",
+          "reading": "",
+          "zh": "欢迎光临。您在找什么吗？"
+        },
+        {
+          "id": "line-d0cfc3ab828f",
+          "speaker": "客",
+          "jp": "このシャツを試着してもいいですか。",
+          "reading": "",
+          "zh": "这件衬衫可以试穿吗？"
+        },
+        {
+          "id": "line-0cfa16962ae9",
+          "speaker": "店員",
+          "jp": "はい。試着室はこちらです。",
+          "reading": "",
+          "zh": "可以。试衣间在这边。"
+        },
+        {
+          "id": "line-7d69339e873e",
+          "speaker": "客",
+          "jp": "少し小さいので、もう一つ大きいサイズはありますか。",
+          "reading": "",
+          "zh": "有点小，还有大一号的吗？"
+        },
+        {
+          "id": "line-7371a662b1f6",
+          "speaker": "店員",
+          "jp": "確認いたします。少々お待ちください。",
+          "reading": "",
+          "zh": "我确认一下，请稍等。"
+        },
+        {
+          "id": "line-2f8745bb8e3f",
+          "speaker": "客",
+          "jp": "お願いします。",
+          "reading": "",
+          "zh": "麻烦您了。"
+        }
+      ],
+      "keywordTexts": [
+        "試着",
+        "大きいサイズ",
+        "少々お待ちください"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "「～てもいいですか」用于请求许可。"
+      ],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "购物"
+      ]
+    },
+    {
+      "id": "dialogue-83d4af9ea802",
+      "category": "daily",
+      "title": "服装店确认颜色库存",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "询问同款商品是否有其他颜色。",
+      "lines": [
+        {
+          "id": "line-498bee3ed45e",
+          "speaker": "客",
+          "jp": "このコートは黒以外の色もありますか。",
+          "reading": "",
+          "zh": "这件大衣除了黑色还有其他颜色吗？"
+        },
+        {
+          "id": "line-3fa6dd3c2a43",
+          "speaker": "店員",
+          "jp": "はい、紺とベージュがございます。",
+          "reading": "",
+          "zh": "有，还有藏青色和米色。"
+        },
+        {
+          "id": "line-910bbd511120",
+          "speaker": "客",
+          "jp": "ベージュのMサイズを見せてください。",
+          "reading": "",
+          "zh": "请给我看米色的 M 码。"
+        },
+        {
+          "id": "line-dece79835251",
+          "speaker": "店員",
+          "jp": "申し訳ありません。Mサイズは在庫切れです。",
+          "reading": "",
+          "zh": "很抱歉，M 码缺货。"
+        },
+        {
+          "id": "line-2dec838411f6",
+          "speaker": "客",
+          "jp": "では、紺のMサイズをお願いします。",
+          "reading": "",
+          "zh": "那么请给我藏青色的 M 码。"
+        }
+      ],
+      "keywordTexts": [
+        "黒以外",
+        "在庫切れ",
+        "～をお願いします"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "购物"
+      ]
+    },
+    {
+      "id": "dialogue-7211183b77c9",
+      "category": "daily",
+      "title": "退换有缺陷的商品",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "购买的电水壶无法通电，前往店里咨询退货。",
+      "lines": [
+        {
+          "id": "line-821529d533bd",
+          "speaker": "客",
+          "jp": "昨日こちらで買った電気ケトルが動かないのですが。",
+          "reading": "",
+          "zh": "昨天在这里买的电水壶无法使用。"
+        },
+        {
+          "id": "line-a539a2a2f998",
+          "speaker": "店員",
+          "jp": "ご不便をおかけして申し訳ございません。レシートはお持ちですか。",
+          "reading": "",
+          "zh": "给您造成不便，非常抱歉。带收据了吗？"
+        },
+        {
+          "id": "line-719750f54daa",
+          "speaker": "客",
+          "jp": "はい、こちらです。",
+          "reading": "",
+          "zh": "带了，在这里。"
+        },
+        {
+          "id": "line-4b24ad0e07a5",
+          "speaker": "店員",
+          "jp": "商品を確認したうえで、交換または返金の対応をいたします。",
+          "reading": "",
+          "zh": "确认商品后，可以更换或退款。"
+        },
+        {
+          "id": "line-9ed392f382f0",
+          "speaker": "客",
+          "jp": "同じ商品と交換をお願いします。",
+          "reading": "",
+          "zh": "请更换为同款商品。"
+        }
+      ],
+      "keywordTexts": [
+        "動かない",
+        "レシート",
+        "交換",
+        "返金"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "故障说明常用「～が動かないのですが」。"
+      ],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "购物"
+      ]
+    },
+    {
+      "id": "dialogue-b7bed125a7df",
+      "category": "daily",
+      "title": "更换鞋子尺寸",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "鞋子尺码不合适，申请换小一号。",
+      "lines": [
+        {
+          "id": "line-d2f96fa293a7",
+          "speaker": "客",
+          "jp": "先ほど買った靴のサイズを交換できますか。",
+          "reading": "",
+          "zh": "刚才买的鞋可以换尺码吗？"
+        },
+        {
+          "id": "line-9116927cb560",
+          "speaker": "店員",
+          "jp": "未使用でしたら交換できます。",
+          "reading": "",
+          "zh": "如果未使用可以更换。"
+        },
+        {
+          "id": "line-02db7e41503d",
+          "speaker": "客",
+          "jp": "室内で試しただけです。",
+          "reading": "",
+          "zh": "只在室内试穿过。"
+        },
+        {
+          "id": "line-c51e21c50c6c",
+          "speaker": "店員",
+          "jp": "承知しました。どのサイズをご希望ですか。",
+          "reading": "",
+          "zh": "明白了。您希望什么尺码？"
+        },
+        {
+          "id": "line-f065790a4748",
+          "speaker": "客",
+          "jp": "一つ小さいサイズをお願いします。",
+          "reading": "",
+          "zh": "请换小一号。"
+        }
+      ],
+      "keywordTexts": [
+        "サイズを交換する",
+        "未使用",
+        "一つ小さい"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "购物"
+      ]
+    },
+    {
+      "id": "dialogue-7b9050fc7253",
+      "category": "daily",
+      "title": "超市询问商品位置",
+      "jlptLevel": "N5",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "在超市询问酱油放在哪里。",
+      "lines": [
+        {
+          "id": "line-2dfd811f5ced",
+          "speaker": "客",
+          "jp": "すみません、醤油はどこにありますか。",
+          "reading": "",
+          "zh": "不好意思，酱油在哪里？"
+        },
+        {
+          "id": "line-c8a198023ecc",
+          "speaker": "店員",
+          "jp": "調味料売り場の三番通路にあります。",
+          "reading": "",
+          "zh": "在调味料区的三号通道。"
+        },
+        {
+          "id": "line-6bf3e9b97067",
+          "speaker": "客",
+          "jp": "三番通路ですね。",
+          "reading": "",
+          "zh": "三号通道，对吧。"
+        },
+        {
+          "id": "line-aec03359637f",
+          "speaker": "店員",
+          "jp": "はい。右側の下の棚です。",
+          "reading": "",
+          "zh": "对，在右侧下层货架。"
+        },
+        {
+          "id": "line-27ddfdc9ef69",
+          "speaker": "客",
+          "jp": "ありがとうございます。",
+          "reading": "",
+          "zh": "谢谢。"
+        }
+      ],
+      "keywordTexts": [
+        "どこにありますか",
+        "売り場",
+        "通路",
+        "棚"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "购物"
+      ]
+    },
+    {
+      "id": "dialogue-390baef6bb9e",
+      "category": "daily",
+      "title": "办理积分卡",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "结账时询问并办理商店积分卡。",
+      "lines": [
+        {
+          "id": "line-5a7bf5ae1a9c",
+          "speaker": "店員",
+          "jp": "ポイントカードはお持ちですか。",
+          "reading": "",
+          "zh": "您有积分卡吗？"
+        },
+        {
+          "id": "line-746593e9c43c",
+          "speaker": "客",
+          "jp": "持っていません。今日作れますか。",
+          "reading": "",
+          "zh": "没有。今天可以办理吗？"
+        },
+        {
+          "id": "line-ce19906c5441",
+          "speaker": "店員",
+          "jp": "はい、無料でお作りできます。こちらにご記入ください。",
+          "reading": "",
+          "zh": "可以免费办理。请填写这里。"
+        },
+        {
+          "id": "line-8c394e7c205d",
+          "speaker": "客",
+          "jp": "住所も必要ですか。",
+          "reading": "",
+          "zh": "也需要填写地址吗？"
+        },
+        {
+          "id": "line-3812b1edbd8d",
+          "speaker": "店員",
+          "jp": "いいえ、お名前と電話番号だけで結構です。",
+          "reading": "",
+          "zh": "不用，只需姓名和电话号码。"
+        }
+      ],
+      "keywordTexts": [
+        "ポイントカード",
+        "無料",
+        "記入する",
+        "～だけで結構です"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "购物"
+      ]
+    },
+    {
+      "id": "dialogue-abb0cfa7ef8d",
+      "category": "daily",
+      "title": "请求礼品包装",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "购买礼物并请求包装。",
+      "lines": [
+        {
+          "id": "line-9c6367711e0f",
+          "speaker": "客",
+          "jp": "こちらをプレゼント用に包んでいただけますか。",
+          "reading": "",
+          "zh": "可以把这个包装成礼物吗？"
+        },
+        {
+          "id": "line-20cf2ece58fc",
+          "speaker": "店員",
+          "jp": "はい。無料の包装と有料の箱がございます。",
+          "reading": "",
+          "zh": "可以。有免费包装和收费礼盒。"
+        },
+        {
+          "id": "line-01e1bd304793",
+          "speaker": "客",
+          "jp": "無料の包装でお願いします。",
+          "reading": "",
+          "zh": "请用免费包装。"
+        },
+        {
+          "id": "line-136e8044518d",
+          "speaker": "店員",
+          "jp": "リボンの色は赤と青のどちらがよろしいですか。",
+          "reading": "",
+          "zh": "丝带颜色红色和蓝色选哪种？"
+        },
+        {
+          "id": "line-f30612e3fec4",
+          "speaker": "客",
+          "jp": "赤でお願いします。",
+          "reading": "",
+          "zh": "请用红色。"
+        }
+      ],
+      "keywordTexts": [
+        "プレゼント用",
+        "包む",
+        "有料",
+        "どちらがよろしいですか"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "购物"
+      ]
+    },
+    {
+      "id": "dialogue-54c22bc0df1b",
+      "category": "daily",
+      "title": "确认电器保修",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "购买耳机前确认保修期和维修方式。",
+      "lines": [
+        {
+          "id": "line-bf645a3b4d78",
+          "speaker": "客",
+          "jp": "このイヤホンの保証期間はどのくらいですか。",
+          "reading": "",
+          "zh": "这款耳机的保修期是多久？"
+        },
+        {
+          "id": "line-1384f1b0ef69",
+          "speaker": "店員",
+          "jp": "メーカー保証が一年間付いています。",
+          "reading": "",
+          "zh": "附带一年厂家保修。"
+        },
+        {
+          "id": "line-f089d079108b",
+          "speaker": "客",
+          "jp": "故障した場合は、こちらの店に持ってくればいいですか。",
+          "reading": "",
+          "zh": "发生故障时拿到这家店就可以吗？"
+        },
+        {
+          "id": "line-caedd16734da",
+          "speaker": "店員",
+          "jp": "はい。保証書とレシートを一緒にお持ちください。",
+          "reading": "",
+          "zh": "是的，请一起带保修书和收据。"
+        },
+        {
+          "id": "line-246325470edc",
+          "speaker": "客",
+          "jp": "分かりました。",
+          "reading": "",
+          "zh": "明白了。"
+        }
+      ],
+      "keywordTexts": [
+        "保証期間",
+        "メーカー保証",
+        "故障した場合",
+        "保証書"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "购物"
+      ]
+    },
+    {
+      "id": "dialogue-32e8b28b5c74",
+      "category": "daily",
+      "title": "领取网购商品",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "到店领取网上订购的商品。",
+      "lines": [
+        {
+          "id": "line-1f3a59cf7508",
+          "speaker": "客",
+          "jp": "オンラインで注文した商品を受け取りに来ました。",
+          "reading": "",
+          "zh": "来领取网上订购的商品。"
+        },
+        {
+          "id": "line-d272a113ee8b",
+          "speaker": "店員",
+          "jp": "注文番号を確認させてください。",
+          "reading": "",
+          "zh": "请让我确认订单号。"
+        },
+        {
+          "id": "line-74e64db6130a",
+          "speaker": "客",
+          "jp": "こちらです。",
+          "reading": "",
+          "zh": "在这里。"
+        },
+        {
+          "id": "line-c618b082ace6",
+          "speaker": "店員",
+          "jp": "お名前は王様でよろしいでしょうか。",
+          "reading": "",
+          "zh": "姓名是王先生，对吗？"
+        },
+        {
+          "id": "line-89443c144aa6",
+          "speaker": "客",
+          "jp": "はい、そうです。",
+          "reading": "",
+          "zh": "是的。"
+        },
+        {
+          "id": "line-baf542d09172",
+          "speaker": "店員",
+          "jp": "商品をお持ちしますので、少々お待ちください。",
+          "reading": "",
+          "zh": "我去取商品，请稍等。"
+        }
+      ],
+      "keywordTexts": [
+        "受け取り",
+        "注文番号",
+        "～でよろしいでしょうか"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "购物"
+      ]
+    },
+    {
+      "id": "dialogue-1fff3ada12a5",
+      "category": "daily",
+      "title": "免税购物手续",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "在商场询问免税手续所需材料。",
+      "lines": [
+        {
+          "id": "line-a7571e259588",
+          "speaker": "客",
+          "jp": "免税の手続きはどこでできますか。",
+          "reading": "",
+          "zh": "免税手续在哪里办理？"
+        },
+        {
+          "id": "line-fd8652766bba",
+          "speaker": "店員",
+          "jp": "八階の免税カウンターで承ります。",
+          "reading": "",
+          "zh": "在八楼免税柜台办理。"
+        },
+        {
+          "id": "line-bf8021741f1c",
+          "speaker": "客",
+          "jp": "何が必要ですか。",
+          "reading": "",
+          "zh": "需要什么？"
+        },
+        {
+          "id": "line-3a7be16a9a39",
+          "speaker": "店員",
+          "jp": "パスポートと購入した商品、レシートが必要です。",
+          "reading": "",
+          "zh": "需要护照、购买的商品和收据。"
+        },
+        {
+          "id": "line-1ff64603bbcc",
+          "speaker": "客",
+          "jp": "分かりました。ありがとうございます。",
+          "reading": "",
+          "zh": "明白了，谢谢。"
+        }
+      ],
+      "keywordTexts": [
+        "免税",
+        "手続き",
+        "カウンター",
+        "パスポート"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "购物"
+      ]
+    },
+    {
+      "id": "dialogue-5578370d693b",
+      "category": "daily",
+      "title": "餐厅说明食物过敏",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "点餐前说明对花生过敏。",
+      "lines": [
+        {
+          "id": "line-060c36cef94a",
+          "speaker": "客",
+          "jp": "注文の前に確認したいのですが、私はピーナッツにアレルギーがあります。",
+          "reading": "",
+          "zh": "点餐前想确认一下，我对花生过敏。"
+        },
+        {
+          "id": "line-bca35b634da6",
+          "speaker": "店員",
+          "jp": "承知しました。この料理にはピーナッツが含まれています。",
+          "reading": "",
+          "zh": "明白了。这道菜含花生。"
+        },
+        {
+          "id": "line-1579d988c3fc",
+          "speaker": "客",
+          "jp": "ピーナッツを使っていない料理はありますか。",
+          "reading": "",
+          "zh": "有不使用花生的菜吗？"
+        },
+        {
+          "id": "line-6735f3ba9b29",
+          "speaker": "店員",
+          "jp": "こちらの魚料理でしたら使用しておりません。",
+          "reading": "",
+          "zh": "这道鱼料理没有使用。"
+        },
+        {
+          "id": "line-17a32691c6b1",
+          "speaker": "客",
+          "jp": "では、それをお願いします。",
+          "reading": "",
+          "zh": "那请给我这个。"
+        }
+      ],
+      "keywordTexts": [
+        "アレルギー",
+        "含まれる",
+        "使っていない"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "餐厅"
+      ]
+    },
+    {
+      "id": "dialogue-35a3d5d26ee6",
+      "category": "daily",
+      "title": "变更餐厅预约时间",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "电话将晚餐预约从七点改到八点。",
+      "lines": [
+        {
+          "id": "line-715af0d55773",
+          "speaker": "店",
+          "jp": "お電話ありがとうございます。さくらレストランです。",
+          "reading": "",
+          "zh": "感谢来电，这里是樱花餐厅。"
+        },
+        {
+          "id": "line-76ebb563dec5",
+          "speaker": "客",
+          "jp": "本日七時に予約している王ですが、時間を変更できますか。",
+          "reading": "",
+          "zh": "我是今天七点预约的王，可以更改时间吗？"
+        },
+        {
+          "id": "line-a9414b612110",
+          "speaker": "店",
+          "jp": "はい。何時をご希望ですか。",
+          "reading": "",
+          "zh": "可以。您希望几点？"
+        },
+        {
+          "id": "line-bbc2c7eeaf02",
+          "speaker": "客",
+          "jp": "八時に変更をお願いします。",
+          "reading": "",
+          "zh": "请改到八点。"
+        },
+        {
+          "id": "line-010cf5b8dd79",
+          "speaker": "店",
+          "jp": "承知しました。八時に変更いたします。",
+          "reading": "",
+          "zh": "明白了，改为八点。"
+        }
+      ],
+      "keywordTexts": [
+        "予約している",
+        "時間を変更する",
+        "承知しました"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "餐厅"
+      ]
+    },
+    {
+      "id": "dialogue-40aa0971477f",
+      "category": "daily",
+      "title": "餐厅打包外带",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "在餐厅询问剩余料理能否打包。",
+      "lines": [
+        {
+          "id": "line-186f979d2444",
+          "speaker": "客",
+          "jp": "残った料理を持ち帰ることはできますか。",
+          "reading": "",
+          "zh": "剩下的菜可以打包吗？"
+        },
+        {
+          "id": "line-aa155d70091e",
+          "speaker": "店員",
+          "jp": "申し訳ありませんが、生ものはお持ち帰りいただけません。",
+          "reading": "",
+          "zh": "很抱歉，生食不能外带。"
+        },
+        {
+          "id": "line-129c5a72a832",
+          "speaker": "客",
+          "jp": "この焼き物は大丈夫ですか。",
+          "reading": "",
+          "zh": "这个烤物可以吗？"
+        },
+        {
+          "id": "line-d90a76a6269a",
+          "speaker": "店員",
+          "jp": "はい。容器をご用意します。",
+          "reading": "",
+          "zh": "可以。我准备容器。"
+        },
+        {
+          "id": "line-fef47092f130",
+          "speaker": "客",
+          "jp": "ありがとうございます。",
+          "reading": "",
+          "zh": "谢谢。"
+        }
+      ],
+      "keywordTexts": [
+        "残った料理",
+        "持ち帰る",
+        "生もの",
+        "容器"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "餐厅"
+      ]
+    },
+    {
+      "id": "dialogue-d04c93aae644",
+      "category": "daily",
+      "title": "请求分别结账",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "两人用餐后请求分开结账。",
+      "lines": [
+        {
+          "id": "line-3140a29f188e",
+          "speaker": "客",
+          "jp": "すみません、会計を別々にできますか。",
+          "reading": "",
+          "zh": "不好意思，可以分开结账吗？"
+        },
+        {
+          "id": "line-a97c86e48388",
+          "speaker": "店員",
+          "jp": "はい。どちらの料理をお支払いになりますか。",
+          "reading": "",
+          "zh": "可以。您支付哪些菜？"
+        },
+        {
+          "id": "line-a266cd89376b",
+          "speaker": "客",
+          "jp": "私はパスタとコーヒーです。",
+          "reading": "",
+          "zh": "我是意大利面和咖啡。"
+        },
+        {
+          "id": "line-bc9b5875e5b6",
+          "speaker": "店員",
+          "jp": "合計で千五百円です。",
+          "reading": "",
+          "zh": "合计一千五百日元。"
+        },
+        {
+          "id": "line-bc43e0851774",
+          "speaker": "客",
+          "jp": "カードでお願いします。",
+          "reading": "",
+          "zh": "请刷卡。"
+        }
+      ],
+      "keywordTexts": [
+        "会計を別々にする",
+        "合計",
+        "カードでお願いします"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "餐厅"
+      ]
+    },
+    {
+      "id": "dialogue-527696799569",
+      "category": "daily",
+      "title": "询问推荐菜品",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "第一次来餐厅，询问推荐料理。",
+      "lines": [
+        {
+          "id": "line-064f7f095018",
+          "speaker": "客",
+          "jp": "初めて来たのですが、おすすめは何ですか。",
+          "reading": "",
+          "zh": "第一次来，推荐什么？"
+        },
+        {
+          "id": "line-144463dfccf4",
+          "speaker": "店員",
+          "jp": "本日のおすすめは季節の魚定食です。",
+          "reading": "",
+          "zh": "今天推荐时令鱼套餐。"
+        },
+        {
+          "id": "line-f6e1345fd7ea",
+          "speaker": "客",
+          "jp": "辛くないですか。",
+          "reading": "",
+          "zh": "辣吗？"
+        },
+        {
+          "id": "line-1c443d16124e",
+          "speaker": "店員",
+          "jp": "はい、辛くありません。",
+          "reading": "",
+          "zh": "不辣。"
+        },
+        {
+          "id": "line-db0a8d427c4b",
+          "speaker": "客",
+          "jp": "では、それをお願いします。",
+          "reading": "",
+          "zh": "那就请给我这个。"
+        }
+      ],
+      "keywordTexts": [
+        "初めて来る",
+        "おすすめ",
+        "本日のおすすめ"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "餐厅"
+      ]
+    },
+    {
+      "id": "dialogue-062bcc2ff95a",
+      "category": "daily",
+      "title": "无预约确认等候时间",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "没有预约，询问需要等多久。",
+      "lines": [
+        {
+          "id": "line-6d0c57388bf0",
+          "speaker": "客",
+          "jp": "予約していないのですが、二名入れますか。",
+          "reading": "",
+          "zh": "没有预约，两个人可以入店吗？"
+        },
+        {
+          "id": "line-fb9c97cc4caa",
+          "speaker": "店員",
+          "jp": "ただ今満席です。三十分ほどお待ちいただきます。",
+          "reading": "",
+          "zh": "现在满座，需要等大约三十分钟。"
+        },
+        {
+          "id": "line-2c6bbeccc74e",
+          "speaker": "客",
+          "jp": "店の外で待ってもいいですか。",
+          "reading": "",
+          "zh": "可以在店外等吗？"
+        },
+        {
+          "id": "line-637e9a9a830d",
+          "speaker": "店員",
+          "jp": "はい。席が空きましたらお電話します。",
+          "reading": "",
+          "zh": "可以。有座位后给您打电话。"
+        },
+        {
+          "id": "line-b62fb3245db5",
+          "speaker": "客",
+          "jp": "お願いします。",
+          "reading": "",
+          "zh": "麻烦了。"
+        }
+      ],
+      "keywordTexts": [
+        "予約していない",
+        "満席",
+        "～ほど待つ",
+        "席が空く"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "餐厅"
+      ]
+    },
+    {
+      "id": "dialogue-d7f6ca53f609",
+      "category": "daily",
+      "title": "餐厅上错菜",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "店员上错菜，礼貌说明。",
+      "lines": [
+        {
+          "id": "line-160058998398",
+          "speaker": "客",
+          "jp": "すみません、注文した料理と違うようです。",
+          "reading": "",
+          "zh": "不好意思，好像和我点的菜不一样。"
+        },
+        {
+          "id": "line-bc841eb8019e",
+          "speaker": "店員",
+          "jp": "大変申し訳ございません。ご注文はカレーでしたでしょうか。",
+          "reading": "",
+          "zh": "非常抱歉。您点的是咖喱对吗？"
+        },
+        {
+          "id": "line-ad333bc585fe",
+          "speaker": "客",
+          "jp": "はい、カレーを注文しました。",
+          "reading": "",
+          "zh": "是的，点了咖喱。"
+        },
+        {
+          "id": "line-c3a0106f9f4b",
+          "speaker": "店員",
+          "jp": "すぐにお取り替えいたします。",
+          "reading": "",
+          "zh": "马上为您更换。"
+        },
+        {
+          "id": "line-d8f108ee3359",
+          "speaker": "客",
+          "jp": "お願いします。",
+          "reading": "",
+          "zh": "麻烦了。"
+        }
+      ],
+      "keywordTexts": [
+        "注文と違う",
+        "大変申し訳ございません",
+        "取り替える"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "餐厅"
+      ]
+    },
+    {
+      "id": "dialogue-ae66571a8fcf",
+      "category": "daily",
+      "title": "询问素食菜单",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "询问是否有不含肉和鱼的菜品。",
+      "lines": [
+        {
+          "id": "line-2c9d5a5f14cc",
+          "speaker": "客",
+          "jp": "肉と魚を使っていない料理はありますか。",
+          "reading": "",
+          "zh": "有不使用肉和鱼的菜吗？"
+        },
+        {
+          "id": "line-526cdbc2cf40",
+          "speaker": "店員",
+          "jp": "野菜カレーと豆腐定食がございます。",
+          "reading": "",
+          "zh": "有蔬菜咖喱和豆腐套餐。"
+        },
+        {
+          "id": "line-3f458fa0e4dc",
+          "speaker": "客",
+          "jp": "野菜カレーには卵が入っていますか。",
+          "reading": "",
+          "zh": "蔬菜咖喱里有鸡蛋吗？"
+        },
+        {
+          "id": "line-b9c4fd1e7cc3",
+          "speaker": "店員",
+          "jp": "いいえ、入っておりません。",
+          "reading": "",
+          "zh": "没有。"
+        },
+        {
+          "id": "line-c49b5eadd382",
+          "speaker": "客",
+          "jp": "では、野菜カレーをお願いします。",
+          "reading": "",
+          "zh": "那请给我蔬菜咖喱。"
+        }
+      ],
+      "keywordTexts": [
+        "～を使っていない",
+        "入っていますか",
+        "入っておりません"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "餐厅"
+      ]
+    },
+    {
+      "id": "dialogue-2cdf68172c8a",
+      "category": "daily",
+      "title": "咖啡店询问插座与Wi-Fi",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "在咖啡店询问是否能使用插座和无线网络。",
+      "lines": [
+        {
+          "id": "line-3b128e70ad26",
+          "speaker": "客",
+          "jp": "店内で電源とWi-Fiを使えますか。",
+          "reading": "",
+          "zh": "店内可以使用电源和 Wi-Fi 吗？"
+        },
+        {
+          "id": "line-dfb45bce47ef",
+          "speaker": "店員",
+          "jp": "窓側の席にコンセントがございます。",
+          "reading": "",
+          "zh": "靠窗座位有插座。"
+        },
+        {
+          "id": "line-bb9fa678b94c",
+          "speaker": "客",
+          "jp": "Wi-Fiのパスワードはどこにありますか。",
+          "reading": "",
+          "zh": "Wi-Fi 密码在哪里？"
+        },
+        {
+          "id": "line-72e2ba0b5d67",
+          "speaker": "店員",
+          "jp": "レシートの下に記載されています。",
+          "reading": "",
+          "zh": "写在收据下方。"
+        },
+        {
+          "id": "line-d80d51e0be38",
+          "speaker": "客",
+          "jp": "ありがとうございます。",
+          "reading": "",
+          "zh": "谢谢。"
+        }
+      ],
+      "keywordTexts": [
+        "電源",
+        "コンセント",
+        "パスワード",
+        "記載される"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "咖啡店"
+      ]
+    },
+    {
+      "id": "dialogue-3d3a8b304e3c",
+      "category": "daily",
+      "title": "酒店确认早餐",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "入住后询问早餐时间与地点。",
+      "lines": [
+        {
+          "id": "line-69a37a2d623b",
+          "speaker": "客",
+          "jp": "朝食は何時からですか。",
+          "reading": "",
+          "zh": "早餐几点开始？"
+        },
+        {
+          "id": "line-24c05e8d1ea5",
+          "speaker": "係",
+          "jp": "朝六時半から九時半までです。",
+          "reading": "",
+          "zh": "从早上六点半到九点半。"
+        },
+        {
+          "id": "line-519c6d6ba1c9",
+          "speaker": "客",
+          "jp": "会場はどこですか。",
+          "reading": "",
+          "zh": "地点在哪里？"
+        },
+        {
+          "id": "line-16941252c282",
+          "speaker": "係",
+          "jp": "二階のレストランでございます。",
+          "reading": "",
+          "zh": "在二楼餐厅。"
+        },
+        {
+          "id": "line-a606b53d74ac",
+          "speaker": "客",
+          "jp": "部屋のカードキーが必要ですか。",
+          "reading": "",
+          "zh": "需要房间门卡吗？"
+        },
+        {
+          "id": "line-aa4209fae543",
+          "speaker": "係",
+          "jp": "はい、入口でご提示ください。",
+          "reading": "",
+          "zh": "需要，请在入口出示。"
+        }
+      ],
+      "keywordTexts": [
+        "朝食会場",
+        "～から～まで",
+        "提示する"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "酒店"
+      ]
+    },
+    {
+      "id": "dialogue-237e7a7cce2b",
+      "category": "daily",
+      "title": "自动售票机买票",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "不知道如何使用售票机，向站务员求助。",
+      "lines": [
+        {
+          "id": "line-4560b6215089",
+          "speaker": "客",
+          "jp": "すみません、この券売機で新宿までの切符を買いたいのですが。",
+          "reading": "",
+          "zh": "不好意思，想用这台售票机买到新宿的票。"
+        },
+        {
+          "id": "line-295f33c5bcd2",
+          "speaker": "駅員",
+          "jp": "まず、画面で新宿を選んでください。",
+          "reading": "",
+          "zh": "请先在画面选择新宿。"
+        },
+        {
+          "id": "line-e8fd9f6aef3e",
+          "speaker": "客",
+          "jp": "料金は二百円ですか。",
+          "reading": "",
+          "zh": "票价是两百日元吗？"
+        },
+        {
+          "id": "line-bffdc74c8f87",
+          "speaker": "駅員",
+          "jp": "はい。その後、現金かカードを入れてください。",
+          "reading": "",
+          "zh": "是的。之后放入现金或刷卡。"
+        },
+        {
+          "id": "line-b83c3910e146",
+          "speaker": "客",
+          "jp": "分かりました。ありがとうございます。",
+          "reading": "",
+          "zh": "明白了，谢谢。"
+        }
+      ],
+      "keywordTexts": [
+        "券売機",
+        "切符",
+        "画面で選ぶ"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "交通"
+      ]
+    },
+    {
+      "id": "dialogue-c62e2d34c952",
+      "category": "daily",
+      "title": "询问换乘路线",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "在车站询问前往机场的换乘方法。",
+      "lines": [
+        {
+          "id": "line-29e8a3f86fef",
+          "speaker": "客",
+          "jp": "空港へ行くには、どこで乗り換えればいいですか。",
+          "reading": "",
+          "zh": "去机场应该在哪里换乘？"
+        },
+        {
+          "id": "line-e9db342758b0",
+          "speaker": "駅員",
+          "jp": "品川駅で空港線に乗り換えてください。",
+          "reading": "",
+          "zh": "请在品川站换乘机场线。"
+        },
+        {
+          "id": "line-96155e4bca84",
+          "speaker": "客",
+          "jp": "同じホームですか。",
+          "reading": "",
+          "zh": "是同一个站台吗？"
+        },
+        {
+          "id": "line-e1bb30febf14",
+          "speaker": "駅員",
+          "jp": "いいえ、三番ホームへ移動してください。",
+          "reading": "",
+          "zh": "不是，请移动到三号站台。"
+        },
+        {
+          "id": "line-84d4a260da5a",
+          "speaker": "客",
+          "jp": "ありがとうございます。",
+          "reading": "",
+          "zh": "谢谢。"
+        }
+      ],
+      "keywordTexts": [
+        "～には",
+        "乗り換える",
+        "同じホーム"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "交通"
+      ]
+    },
+    {
+      "id": "dialogue-0310004510fd",
+      "category": "workplace",
+      "title": "电车延误通知公司",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "employee-manager",
+      "situation": "电车晚点，通过电话通知公司。",
+      "lines": [
+        {
+          "id": "line-5a81afdbb0c6",
+          "speaker": "私",
+          "jp": "おはようございます。電車が遅れており、到着が十分ほど遅くなりそうです。",
+          "reading": "",
+          "zh": "早上好。电车晚点，预计到达会晚约十分钟。"
+        },
+        {
+          "id": "line-dfb7c90768b8",
+          "speaker": "上司",
+          "jp": "分かりました。安全に気をつけて来てください。",
+          "reading": "",
+          "zh": "明白了。请注意安全过来。"
+        },
+        {
+          "id": "line-bb8d065b477c",
+          "speaker": "私",
+          "jp": "申し訳ありません。到着したら改めてご連絡します。",
+          "reading": "",
+          "zh": "很抱歉。到达后再联系。"
+        },
+        {
+          "id": "line-37ed9be8e1f3",
+          "speaker": "上司",
+          "jp": "お願いします。",
+          "reading": "",
+          "zh": "麻烦了。"
+        }
+      ],
+      "keywordTexts": [
+        "電車が遅れる",
+        "～そうです",
+        "改めて連絡する"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "交通",
+        "职场基础"
+      ]
+    },
+    {
+      "id": "dialogue-0de24487c6bc",
+      "category": "daily",
+      "title": "车站寻找失物",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "在车站询问丢失的黑色钱包。",
+      "lines": [
+        {
+          "id": "line-73d31fc72c0b",
+          "speaker": "客",
+          "jp": "電車の中に財布を忘れたかもしれません。",
+          "reading": "",
+          "zh": "可能把钱包忘在电车里了。"
+        },
+        {
+          "id": "line-46f55af22cff",
+          "speaker": "駅員",
+          "jp": "どの電車に乗っていましたか。",
+          "reading": "",
+          "zh": "您乘的是哪班电车？"
+        },
+        {
+          "id": "line-e0d70fda9b9c",
+          "speaker": "客",
+          "jp": "十時十分発の快速です。黒い財布です。",
+          "reading": "",
+          "zh": "十点十分发车的快速列车。是黑色钱包。"
+        },
+        {
+          "id": "line-3d2a820d1f9a",
+          "speaker": "駅員",
+          "jp": "確認しますので、お名前と連絡先をお願いします。",
+          "reading": "",
+          "zh": "我们确认，请提供姓名和联系方式。"
+        },
+        {
+          "id": "line-adf90587e270",
+          "speaker": "客",
+          "jp": "王です。電話番号はこちらです。",
+          "reading": "",
+          "zh": "我姓王，电话号码在这里。"
+        }
+      ],
+      "keywordTexts": [
+        "忘れたかもしれない",
+        "快速",
+        "連絡先"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "交通"
+      ]
+    },
+    {
+      "id": "dialogue-164992962a12",
+      "category": "daily",
+      "title": "公交车支付车费",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "第一次坐公交，询问何时支付车费。",
+      "lines": [
+        {
+          "id": "line-ad8f47a7f1a4",
+          "speaker": "客",
+          "jp": "すみません、料金はいつ払いますか。",
+          "reading": "",
+          "zh": "不好意思，车费什么时候付？"
+        },
+        {
+          "id": "line-f5385902b36e",
+          "speaker": "運転手",
+          "jp": "降りるときに前でお支払いください。",
+          "reading": "",
+          "zh": "下车时在前面支付。"
+        },
+        {
+          "id": "line-62c9257eb8f0",
+          "speaker": "客",
+          "jp": "ICカードは使えますか。",
+          "reading": "",
+          "zh": "可以使用交通卡吗？"
+        },
+        {
+          "id": "line-7677ce259a55",
+          "speaker": "運転手",
+          "jp": "はい、降りるときにタッチしてください。",
+          "reading": "",
+          "zh": "可以，下车时刷卡。"
+        },
+        {
+          "id": "line-a8b9e4b6a9d1",
+          "speaker": "客",
+          "jp": "分かりました。",
+          "reading": "",
+          "zh": "明白了。"
+        }
+      ],
+      "keywordTexts": [
+        "降りるとき",
+        "支払う",
+        "タッチする"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "交通"
+      ]
+    },
+    {
+      "id": "dialogue-298f82f20a88",
+      "category": "daily",
+      "title": "出租车说明目的地",
+      "jlptLevel": "N5",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "乘出租车去酒店，并请求在便利店附近停车。",
+      "lines": [
+        {
+          "id": "line-77aaa63cbd54",
+          "speaker": "客",
+          "jp": "東京駅前ホテルまでお願いします。",
+          "reading": "",
+          "zh": "请去东京站前酒店。"
+        },
+        {
+          "id": "line-f7c9feaa2421",
+          "speaker": "運転手",
+          "jp": "かしこまりました。",
+          "reading": "",
+          "zh": "明白了。"
+        },
+        {
+          "id": "line-97a52df6cf53",
+          "speaker": "客",
+          "jp": "ホテルの隣のコンビニの前で止めてください。",
+          "reading": "",
+          "zh": "请停在酒店旁边的便利店前。"
+        },
+        {
+          "id": "line-01bbc5d0db0d",
+          "speaker": "運転手",
+          "jp": "はい、分かりました。",
+          "reading": "",
+          "zh": "好的，明白了。"
+        },
+        {
+          "id": "line-e900448e0b60",
+          "speaker": "客",
+          "jp": "どのくらい掛かりますか。",
+          "reading": "",
+          "zh": "大约需要多久？"
+        },
+        {
+          "id": "line-cf31dea3f11f",
+          "speaker": "運転手",
+          "jp": "二十分ほどです。",
+          "reading": "",
+          "zh": "大约二十分钟。"
+        }
+      ],
+      "keywordTexts": [
+        "～までお願いします",
+        "隣",
+        "どのくらい掛かる"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "交通"
+      ]
+    },
+    {
+      "id": "dialogue-09ecbad622b9",
+      "category": "daily",
+      "title": "机场办理值机",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "在机场柜台办理登机手续。",
+      "lines": [
+        {
+          "id": "line-210e948da618",
+          "speaker": "係",
+          "jp": "パスポートと航空券をお願いします。",
+          "reading": "",
+          "zh": "请出示护照和机票。"
+        },
+        {
+          "id": "line-5e9e566fdd78",
+          "speaker": "客",
+          "jp": "はい、こちらです。",
+          "reading": "",
+          "zh": "好的，在这里。"
+        },
+        {
+          "id": "line-12103b0ff2ce",
+          "speaker": "係",
+          "jp": "お預けになる荷物はありますか。",
+          "reading": "",
+          "zh": "有托运行李吗？"
+        },
+        {
+          "id": "line-d85d8704cc89",
+          "speaker": "客",
+          "jp": "このスーツケースを一つお願いします。",
+          "reading": "",
+          "zh": "请托运这个行李箱。"
+        },
+        {
+          "id": "line-b45c43434d18",
+          "speaker": "係",
+          "jp": "座席は窓側と通路側のどちらがよろしいですか。",
+          "reading": "",
+          "zh": "座位选择靠窗还是靠过道？"
+        },
+        {
+          "id": "line-50cfaa691a9c",
+          "speaker": "客",
+          "jp": "通路側をお願いします。",
+          "reading": "",
+          "zh": "请安排靠过道。"
+        }
+      ],
+      "keywordTexts": [
+        "航空券",
+        "預ける荷物",
+        "窓側",
+        "通路側"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "旅行"
+      ]
+    },
+    {
+      "id": "dialogue-aff81398db21",
+      "category": "daily",
+      "title": "行李超重处理",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "托运行李超重，询问处理方法。",
+      "lines": [
+        {
+          "id": "line-621332516469",
+          "speaker": "係",
+          "jp": "お荷物が三キロ超過しています。",
+          "reading": "",
+          "zh": "您的行李超重三公斤。"
+        },
+        {
+          "id": "line-f5dcba34097f",
+          "speaker": "客",
+          "jp": "追加料金はいくらですか。",
+          "reading": "",
+          "zh": "追加费用是多少？"
+        },
+        {
+          "id": "line-926c1e8f4bde",
+          "speaker": "係",
+          "jp": "三千円です。荷物を減らすこともできます。",
+          "reading": "",
+          "zh": "三千日元。也可以减少行李。"
+        },
+        {
+          "id": "line-046cdae0c541",
+          "speaker": "客",
+          "jp": "少し手荷物に移してもいいですか。",
+          "reading": "",
+          "zh": "可以把一部分转到手提行李吗？"
+        },
+        {
+          "id": "line-31378c777748",
+          "speaker": "係",
+          "jp": "はい。こちらでお待ちします。",
+          "reading": "",
+          "zh": "可以。我在这里等您。"
+        }
+      ],
+      "keywordTexts": [
+        "超過する",
+        "追加料金",
+        "手荷物に移す"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "旅行"
+      ]
+    },
+    {
+      "id": "dialogue-c3882e9a502c",
+      "category": "daily",
+      "title": "酒店办理入住",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "到酒店前台办理入住。",
+      "lines": [
+        {
+          "id": "line-c86b18e3b956",
+          "speaker": "客",
+          "jp": "予約している王です。チェックインをお願いします。",
+          "reading": "",
+          "zh": "我是预订的王，请办理入住。"
+        },
+        {
+          "id": "line-a1baa5414eaa",
+          "speaker": "係",
+          "jp": "王様ですね。パスポートを確認させてください。",
+          "reading": "",
+          "zh": "王先生对吧，请让我确认护照。"
+        },
+        {
+          "id": "line-37a02e1e6270",
+          "speaker": "客",
+          "jp": "こちらです。",
+          "reading": "",
+          "zh": "在这里。"
+        },
+        {
+          "id": "line-c4d56ed0154e",
+          "speaker": "係",
+          "jp": "お部屋は八階です。朝食券とカードキーをお渡しします。",
+          "reading": "",
+          "zh": "房间在八楼，给您早餐券和门卡。"
+        },
+        {
+          "id": "line-74a2631d5daa",
+          "speaker": "客",
+          "jp": "ありがとうございます。",
+          "reading": "",
+          "zh": "谢谢。"
+        }
+      ],
+      "keywordTexts": [
+        "予約している",
+        "チェックイン",
+        "カードキー"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "酒店"
+      ]
+    },
+    {
+      "id": "dialogue-b04ba7234a31",
+      "category": "daily",
+      "title": "申请延迟退房",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "向酒店询问能否将退房时间延后两小时。",
+      "lines": [
+        {
+          "id": "line-5dfdfbbbd125",
+          "speaker": "客",
+          "jp": "チェックアウトを十二時まで延長できますか。",
+          "reading": "",
+          "zh": "退房时间可以延长到十二点吗？"
+        },
+        {
+          "id": "line-6640e561f05b",
+          "speaker": "係",
+          "jp": "通常は十時ですが、追加料金千円で延長できます。",
+          "reading": "",
+          "zh": "通常是十点，支付一千日元可以延长。"
+        },
+        {
+          "id": "line-7d2f1461a670",
+          "speaker": "客",
+          "jp": "では、十二時までお願いします。",
+          "reading": "",
+          "zh": "那请延长到十二点。"
+        },
+        {
+          "id": "line-ca0f43f4f1f2",
+          "speaker": "係",
+          "jp": "承知しました。カードキーはそのままお使いください。",
+          "reading": "",
+          "zh": "明白了。门卡继续使用即可。"
+        },
+        {
+          "id": "line-54c6e1f32af2",
+          "speaker": "客",
+          "jp": "ありがとうございます。",
+          "reading": "",
+          "zh": "谢谢。"
+        }
+      ],
+      "keywordTexts": [
+        "チェックアウト",
+        "延長する",
+        "追加料金"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "酒店"
+      ]
+    },
+    {
+      "id": "dialogue-475c4190e03d",
+      "category": "daily",
+      "title": "药店购买感冒药",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "向药剂师说明咳嗽和喉咙痛。",
+      "lines": [
+        {
+          "id": "line-75c10fb4886d",
+          "speaker": "客",
+          "jp": "咳と喉の痛みに効く薬はありますか。",
+          "reading": "",
+          "zh": "有对咳嗽和喉咙痛有效的药吗？"
+        },
+        {
+          "id": "line-1ef893f3c280",
+          "speaker": "薬剤師",
+          "jp": "熱はありますか。",
+          "reading": "",
+          "zh": "发烧吗？"
+        },
+        {
+          "id": "line-d28d69210524",
+          "speaker": "客",
+          "jp": "熱はありません。",
+          "reading": "",
+          "zh": "不发烧。"
+        },
+        {
+          "id": "line-38af5132ffd0",
+          "speaker": "薬剤師",
+          "jp": "では、こちらを食後に一日三回飲んでください。",
+          "reading": "",
+          "zh": "那么这个请饭后一天服用三次。"
+        },
+        {
+          "id": "line-d747b4b8260f",
+          "speaker": "客",
+          "jp": "眠くなる成分は入っていますか。",
+          "reading": "",
+          "zh": "含有会犯困的成分吗？"
+        },
+        {
+          "id": "line-dca28e052813",
+          "speaker": "薬剤師",
+          "jp": "少し入っていますので、運転は控えてください。",
+          "reading": "",
+          "zh": "含少量，请避免驾驶。"
+        }
+      ],
+      "keywordTexts": [
+        "～に効く",
+        "食後",
+        "一日三回",
+        "控える"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "健康"
+      ]
+    },
+    {
+      "id": "dialogue-fa4bd1c3948c",
+      "category": "daily",
+      "title": "预约牙科",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "电话预约牙痛检查。",
+      "lines": [
+        {
+          "id": "line-c0b6830b25a5",
+          "speaker": "受",
+          "jp": "はい、さくら歯科です。",
+          "reading": "",
+          "zh": "您好，这里是樱花牙科。"
+        },
+        {
+          "id": "line-e71912202036",
+          "speaker": "客",
+          "jp": "歯が痛いので、診察を予約したいのですが。",
+          "reading": "",
+          "zh": "牙疼，想预约就诊。"
+        },
+        {
+          "id": "line-5f3873312a3d",
+          "speaker": "受",
+          "jp": "明日の午前十時はいかがですか。",
+          "reading": "",
+          "zh": "明天上午十点怎么样？"
+        },
+        {
+          "id": "line-7578b8072908",
+          "speaker": "客",
+          "jp": "その時間でお願いします。",
+          "reading": "",
+          "zh": "请安排那个时间。"
+        },
+        {
+          "id": "line-d36996345cc9",
+          "speaker": "受",
+          "jp": "お名前と電話番号をお願いします。",
+          "reading": "",
+          "zh": "请提供姓名和电话号码。"
+        }
+      ],
+      "keywordTexts": [
+        "歯が痛い",
+        "診察を予約する",
+        "～はいかがですか"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "健康"
+      ]
+    },
+    {
+      "id": "dialogue-cbafd6b9c1f5",
+      "category": "daily",
+      "title": "眼科说明视力问题",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "向眼科医生说明最近看远处模糊。",
+      "lines": [
+        {
+          "id": "line-cc09dabbc282",
+          "speaker": "医師",
+          "jp": "今日はどうされましたか。",
+          "reading": "",
+          "zh": "今天怎么了？"
+        },
+        {
+          "id": "line-dcaeb29b9ecf",
+          "speaker": "患者",
+          "jp": "最近、遠くの文字が見えにくくなりました。",
+          "reading": "",
+          "zh": "最近远处的文字变得看不清。"
+        },
+        {
+          "id": "line-11e54d3017cb",
+          "speaker": "医師",
+          "jp": "頭痛や目の痛みはありますか。",
+          "reading": "",
+          "zh": "有头痛或眼睛疼吗？"
+        },
+        {
+          "id": "line-4e700b8be44d",
+          "speaker": "患者",
+          "jp": "時々、目が疲れます。",
+          "reading": "",
+          "zh": "有时眼睛疲劳。"
+        },
+        {
+          "id": "line-e8ba036ff79c",
+          "speaker": "医師",
+          "jp": "では、視力を測りましょう。",
+          "reading": "",
+          "zh": "那么测一下视力吧。"
+        }
+      ],
+      "keywordTexts": [
+        "見えにくい",
+        "目が疲れる",
+        "視力を測る"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "健康"
+      ]
+    },
+    {
+      "id": "dialogue-69c3539afec3",
+      "category": "daily",
+      "title": "咨询疫苗接种",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "在诊所询问流感疫苗。",
+      "lines": [
+        {
+          "id": "line-d7dffd4841e0",
+          "speaker": "客",
+          "jp": "インフルエンザの予防接種を受けたいのですが。",
+          "reading": "",
+          "zh": "想接种流感疫苗。"
+        },
+        {
+          "id": "line-11bce1e77520",
+          "speaker": "受",
+          "jp": "ご予約はされていますか。",
+          "reading": "",
+          "zh": "有预约吗？"
+        },
+        {
+          "id": "line-99c403fad5a1",
+          "speaker": "客",
+          "jp": "いいえ、予約していません。",
+          "reading": "",
+          "zh": "没有预约。"
+        },
+        {
+          "id": "line-0a21142dd12b",
+          "speaker": "受",
+          "jp": "本日は空きがあります。問診票をご記入ください。",
+          "reading": "",
+          "zh": "今天有空位。请填写问诊表。"
+        },
+        {
+          "id": "line-55102929d323",
+          "speaker": "客",
+          "jp": "料金はいくらですか。",
+          "reading": "",
+          "zh": "费用是多少？"
+        },
+        {
+          "id": "line-1d2613f11e34",
+          "speaker": "受",
+          "jp": "三千五百円です。",
+          "reading": "",
+          "zh": "三千五百日元。"
+        }
+      ],
+      "keywordTexts": [
+        "予防接種",
+        "空きがある",
+        "問診票"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "健康"
+      ]
+    },
+    {
+      "id": "dialogue-3c1479f6bc05",
+      "category": "daily",
+      "title": "市役所办理地址变更",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "搬家后到市役所办理住址变更。",
+      "lines": [
+        {
+          "id": "line-4dbed23995a5",
+          "speaker": "客",
+          "jp": "引っ越したので、住所変更の手続きをしたいです。",
+          "reading": "",
+          "zh": "搬家了，想办理地址变更手续。"
+        },
+        {
+          "id": "line-f642de014338",
+          "speaker": "職員",
+          "jp": "転居届と在留カードをお願いします。",
+          "reading": "",
+          "zh": "请提交迁居申请和在留卡。"
+        },
+        {
+          "id": "line-52141dab0c1f",
+          "speaker": "客",
+          "jp": "印鑑も必要ですか。",
+          "reading": "",
+          "zh": "也需要印章吗？"
+        },
+        {
+          "id": "line-1aeed9851e4d",
+          "speaker": "職員",
+          "jp": "署名で大丈夫です。",
+          "reading": "",
+          "zh": "签名即可。"
+        },
+        {
+          "id": "line-6f41f63268d2",
+          "speaker": "客",
+          "jp": "どのくらい時間が掛かりますか。",
+          "reading": "",
+          "zh": "大约需要多久？"
+        },
+        {
+          "id": "line-a2e910306122",
+          "speaker": "職員",
+          "jp": "二十分ほどです。",
+          "reading": "",
+          "zh": "大约二十分钟。"
+        }
+      ],
+      "keywordTexts": [
+        "住所変更",
+        "転居届",
+        "署名で大丈夫"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "手续"
+      ]
+    },
+    {
+      "id": "dialogue-0977e90cbb75",
+      "category": "daily",
+      "title": "申请住民票",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "在市役所申请一份住民票。",
+      "lines": [
+        {
+          "id": "line-8f9809f6744f",
+          "speaker": "客",
+          "jp": "住民票を一通お願いします。",
+          "reading": "",
+          "zh": "请给我一份住民票。"
+        },
+        {
+          "id": "line-f90e4f2216bc",
+          "speaker": "職員",
+          "jp": "本人確認書類をお持ちですか。",
+          "reading": "",
+          "zh": "带本人确认材料了吗？"
+        },
+        {
+          "id": "line-64cabd2be0d3",
+          "speaker": "客",
+          "jp": "在留カードで大丈夫ですか。",
+          "reading": "",
+          "zh": "在留卡可以吗？"
+        },
+        {
+          "id": "line-bbdaf0155dc0",
+          "speaker": "職員",
+          "jp": "はい。こちらの申請書にご記入ください。",
+          "reading": "",
+          "zh": "可以。请填写这张申请表。"
+        },
+        {
+          "id": "line-e55b2d6f29b6",
+          "speaker": "客",
+          "jp": "手数料はいくらですか。",
+          "reading": "",
+          "zh": "手续费是多少？"
+        },
+        {
+          "id": "line-6edaad5e4ecc",
+          "speaker": "職員",
+          "jp": "三百円です。",
+          "reading": "",
+          "zh": "三百日元。"
+        }
+      ],
+      "keywordTexts": [
+        "住民票",
+        "一通",
+        "本人確認書類",
+        "手数料"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "手续"
+      ]
+    },
+    {
+      "id": "dialogue-d73d7521216f",
+      "category": "daily",
+      "title": "加入国民健康保险",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "离职后在市役所咨询国民健康保险。",
+      "lines": [
+        {
+          "id": "line-1614f82fd024",
+          "speaker": "客",
+          "jp": "会社を退職したので、国民健康保険に加入したいです。",
+          "reading": "",
+          "zh": "离职了，想加入国民健康保险。"
+        },
+        {
+          "id": "line-feb787c769b3",
+          "speaker": "職員",
+          "jp": "健康保険の資格喪失証明書はお持ちですか。",
+          "reading": "",
+          "zh": "带健康保险资格丧失证明了吗？"
+        },
+        {
+          "id": "line-15fc1688e933",
+          "speaker": "客",
+          "jp": "はい、こちらです。",
+          "reading": "",
+          "zh": "带了，在这里。"
+        },
+        {
+          "id": "line-23bba3cb2399",
+          "speaker": "職員",
+          "jp": "では、申請書に住所と氏名をご記入ください。",
+          "reading": "",
+          "zh": "那么请在申请表填写地址和姓名。"
+        },
+        {
+          "id": "line-b65e74755796",
+          "speaker": "客",
+          "jp": "保険証はいつ受け取れますか。",
+          "reading": "",
+          "zh": "保险证什么时候能收到？"
+        },
+        {
+          "id": "line-2a8fa94c4f7f",
+          "speaker": "職員",
+          "jp": "一週間ほどで郵送します。",
+          "reading": "",
+          "zh": "大约一周后邮寄。"
+        }
+      ],
+      "keywordTexts": [
+        "退職する",
+        "加入する",
+        "資格喪失証明書",
+        "郵送する"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "手续"
+      ]
+    },
+    {
+      "id": "dialogue-145a13011a57",
+      "category": "daily",
+      "title": "银行开设账户",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "到银行开设普通存款账户。",
+      "lines": [
+        {
+          "id": "line-e5e8d5b39666",
+          "speaker": "客",
+          "jp": "普通預金の口座を作りたいのですが。",
+          "reading": "",
+          "zh": "想开设普通存款账户。"
+        },
+        {
+          "id": "line-5468c82d0b11",
+          "speaker": "行員",
+          "jp": "在留カードと住所が確認できる書類をお願いします。",
+          "reading": "",
+          "zh": "请出示在留卡和能确认地址的材料。"
+        },
+        {
+          "id": "line-8afcc71ed0e5",
+          "speaker": "客",
+          "jp": "公共料金の請求書でも大丈夫ですか。",
+          "reading": "",
+          "zh": "公共费用账单可以吗？"
+        },
+        {
+          "id": "line-df42ab725087",
+          "speaker": "行員",
+          "jp": "はい、発行から三か月以内のものをお願いします。",
+          "reading": "",
+          "zh": "可以，请提供发行后三个月以内的。"
+        },
+        {
+          "id": "line-bc931ba54be1",
+          "speaker": "客",
+          "jp": "キャッシュカードはいつ届きますか。",
+          "reading": "",
+          "zh": "银行卡什么时候送到？"
+        },
+        {
+          "id": "line-1707c81d12be",
+          "speaker": "行員",
+          "jp": "一週間ほどで郵送されます。",
+          "reading": "",
+          "zh": "大约一周后邮寄。"
+        }
+      ],
+      "keywordTexts": [
+        "普通預金",
+        "住所が確認できる書類",
+        "三か月以内"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "金融"
+      ]
+    },
+    {
+      "id": "dialogue-2a0d04863d51",
+      "category": "daily",
+      "title": "邮局寄送包裹",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "在邮局寄送包裹并指定送达时间。",
+      "lines": [
+        {
+          "id": "line-6a8571c01c44",
+          "speaker": "客",
+          "jp": "この荷物を大阪へ送りたいです。",
+          "reading": "",
+          "zh": "想把这个包裹寄到大阪。"
+        },
+        {
+          "id": "line-d3f44bb45a22",
+          "speaker": "局員",
+          "jp": "中に壊れやすい物は入っていますか。",
+          "reading": "",
+          "zh": "里面有易碎物品吗？"
+        },
+        {
+          "id": "line-d3d5c1e8e000",
+          "speaker": "客",
+          "jp": "はい、食器が入っています。",
+          "reading": "",
+          "zh": "有，里面是餐具。"
+        },
+        {
+          "id": "line-cb5d28b83bb6",
+          "speaker": "局員",
+          "jp": "では、割れ物のシールを貼ります。配達時間の希望はありますか。",
+          "reading": "",
+          "zh": "那么贴易碎品标签。希望什么时间配送？"
+        },
+        {
+          "id": "line-6bf04bbc8284",
+          "speaker": "客",
+          "jp": "午前中でお願いします。",
+          "reading": "",
+          "zh": "请安排上午。"
+        }
+      ],
+      "keywordTexts": [
+        "壊れやすい",
+        "割れ物",
+        "配達時間"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "邮局"
+      ]
+    },
+    {
+      "id": "dialogue-7a0c4af0aa53",
+      "category": "daily",
+      "title": "手机店办理套餐",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "到手机店咨询更便宜的流量套餐。",
+      "lines": [
+        {
+          "id": "line-54dbc588ceaa",
+          "speaker": "客",
+          "jp": "今より安い料金プランに変更したいです。",
+          "reading": "",
+          "zh": "想更换为比现在便宜的套餐。"
+        },
+        {
+          "id": "line-561cb75d622e",
+          "speaker": "店員",
+          "jp": "毎月どのくらいデータを使いますか。",
+          "reading": "",
+          "zh": "每月大约使用多少流量？"
+        },
+        {
+          "id": "line-9691c39e1f6c",
+          "speaker": "客",
+          "jp": "五ギガくらいです。",
+          "reading": "",
+          "zh": "大约五 GB。"
+        },
+        {
+          "id": "line-d7572fb89abf",
+          "speaker": "店員",
+          "jp": "こちらのプランなら、月額が千円安くなります。",
+          "reading": "",
+          "zh": "这个套餐每月便宜一千日元。"
+        },
+        {
+          "id": "line-b37059a57316",
+          "speaker": "客",
+          "jp": "今日から変更できますか。",
+          "reading": "",
+          "zh": "今天开始可以变更吗？"
+        },
+        {
+          "id": "line-f5a0a3041e80",
+          "speaker": "店員",
+          "jp": "来月一日から適用されます。",
+          "reading": "",
+          "zh": "从下月一日起生效。"
+        }
+      ],
+      "keywordTexts": [
+        "料金プラン",
+        "月額",
+        "適用される"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "手续"
+      ]
+    },
+    {
+      "id": "dialogue-5ac89ddca7d9",
+      "category": "daily",
+      "title": "确认垃圾分类规则",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "向邻居询问塑料垃圾的投放日期。",
+      "lines": [
+        {
+          "id": "line-851c7f349b64",
+          "speaker": "私",
+          "jp": "すみません、プラスチックごみは何曜日に出しますか。",
+          "reading": "",
+          "zh": "不好意思，塑料垃圾星期几扔？"
+        },
+        {
+          "id": "line-0d7953740c49",
+          "speaker": "隣人",
+          "jp": "毎週水曜日です。朝八時までに出してください。",
+          "reading": "",
+          "zh": "每周三。请在早上八点前扔出。"
+        },
+        {
+          "id": "line-01aa356a5c37",
+          "speaker": "私",
+          "jp": "透明な袋で大丈夫ですか。",
+          "reading": "",
+          "zh": "透明袋可以吗？"
+        },
+        {
+          "id": "line-6cade025efed",
+          "speaker": "隣人",
+          "jp": "指定の袋を使う必要があります。",
+          "reading": "",
+          "zh": "需要使用指定垃圾袋。"
+        },
+        {
+          "id": "line-551c2f9a3c4a",
+          "speaker": "私",
+          "jp": "分かりました。ありがとうございます。",
+          "reading": "",
+          "zh": "明白了，谢谢。"
+        }
+      ],
+      "keywordTexts": [
+        "ごみを出す",
+        "指定の袋",
+        "～までに"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "住宅"
+      ]
+    },
+    {
+      "id": "dialogue-2d94bd4938a6",
+      "category": "daily",
+      "title": "向邻居为噪音道歉",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "因夜间搬动家具产生噪音，向邻居道歉。",
+      "lines": [
+        {
+          "id": "line-8794b016e85b",
+          "speaker": "私",
+          "jp": "昨夜は音がうるさくて、申し訳ありませんでした。",
+          "reading": "",
+          "zh": "昨晚声音很吵，非常抱歉。"
+        },
+        {
+          "id": "line-99a705eb5955",
+          "speaker": "隣人",
+          "jp": "引っ越しの作業ですか。",
+          "reading": "",
+          "zh": "是在搬家吗？"
+        },
+        {
+          "id": "line-3b3c385d551f",
+          "speaker": "私",
+          "jp": "はい。家具を動かしていました。今後は遅い時間に作業しないようにします。",
+          "reading": "",
+          "zh": "是的，在搬家具。以后避免在很晚的时间作业。"
+        },
+        {
+          "id": "line-85d82242fded",
+          "speaker": "隣人",
+          "jp": "分かりました。気をつけてください。",
+          "reading": "",
+          "zh": "明白了，请注意。"
+        },
+        {
+          "id": "line-9202529d17d5",
+          "speaker": "私",
+          "jp": "ご迷惑をおかけしました。",
+          "reading": "",
+          "zh": "给您添麻烦了。"
+        }
+      ],
+      "keywordTexts": [
+        "昨夜",
+        "申し訳ありませんでした",
+        "今後は～ないようにする"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "住宅"
+      ]
+    },
+    {
+      "id": "dialogue-921427582c93",
+      "category": "daily",
+      "title": "报修漏水",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "打电话向管理公司报告厨房漏水。",
+      "lines": [
+        {
+          "id": "line-29de958a7521",
+          "speaker": "私",
+          "jp": "台所の水道から水が漏れているのですが。",
+          "reading": "",
+          "zh": "厨房水龙头漏水。"
+        },
+        {
+          "id": "line-e3c88c3fbff0",
+          "speaker": "管理",
+          "jp": "いつからですか。",
+          "reading": "",
+          "zh": "从什么时候开始？"
+        },
+        {
+          "id": "line-2c6079009ed9",
+          "speaker": "私",
+          "jp": "今朝からです。蛇口を閉めても止まりません。",
+          "reading": "",
+          "zh": "从今天早上。关掉水龙头也不停。"
+        },
+        {
+          "id": "line-8cbdc312de74",
+          "speaker": "管理",
+          "jp": "本日の午後、修理業者を伺わせます。",
+          "reading": "",
+          "zh": "今天下午安排维修人员上门。"
+        },
+        {
+          "id": "line-022782c865dd",
+          "speaker": "私",
+          "jp": "午後三時以降でお願いします。",
+          "reading": "",
+          "zh": "请安排下午三点以后。"
+        }
+      ],
+      "keywordTexts": [
+        "水が漏れる",
+        "蛇口を閉める",
+        "修理業者"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "住宅"
+      ]
+    },
+    {
+      "id": "dialogue-e0c7b5a97e7f",
+      "category": "daily",
+      "title": "确认燃气安全检查",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "燃气公司电话确认上门检查时间。",
+      "lines": [
+        {
+          "id": "line-524f43e53404",
+          "speaker": "係",
+          "jp": "ガス設備の定期点検についてご連絡しました。",
+          "reading": "",
+          "zh": "就燃气设备定期检查联系您。"
+        },
+        {
+          "id": "line-90223c30c9d0",
+          "speaker": "私",
+          "jp": "いつの予定ですか。",
+          "reading": "",
+          "zh": "计划什么时候？"
+        },
+        {
+          "id": "line-d0680fb09ff2",
+          "speaker": "係",
+          "jp": "来週火曜日の午前中はいかがでしょうか。",
+          "reading": "",
+          "zh": "下周二上午怎么样？"
+        },
+        {
+          "id": "line-6aceecf26573",
+          "speaker": "私",
+          "jp": "午前十時以降でしたら在宅しています。",
+          "reading": "",
+          "zh": "上午十点以后我在家。"
+        },
+        {
+          "id": "line-63bc946fbb57",
+          "speaker": "係",
+          "jp": "では、十時から十二時の間に伺います。",
+          "reading": "",
+          "zh": "那么十点到十二点之间上门。"
+        }
+      ],
+      "keywordTexts": [
+        "定期点検",
+        "在宅する",
+        "伺う"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "住宅"
+      ]
+    },
+    {
+      "id": "dialogue-5ea6819503ce",
+      "category": "daily",
+      "title": "再次配送包裹",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "根据不在通知单申请再次配送。",
+      "lines": [
+        {
+          "id": "line-dbca8078c257",
+          "speaker": "係",
+          "jp": "再配達受付です。お問い合わせ番号をお願いします。",
+          "reading": "",
+          "zh": "这里是再次配送受理，请提供查询号码。"
+        },
+        {
+          "id": "line-ad537a3f3e7f",
+          "speaker": "私",
+          "jp": "123456です。",
+          "reading": "",
+          "zh": "是 123456。"
+        },
+        {
+          "id": "line-8b018b2a48c7",
+          "speaker": "係",
+          "jp": "ご希望の日時はありますか。",
+          "reading": "",
+          "zh": "有希望的日期和时间吗？"
+        },
+        {
+          "id": "line-b7bc313a8f5a",
+          "speaker": "私",
+          "jp": "明日の十八時以降でお願いします。",
+          "reading": "",
+          "zh": "请安排明天十八点以后。"
+        },
+        {
+          "id": "line-9bb84b0c3b7c",
+          "speaker": "係",
+          "jp": "承知しました。十八時から二十時の間にお届けします。",
+          "reading": "",
+          "zh": "明白了。十八点到二十点之间送达。"
+        }
+      ],
+      "keywordTexts": [
+        "再配達",
+        "お問い合わせ番号",
+        "希望日時"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "快递"
+      ]
+    },
+    {
+      "id": "dialogue-978601cb39f2",
+      "category": "daily",
+      "title": "接受朋友邀请",
+      "jlptLevel": "N4",
+      "register": "casual",
+      "relationship": "friends",
+      "situation": "朋友邀请周末去看电影，接受邀请。",
+      "lines": [
+        {
+          "id": "line-533dbbf03122",
+          "speaker": "友",
+          "jp": "土曜日に映画を見に行かない。",
+          "reading": "",
+          "zh": "星期六要不要去看电影？"
+        },
+        {
+          "id": "line-253fcc2cdbb6",
+          "speaker": "私",
+          "jp": "いいね。何を見る予定。",
+          "reading": "",
+          "zh": "好啊。打算看什么？"
+        },
+        {
+          "id": "line-a954a2a30ace",
+          "speaker": "友",
+          "jp": "新しい日本映画はどう。",
+          "reading": "",
+          "zh": "新的日本电影怎么样？"
+        },
+        {
+          "id": "line-2913adf2a443",
+          "speaker": "私",
+          "jp": "見たい。何時に待ち合わせる。",
+          "reading": "",
+          "zh": "想看。几点集合？"
+        },
+        {
+          "id": "line-a201d5073e95",
+          "speaker": "友",
+          "jp": "駅前に一時でどう。",
+          "reading": "",
+          "zh": "一点在车站前怎么样？"
+        },
+        {
+          "id": "line-220e92fcb2d7",
+          "speaker": "私",
+          "jp": "分かった。楽しみにしているね。",
+          "reading": "",
+          "zh": "明白了，很期待。"
+        }
+      ],
+      "keywordTexts": [
+        "～に行かない",
+        "待ち合わせる",
+        "楽しみにする"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "朋友"
+      ]
+    },
+    {
+      "id": "dialogue-6788152f2725",
+      "category": "daily",
+      "title": "委婉拒绝朋友邀请",
+      "jlptLevel": "N3",
+      "register": "casual",
+      "relationship": "friends",
+      "situation": "已有安排，委婉拒绝朋友的聚餐邀请。",
+      "lines": [
+        {
+          "id": "line-9d076cf87197",
+          "speaker": "友",
+          "jp": "今週の日曜日、みんなで食事に行かない。",
+          "reading": "",
+          "zh": "本周日大家一起吃饭吧？"
+        },
+        {
+          "id": "line-1515af8cff72",
+          "speaker": "私",
+          "jp": "誘ってくれてありがとう。でも、その日は予定があるんだ。",
+          "reading": "",
+          "zh": "谢谢邀请，但那天有安排。"
+        },
+        {
+          "id": "line-827ea6766ab3",
+          "speaker": "友",
+          "jp": "そうなんだ。残念。",
+          "reading": "",
+          "zh": "这样啊，真遗憾。"
+        },
+        {
+          "id": "line-f3476846a560",
+          "speaker": "私",
+          "jp": "ごめんね。次回はぜひ参加したい。",
+          "reading": "",
+          "zh": "抱歉。下次一定想参加。"
+        },
+        {
+          "id": "line-bc16ab7bb52a",
+          "speaker": "友",
+          "jp": "分かった。また誘うね。",
+          "reading": "",
+          "zh": "明白了，下次再邀请你。"
+        }
+      ],
+      "keywordTexts": [
+        "誘ってくれてありがとう",
+        "予定がある",
+        "次回はぜひ"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "朋友"
+      ]
+    },
+    {
+      "id": "dialogue-484d2f992077",
+      "category": "daily",
+      "title": "搬家后向邻居问候",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "搬入新公寓后向邻居打招呼。",
+      "lines": [
+        {
+          "id": "line-abb3ceb6c118",
+          "speaker": "私",
+          "jp": "こんにちは。隣に引っ越してきた王と申します。",
+          "reading": "",
+          "zh": "您好，我是刚搬到隔壁的王。"
+        },
+        {
+          "id": "line-8827325520d9",
+          "speaker": "隣人",
+          "jp": "こんにちは。よろしくお願いします。",
+          "reading": "",
+          "zh": "您好，请多关照。"
+        },
+        {
+          "id": "line-a6296b2d118e",
+          "speaker": "私",
+          "jp": "これ、ほんの気持ちですが、どうぞ。",
+          "reading": "",
+          "zh": "这是一点心意，请收下。"
+        },
+        {
+          "id": "line-1663bd6c5881",
+          "speaker": "隣人",
+          "jp": "ありがとうございます。お気遣いなく。",
+          "reading": "",
+          "zh": "谢谢，不必费心。"
+        },
+        {
+          "id": "line-5e9138666a7e",
+          "speaker": "私",
+          "jp": "これからよろしくお願いいたします。",
+          "reading": "",
+          "zh": "今后请多关照。"
+        }
+      ],
+      "keywordTexts": [
+        "引っ越してきた",
+        "～と申します",
+        "ほんの気持ち"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "住宅"
+      ]
+    },
+    {
+      "id": "dialogue-2cf63c1ff0d9",
+      "category": "daily",
+      "title": "丢失钥匙联系房东",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "回家后发现钥匙丢失，联系管理公司。",
+      "lines": [
+        {
+          "id": "line-d78b9969ebaa",
+          "speaker": "私",
+          "jp": "部屋の鍵をなくしてしまいました。",
+          "reading": "",
+          "zh": "不小心丢了房间钥匙。"
+        },
+        {
+          "id": "line-ed9dd65536e7",
+          "speaker": "管理",
+          "jp": "お名前と部屋番号をお願いします。",
+          "reading": "",
+          "zh": "请提供姓名和房间号。"
+        },
+        {
+          "id": "line-a38992fc6fde",
+          "speaker": "私",
+          "jp": "王です。305号室です。",
+          "reading": "",
+          "zh": "我姓王，305 室。"
+        },
+        {
+          "id": "line-c1f752515664",
+          "speaker": "管理",
+          "jp": "本人確認が必要です。在留カードはお持ちですか。",
+          "reading": "",
+          "zh": "需要本人确认。带在留卡了吗？"
+        },
+        {
+          "id": "line-100e08272701",
+          "speaker": "私",
+          "jp": "はい、持っています。",
+          "reading": "",
+          "zh": "带了。"
+        },
+        {
+          "id": "line-63e99fab8f2e",
+          "speaker": "管理",
+          "jp": "担当者が三十分ほどで伺います。",
+          "reading": "",
+          "zh": "负责人约三十分钟后上门。"
+        }
+      ],
+      "keywordTexts": [
+        "なくしてしまう",
+        "部屋番号",
+        "本人確認"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "住宅"
+      ]
+    },
+    {
+      "id": "dialogue-c4a430e1b1c1",
+      "category": "daily",
+      "title": "地震时确认避难地点",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "customer-service",
+      "situation": "地震后向管理员确认避难地点。",
+      "lines": [
+        {
+          "id": "line-9b2d6dd31ec2",
+          "speaker": "私",
+          "jp": "先ほどの地震で少し揺れましたが、避難した方がいいですか。",
+          "reading": "",
+          "zh": "刚才地震有些摇晃，需要避难吗？"
+        },
+        {
+          "id": "line-f86ffe5aff3f",
+          "speaker": "管理",
+          "jp": "現在、避難指示は出ていません。",
+          "reading": "",
+          "zh": "目前没有发布避难指示。"
+        },
+        {
+          "id": "line-e86915353d98",
+          "speaker": "私",
+          "jp": "避難場所はどこですか。",
+          "reading": "",
+          "zh": "避难地点在哪里？"
+        },
+        {
+          "id": "line-8e049ffc3875",
+          "speaker": "管理",
+          "jp": "近くの小学校です。エレベーターは使わないでください。",
+          "reading": "",
+          "zh": "附近的小学。请不要使用电梯。"
+        },
+        {
+          "id": "line-c99301abe30f",
+          "speaker": "私",
+          "jp": "分かりました。非常用品を準備します。",
+          "reading": "",
+          "zh": "明白了。准备应急用品。"
+        }
+      ],
+      "keywordTexts": [
+        "避難指示",
+        "避難場所",
+        "非常用品"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "日常",
+        "防灾"
+      ]
+    },
+    {
+      "id": "dialogue-1e3fcea8de1f",
+      "category": "workplace",
+      "title": "向同事请求帮助",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "coworkers",
+      "situation": "不明白操作方法，向同事求助。",
+      "lines": [
+        {
+          "id": "line-0fe4861faa89",
+          "speaker": "私",
+          "jp": "すみません、この操作方法を教えていただけますか。",
+          "reading": "",
+          "zh": "不好意思，能教我这个操作方法吗？"
+        },
+        {
+          "id": "line-a2582fb33f25",
+          "speaker": "同僚",
+          "jp": "はい。どこまでできましたか。",
+          "reading": "",
+          "zh": "可以。做到哪里了？"
+        },
+        {
+          "id": "line-381a4e779312",
+          "speaker": "私",
+          "jp": "ファイルを開くところまではできました。",
+          "reading": "",
+          "zh": "已经做到打开文件这一步。"
+        },
+        {
+          "id": "line-8d79e37b6eaa",
+          "speaker": "同僚",
+          "jp": "では、その次の手順を説明します。",
+          "reading": "",
+          "zh": "那么说明下一步。"
+        },
+        {
+          "id": "line-61b2e75434d2",
+          "speaker": "私",
+          "jp": "ありがとうございます。",
+          "reading": "",
+          "zh": "谢谢。"
+        }
+      ],
+      "keywordTexts": [
+        "操作方法",
+        "～ところまで",
+        "その次の手順"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "职场基础",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-6cae79a187c0",
+      "category": "workplace",
+      "title": "报告打印机故障",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "coworkers",
+      "situation": "办公室打印机无法打印，向总务说明。",
+      "lines": [
+        {
+          "id": "line-69e1229ddcb4",
+          "speaker": "私",
+          "jp": "すみません、三階のプリンターで印刷できません。",
+          "reading": "",
+          "zh": "不好意思，三楼打印机无法打印。"
+        },
+        {
+          "id": "line-b06438a84d9b",
+          "speaker": "総務",
+          "jp": "エラーメッセージは表示されていますか。",
+          "reading": "",
+          "zh": "显示错误消息了吗？"
+        },
+        {
+          "id": "line-6ee4d7b967ac",
+          "speaker": "私",
+          "jp": "「用紙がありません」と表示されています。",
+          "reading": "",
+          "zh": "显示“没有纸张”。"
+        },
+        {
+          "id": "line-5f3e81dca072",
+          "speaker": "総務",
+          "jp": "用紙を補充します。少々お待ちください。",
+          "reading": "",
+          "zh": "我补充纸张，请稍等。"
+        },
+        {
+          "id": "line-d4bd1a5632c6",
+          "speaker": "私",
+          "jp": "お願いします。",
+          "reading": "",
+          "zh": "麻烦了。"
+        }
+      ],
+      "keywordTexts": [
+        "印刷できない",
+        "表示される",
+        "用紙を補充する"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "职场基础",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-f6886f9d4972",
+      "category": "workplace",
+      "title": "预约会议室",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "coworkers",
+      "situation": "向同事确认下午会议室是否空闲。",
+      "lines": [
+        {
+          "id": "line-fbbb2c0b270e",
+          "speaker": "私",
+          "jp": "今日の午後、会議室Aは空いていますか。",
+          "reading": "",
+          "zh": "今天下午会议室 A 空着吗？"
+        },
+        {
+          "id": "line-3f6dbb79ad02",
+          "speaker": "同僚",
+          "jp": "二時から三時までは予約されています。",
+          "reading": "",
+          "zh": "两点到三点已被预约。"
+        },
+        {
+          "id": "line-632edae505b0",
+          "speaker": "私",
+          "jp": "三時以降なら使えますか。",
+          "reading": "",
+          "zh": "三点以后可以使用吗？"
+        },
+        {
+          "id": "line-c447ee8f0ce6",
+          "speaker": "同僚",
+          "jp": "はい、空いています。",
+          "reading": "",
+          "zh": "可以，空着。"
+        },
+        {
+          "id": "line-6cc3da6b5fca",
+          "speaker": "私",
+          "jp": "では、三時から予約します。",
+          "reading": "",
+          "zh": "那么从三点开始预约。"
+        }
+      ],
+      "keywordTexts": [
+        "会議室が空いている",
+        "予約されている",
+        "～以降"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "职场基础",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-e8587d490558",
+      "category": "workplace",
+      "title": "申请休假",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "employee-manager",
+      "situation": "提前向上司申请下周五休假。",
+      "lines": [
+        {
+          "id": "line-629e0c31c2f8",
+          "speaker": "私",
+          "jp": "来週の金曜日に休暇をいただきたいのですが。",
+          "reading": "",
+          "zh": "想在下周五请假。"
+        },
+        {
+          "id": "line-e4b60db218fd",
+          "speaker": "上司",
+          "jp": "分かりました。業務の引き継ぎは大丈夫ですか。",
+          "reading": "",
+          "zh": "明白了。工作交接没问题吗？"
+        },
+        {
+          "id": "line-b5b8702fce8d",
+          "speaker": "私",
+          "jp": "はい。木曜日までに必要な内容を共有します。",
+          "reading": "",
+          "zh": "没问题。周四前共享必要内容。"
+        },
+        {
+          "id": "line-f5680a630376",
+          "speaker": "上司",
+          "jp": "では、申請を出してください。",
+          "reading": "",
+          "zh": "那么请提交申请。"
+        },
+        {
+          "id": "line-325ce456d6fa",
+          "speaker": "私",
+          "jp": "承知しました。",
+          "reading": "",
+          "zh": "明白了。"
+        }
+      ],
+      "keywordTexts": [
+        "休暇をいただく",
+        "引き継ぎ",
+        "申請を出す"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "职场基础",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-88b735e3df6d",
+      "category": "workplace",
+      "title": "因电车晚点迟到",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "employee-manager",
+      "situation": "上班途中电车晚点，向上司电话报告。",
+      "lines": [
+        {
+          "id": "line-2ec0ce19d275",
+          "speaker": "私",
+          "jp": "おはようございます。電車遅延のため、十五分ほど遅れます。",
+          "reading": "",
+          "zh": "早上好。因电车晚点，大约迟到十五分钟。"
+        },
+        {
+          "id": "line-72348d5f6bc5",
+          "speaker": "上司",
+          "jp": "分かりました。到着予定は何時ですか。",
+          "reading": "",
+          "zh": "明白了。预计几点到？"
+        },
+        {
+          "id": "line-966bec4a5160",
+          "speaker": "私",
+          "jp": "九時十五分ごろです。",
+          "reading": "",
+          "zh": "大约九点十五分。"
+        },
+        {
+          "id": "line-d902aa966a96",
+          "speaker": "上司",
+          "jp": "安全に気をつけて来てください。",
+          "reading": "",
+          "zh": "请注意安全过来。"
+        },
+        {
+          "id": "line-30c55e56cd25",
+          "speaker": "私",
+          "jp": "申し訳ありません。よろしくお願いします。",
+          "reading": "",
+          "zh": "很抱歉，麻烦了。"
+        }
+      ],
+      "keywordTexts": [
+        "～のため",
+        "十五分ほど",
+        "到着予定"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "职场基础",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-a26a3fb419e5",
+      "category": "workplace",
+      "title": "申请在家办公",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "employee-manager",
+      "situation": "因需要等待维修人员，向上司申请上午居家办公。",
+      "lines": [
+        {
+          "id": "line-9c76f943b301",
+          "speaker": "私",
+          "jp": "明日の午前中、在宅勤務に変更してもよろしいでしょうか。",
+          "reading": "",
+          "zh": "明天上午可以改为在家办公吗？"
+        },
+        {
+          "id": "line-57af5b77abaa",
+          "speaker": "上司",
+          "jp": "何か事情がありますか。",
+          "reading": "",
+          "zh": "有什么情况吗？"
+        },
+        {
+          "id": "line-c2c70b65043d",
+          "speaker": "私",
+          "jp": "自宅の修理業者が来る予定です。午後は出社します。",
+          "reading": "",
+          "zh": "家里维修人员要来，下午去公司。"
+        },
+        {
+          "id": "line-a6624f6032b0",
+          "speaker": "上司",
+          "jp": "分かりました。予定表を更新してください。",
+          "reading": "",
+          "zh": "明白了。请更新日程表。"
+        },
+        {
+          "id": "line-bd08cb4c4b17",
+          "speaker": "私",
+          "jp": "ありがとうございます。",
+          "reading": "",
+          "zh": "谢谢。"
+        }
+      ],
+      "keywordTexts": [
+        "在宅勤務",
+        "～てもよろしいでしょうか",
+        "予定表を更新する"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "职场基础",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-b5b65661f0cb",
+      "category": "workplace",
+      "title": "工作交接说明",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "coworkers",
+      "situation": "休假前向同事交接当天的确认事项。",
+      "lines": [
+        {
+          "id": "line-3f8e96aad9e6",
+          "speaker": "私",
+          "jp": "明日は休みなので、この作業を引き継いでもらえますか。",
+          "reading": "",
+          "zh": "明天休息，可以接手这项工作吗？"
+        },
+        {
+          "id": "line-896f7f88315c",
+          "speaker": "同僚",
+          "jp": "はい。どこまで進んでいますか。",
+          "reading": "",
+          "zh": "可以。进展到哪里？"
+        },
+        {
+          "id": "line-a10600a88f59",
+          "speaker": "私",
+          "jp": "資料作成は完了しています。午後にお客様から回答が来る予定です。",
+          "reading": "",
+          "zh": "资料制作已完成。预计下午客户会回复。"
+        },
+        {
+          "id": "line-3fa38c010d4f",
+          "speaker": "同僚",
+          "jp": "回答が来たら、内容を確認すればいいですか。",
+          "reading": "",
+          "zh": "回复后确认内容就可以吗？"
+        },
+        {
+          "id": "line-8b701254b51d",
+          "speaker": "私",
+          "jp": "はい。問題があれば、担当者に連絡してください。",
+          "reading": "",
+          "zh": "是的。有问题请联系负责人。"
+        }
+      ],
+      "keywordTexts": [
+        "引き継ぐ",
+        "どこまで進む",
+        "回答が来る"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "职场基础",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-7d6a8ee1c322",
+      "category": "workplace",
+      "title": "简单汇报工作进度",
+      "jlptLevel": "N3",
+      "register": "polite",
+      "relationship": "employee-manager",
+      "situation": "在早会上简要汇报当前进度。",
+      "lines": [
+        {
+          "id": "line-cb65be7da3dd",
+          "speaker": "上司",
+          "jp": "現在の進捗をお願いします。",
+          "reading": "",
+          "zh": "请汇报当前进度。"
+        },
+        {
+          "id": "line-6bff8789b4dc",
+          "speaker": "私",
+          "jp": "昨日、資料の修正が完了しました。今日は確認作業を行います。",
+          "reading": "",
+          "zh": "昨天完成了资料修改。今天进行确认工作。"
+        },
+        {
+          "id": "line-ce6227643c82",
+          "speaker": "上司",
+          "jp": "予定通り終わりそうですか。",
+          "reading": "",
+          "zh": "预计能按计划结束吗？"
+        },
+        {
+          "id": "line-065e1a2e7a24",
+          "speaker": "私",
+          "jp": "はい、今日中に完了する見込みです。",
+          "reading": "",
+          "zh": "是的，预计今天之内完成。"
+        },
+        {
+          "id": "line-11ab835cc942",
+          "speaker": "上司",
+          "jp": "分かりました。",
+          "reading": "",
+          "zh": "明白了。"
+        }
+      ],
+      "keywordTexts": [
+        "現在の進捗",
+        "予定通り",
+        "完了する見込み"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "职场基础",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-c131cd22a7eb",
+      "category": "workplace",
+      "title": "请求再次说明",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "business-peers",
+      "situation": "会议中没有听懂，礼貌请求对方再次说明。",
+      "lines": [
+        {
+          "id": "line-33b762221bb7",
+          "speaker": "相手",
+          "jp": "以上が新しい手順の概要です。",
+          "reading": "",
+          "zh": "以上是新流程的概要。"
+        },
+        {
+          "id": "line-801a399e2ac0",
+          "speaker": "私",
+          "jp": "申し訳ありません。最後の部分をもう一度説明していただけますか。",
+          "reading": "",
+          "zh": "不好意思，最后部分能再说明一次吗？"
+        },
+        {
+          "id": "line-b89dd9482f3a",
+          "speaker": "相手",
+          "jp": "はい。申請後に担当者の承認が必要です。",
+          "reading": "",
+          "zh": "可以。申请后需要负责人批准。"
+        },
+        {
+          "id": "line-a7badf4af288",
+          "speaker": "私",
+          "jp": "承認後に作業を開始するという理解でよろしいですか。",
+          "reading": "",
+          "zh": "理解为批准后开始作业，对吗？"
+        },
+        {
+          "id": "line-58054ad7d57b",
+          "speaker": "相手",
+          "jp": "はい、その通りです。",
+          "reading": "",
+          "zh": "是的，正是如此。"
+        }
+      ],
+      "keywordTexts": [
+        "もう一度説明する",
+        "～という理解",
+        "その通り"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "职场基础",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-4f2e79c43051",
+      "category": "workplace",
+      "title": "邀请同事午餐",
+      "jlptLevel": "N4",
+      "register": "polite",
+      "relationship": "coworkers",
+      "situation": "午休前邀请同事一起吃午饭。",
+      "lines": [
+        {
+          "id": "line-3cfc9ad34239",
+          "speaker": "私",
+          "jp": "そろそろ昼休みですが、一緒に食事に行きませんか。",
+          "reading": "",
+          "zh": "快到午休了，要不要一起吃饭？"
+        },
+        {
+          "id": "line-e1508f31b2a8",
+          "speaker": "同僚",
+          "jp": "いいですね。何を食べたいですか。",
+          "reading": "",
+          "zh": "好啊。想吃什么？"
+        },
+        {
+          "id": "line-19542427abc7",
+          "speaker": "私",
+          "jp": "近くの定食屋はどうですか。",
+          "reading": "",
+          "zh": "附近的套餐店怎么样？"
+        },
+        {
+          "id": "line-fbe3ef031164",
+          "speaker": "同僚",
+          "jp": "賛成です。十二時になったら行きましょう。",
+          "reading": "",
+          "zh": "赞成。十二点就去吧。"
+        },
+        {
+          "id": "line-8560ac00976b",
+          "speaker": "私",
+          "jp": "分かりました。",
+          "reading": "",
+          "zh": "明白了。"
+        }
+      ],
+      "keywordTexts": [
+        "一緒に～ませんか",
+        "～はどうですか",
+        "賛成です"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "在具体生活或基础职场场景中，用自然、礼貌的日语完成沟通。",
+      "rolePlayPromptZh": "交换角色，隐藏中文后完成一次完整对话。",
+      "tags": [
+        "职场基础",
+        "工作"
       ]
     }
   ]

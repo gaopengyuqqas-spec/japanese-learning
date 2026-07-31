@@ -1,0 +1,71 @@
+Phase 2 Content Summary
+
+Total counts
+{
+  "kanjiGroups": 555,
+  "uniqueVocabulary": 1109,
+  "wordAssociations": 1110,
+  "sentences": 2933,
+  "dialogues": 124,
+  "dialogueLines": 677
+}
+
+Phase 2 additions
+{
+  "newVocabulary": 567,
+  "newSentences": 1467,
+  "newDialogues": 60,
+  "newDialogueLines": 313,
+  "allVocabularyReachable": true,
+  "allNewDialogueLinesTranslated": true,
+  "uniqueNewDialogueTitles": true
+}
+
+New vocabulary JLPT distribution
+{
+  "N5": 271,
+  "N4": 158,
+  "N3": 138
+}
+
+New vocabulary tags
+{
+  "基础": 567,
+  "日常": 550,
+  "JLPT": 259,
+  "住宅": 30,
+  "设施": 27,
+  "交通": 29,
+  "饮食": 30,
+  "健康": 30,
+  "家庭": 30,
+  "物品": 29,
+  "时间": 30,
+  "天气": 20,
+  "防灾": 20,
+  "学习": 26,
+  "手续": 27,
+  "金融": 27,
+  "职场": 17
+}
+
+New dialogue tags
+{
+  "日常": 50,
+  "购物": 10,
+  "餐厅": 8,
+  "咖啡店": 1,
+  "酒店": 3,
+  "交通": 6,
+  "职场基础": 11,
+  "旅行": 2,
+  "健康": 4,
+  "手续": 4,
+  "金融": 1,
+  "邮局": 1,
+  "住宅": 6,
+  "快递": 1,
+  "朋友": 2,
+  "防灾": 1,
+  "工作": 10
+}

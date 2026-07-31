@@ -1,14 +1,25 @@
-Nihongo Lab Phase 1 validation
+Nihongo Lab Phase 2 validation
 {
-  "kanjiGroups": 218,
-  "uniqueVocabulary": 542,
-  "wordAssociations": 455,
-  "sentences": 1466,
-  "dialogues": 64,
-  "dialogueLines": 364
+  "kanjiGroups": 555,
+  "uniqueVocabulary": 1109,
+  "wordAssociations": 1110,
+  "sentences": 2933,
+  "dialogues": 124,
+  "dialogueLines": 677
 }
 {
   "expressionComparisons": 100,
   "commonMistakes": 100
 }
 OK: all checks passed
+
+Phase 2 specific checks
+{
+  "newVocabulary": 567,
+  "newSentences": 1467,
+  "newDialogues": 60,
+  "newDialogueLines": 313,
+  "allVocabularyReachable": true,
+  "allNewDialogueLinesTranslated": true,
+  "uniqueNewDialogueTitles": true
+}

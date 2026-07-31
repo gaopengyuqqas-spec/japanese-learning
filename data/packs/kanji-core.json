@@ -2,9 +2,9 @@
   "schemaVersion": 3,
   "packId": "kanji-core",
   "packType": "kanji",
-  "contentVersion": "2026.07.31-phase1-business-it",
+  "contentVersion": "2026.07.31-phase2-foundation-daily",
   "title": "汉字音训关联",
-  "description": "保留既有汉字音训关联，并补充商务与 IT 常用汉字组。",
+  "description": "保留汉字音训关联，并新增 Phase 2 基础与日常词汇关联。",
   "items": [
     {
       "id": "kanji-u4e00",
@@ -15,7 +15,61 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-22e300888c2a"
+        "vocab-22e300888c2a",
+        "vocab-f3e9c3c4598b",
+        "vocab-741c5c34ee56",
+        "vocab-c2fd7b2884ab"
+      ]
+    },
+    {
+      "id": "kanji-u4e01",
+      "kanji": "丁",
+      "meaningsZh": [
+        "丁"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e67bdf1dd7e5"
+      ]
+    },
+    {
+      "id": "kanji-u4e07",
+      "kanji": "万",
+      "meaningsZh": [
+        "万"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a9d3b54209a7"
+      ]
+    },
+    {
+      "id": "kanji-u4e0a",
+      "kanji": "上",
+      "meaningsZh": [
+        "上"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-25156ee56593",
+        "vocab-44bb932305a7",
+        "vocab-fff6860ae57d"
+      ]
+    },
+    {
+      "id": "kanji-u4e0b",
+      "kanji": "下",
+      "meaningsZh": [
+        "下"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d6d50550dbf0",
+        "vocab-d6e83a260c70"
       ]
     },
     {
@@ -27,7 +81,23 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-332ac2c24d59"
+        "vocab-332ac2c24d59",
+        "vocab-b5c53f6cd787",
+        "vocab-de1aa10da6ff",
+        "vocab-6b0200cb52b8"
+      ]
+    },
+    {
+      "id": "kanji-u4e21",
+      "kanji": "両",
+      "meaningsZh": [
+        "両"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-09e02139dcca",
+        "vocab-c1b6852f99e8"
       ]
     },
     {
@@ -39,7 +109,9 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-4da9f6a85924"
+        "vocab-4da9f6a85924",
+        "vocab-80a8677c3e95",
+        "vocab-db67a39a207e"
       ]
     },
     {
@@ -52,6 +124,44 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-9b1b803e62bb"
+      ]
+    },
+    {
+      "id": "kanji-u4e38",
+      "kanji": "丸",
+      "meaningsZh": [
+        "丸"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-692105774e25"
+      ]
+    },
+    {
+      "id": "kanji-u4e3b",
+      "kanji": "主",
+      "meaningsZh": [
+        "主"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-3b41912fe0ba"
+      ]
+    },
+    {
+      "id": "kanji-u4e57",
+      "kanji": "乗",
+      "meaningsZh": [
+        "乗"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-f085bd3e3a36",
+        "vocab-fdf937f730c8",
+        "vocab-9d97608f38a7"
       ]
     },
     {
@@ -76,7 +186,10 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-04eac593a3d7",
-        "vocab-4ea27bdbd30a"
+        "vocab-4ea27bdbd30a",
+        "vocab-20c0e64d0ee3",
+        "vocab-d2c5055e1d8d",
+        "vocab-e8975447cc69"
       ]
     },
     {
@@ -88,7 +201,8 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-e5d878ae6e72"
+        "vocab-e5d878ae6e72",
+        "vocab-ebe137dcc5ef"
       ]
     },
     {
@@ -101,6 +215,45 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-2bfca5d0b200"
+      ]
+    },
+    {
+      "id": "kanji-u4ea4",
+      "kanji": "交",
+      "meaningsZh": [
+        "交"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-16cf94c6c048",
+        "vocab-7755ce5ea01c"
+      ]
+    },
+    {
+      "id": "kanji-u4eca",
+      "kanji": "今",
+      "meaningsZh": [
+        "今"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-6fa59a1db1eb",
+        "vocab-1f8742cc0d26",
+        "vocab-c6db0d793a07"
+      ]
+    },
+    {
+      "id": "kanji-u4ed5",
+      "kanji": "仕",
+      "meaningsZh": [
+        "仕"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a57d466068f7"
       ]
     },
     {
@@ -124,7 +277,10 @@
       "jlptLevel": "N3",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-afda50774936"
+        "vocab-afda50774936",
+        "vocab-acc75f32a6d5",
+        "vocab-0b7c51787d2b",
+        "vocab-e21dcf7b9f31"
       ]
     },
     {
@@ -142,7 +298,21 @@
         "vocab-c5aaa91d226f",
         "vocab-26e9a8ed1f87",
         "vocab-fc42c93bd0b3",
-        "vocab-5ea699613ef9"
+        "vocab-5ea699613ef9",
+        "vocab-b6f6af791a21",
+        "vocab-c9512027bcff"
+      ]
+    },
+    {
+      "id": "kanji-u4f1d",
+      "kanji": "伝",
+      "meaningsZh": [
+        "伝"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-155df303244e"
       ]
     },
     {
@@ -158,6 +328,32 @@
       ]
     },
     {
+      "id": "kanji-u4f4e",
+      "kanji": "低",
+      "meaningsZh": [
+        "低"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2f757dfb1916"
+      ]
+    },
+    {
+      "id": "kanji-u4f4f",
+      "kanji": "住",
+      "meaningsZh": [
+        "住"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-8046652e3f75",
+        "vocab-bf4d8298407f",
+        "vocab-dc9e92b0a68e"
+      ]
+    },
+    {
       "id": "kanji-u4f53",
       "kanji": "体",
       "meaningsZh": [
@@ -166,7 +362,9 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-9f2eb7f0af05"
+        "vocab-9f2eb7f0af05",
+        "vocab-cf1386674e31",
+        "vocab-22cd885bef1d"
       ]
     },
     {
@@ -196,7 +394,20 @@
         "vocab-a8a50ec950df",
         "vocab-7681a27693c2",
         "vocab-810566d84b32",
-        "vocab-6263ad330cd6"
+        "vocab-6263ad330cd6",
+        "vocab-d201d83d068f"
+      ]
+    },
+    {
+      "id": "kanji-u4f7f",
+      "kanji": "使",
+      "meaningsZh": [
+        "使"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-b59c87dbf44c"
       ]
     },
     {
@@ -208,7 +419,9 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-454cfaf0bf37"
+        "vocab-454cfaf0bf37",
+        "vocab-e89ec0dc9a97",
+        "vocab-4599a4a2974a"
       ]
     },
     {
@@ -228,6 +441,18 @@
       ]
     },
     {
+      "id": "kanji-u4fbf",
+      "kanji": "便",
+      "meaningsZh": [
+        "便"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-3fec0c3113c2"
+      ]
+    },
+    {
       "id": "kanji-u4fdd",
       "kanji": "保",
       "meaningsZh": [
@@ -239,7 +464,8 @@
         "vocab-0f3c594cdd9c",
         "vocab-88f27cf5a519",
         "vocab-de8cc2c3d7ae",
-        "vocab-4f28ff8a8068"
+        "vocab-4f28ff8a8068",
+        "vocab-599b53749261"
       ]
     },
     {
@@ -251,7 +477,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-eef65eb3c292"
+        "vocab-eef65eb3c292",
+        "vocab-f1b564643db8"
       ]
     },
     {
@@ -268,6 +495,54 @@
       ]
     },
     {
+      "id": "kanji-u501f",
+      "kanji": "借",
+      "meaningsZh": [
+        "借"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-485443ae8c5b"
+      ]
+    },
+    {
+      "id": "kanji-u505c",
+      "kanji": "停",
+      "meaningsZh": [
+        "停"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-cac2bc2e6794"
+      ]
+    },
+    {
+      "id": "kanji-u5065",
+      "kanji": "健",
+      "meaningsZh": [
+        "健"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-0506b2063747"
+      ]
+    },
+    {
+      "id": "kanji-u5098",
+      "kanji": "傘",
+      "meaningsZh": [
+        "傘"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ad63593394ee"
+      ]
+    },
+    {
       "id": "kanji-u50be",
       "kanji": "傾",
       "meaningsZh": [
@@ -280,6 +555,18 @@
       ]
     },
     {
+      "id": "kanji-u50cd",
+      "kanji": "働",
+      "meaningsZh": [
+        "働"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-bb4ec07da081"
+      ]
+    },
+    {
       "id": "kanji-u512a",
       "kanji": "優",
       "meaningsZh": [
@@ -289,7 +576,45 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-5fd825a8da2b",
-        "vocab-8953baa56ac7"
+        "vocab-8953baa56ac7",
+        "vocab-858232289808"
+      ]
+    },
+    {
+      "id": "kanji-u5143",
+      "kanji": "元",
+      "meaningsZh": [
+        "元"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-f4b6ce5430ce"
+      ]
+    },
+    {
+      "id": "kanji-u5144",
+      "kanji": "兄",
+      "meaningsZh": [
+        "兄"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-6a1ece1296d1",
+        "vocab-3f4b8fce1086"
+      ]
+    },
+    {
+      "id": "kanji-u5145",
+      "kanji": "充",
+      "meaningsZh": [
+        "充"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-f548cecf6a41"
       ]
     },
     {
@@ -305,6 +630,33 @@
       ]
     },
     {
+      "id": "kanji-u5148",
+      "kanji": "先",
+      "meaningsZh": [
+        "先"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ca5c6a1e7a40",
+        "vocab-85f644fa90c6"
+      ]
+    },
+    {
+      "id": "kanji-u5165",
+      "kanji": "入",
+      "meaningsZh": [
+        "入"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-96f16f484d7e",
+        "vocab-150093f8b64e",
+        "vocab-2d9c0194e459"
+      ]
+    },
+    {
       "id": "kanji-u5168",
       "kanji": "全",
       "meaningsZh": [
@@ -314,6 +666,18 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-1f5f4b0fc113"
+      ]
+    },
+    {
+      "id": "kanji-u516c",
+      "kanji": "公",
+      "meaningsZh": [
+        "公"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e7e7c21485ee"
       ]
     },
     {
@@ -374,6 +738,31 @@
       ]
     },
     {
+      "id": "kanji-u51ac",
+      "kanji": "冬",
+      "meaningsZh": [
+        "冬"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-21e18ba40879"
+      ]
+    },
+    {
+      "id": "kanji-u51b7",
+      "kanji": "冷",
+      "meaningsZh": [
+        "冷"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-7c2624438fc8",
+        "vocab-165c1dafe3fe"
+      ]
+    },
+    {
       "id": "kanji-u51fa",
       "kanji": "出",
       "meaningsZh": [
@@ -385,7 +774,13 @@
         "vocab-b77a065d8620",
         "vocab-fab3641d78d0",
         "vocab-05eaee20ef96",
-        "vocab-db2dca65e275"
+        "vocab-db2dca65e275",
+        "vocab-d245e72ea106",
+        "vocab-b1c29b77e3f1",
+        "vocab-71eb24ecd2a2",
+        "vocab-e3a2dfcea166",
+        "vocab-c71b58058b81",
+        "vocab-c9bda51ae64f"
       ]
     },
     {
@@ -414,7 +809,9 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-5756a6451bd6"
+        "vocab-5756a6451bd6",
+        "vocab-8bbfa06839db",
+        "vocab-39e0b53ee8db"
       ]
     },
     {
@@ -426,7 +823,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-59833a0f38f7"
+        "vocab-59833a0f38f7",
+        "vocab-4637f4f2db9a"
       ]
     },
     {
@@ -441,6 +839,30 @@
         "vocab-ad0a4b12a7a7",
         "vocab-a07938b0bf25",
         "vocab-b292bf870882"
+      ]
+    },
+    {
+      "id": "kanji-u5225",
+      "kanji": "別",
+      "meaningsZh": [
+        "別"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d20fdb4c586a"
+      ]
+    },
+    {
+      "id": "kanji-u5229",
+      "kanji": "利",
+      "meaningsZh": [
+        "利"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-1baf4ea9e8eb"
       ]
     },
     {
@@ -483,6 +905,18 @@
       ]
     },
     {
+      "id": "kanji-u52a9",
+      "kanji": "助",
+      "meaningsZh": [
+        "助"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-712bc98b1cf8"
+      ]
+    },
+    {
       "id": "kanji-u52b9",
       "kanji": "効",
       "meaningsZh": [
@@ -497,6 +931,30 @@
       ]
     },
     {
+      "id": "kanji-u52c9",
+      "kanji": "勉",
+      "meaningsZh": [
+        "勉"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-99990e68251e"
+      ]
+    },
+    {
+      "id": "kanji-u52d5",
+      "kanji": "動",
+      "meaningsZh": [
+        "動"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-982d64124889"
+      ]
+    },
+    {
       "id": "kanji-u52e4",
       "kanji": "勤",
       "meaningsZh": [
@@ -505,7 +963,69 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-0580b3ddedd2"
+        "vocab-0580b3ddedd2",
+        "vocab-f3b478c5f7a5"
+      ]
+    },
+    {
+      "id": "kanji-u533a",
+      "kanji": "区",
+      "meaningsZh": [
+        "区"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c008500e28a2"
+      ]
+    },
+    {
+      "id": "kanji-u533b",
+      "kanji": "医",
+      "meaningsZh": [
+        "医"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4e38aa9c5646"
+      ]
+    },
+    {
+      "id": "kanji-u5341",
+      "kanji": "十",
+      "meaningsZh": [
+        "十"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ccde5717e5fe"
+      ]
+    },
+    {
+      "id": "kanji-u5348",
+      "kanji": "午",
+      "meaningsZh": [
+        "午"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2d1289963630",
+        "vocab-873bb133e5bb"
+      ]
+    },
+    {
+      "id": "kanji-u5352",
+      "kanji": "卒",
+      "meaningsZh": [
+        "卒"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-0d6f453a25e3"
       ]
     },
     {
@@ -529,7 +1049,69 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-b03147636da9"
+        "vocab-b03147636da9",
+        "vocab-ce193894db0e"
+      ]
+    },
+    {
+      "id": "kanji-u535a",
+      "kanji": "博",
+      "meaningsZh": [
+        "博"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-8f544664ce94"
+      ]
+    },
+    {
+      "id": "kanji-u5370",
+      "kanji": "印",
+      "meaningsZh": [
+        "印"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-fd667b521386"
+      ]
+    },
+    {
+      "id": "kanji-u5371",
+      "kanji": "危",
+      "meaningsZh": [
+        "危"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a1e811ac5a00",
+        "vocab-331633f76491"
+      ]
+    },
+    {
+      "id": "kanji-u5375",
+      "kanji": "卵",
+      "meaningsZh": [
+        "卵"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-1222ec35159c"
+      ]
+    },
+    {
+      "id": "kanji-u539a",
+      "kanji": "厚",
+      "meaningsZh": [
+        "厚"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-92167960182a"
       ]
     },
     {
@@ -553,7 +1135,20 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-931d71e873a1"
+        "vocab-931d71e873a1",
+        "vocab-75a30159bdbb"
+      ]
+    },
+    {
+      "id": "kanji-u53cb",
+      "kanji": "友",
+      "meaningsZh": [
+        "友"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ac475c12ccc7"
       ]
     },
     {
@@ -583,7 +1178,8 @@
         "vocab-b4b9add7c029",
         "vocab-5d76f289b80a",
         "vocab-4b3158d1f80e",
-        "vocab-f9f024fc50b9"
+        "vocab-f9f024fc50b9",
+        "vocab-42ddd5ed6a53"
       ]
     },
     {
@@ -606,6 +1202,31 @@
       ]
     },
     {
+      "id": "kanji-u53e3",
+      "kanji": "口",
+      "meaningsZh": [
+        "口"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-609c5a6c5e11",
+        "vocab-b3d3e2efb629"
+      ]
+    },
+    {
+      "id": "kanji-u53e4",
+      "kanji": "古",
+      "meaningsZh": [
+        "古"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-396a0112bf35"
+      ]
+    },
+    {
       "id": "kanji-u53ef",
       "kanji": "可",
       "meaningsZh": [
@@ -615,7 +1236,21 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-1d1a570ddb09",
-        "vocab-9f4c5f2eada7"
+        "vocab-9f4c5f2eada7",
+        "vocab-3b448ec91cc3"
+      ]
+    },
+    {
+      "id": "kanji-u53f0",
+      "kanji": "台",
+      "meaningsZh": [
+        "台"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-f792c9d910aa",
+        "vocab-32f96e30d124"
       ]
     },
     {
@@ -645,7 +1280,20 @@
         "vocab-0fdca0eb4ff8",
         "vocab-d55c2f3291c5",
         "vocab-ec13ab8234e2",
-        "vocab-137e80f949f2"
+        "vocab-137e80f949f2",
+        "vocab-13e3f5f6ea09"
+      ]
+    },
+    {
+      "id": "kanji-u540c",
+      "kanji": "同",
+      "meaningsZh": [
+        "同"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d608133403d6"
       ]
     },
     {
@@ -657,7 +1305,92 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-824ff490647a"
+        "vocab-824ff490647a",
+        "vocab-f68273d21f4e"
+      ]
+    },
+    {
+      "id": "kanji-u5411",
+      "kanji": "向",
+      "meaningsZh": [
+        "向"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-34d606343b2f"
+      ]
+    },
+    {
+      "id": "kanji-u5438",
+      "kanji": "吸",
+      "meaningsZh": [
+        "吸"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2e8f7a8800e6"
+      ]
+    },
+    {
+      "id": "kanji-u5439",
+      "kanji": "吹",
+      "meaningsZh": [
+        "吹"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-3e9848183bd2"
+      ]
+    },
+    {
+      "id": "kanji-u5473",
+      "kanji": "味",
+      "meaningsZh": [
+        "味"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e7d168fbba04"
+      ]
+    },
+    {
+      "id": "kanji-u547c",
+      "kanji": "呼",
+      "meaningsZh": [
+        "呼"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-8fc66af24787"
+      ]
+    },
+    {
+      "id": "kanji-u54b2",
+      "kanji": "咲",
+      "meaningsZh": [
+        "咲"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-21f6a005e438"
+      ]
+    },
+    {
+      "id": "kanji-u54b3",
+      "kanji": "咳",
+      "meaningsZh": [
+        "咳"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c7eb53be457d"
       ]
     },
     {
@@ -690,6 +1423,18 @@
       ]
     },
     {
+      "id": "kanji-u5589",
+      "kanji": "喉",
+      "meaningsZh": [
+        "喉"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-40b26fac83f0"
+      ]
+    },
+    {
       "id": "kanji-u55b6",
       "kanji": "営",
       "meaningsZh": [
@@ -717,6 +1462,30 @@
       ]
     },
     {
+      "id": "kanji-u56f0",
+      "kanji": "困",
+      "meaningsZh": [
+        "困"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2c6b9194a73f"
+      ]
+    },
+    {
+      "id": "kanji-u56f3",
+      "kanji": "図",
+      "meaningsZh": [
+        "図"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-71bc8ce67185"
+      ]
+    },
+    {
       "id": "kanji-u56fa",
       "kanji": "固",
       "meaningsZh": [
@@ -726,7 +1495,20 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-539ddcb412fd",
-        "vocab-4e7bb359a4b4"
+        "vocab-4e7bb359a4b4",
+        "vocab-c6cdafb772d2"
+      ]
+    },
+    {
+      "id": "kanji-u56fd",
+      "kanji": "国",
+      "meaningsZh": [
+        "国"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d30eb674d4cb"
       ]
     },
     {
@@ -738,7 +1520,21 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-6f0eee4024e3"
+        "vocab-6f0eee4024e3",
+        "vocab-e1d3faa92d8e"
+      ]
+    },
+    {
+      "id": "kanji-u5730",
+      "kanji": "地",
+      "meaningsZh": [
+        "地"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-31b754444930",
+        "vocab-812d4425e7f6"
       ]
     },
     {
@@ -763,6 +1559,18 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-950173cf874c"
+      ]
+    },
+    {
+      "id": "kanji-u5869",
+      "kanji": "塩",
+      "meaningsZh": [
+        "塩"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4e6e3404559a"
       ]
     },
     {
@@ -791,6 +1599,31 @@
       ]
     },
     {
+      "id": "kanji-u58c1",
+      "kanji": "壁",
+      "meaningsZh": [
+        "壁"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-86711053190b"
+      ]
+    },
+    {
+      "id": "kanji-u58f2",
+      "kanji": "売",
+      "meaningsZh": [
+        "売"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-f654ffbb4ae3",
+        "vocab-30df9f9d1098"
+      ]
+    },
+    {
       "id": "kanji-u5909",
       "kanji": "変",
       "meaningsZh": [
@@ -807,7 +1640,33 @@
         "vocab-1474ddf9f379",
         "vocab-6c0d32d58073",
         "vocab-a802534fe39f",
-        "vocab-ad1ad18f3db3"
+        "vocab-ad1ad18f3db3",
+        "vocab-ce8b04d9493e"
+      ]
+    },
+    {
+      "id": "kanji-u590f",
+      "kanji": "夏",
+      "meaningsZh": [
+        "夏"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a6eabf3a8a11"
+      ]
+    },
+    {
+      "id": "kanji-u5915",
+      "kanji": "夕",
+      "meaningsZh": [
+        "夕"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-9a6dda136794",
+        "vocab-fcde3e0acbdd"
       ]
     },
     {
@@ -820,6 +1679,85 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-9152b3637bbb"
+      ]
+    },
+    {
+      "id": "kanji-u591a",
+      "kanji": "多",
+      "meaningsZh": [
+        "多"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ffa102eaa836"
+      ]
+    },
+    {
+      "id": "kanji-u591c",
+      "kanji": "夜",
+      "meaningsZh": [
+        "夜"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-5e8d572fb2b9"
+      ]
+    },
+    {
+      "id": "kanji-u5927",
+      "kanji": "大",
+      "meaningsZh": [
+        "大"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-856c88078440",
+        "vocab-e36d2a6cd974",
+        "vocab-9cae92bcfc31",
+        "vocab-f25493720d85",
+        "vocab-72b97610aea4"
+      ]
+    },
+    {
+      "id": "kanji-u5929",
+      "kanji": "天",
+      "meaningsZh": [
+        "天"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-cdd9066b565f",
+        "vocab-66635a8c2d2b"
+      ]
+    },
+    {
+      "id": "kanji-u592a",
+      "kanji": "太",
+      "meaningsZh": [
+        "太"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-47871304485c",
+        "vocab-41fadaa31868"
+      ]
+    },
+    {
+      "id": "kanji-u592b",
+      "kanji": "夫",
+      "meaningsZh": [
+        "夫"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e0b028e0af4d",
+        "vocab-63040d51c0cb"
       ]
     },
     {
@@ -848,6 +1786,30 @@
       ]
     },
     {
+      "id": "kanji-u5973",
+      "kanji": "女",
+      "meaningsZh": [
+        "女"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ef2f2dfd2b54"
+      ]
+    },
+    {
+      "id": "kanji-u597d",
+      "kanji": "好",
+      "meaningsZh": [
+        "好"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d5c889973390"
+      ]
+    },
+    {
       "id": "kanji-u59a5",
       "kanji": "妥",
       "meaningsZh": [
@@ -857,6 +1819,42 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-263797fea208"
+      ]
+    },
+    {
+      "id": "kanji-u59b9",
+      "kanji": "妹",
+      "meaningsZh": [
+        "妹"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-17beb16f995a"
+      ]
+    },
+    {
+      "id": "kanji-u59bb",
+      "kanji": "妻",
+      "meaningsZh": [
+        "妻"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-95c553728f3a"
+      ]
+    },
+    {
+      "id": "kanji-u59c9",
+      "kanji": "姉",
+      "meaningsZh": [
+        "姉"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-febbf5d1a229"
       ]
     },
     {
@@ -873,6 +1871,67 @@
         "vocab-eec90f3a5bcb",
         "vocab-a9360c28e05a",
         "vocab-0dbb40637718"
+      ]
+    },
+    {
+      "id": "kanji-u5a18",
+      "kanji": "娘",
+      "meaningsZh": [
+        "娘"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2a0979543fc8"
+      ]
+    },
+    {
+      "id": "kanji-u5acc",
+      "kanji": "嫌",
+      "meaningsZh": [
+        "嫌"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-bfc31649c664"
+      ]
+    },
+    {
+      "id": "kanji-u5b50",
+      "kanji": "子",
+      "meaningsZh": [
+        "子"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ff6e89c051e7"
+      ]
+    },
+    {
+      "id": "kanji-u5b63",
+      "kanji": "季",
+      "meaningsZh": [
+        "季"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-6446ca41db8f"
+      ]
+    },
+    {
+      "id": "kanji-u5b66",
+      "kanji": "学",
+      "meaningsZh": [
+        "学"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-beceac46291c",
+        "vocab-1d17bb25effc"
       ]
     },
     {
@@ -900,7 +1959,9 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-39a19ec2d6ba"
+        "vocab-39a19ec2d6ba",
+        "vocab-7aa18b47f76e",
+        "vocab-3625bf97d55b"
       ]
     },
     {
@@ -924,7 +1985,9 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-b551e78ffcba"
+        "vocab-b551e78ffcba",
+        "vocab-c140ec55c30f",
+        "vocab-02aa937472c2"
       ]
     },
     {
@@ -945,7 +2008,23 @@
         "vocab-ed7443f05376",
         "vocab-3a6a03e56083",
         "vocab-f9f47d215810",
-        "vocab-b92272a4b5fd"
+        "vocab-b92272a4b5fd",
+        "vocab-0296c7fdb2aa"
+      ]
+    },
+    {
+      "id": "kanji-u5bb6",
+      "kanji": "家",
+      "meaningsZh": [
+        "家"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-abe6f3d9288b",
+        "vocab-61ef15ea3a38",
+        "vocab-ff181ea26581",
+        "vocab-391ba0a00662"
       ]
     },
     {
@@ -970,7 +2049,32 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-45f5b22d62cd"
+        "vocab-45f5b22d62cd",
+        "vocab-4aa7e9be5eb6"
+      ]
+    },
+    {
+      "id": "kanji-u5bd2",
+      "kanji": "寒",
+      "meaningsZh": [
+        "寒"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-770d42f80b15"
+      ]
+    },
+    {
+      "id": "kanji-u5bdd",
+      "kanji": "寝",
+      "meaningsZh": [
+        "寝"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-798e2465dee6"
       ]
     },
     {
@@ -989,6 +2093,80 @@
       ]
     },
     {
+      "id": "kanji-u5c01",
+      "kanji": "封",
+      "meaningsZh": [
+        "封"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-77987ae703d2"
+      ]
+    },
+    {
+      "id": "kanji-u5c0f",
+      "kanji": "小",
+      "meaningsZh": [
+        "小"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-0ca880056059",
+        "vocab-17e98855277c"
+      ]
+    },
+    {
+      "id": "kanji-u5c11",
+      "kanji": "少",
+      "meaningsZh": [
+        "少"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-32758892c822"
+      ]
+    },
+    {
+      "id": "kanji-u5c45",
+      "kanji": "居",
+      "meaningsZh": [
+        "居"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d616ccd6c1ea"
+      ]
+    },
+    {
+      "id": "kanji-u5c4a",
+      "kanji": "届",
+      "meaningsZh": [
+        "届"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-829e33739c98",
+        "vocab-ecc9ab4c9cbc"
+      ]
+    },
+    {
+      "id": "kanji-u5c4b",
+      "kanji": "屋",
+      "meaningsZh": [
+        "屋"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4667d97f9af4"
+      ]
+    },
+    {
       "id": "kanji-u5c65",
       "kanji": "履",
       "meaningsZh": [
@@ -997,7 +2175,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-155b5b5a89b3"
+        "vocab-155b5b5a89b3",
+        "vocab-66215d5201c9"
       ]
     },
     {
@@ -1009,7 +2188,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-9a15ef32ceb6"
+        "vocab-9a15ef32ceb6",
+        "vocab-bb72f86c4868"
       ]
     },
     {
@@ -1023,7 +2203,32 @@
       "wordIds": [
         "vocab-cb9b3a98658c",
         "vocab-2ca66fe8d284",
-        "vocab-eedbf3001d8e"
+        "vocab-eedbf3001d8e",
+        "vocab-03b76e3a2d8c"
+      ]
+    },
+    {
+      "id": "kanji-u5e02",
+      "kanji": "市",
+      "meaningsZh": [
+        "市"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a55bd3d92842"
+      ]
+    },
+    {
+      "id": "kanji-u5e03",
+      "kanji": "布",
+      "meaningsZh": [
+        "布"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2db48ab9a2dc"
       ]
     },
     {
@@ -1039,6 +2244,30 @@
       ]
     },
     {
+      "id": "kanji-u5e30",
+      "kanji": "帰",
+      "meaningsZh": [
+        "帰"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a8473139b974"
+      ]
+    },
+    {
+      "id": "kanji-u5e3d",
+      "kanji": "帽",
+      "meaningsZh": [
+        "帽"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e2da2a2bb956"
+      ]
+    },
+    {
       "id": "kanji-u5e73",
       "kanji": "平",
       "meaningsZh": [
@@ -1047,7 +2276,104 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-d1c241c7809b"
+        "vocab-d1c241c7809b",
+        "vocab-84fa4b2f324c"
+      ]
+    },
+    {
+      "id": "kanji-u5e78",
+      "kanji": "幸",
+      "meaningsZh": [
+        "幸"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c1842f9f16e5"
+      ]
+    },
+    {
+      "id": "kanji-u5e83",
+      "kanji": "広",
+      "meaningsZh": [
+        "広"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-3f6fb506f65b"
+      ]
+    },
+    {
+      "id": "kanji-u5e8a",
+      "kanji": "床",
+      "meaningsZh": [
+        "床"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-72992d8977f0"
+      ]
+    },
+    {
+      "id": "kanji-u5e97",
+      "kanji": "店",
+      "meaningsZh": [
+        "店"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d33435fccb77"
+      ]
+    },
+    {
+      "id": "kanji-u5ea7",
+      "kanji": "座",
+      "meaningsZh": [
+        "座"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-66bd0097ad09"
+      ]
+    },
+    {
+      "id": "kanji-u5ead",
+      "kanji": "庭",
+      "meaningsZh": [
+        "庭"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-714083a75629"
+      ]
+    },
+    {
+      "id": "kanji-u5eca",
+      "kanji": "廊",
+      "meaningsZh": [
+        "廊"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-8668714cf688"
+      ]
+    },
+    {
+      "id": "kanji-u5f01",
+      "kanji": "弁",
+      "meaningsZh": [
+        "弁"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-b52a554419db"
       ]
     },
     {
@@ -1060,7 +2386,45 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-a69122424a1d",
-        "vocab-93c7bfcabe7b"
+        "vocab-93c7bfcabe7b",
+        "vocab-64e5441bf504",
+        "vocab-aa9b702d8537"
+      ]
+    },
+    {
+      "id": "kanji-u5f1f",
+      "kanji": "弟",
+      "meaningsZh": [
+        "弟"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d9a6b4c310b6"
+      ]
+    },
+    {
+      "id": "kanji-u5f37",
+      "kanji": "強",
+      "meaningsZh": [
+        "強"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ff57823736c4"
+      ]
+    },
+    {
+      "id": "kanji-u5f3e",
+      "kanji": "弾",
+      "meaningsZh": [
+        "弾"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-cf86b40447ab"
       ]
     },
     {
@@ -1090,6 +2454,30 @@
       ]
     },
     {
+      "id": "kanji-u5f80",
+      "kanji": "往",
+      "meaningsZh": [
+        "往"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ccdb25efe50b"
+      ]
+    },
+    {
+      "id": "kanji-u5f85",
+      "kanji": "待",
+      "meaningsZh": [
+        "待"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-693e343df417"
+      ]
+    },
+    {
       "id": "kanji-u5f8c",
       "kanji": "後",
       "meaningsZh": [
@@ -1098,7 +2486,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-deeb2eaf7c47"
+        "vocab-deeb2eaf7c47",
+        "vocab-d6e494e9a097"
       ]
     },
     {
@@ -1110,7 +2499,58 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-dab3701d5a67"
+        "vocab-dab3701d5a67",
+        "vocab-6cdf62d81760"
+      ]
+    },
+    {
+      "id": "kanji-u5fc3",
+      "kanji": "心",
+      "meaningsZh": [
+        "心"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-bc02983425a3"
+      ]
+    },
+    {
+      "id": "kanji-u5fc5",
+      "kanji": "必",
+      "meaningsZh": [
+        "必"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2a5ba4088fda",
+        "vocab-6295de94b6b0"
+      ]
+    },
+    {
+      "id": "kanji-u5fd8",
+      "kanji": "忘",
+      "meaningsZh": [
+        "忘"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-37f43ddee732",
+        "vocab-d1fa99d1f190"
+      ]
+    },
+    {
+      "id": "kanji-u5fd9",
+      "kanji": "忙",
+      "meaningsZh": [
+        "忙"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ac62a5e928ba"
       ]
     },
     {
@@ -1126,6 +2566,30 @@
       ]
     },
     {
+      "id": "kanji-u6016",
+      "kanji": "怖",
+      "meaningsZh": [
+        "怖"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-cc286c6c0124"
+      ]
+    },
+    {
+      "id": "kanji-u6025",
+      "kanji": "急",
+      "meaningsZh": [
+        "急"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-0888eb6191a5"
+      ]
+    },
+    {
       "id": "kanji-u6027",
       "kanji": "性",
       "meaningsZh": [
@@ -1135,6 +2599,18 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-fc77cb783ae6"
+      ]
+    },
+    {
+      "id": "kanji-u602a",
+      "kanji": "怪",
+      "meaningsZh": [
+        "怪"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-b05f9b1f4870"
       ]
     },
     {
@@ -1162,6 +2638,66 @@
       ]
     },
     {
+      "id": "kanji-u6065",
+      "kanji": "恥",
+      "meaningsZh": [
+        "恥"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-6e99f3166c92"
+      ]
+    },
+    {
+      "id": "kanji-u606f",
+      "kanji": "息",
+      "meaningsZh": [
+        "息"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c2a20e255da5"
+      ]
+    },
+    {
+      "id": "kanji-u60aa",
+      "kanji": "悪",
+      "meaningsZh": [
+        "悪"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e9384cc57598"
+      ]
+    },
+    {
+      "id": "kanji-u610f",
+      "kanji": "意",
+      "meaningsZh": [
+        "意"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-61b5f184a77e"
+      ]
+    },
+    {
+      "id": "kanji-u6163",
+      "kanji": "慣",
+      "meaningsZh": [
+        "慣"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ee17daa4d72e"
+      ]
+    },
+    {
       "id": "kanji-u61f8",
       "kanji": "懸",
       "meaningsZh": [
@@ -1183,7 +2719,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-ef5306ddfde4",
-        "vocab-29d0d5e19664"
+        "vocab-29d0d5e19664",
+        "vocab-d9c02301ffd9"
       ]
     },
     {
@@ -1203,6 +2740,18 @@
       ]
     },
     {
+      "id": "kanji-u6249",
+      "kanji": "扉",
+      "meaningsZh": [
+        "扉"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d57376f3f75f"
+      ]
+    },
+    {
       "id": "kanji-u624b",
       "kanji": "手",
       "meaningsZh": [
@@ -1212,7 +2761,36 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-01eae089799e",
-        "vocab-3754d32acc44"
+        "vocab-3754d32acc44",
+        "vocab-56acbb3ace56",
+        "vocab-edb6dfb30e3c",
+        "vocab-524dd5c8222f",
+        "vocab-6782ab4f179f",
+        "vocab-4a4be4f12635"
+      ]
+    },
+    {
+      "id": "kanji-u6253",
+      "kanji": "打",
+      "meaningsZh": [
+        "打"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d91611fd8909"
+      ]
+    },
+    {
+      "id": "kanji-u6255",
+      "kanji": "払",
+      "meaningsZh": [
+        "払"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2892f2b03962"
       ]
     },
     {
@@ -1228,6 +2806,18 @@
         "vocab-23fe0fab6ad5",
         "vocab-ba0bed9de208",
         "vocab-ab2af47a8680"
+      ]
+    },
+    {
+      "id": "kanji-u62bc",
+      "kanji": "押",
+      "meaningsZh": [
+        "押"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-aec8618c5a96"
       ]
     },
     {
@@ -1252,7 +2842,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-ca1fa411666f",
-        "vocab-677f2d3a0592"
+        "vocab-677f2d3a0592",
+        "vocab-68619a6138fd"
       ]
     },
     {
@@ -1288,7 +2879,8 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-9ce60c325303"
+        "vocab-9ce60c325303",
+        "vocab-af51de5f4d06"
       ]
     },
     {
@@ -1301,7 +2893,56 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-8539acf46f4b",
-        "vocab-c1dbd18cd792"
+        "vocab-c1dbd18cd792",
+        "vocab-265a7cddae09"
+      ]
+    },
+    {
+      "id": "kanji-u632f",
+      "kanji": "振",
+      "meaningsZh": [
+        "振"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-dc41a1cc60ff"
+      ]
+    },
+    {
+      "id": "kanji-u6368",
+      "kanji": "捨",
+      "meaningsZh": [
+        "捨"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d9d1b5afd330"
+      ]
+    },
+    {
+      "id": "kanji-u6383",
+      "kanji": "掃",
+      "meaningsZh": [
+        "掃"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a2b0814aeae2"
+      ]
+    },
+    {
+      "id": "kanji-u6388",
+      "kanji": "授",
+      "meaningsZh": [
+        "授"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ff5df2be58d6"
       ]
     },
     {
@@ -1314,6 +2955,19 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-2eb3d5c14fb0"
+      ]
+    },
+    {
+      "id": "kanji-u639b",
+      "kanji": "掛",
+      "meaningsZh": [
+        "掛"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-98b0c405787d",
+        "vocab-ad70015d9ab5"
       ]
     },
     {
@@ -1352,7 +3006,32 @@
       "jlptLevel": "N3",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-eaaec0516246"
+        "vocab-eaaec0516246",
+        "vocab-0e33c75c8ec2"
+      ]
+    },
+    {
+      "id": "kanji-u643a",
+      "kanji": "携",
+      "meaningsZh": [
+        "携"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-cba4be63beb2"
+      ]
+    },
+    {
+      "id": "kanji-u64ae",
+      "kanji": "撮",
+      "meaningsZh": [
+        "撮"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-b051a09c2abb"
       ]
     },
     {
@@ -1364,7 +3043,8 @@
       "jlptLevel": "N3",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-dfc6a13c8ba1"
+        "vocab-dfc6a13c8ba1",
+        "vocab-eec98fce1f82"
       ]
     },
     {
@@ -1376,7 +3056,8 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-98e6c381d7cf"
+        "vocab-98e6c381d7cf",
+        "vocab-14aadd727229"
       ]
     },
     {
@@ -1389,7 +3070,10 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-a76bcace9c57",
-        "vocab-9d0cf8c76616"
+        "vocab-9d0cf8c76616",
+        "vocab-21d81d8b0922",
+        "vocab-09f9268ca875",
+        "vocab-09180880b2f2"
       ]
     },
     {
@@ -1403,6 +3087,57 @@
       "wordIds": [
         "vocab-0412d05d4133",
         "vocab-8fc83a1c6214"
+      ]
+    },
+    {
+      "id": "kanji-u6587",
+      "kanji": "文",
+      "meaningsZh": [
+        "文"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-b032491b8d7d"
+      ]
+    },
+    {
+      "id": "kanji-u6599",
+      "kanji": "料",
+      "meaningsZh": [
+        "料"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-88060ccea8b8",
+        "vocab-16396b10bd47"
+      ]
+    },
+    {
+      "id": "kanji-u65ad",
+      "kanji": "断",
+      "meaningsZh": [
+        "断"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-8c02a3756dba"
+      ]
+    },
+    {
+      "id": "kanji-u65b0",
+      "kanji": "新",
+      "meaningsZh": [
+        "新"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a375891d36df",
+        "vocab-bbb405dd4787",
+        "vocab-e1eb9cadbe7b"
       ]
     },
     {
@@ -1430,6 +3165,18 @@
       ]
     },
     {
+      "id": "kanji-u65e9",
+      "kanji": "早",
+      "meaningsZh": [
+        "早"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-0ffd61151054"
+      ]
+    },
+    {
       "id": "kanji-u660e",
       "kanji": "明",
       "meaningsZh": [
@@ -1438,7 +3185,135 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-065c2a6c195f"
+        "vocab-065c2a6c195f",
+        "vocab-e8f40c04861a",
+        "vocab-6b7cbce36793",
+        "vocab-f598400d4150"
+      ]
+    },
+    {
+      "id": "kanji-u6613",
+      "kanji": "易",
+      "meaningsZh": [
+        "易"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-fab58cc94eea"
+      ]
+    },
+    {
+      "id": "kanji-u661f",
+      "kanji": "星",
+      "meaningsZh": [
+        "星"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4a6594dfcc1a"
+      ]
+    },
+    {
+      "id": "kanji-u6620",
+      "kanji": "映",
+      "meaningsZh": [
+        "映"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-6d90c1a3981a"
+      ]
+    },
+    {
+      "id": "kanji-u6625",
+      "kanji": "春",
+      "meaningsZh": [
+        "春"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-9076564ab833"
+      ]
+    },
+    {
+      "id": "kanji-u6628",
+      "kanji": "昨",
+      "meaningsZh": [
+        "昨"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-05f1d2a5b4cc"
+      ]
+    },
+    {
+      "id": "kanji-u663c",
+      "kanji": "昼",
+      "meaningsZh": [
+        "昼"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d1b0f6e71c69",
+        "vocab-b9d8514f7099"
+      ]
+    },
+    {
+      "id": "kanji-u6642",
+      "kanji": "時",
+      "meaningsZh": [
+        "時"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c29dae0c9d37",
+        "vocab-842c469a7c37",
+        "vocab-176ff4731a93",
+        "vocab-78e514e895aa"
+      ]
+    },
+    {
+      "id": "kanji-u6674",
+      "kanji": "晴",
+      "meaningsZh": [
+        "晴"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-3c8451d925d1",
+        "vocab-0c146d97ddc2"
+      ]
+    },
+    {
+      "id": "kanji-u6691",
+      "kanji": "暑",
+      "meaningsZh": [
+        "暑"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e8684d8b108f"
+      ]
+    },
+    {
+      "id": "kanji-u6696",
+      "kanji": "暖",
+      "meaningsZh": [
+        "暖"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-372904fb58ab"
       ]
     },
     {
@@ -1450,7 +3325,9 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-b07b47e3acec"
+        "vocab-b07b47e3acec",
+        "vocab-1b42bccb7ab4",
+        "vocab-45f19fe0cf0c"
       ]
     },
     {
@@ -1466,6 +3343,31 @@
       ]
     },
     {
+      "id": "kanji-u66c7",
+      "kanji": "曇",
+      "meaningsZh": [
+        "曇"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-cf6a7d25ab40",
+        "vocab-f21f17038265"
+      ]
+    },
+    {
+      "id": "kanji-u66f2",
+      "kanji": "曲",
+      "meaningsZh": [
+        "曲"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2aa8506213af"
+      ]
+    },
+    {
       "id": "kanji-u66f4",
       "kanji": "更",
       "meaningsZh": [
@@ -1475,7 +3377,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-5d9859258cf6",
-        "vocab-e3fb40fc0278"
+        "vocab-e3fb40fc0278",
+        "vocab-c21afe858e6f"
       ]
     },
     {
@@ -1503,7 +3406,20 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-de32ec86692c"
+        "vocab-de32ec86692c",
+        "vocab-6742863ee9ea"
+      ]
+    },
+    {
+      "id": "kanji-u6708",
+      "kanji": "月",
+      "meaningsZh": [
+        "月"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-016ba017bdf6"
       ]
     },
     {
@@ -1515,7 +3431,33 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-3a5e9fa94d7a"
+        "vocab-3a5e9fa94d7a",
+        "vocab-6080779cf67c"
+      ]
+    },
+    {
+      "id": "kanji-u670d",
+      "kanji": "服",
+      "meaningsZh": [
+        "服"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d6724909d3de"
+      ]
+    },
+    {
+      "id": "kanji-u671d",
+      "kanji": "朝",
+      "meaningsZh": [
+        "朝"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-84435292ff4e",
+        "vocab-b1fa407bdbdc"
       ]
     },
     {
@@ -1528,7 +3470,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-f11136bc7cb9",
-        "vocab-d47d003d5d4c"
+        "vocab-d47d003d5d4c",
+        "vocab-efbb9c7e6b4e"
       ]
     },
     {
@@ -1552,7 +3495,57 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-3dae5e0a18ce"
+        "vocab-3dae5e0a18ce",
+        "vocab-9fb45486b945",
+        "vocab-7cbf7d25ad8e"
+      ]
+    },
+    {
+      "id": "kanji-u673a",
+      "kanji": "机",
+      "meaningsZh": [
+        "机"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2bc551f387d6"
+      ]
+    },
+    {
+      "id": "kanji-u6765",
+      "kanji": "来",
+      "meaningsZh": [
+        "来"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d0e3513b33fd"
+      ]
+    },
+    {
+      "id": "kanji-u6795",
+      "kanji": "枕",
+      "meaningsZh": [
+        "枕"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-97533b31b250"
+      ]
+    },
+    {
+      "id": "kanji-u679c",
+      "kanji": "果",
+      "meaningsZh": [
+        "果"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-febc762d7434"
       ]
     },
     {
@@ -1564,7 +3557,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-9c97dfb6ad48"
+        "vocab-9c97dfb6ad48",
+        "vocab-8f614fd19fe7"
       ]
     },
     {
@@ -1605,6 +3599,18 @@
       ]
     },
     {
+      "id": "kanji-u6848",
+      "kanji": "案",
+      "meaningsZh": [
+        "案"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-f4fd46702f0a"
+      ]
+    },
+    {
       "id": "kanji-u68da",
       "kanji": "棚",
       "meaningsZh": [
@@ -1613,7 +3619,20 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-c8af68e2f4af"
+        "vocab-c8af68e2f4af",
+        "vocab-820e9a070bbe"
+      ]
+    },
+    {
+      "id": "kanji-u6905",
+      "kanji": "椅",
+      "meaningsZh": [
+        "椅"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e9f1bdeb193b"
       ]
     },
     {
@@ -1629,6 +3648,18 @@
         "vocab-d0da18fb6a83",
         "vocab-2a63dc3f3b1b",
         "vocab-5d4f0ba03fb9"
+      ]
+    },
+    {
+      "id": "kanji-u697d",
+      "kanji": "楽",
+      "meaningsZh": [
+        "楽"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-9545846cf60a"
       ]
     },
     {
@@ -1694,6 +3725,30 @@
       ]
     },
     {
+      "id": "kanji-u6b32",
+      "kanji": "欲",
+      "meaningsZh": [
+        "欲"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-6218a49eae24"
+      ]
+    },
+    {
+      "id": "kanji-u6b4c",
+      "kanji": "歌",
+      "meaningsZh": [
+        "歌"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-1749a2265498"
+      ]
+    },
+    {
       "id": "kanji-u6b62",
       "kanji": "止",
       "meaningsZh": [
@@ -1710,6 +3765,43 @@
       ]
     },
     {
+      "id": "kanji-u6b63",
+      "kanji": "正",
+      "meaningsZh": [
+        "正"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-20f8e2635b40"
+      ]
+    },
+    {
+      "id": "kanji-u6b69",
+      "kanji": "歩",
+      "meaningsZh": [
+        "歩"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-bf1af1a1ea92",
+        "vocab-149eab26ee3a"
+      ]
+    },
+    {
+      "id": "kanji-u6b6f",
+      "kanji": "歯",
+      "meaningsZh": [
+        "歯"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-fa167f3e21d9"
+      ]
+    },
+    {
       "id": "kanji-u6b8b",
       "kanji": "残",
       "meaningsZh": [
@@ -1719,7 +3811,9 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-622f19ae6dfa",
-        "vocab-0765e4a9e178"
+        "vocab-0765e4a9e178",
+        "vocab-19339da66a90",
+        "vocab-4a30c9e3ffb1"
       ]
     },
     {
@@ -1732,6 +3826,33 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-92b56a7fb8db"
+      ]
+    },
+    {
+      "id": "kanji-u6bcd",
+      "kanji": "母",
+      "meaningsZh": [
+        "母"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a190b4cc9b77"
+      ]
+    },
+    {
+      "id": "kanji-u6bce",
+      "kanji": "毎",
+      "meaningsZh": [
+        "毎"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-b4772e805c80",
+        "vocab-71da0f1a83c1",
+        "vocab-e6962095cfe2",
+        "vocab-b5e938b69cdd"
       ]
     },
     {
@@ -1752,6 +3873,67 @@
       ]
     },
     {
+      "id": "kanji-u6bdb",
+      "kanji": "毛",
+      "meaningsZh": [
+        "毛"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-48843a2d56e7"
+      ]
+    },
+    {
+      "id": "kanji-u6c0f",
+      "kanji": "氏",
+      "meaningsZh": [
+        "氏"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a2859a16a36b"
+      ]
+    },
+    {
+      "id": "kanji-u6c17",
+      "kanji": "気",
+      "meaningsZh": [
+        "気"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-6e8bbfc718e4"
+      ]
+    },
+    {
+      "id": "kanji-u6c34",
+      "kanji": "水",
+      "meaningsZh": [
+        "水"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-af4ef109a1ec",
+        "vocab-e3d391e7fbe8"
+      ]
+    },
+    {
+      "id": "kanji-u6c5a",
+      "kanji": "汚",
+      "meaningsZh": [
+        "汚"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-571d6c91fefb"
+      ]
+    },
+    {
       "id": "kanji-u6c7a",
       "kanji": "決",
       "meaningsZh": [
@@ -1760,7 +3942,158 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-e34895b1a499"
+        "vocab-e34895b1a499",
+        "vocab-8676e979d14d"
+      ]
+    },
+    {
+      "id": "kanji-u6c7d",
+      "kanji": "汽",
+      "meaningsZh": [
+        "汽"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-b9801906bea6"
+      ]
+    },
+    {
+      "id": "kanji-u6cb9",
+      "kanji": "油",
+      "meaningsZh": [
+        "油"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-10bf71accdf1"
+      ]
+    },
+    {
+      "id": "kanji-u6cbb",
+      "kanji": "治",
+      "meaningsZh": [
+        "治"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-95bb1a8b8643",
+        "vocab-b1987f1b9581"
+      ]
+    },
+    {
+      "id": "kanji-u6ce8",
+      "kanji": "注",
+      "meaningsZh": [
+        "注"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4de70b1f1027",
+        "vocab-b11c5ee3ea34"
+      ]
+    },
+    {
+      "id": "kanji-u6cf3",
+      "kanji": "泳",
+      "meaningsZh": [
+        "泳"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d10d24329e14"
+      ]
+    },
+    {
+      "id": "kanji-u6d17",
+      "kanji": "洗",
+      "meaningsZh": [
+        "洗"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-867e05b1ccc5",
+        "vocab-4571f6990750"
+      ]
+    },
+    {
+      "id": "kanji-u6d2a",
+      "kanji": "洪",
+      "meaningsZh": [
+        "洪"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-601390372bab"
+      ]
+    },
+    {
+      "id": "kanji-u6d45",
+      "kanji": "浅",
+      "meaningsZh": [
+        "浅"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-38a8af3d1eff"
+      ]
+    },
+    {
+      "id": "kanji-u6d74",
+      "kanji": "浴",
+      "meaningsZh": [
+        "浴"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-7611cd02d3b9",
+        "vocab-18c461c3eff8"
+      ]
+    },
+    {
+      "id": "kanji-u6d88",
+      "kanji": "消",
+      "meaningsZh": [
+        "消"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-b1b1c163592f",
+        "vocab-0a2084f426d9",
+        "vocab-c8fdb7db3fa4"
+      ]
+    },
+    {
+      "id": "kanji-u6dbc",
+      "kanji": "涼",
+      "meaningsZh": [
+        "涼"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ad26e5ce627e"
+      ]
+    },
+    {
+      "id": "kanji-u6df1",
+      "kanji": "深",
+      "meaningsZh": [
+        "深"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4d27f5eddc0d"
       ]
     },
     {
@@ -1773,6 +4106,42 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-2b05309a935e"
+      ]
+    },
+    {
+      "id": "kanji-u6e05",
+      "kanji": "清",
+      "meaningsZh": [
+        "清"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c72ed5c1f62c"
+      ]
+    },
+    {
+      "id": "kanji-u6e0b",
+      "kanji": "渋",
+      "meaningsZh": [
+        "渋"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e559c198e8d5"
+      ]
+    },
+    {
+      "id": "kanji-u6e21",
+      "kanji": "渡",
+      "meaningsZh": [
+        "渡"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-646b087b12b4"
       ]
     },
     {
@@ -1791,6 +4160,178 @@
       ]
     },
     {
+      "id": "kanji-u6e2f",
+      "kanji": "港",
+      "meaningsZh": [
+        "港"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-967c6df05140"
+      ]
+    },
+    {
+      "id": "kanji-u6e96",
+      "kanji": "準",
+      "meaningsZh": [
+        "準"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-73faaa07568f"
+      ]
+    },
+    {
+      "id": "kanji-u6f22",
+      "kanji": "漢",
+      "meaningsZh": [
+        "漢"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4834e82ff737"
+      ]
+    },
+    {
+      "id": "kanji-u6fc0",
+      "kanji": "激",
+      "meaningsZh": [
+        "激"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-447ecdbecd91"
+      ]
+    },
+    {
+      "id": "kanji-u707d",
+      "kanji": "災",
+      "meaningsZh": [
+        "災"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4c09b6089977"
+      ]
+    },
+    {
+      "id": "kanji-u708a",
+      "kanji": "炊",
+      "meaningsZh": [
+        "炊"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-232b8fb580ee"
+      ]
+    },
+    {
+      "id": "kanji-u70b9",
+      "kanji": "点",
+      "meaningsZh": [
+        "点"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-27f1236d0451"
+      ]
+    },
+    {
+      "id": "kanji-u713c",
+      "kanji": "焼",
+      "meaningsZh": [
+        "焼"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-61010c5cf53d"
+      ]
+    },
+    {
+      "id": "kanji-u7167",
+      "kanji": "照",
+      "meaningsZh": [
+        "照"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-50828300acbf"
+      ]
+    },
+    {
+      "id": "kanji-u71b1",
+      "kanji": "熱",
+      "meaningsZh": [
+        "熱"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-7cbd2223a574",
+        "vocab-2c58224d64ba"
+      ]
+    },
+    {
+      "id": "kanji-u7236",
+      "kanji": "父",
+      "meaningsZh": [
+        "父"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c7ccad324859"
+      ]
+    },
+    {
+      "id": "kanji-u7247",
+      "kanji": "片",
+      "meaningsZh": [
+        "片"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-8037127ec16a",
+        "vocab-755ab38db509"
+      ]
+    },
+    {
+      "id": "kanji-u725b",
+      "kanji": "牛",
+      "meaningsZh": [
+        "牛"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-b34f6c5f90f0",
+        "vocab-3aec2b0088b3"
+      ]
+    },
+    {
+      "id": "kanji-u7279",
+      "kanji": "特",
+      "meaningsZh": [
+        "特"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-162ad3c1dd51",
+        "vocab-16ce6f00153d"
+      ]
+    },
+    {
       "id": "kanji-u72b6",
       "kanji": "状",
       "meaningsZh": [
@@ -1803,6 +4344,54 @@
       ]
     },
     {
+      "id": "kanji-u72ed",
+      "kanji": "狭",
+      "meaningsZh": [
+        "狭"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2ff15ecd5be4"
+      ]
+    },
+    {
+      "id": "kanji-u7384",
+      "kanji": "玄",
+      "meaningsZh": [
+        "玄"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c1fc3123add2"
+      ]
+    },
+    {
+      "id": "kanji-u73c8",
+      "kanji": "珈",
+      "meaningsZh": [
+        "珈"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d3ab5c93f9bb"
+      ]
+    },
+    {
+      "id": "kanji-u73cd",
+      "kanji": "珍",
+      "meaningsZh": [
+        "珍"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d23101566376"
+      ]
+    },
+    {
       "id": "kanji-u73fe",
       "kanji": "現",
       "meaningsZh": [
@@ -1812,7 +4401,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-ab46ee47de36",
-        "vocab-bdd6ed48d336"
+        "vocab-bdd6ed48d336",
+        "vocab-d5f21314f913"
       ]
     },
     {
@@ -1841,6 +4431,18 @@
       ]
     },
     {
+      "id": "kanji-u7518",
+      "kanji": "甘",
+      "meaningsZh": [
+        "甘"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-5611fe555eea"
+      ]
+    },
+    {
       "id": "kanji-u751f",
       "kanji": "生",
       "meaningsZh": [
@@ -1849,7 +4451,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-d38619d6f4f3"
+        "vocab-d38619d6f4f3",
+        "vocab-fb6aaed47dd3"
       ]
     },
     {
@@ -1879,7 +4482,21 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-ae957e73ed02",
-        "vocab-f184339bd987"
+        "vocab-f184339bd987",
+        "vocab-aa2cf6dea066",
+        "vocab-1d024c50e135"
+      ]
+    },
+    {
+      "id": "kanji-u7537",
+      "kanji": "男",
+      "meaningsZh": [
+        "男"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4f782c5afb4c"
       ]
     },
     {
@@ -1892,6 +4509,18 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-2e6dbe6fb430"
+      ]
+    },
+    {
+      "id": "kanji-u756a",
+      "kanji": "番",
+      "meaningsZh": [
+        "番"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-8a072476e025"
       ]
     },
     {
@@ -1920,6 +4549,55 @@
       ]
     },
     {
+      "id": "kanji-u75b2",
+      "kanji": "疲",
+      "meaningsZh": [
+        "疲"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-0520539a5604"
+      ]
+    },
+    {
+      "id": "kanji-u75c5",
+      "kanji": "病",
+      "meaningsZh": [
+        "病"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d4b9e5148af8",
+        "vocab-dbe6374ff28f"
+      ]
+    },
+    {
+      "id": "kanji-u75c7",
+      "kanji": "症",
+      "meaningsZh": [
+        "症"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-7ddb0050842d"
+      ]
+    },
+    {
+      "id": "kanji-u75db",
+      "kanji": "痛",
+      "meaningsZh": [
+        "痛"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-261f0b53c06b"
+      ]
+    },
+    {
       "id": "kanji-u767a",
       "kanji": "発",
       "meaningsZh": [
@@ -1930,7 +4608,33 @@
       "wordIds": [
         "vocab-4a6bad20fe1d",
         "vocab-3207e75d4c44",
-        "vocab-dae99456db10"
+        "vocab-dae99456db10",
+        "vocab-0cb9436c19c9"
+      ]
+    },
+    {
+      "id": "kanji-u767b",
+      "kanji": "登",
+      "meaningsZh": [
+        "登"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-581016675a5b",
+        "vocab-f2d49cf7202c"
+      ]
+    },
+    {
+      "id": "kanji-u767d",
+      "kanji": "白",
+      "meaningsZh": [
+        "白"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-94195c5607ca"
       ]
     },
     {
@@ -1957,7 +4661,9 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-cd57abc7f261",
-        "vocab-f940885bb69c"
+        "vocab-f940885bb69c",
+        "vocab-a5ef6bd0c779",
+        "vocab-7b034bdcb791"
       ]
     },
     {
@@ -1986,7 +4692,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-1c11e68354be",
-        "vocab-c353f37999cd"
+        "vocab-c353f37999cd",
+        "vocab-74c17c5b357a"
       ]
     },
     {
@@ -2002,6 +4709,30 @@
       ]
     },
     {
+      "id": "kanji-u7720",
+      "kanji": "眠",
+      "meaningsZh": [
+        "眠"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2ccea330002c"
+      ]
+    },
+    {
+      "id": "kanji-u773c",
+      "kanji": "眼",
+      "meaningsZh": [
+        "眼"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-029ef15f088a"
+      ]
+    },
+    {
       "id": "kanji-u7740",
       "kanji": "着",
       "meaningsZh": [
@@ -2010,7 +4741,46 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-edcabc0df55f"
+        "vocab-edcabc0df55f",
+        "vocab-f370e6acf4fb",
+        "vocab-0118ed530b2b"
+      ]
+    },
+    {
+      "id": "kanji-u77e5",
+      "kanji": "知",
+      "meaningsZh": [
+        "知"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-45a74b36260e",
+        "vocab-1f85b0bd77aa"
+      ]
+    },
+    {
+      "id": "kanji-u77ed",
+      "kanji": "短",
+      "meaningsZh": [
+        "短"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-6eccef5f4160"
+      ]
+    },
+    {
+      "id": "kanji-u7802",
+      "kanji": "砂",
+      "meaningsZh": [
+        "砂"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a6ba3ee36715"
       ]
     },
     {
@@ -2040,7 +4810,58 @@
         "vocab-d37926a2f152",
         "vocab-0ddac20970e3",
         "vocab-9e008aafc41c",
-        "vocab-108ef971f793"
+        "vocab-108ef971f793",
+        "vocab-8a653f0c78ff",
+        "vocab-b40384bc817c"
+      ]
+    },
+    {
+      "id": "kanji-u78e8",
+      "kanji": "磨",
+      "meaningsZh": [
+        "磨"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-930ed964b906"
+      ]
+    },
+    {
+      "id": "kanji-u793e",
+      "kanji": "社",
+      "meaningsZh": [
+        "社"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2aac261e6be2"
+      ]
+    },
+    {
+      "id": "kanji-u7956",
+      "kanji": "祖",
+      "meaningsZh": [
+        "祖"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e1382dfcc6fc",
+        "vocab-38b346ee2f35"
+      ]
+    },
+    {
+      "id": "kanji-u79cb",
+      "kanji": "秋",
+      "meaningsZh": [
+        "秋"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-1ae612520fc1"
       ]
     },
     {
@@ -2052,7 +4873,20 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-d01639b01ea9"
+        "vocab-d01639b01ea9",
+        "vocab-f64cfd725746"
+      ]
+    },
+    {
+      "id": "kanji-u7a0e",
+      "kanji": "税",
+      "meaningsZh": [
+        "税"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e8a871ddbebe"
       ]
     },
     {
@@ -2068,6 +4902,56 @@
       ]
     },
     {
+      "id": "kanji-u7a7a",
+      "kanji": "空",
+      "meaningsZh": [
+        "空"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-87175758d67e",
+        "vocab-678b43a67ed0"
+      ]
+    },
+    {
+      "id": "kanji-u7a81",
+      "kanji": "突",
+      "meaningsZh": [
+        "突"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-8373c2100ebb"
+      ]
+    },
+    {
+      "id": "kanji-u7a93",
+      "kanji": "窓",
+      "meaningsZh": [
+        "窓"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-1f27c8dcd250",
+        "vocab-c274223bfc12"
+      ]
+    },
+    {
+      "id": "kanji-u7acb",
+      "kanji": "立",
+      "meaningsZh": [
+        "立"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-26a5a53055f4"
+      ]
+    },
+    {
       "id": "kanji-u7b54",
       "kanji": "答",
       "meaningsZh": [
@@ -2079,7 +4963,8 @@
       "wordIds": [
         "vocab-4097cb413d5d",
         "vocab-2f0cd0845086",
-        "vocab-627b461a3918"
+        "vocab-627b461a3918",
+        "vocab-2493f75c78a0"
       ]
     },
     {
@@ -2095,6 +4980,42 @@
       ]
     },
     {
+      "id": "kanji-u7c21",
+      "kanji": "簡",
+      "meaningsZh": [
+        "簡"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-663497d7f794"
+      ]
+    },
+    {
+      "id": "kanji-u7c73",
+      "kanji": "米",
+      "meaningsZh": [
+        "米"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-b82855dbd81d"
+      ]
+    },
+    {
+      "id": "kanji-u7d05",
+      "kanji": "紅",
+      "meaningsZh": [
+        "紅"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-07a64f1953e5"
+      ]
+    },
+    {
       "id": "kanji-u7d0d",
       "kanji": "納",
       "meaningsZh": [
@@ -2104,6 +5025,42 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-f0f0eb34e896"
+      ]
+    },
+    {
+      "id": "kanji-u7d19",
+      "kanji": "紙",
+      "meaningsZh": [
+        "紙"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-acced5b26df7"
+      ]
+    },
+    {
+      "id": "kanji-u7d20",
+      "kanji": "素",
+      "meaningsZh": [
+        "素"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-35ee988bc92e"
+      ]
+    },
+    {
+      "id": "kanji-u7d30",
+      "kanji": "細",
+      "meaningsZh": [
+        "細"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-6d38c7b2fa30"
       ]
     },
     {
@@ -2167,6 +5124,18 @@
       ]
     },
     {
+      "id": "kanji-u7d9a",
+      "kanji": "続",
+      "meaningsZh": [
+        "続"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ba4df6547866"
+      ]
+    },
+    {
       "id": "kanji-u7db2",
       "kanji": "網",
       "meaningsZh": [
@@ -2177,6 +5146,116 @@
       "wordIds": [
         "vocab-d494bde9b2e7",
         "vocab-4430c6c96c5f"
+      ]
+    },
+    {
+      "id": "kanji-u7de0",
+      "kanji": "締",
+      "meaningsZh": [
+        "締"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2b015ea261c8",
+        "vocab-10f16387983a"
+      ]
+    },
+    {
+      "id": "kanji-u7df4",
+      "kanji": "練",
+      "meaningsZh": [
+        "練"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d51db0053e4f"
+      ]
+    },
+    {
+      "id": "kanji-u7f6e",
+      "kanji": "置",
+      "meaningsZh": [
+        "置"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-1938d64f5e81"
+      ]
+    },
+    {
+      "id": "kanji-u7f72",
+      "kanji": "署",
+      "meaningsZh": [
+        "署"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-eb06a0687df4"
+      ]
+    },
+    {
+      "id": "kanji-u7f8e",
+      "kanji": "美",
+      "meaningsZh": [
+        "美"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-64130da87831",
+        "vocab-d0c87670ff91"
+      ]
+    },
+    {
+      "id": "kanji-u7fd2",
+      "kanji": "習",
+      "meaningsZh": [
+        "習"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-9b1e6073206c"
+      ]
+    },
+    {
+      "id": "kanji-u8001",
+      "kanji": "老",
+      "meaningsZh": [
+        "老"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4e20a7876c38"
+      ]
+    },
+    {
+      "id": "kanji-u8003",
+      "kanji": "考",
+      "meaningsZh": [
+        "考"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-8fc5947d001a"
+      ]
+    },
+    {
+      "id": "kanji-u8033",
+      "kanji": "耳",
+      "meaningsZh": [
+        "耳"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-620c96825f00"
       ]
     },
     {
@@ -2196,6 +5275,66 @@
       ]
     },
     {
+      "id": "kanji-u8074",
+      "kanji": "聴",
+      "meaningsZh": [
+        "聴"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ffe745a70bc3"
+      ]
+    },
+    {
+      "id": "kanji-u8077",
+      "kanji": "職",
+      "meaningsZh": [
+        "職"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4635929d2ee7"
+      ]
+    },
+    {
+      "id": "kanji-u8089",
+      "kanji": "肉",
+      "meaningsZh": [
+        "肉"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-df98d4e70ae5"
+      ]
+    },
+    {
+      "id": "kanji-u80a9",
+      "kanji": "肩",
+      "meaningsZh": [
+        "肩"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-122a98d756aa"
+      ]
+    },
+    {
+      "id": "kanji-u80b2",
+      "kanji": "育",
+      "meaningsZh": [
+        "育"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2e40ef680b59"
+      ]
+    },
+    {
       "id": "kanji-u80cc",
       "kanji": "背",
       "meaningsZh": [
@@ -2204,7 +5343,69 @@
       "jlptLevel": "N3",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-e625af014ad2"
+        "vocab-e625af014ad2",
+        "vocab-67fdb78a3475"
+      ]
+    },
+    {
+      "id": "kanji-u80f8",
+      "kanji": "胸",
+      "meaningsZh": [
+        "胸"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-b398003b67c1"
+      ]
+    },
+    {
+      "id": "kanji-u8131",
+      "kanji": "脱",
+      "meaningsZh": [
+        "脱"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-29b79baec978"
+      ]
+    },
+    {
+      "id": "kanji-u8155",
+      "kanji": "腕",
+      "meaningsZh": [
+        "腕"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c0502241cdbf"
+      ]
+    },
+    {
+      "id": "kanji-u8170",
+      "kanji": "腰",
+      "meaningsZh": [
+        "腰"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-12badcfbf7cc"
+      ]
+    },
+    {
+      "id": "kanji-u8179",
+      "kanji": "腹",
+      "meaningsZh": [
+        "腹"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-0ad97b723cf4",
+        "vocab-188618e0fa18"
       ]
     },
     {
@@ -2228,7 +5429,71 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-f703a9b237a7"
+        "vocab-f703a9b237a7",
+        "vocab-5f5612705645",
+        "vocab-55d70f776bca",
+        "vocab-2639c0162b13"
+      ]
+    },
+    {
+      "id": "kanji-u8239",
+      "kanji": "船",
+      "meaningsZh": [
+        "船"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c2d21da35ae5"
+      ]
+    },
+    {
+      "id": "kanji-u82e5",
+      "kanji": "若",
+      "meaningsZh": [
+        "若"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2cd9164bbe29",
+        "vocab-c8ca5b1b208f"
+      ]
+    },
+    {
+      "id": "kanji-u8336",
+      "kanji": "茶",
+      "meaningsZh": [
+        "茶"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-891adb67ae88"
+      ]
+    },
+    {
+      "id": "kanji-u8377",
+      "kanji": "荷",
+      "meaningsZh": [
+        "荷"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ca86c19a5efc"
+      ]
+    },
+    {
+      "id": "kanji-u8449",
+      "kanji": "葉",
+      "meaningsZh": [
+        "葉"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e8c677ac0dd0"
       ]
     },
     {
@@ -2241,6 +5506,31 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-521b3cb0095f"
+      ]
+    },
+    {
+      "id": "kanji-u8584",
+      "kanji": "薄",
+      "meaningsZh": [
+        "薄"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-bac8a6fd2de2"
+      ]
+    },
+    {
+      "id": "kanji-u85ac",
+      "kanji": "薬",
+      "meaningsZh": [
+        "薬"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d2c97fddd7de",
+        "vocab-c9079c9f452e"
       ]
     },
     {
@@ -2285,6 +5575,18 @@
       ]
     },
     {
+      "id": "kanji-u8907",
+      "kanji": "複",
+      "meaningsZh": [
+        "複"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-1c0f702b939e"
+      ]
+    },
+    {
       "id": "kanji-u8981",
       "kanji": "要",
       "meaningsZh": [
@@ -2319,7 +5621,35 @@
         "vocab-3ac6c8a9b1b6",
         "vocab-56410f62c4ab",
         "vocab-5e71cf0df374",
-        "vocab-ea4e90a1b548"
+        "vocab-ea4e90a1b548",
+        "vocab-7a295076d953",
+        "vocab-4b4ee324b654"
+      ]
+    },
+    {
+      "id": "kanji-u899a",
+      "kanji": "覚",
+      "meaningsZh": [
+        "覚"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c646821aef90"
+      ]
+    },
+    {
+      "id": "kanji-u89aa",
+      "kanji": "親",
+      "meaningsZh": [
+        "親"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d95d4f25325c",
+        "vocab-c196dd895940",
+        "vocab-1f4e61a4277b"
       ]
     },
     {
@@ -2347,6 +5677,18 @@
       ]
     },
     {
+      "id": "kanji-u8a00",
+      "kanji": "言",
+      "meaningsZh": [
+        "言"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-49bec87abb70"
+      ]
+    },
+    {
       "id": "kanji-u8a08",
       "kanji": "計",
       "meaningsZh": [
@@ -2371,6 +5713,18 @@
       ]
     },
     {
+      "id": "kanji-u8a2a",
+      "kanji": "訪",
+      "meaningsZh": [
+        "訪"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-76c5a61d8d72"
+      ]
+    },
+    {
       "id": "kanji-u8a2d",
       "kanji": "設",
       "meaningsZh": [
@@ -2387,6 +5741,18 @@
         "vocab-af04b00d740b",
         "vocab-647a4c32f6f4",
         "vocab-4560abbc70f5"
+      ]
+    },
+    {
+      "id": "kanji-u8a3a",
+      "kanji": "診",
+      "meaningsZh": [
+        "診"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-b9ddf92bec93"
       ]
     },
     {
@@ -2454,7 +5820,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-03381ee5ac4f",
-        "vocab-6d64517de71e"
+        "vocab-6d64517de71e",
+        "vocab-adccf9ce6796"
       ]
     },
     {
@@ -2484,7 +5851,8 @@
       "jlptLevel": "N3",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-b1e5d86e7222"
+        "vocab-b1e5d86e7222",
+        "vocab-fb03def73bb5"
       ]
     },
     {
@@ -2499,7 +5867,8 @@
       "wordIds": [
         "vocab-9eb268e71a7b",
         "vocab-b23a85cb0402",
-        "vocab-36394cbb385a"
+        "vocab-36394cbb385a",
+        "vocab-d649b6683195"
       ]
     },
     {
@@ -2558,6 +5927,30 @@
       ]
     },
     {
+      "id": "kanji-u8b1b",
+      "kanji": "講",
+      "meaningsZh": [
+        "講"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-16dee83b8418"
+      ]
+    },
+    {
+      "id": "kanji-u8b1d",
+      "kanji": "謝",
+      "meaningsZh": [
+        "謝"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4c1490c4c106"
+      ]
+    },
+    {
       "id": "kanji-u8b66",
       "kanji": "警",
       "meaningsZh": [
@@ -2566,7 +5959,9 @@
       "jlptLevel": "N3",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-06aa231c5073"
+        "vocab-06aa231c5073",
+        "vocab-26b8b9ef26e6",
+        "vocab-dbef8713e858"
       ]
     },
     {
@@ -2583,6 +5978,30 @@
       ]
     },
     {
+      "id": "kanji-u8c4a",
+      "kanji": "豊",
+      "meaningsZh": [
+        "豊"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ca6f515fad50"
+      ]
+    },
+    {
+      "id": "kanji-u8c5a",
+      "kanji": "豚",
+      "meaningsZh": [
+        "豚"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-b7319c7b10c0"
+      ]
+    },
+    {
       "id": "kanji-u8ca0",
       "kanji": "負",
       "meaningsZh": [
@@ -2596,6 +6015,18 @@
       ]
     },
     {
+      "id": "kanji-u8ca1",
+      "kanji": "財",
+      "meaningsZh": [
+        "財"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-9f5cf593fa18"
+      ]
+    },
+    {
       "id": "kanji-u8cac",
       "kanji": "責",
       "meaningsZh": [
@@ -2605,6 +6036,30 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-b09894b1d888"
+      ]
+    },
+    {
+      "id": "kanji-u8cb7",
+      "kanji": "買",
+      "meaningsZh": [
+        "買"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-8d07ff217833"
+      ]
+    },
+    {
+      "id": "kanji-u8cb8",
+      "kanji": "貸",
+      "meaningsZh": [
+        "貸"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a5991ae8b284"
       ]
     },
     {
@@ -2629,7 +6084,33 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-82e000bc50de"
+        "vocab-82e000bc50de",
+        "vocab-908f94643f17"
+      ]
+    },
+    {
+      "id": "kanji-u8d64",
+      "kanji": "赤",
+      "meaningsZh": [
+        "赤"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a1c92ffa4e79",
+        "vocab-e3093aad455f"
+      ]
+    },
+    {
+      "id": "kanji-u8d77",
+      "kanji": "起",
+      "meaningsZh": [
+        "起"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e2d501370a41"
       ]
     },
     {
@@ -2642,6 +6123,102 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-983fcd6615f0"
+      ]
+    },
+    {
+      "id": "kanji-u8db3",
+      "kanji": "足",
+      "meaningsZh": [
+        "足"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-facecec70a30"
+      ]
+    },
+    {
+      "id": "kanji-u8def",
+      "kanji": "路",
+      "meaningsZh": [
+        "路"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-fa98a9b5292d"
+      ]
+    },
+    {
+      "id": "kanji-u8efd",
+      "kanji": "軽",
+      "meaningsZh": [
+        "軽"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-7f998aeb0d91"
+      ]
+    },
+    {
+      "id": "kanji-u8f9b",
+      "kanji": "辛",
+      "meaningsZh": [
+        "辛"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-76acff424955"
+      ]
+    },
+    {
+      "id": "kanji-u8f9e",
+      "kanji": "辞",
+      "meaningsZh": [
+        "辞"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2e0ca17bbf13"
+      ]
+    },
+    {
+      "id": "kanji-u8fce",
+      "kanji": "迎",
+      "meaningsZh": [
+        "迎"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-50fc2edbcf4b"
+      ]
+    },
+    {
+      "id": "kanji-u8fd1",
+      "kanji": "近",
+      "meaningsZh": [
+        "近"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2403dfa58a3e"
+      ]
+    },
+    {
+      "id": "kanji-u8fd4",
+      "kanji": "返",
+      "meaningsZh": [
+        "返"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-21927111e740"
       ]
     },
     {
@@ -2661,6 +6238,18 @@
       ]
     },
     {
+      "id": "kanji-u9000",
+      "kanji": "退",
+      "meaningsZh": [
+        "退"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-7993b0c9d945"
+      ]
+    },
+    {
       "id": "kanji-u9001",
       "kanji": "送",
       "meaningsZh": [
@@ -2675,6 +6264,18 @@
         "vocab-9ffcea979c9e",
         "vocab-0d714911c399",
         "vocab-f5b4767e8df1"
+      ]
+    },
+    {
+      "id": "kanji-u9003",
+      "kanji": "逃",
+      "meaningsZh": [
+        "逃"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-955f10f2a460"
       ]
     },
     {
@@ -2703,6 +6304,18 @@
       ]
     },
     {
+      "id": "kanji-u901f",
+      "kanji": "速",
+      "meaningsZh": [
+        "速"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-12a8fd578d92"
+      ]
+    },
+    {
       "id": "kanji-u9023",
       "kanji": "連",
       "meaningsZh": [
@@ -2718,7 +6331,21 @@
         "vocab-5055d584a8f1",
         "vocab-7d7219871cf5",
         "vocab-989186c68d16",
-        "vocab-11decd2f04f3"
+        "vocab-11decd2f04f3",
+        "vocab-16054c41238d",
+        "vocab-c696bde448fa"
+      ]
+    },
+    {
+      "id": "kanji-u9031",
+      "kanji": "週",
+      "meaningsZh": [
+        "週"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-ba9f19e772f1"
       ]
     },
     {
@@ -2749,7 +6376,21 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-b785aae3de78"
+        "vocab-b785aae3de78",
+        "vocab-5816614cf6b9",
+        "vocab-6a2c87aca005"
+      ]
+    },
+    {
+      "id": "kanji-u904a",
+      "kanji": "遊",
+      "meaningsZh": [
+        "遊"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4b08b3c0755a"
       ]
     },
     {
@@ -2764,7 +6405,57 @@
         "vocab-3f6704165360",
         "vocab-368dfc094855",
         "vocab-efcd7c2e497e",
-        "vocab-1a0cd24aab3d"
+        "vocab-1a0cd24aab3d",
+        "vocab-a3d1598a30f5",
+        "vocab-2fd4f17ca1fb"
+      ]
+    },
+    {
+      "id": "kanji-u904e",
+      "kanji": "過",
+      "meaningsZh": [
+        "過"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4575a46cea73"
+      ]
+    },
+    {
+      "id": "kanji-u9053",
+      "kanji": "道",
+      "meaningsZh": [
+        "道"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-1f25ef493b10"
+      ]
+    },
+    {
+      "id": "kanji-u9055",
+      "kanji": "違",
+      "meaningsZh": [
+        "違"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-7b70c76bb9d4"
+      ]
+    },
+    {
+      "id": "kanji-u9060",
+      "kanji": "遠",
+      "meaningsZh": [
+        "遠"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d631d1aa431c"
       ]
     },
     {
@@ -2796,6 +6487,42 @@
       ]
     },
     {
+      "id": "kanji-u907f",
+      "kanji": "避",
+      "meaningsZh": [
+        "避"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-3b45fe299a81"
+      ]
+    },
+    {
+      "id": "kanji-u90e8",
+      "kanji": "部",
+      "meaningsZh": [
+        "部"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-10c56ae24dfb"
+      ]
+    },
+    {
+      "id": "kanji-u90f5",
+      "kanji": "郵",
+      "meaningsZh": [
+        "郵"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-1751a1664984"
+      ]
+    },
+    {
       "id": "kanji-u914d",
       "kanji": "配",
       "meaningsZh": [
@@ -2808,6 +6535,18 @@
       ]
     },
     {
+      "id": "kanji-u91a4",
+      "kanji": "醤",
+      "meaningsZh": [
+        "醤"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-cf76f0c35719"
+      ]
+    },
+    {
       "id": "kanji-u91cd",
       "kanji": "重",
       "meaningsZh": [
@@ -2816,7 +6555,20 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-44431a66db6f"
+        "vocab-44431a66db6f",
+        "vocab-12696960ffbf"
+      ]
+    },
+    {
+      "id": "kanji-u91ce",
+      "kanji": "野",
+      "meaningsZh": [
+        "野"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-24aab5beb52f"
       ]
     },
     {
@@ -2832,6 +6584,54 @@
       ]
     },
     {
+      "id": "kanji-u925b",
+      "kanji": "鉛",
+      "meaningsZh": [
+        "鉛"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4bd5b091efda"
+      ]
+    },
+    {
+      "id": "kanji-u9375",
+      "kanji": "鍵",
+      "meaningsZh": [
+        "鍵"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-7fafe3b4e416"
+      ]
+    },
+    {
+      "id": "kanji-u9577",
+      "kanji": "長",
+      "meaningsZh": [
+        "長"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-65d8fe1c1e08"
+      ]
+    },
+    {
+      "id": "kanji-u9589",
+      "kanji": "閉",
+      "meaningsZh": [
+        "閉"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-9a433ff5ca3a"
+      ]
+    },
+    {
       "id": "kanji-u958b",
       "kanji": "開",
       "meaningsZh": [
@@ -2844,7 +6644,20 @@
       "wordIds": [
         "vocab-ca7ac28465a9",
         "vocab-732cfd7d125f",
-        "vocab-c7ec32e0ae68"
+        "vocab-c7ec32e0ae68",
+        "vocab-ea56845bc506"
+      ]
+    },
+    {
+      "id": "kanji-u9593",
+      "kanji": "間",
+      "meaningsZh": [
+        "間"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e3037492f700"
       ]
     },
     {
@@ -2861,6 +6674,31 @@
       ]
     },
     {
+      "id": "kanji-u9632",
+      "kanji": "防",
+      "meaningsZh": [
+        "防"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c7dffde6c984"
+      ]
+    },
+    {
+      "id": "kanji-u964d",
+      "kanji": "降",
+      "meaningsZh": [
+        "降"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-644ad03b8a91",
+        "vocab-0d65d520c2a5"
+      ]
+    },
+    {
       "id": "kanji-u9650",
       "kanji": "限",
       "meaningsZh": [
@@ -2870,6 +6708,18 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-de2e5def3bd2"
+      ]
+    },
+    {
+      "id": "kanji-u968e",
+      "kanji": "階",
+      "meaningsZh": [
+        "階"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-0cf99f703bcc"
       ]
     },
     {
@@ -2889,6 +6739,141 @@
       ]
     },
     {
+      "id": "kanji-u96a3",
+      "kanji": "隣",
+      "meaningsZh": [
+        "隣"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-f6261b2bcb84"
+      ]
+    },
+    {
+      "id": "kanji-u96c6",
+      "kanji": "集",
+      "meaningsZh": [
+        "集"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-8bae8d264670",
+        "vocab-1674c08e5171"
+      ]
+    },
+    {
+      "id": "kanji-u96d1",
+      "kanji": "雑",
+      "meaningsZh": [
+        "雑"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-e1245a11550b"
+      ]
+    },
+    {
+      "id": "kanji-u96e3",
+      "kanji": "難",
+      "meaningsZh": [
+        "難"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-5583fc4747f2"
+      ]
+    },
+    {
+      "id": "kanji-u96e8",
+      "kanji": "雨",
+      "meaningsZh": [
+        "雨"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-95e26dda50e4"
+      ]
+    },
+    {
+      "id": "kanji-u96ea",
+      "kanji": "雪",
+      "meaningsZh": [
+        "雪"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-6f6f03c40459"
+      ]
+    },
+    {
+      "id": "kanji-u96f2",
+      "kanji": "雲",
+      "meaningsZh": [
+        "雲"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-95078a98e4c8"
+      ]
+    },
+    {
+      "id": "kanji-u96f7",
+      "kanji": "雷",
+      "meaningsZh": [
+        "雷"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-73116328c8bc"
+      ]
+    },
+    {
+      "id": "kanji-u96fb",
+      "kanji": "電",
+      "meaningsZh": [
+        "電"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-7e64f8cd876a",
+        "vocab-f7fb35e10ca3",
+        "vocab-0d274206f0e8"
+      ]
+    },
+    {
+      "id": "kanji-u9752",
+      "kanji": "青",
+      "meaningsZh": [
+        "青"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-f50610bd7e01"
+      ]
+    },
+    {
+      "id": "kanji-u9759",
+      "kanji": "静",
+      "meaningsZh": [
+        "静"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d77a8a97bb8f"
+      ]
+    },
+    {
       "id": "kanji-u975e",
       "kanji": "非",
       "meaningsZh": [
@@ -2897,7 +6882,132 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-447d39ccc6d4"
+        "vocab-447d39ccc6d4",
+        "vocab-e39884053474"
+      ]
+    },
+    {
+      "id": "kanji-u9762",
+      "kanji": "面",
+      "meaningsZh": [
+        "面"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-dc5fa2cad250"
+      ]
+    },
+    {
+      "id": "kanji-u9774",
+      "kanji": "靴",
+      "meaningsZh": [
+        "靴"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a28c621e42ae",
+        "vocab-e0abee32762e"
+      ]
+    },
+    {
+      "id": "kanji-u9784",
+      "kanji": "鞄",
+      "meaningsZh": [
+        "鞄"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-d16d8a4857ce"
+      ]
+    },
+    {
+      "id": "kanji-u9810",
+      "kanji": "預",
+      "meaningsZh": [
+        "預"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a8430dc5ef2f"
+      ]
+    },
+    {
+      "id": "kanji-u9818",
+      "kanji": "領",
+      "meaningsZh": [
+        "領"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-6fc6ad2d51fd"
+      ]
+    },
+    {
+      "id": "kanji-u982d",
+      "kanji": "頭",
+      "meaningsZh": [
+        "頭"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-39a1913d9a51",
+        "vocab-9e8e7e9533fc"
+      ]
+    },
+    {
+      "id": "kanji-u983c",
+      "kanji": "頼",
+      "meaningsZh": [
+        "頼"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-facf97e804e2"
+      ]
+    },
+    {
+      "id": "kanji-u9854",
+      "kanji": "顔",
+      "meaningsZh": [
+        "顔"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-cda8dce3e773"
+      ]
+    },
+    {
+      "id": "kanji-u98a8",
+      "kanji": "風",
+      "meaningsZh": [
+        "風"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2e68ca03c3ee",
+        "vocab-94488bf39f61"
+      ]
+    },
+    {
+      "id": "kanji-u98db",
+      "kanji": "飛",
+      "meaningsZh": [
+        "飛"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-01891d66a2c6",
+        "vocab-91a034d7da22"
       ]
     },
     {
@@ -2913,6 +7023,258 @@
         "vocab-15e4ca38d01a",
         "vocab-b6a507acac25",
         "vocab-992634f8c9fb"
+      ]
+    },
+    {
+      "id": "kanji-u98ef",
+      "kanji": "飯",
+      "meaningsZh": [
+        "飯"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-6479574fd567"
+      ]
+    },
+    {
+      "id": "kanji-u9996",
+      "kanji": "首",
+      "meaningsZh": [
+        "首"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c15d98093e03"
+      ]
+    },
+    {
+      "id": "kanji-u99c5",
+      "kanji": "駅",
+      "meaningsZh": [
+        "駅"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a5ae82339919"
+      ]
+    },
+    {
+      "id": "kanji-u99d0",
+      "kanji": "駐",
+      "meaningsZh": [
+        "駐"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-c4273b414025"
+      ]
+    },
+    {
+      "id": "kanji-u9ad8",
+      "kanji": "高",
+      "meaningsZh": [
+        "高"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-66b6e11279b6"
+      ]
+    },
+    {
+      "id": "kanji-u9b5a",
+      "kanji": "魚",
+      "meaningsZh": [
+        "魚"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-a72949578725"
+      ]
+    },
+    {
+      "id": "kanji-u9d8f",
+      "kanji": "鶏",
+      "meaningsZh": [
+        "鶏"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-2a7a575ba940"
+      ]
+    },
+    {
+      "id": "kanji-u9ec4",
+      "kanji": "黄",
+      "meaningsZh": [
+        "黄"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-0aa074ac5302"
+      ]
+    },
+    {
+      "id": "kanji-u9ed2",
+      "kanji": "黒",
+      "meaningsZh": [
+        "黒"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-1fe1ea408c85"
+      ]
+    },
+    {
+      "id": "kanji-u9f3b",
+      "kanji": "鼻",
+      "meaningsZh": [
+        "鼻"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "Phase 2 基础与日常词汇关联组。",
+      "wordIds": [
+        "vocab-4f8063d95301"
+      ]
+    },
+    {
+      "id": "group-kana-general",
+      "kanji": "かな",
+      "meaningsZh": [
+        "假名词汇"
+      ],
+      "jlptLevel": "综合",
+      "notesZh": "不含汉字的基础、日常与惯用表达。",
+      "wordIds": [
+        "vocab-ff5961794518",
+        "vocab-885f80f47b35",
+        "vocab-983fc484edfe",
+        "vocab-e263fe699f92",
+        "vocab-a6c2845e5342",
+        "vocab-f5fa38f55dba",
+        "vocab-e65867fffb81",
+        "vocab-4caf2cab5ce7",
+        "vocab-d69cc289f5d9",
+        "vocab-d71fb972b2ee",
+        "vocab-c1499a605201",
+        "vocab-8159e032f269",
+        "vocab-5ff0c9cc435e",
+        "vocab-493e1b231ba7",
+        "vocab-c599d4b256a0",
+        "vocab-136569ce1fd5",
+        "vocab-f8014c434f46"
+      ]
+    },
+    {
+      "id": "group-loanwords",
+      "kanji": "外来",
+      "meaningsZh": [
+        "外来语与技术词"
+      ],
+      "jlptLevel": "综合",
+      "notesZh": "片假名外来语、商务与 IT 技术词汇。",
+      "wordIds": [
+        "vocab-cd26df6bf299",
+        "vocab-a696a98f8e90",
+        "vocab-6ae8089a85ff",
+        "vocab-b3adc95a2d4c",
+        "vocab-60d296ef8ae0",
+        "vocab-d61cf461575d",
+        "vocab-47959c11f35f",
+        "vocab-980d57001bcd",
+        "vocab-60d9ba12edbc",
+        "vocab-370af37fea7f",
+        "vocab-3efa6f0fead0",
+        "vocab-e5d37e1c0ea0",
+        "vocab-92b85edc656f",
+        "vocab-a909735a1e44",
+        "vocab-2764fa5a4cd8",
+        "vocab-984cb12d8202",
+        "vocab-7e81396441d8",
+        "vocab-ecf5b7a46353",
+        "vocab-75192ac811a5",
+        "vocab-fb2038638c93",
+        "vocab-00cc665f788d",
+        "vocab-a85604e79563",
+        "vocab-d9c14538037e",
+        "vocab-e57c4b4d9666",
+        "vocab-5fe9efa66853",
+        "vocab-98e647515a8b",
+        "vocab-cc86431a1025",
+        "vocab-16a7d0b3bcdb",
+        "vocab-85ad770c2703",
+        "vocab-01fe578b5bbd",
+        "vocab-8f08f08752df",
+        "vocab-85b7698c7ac2",
+        "vocab-918e9aef7c5f",
+        "vocab-b64e6f62e935",
+        "vocab-b7a5d45dff6c",
+        "vocab-5d4dcb31a969",
+        "vocab-6087a038b68b",
+        "vocab-e671e3a985a4",
+        "vocab-ecbed75a7615",
+        "vocab-09ee7c830e44",
+        "vocab-4185256ac327",
+        "vocab-6b0a39a31509",
+        "vocab-001200e6ea28",
+        "vocab-ea74fc090864",
+        "vocab-17d568fb3631",
+        "vocab-fbb3e774ab40",
+        "vocab-f6f88b700d6e",
+        "vocab-b175478a5467",
+        "vocab-5c55365a665c",
+        "vocab-64dec5055749",
+        "vocab-23a58736410b",
+        "vocab-2ad9d5ecd523",
+        "vocab-89f8af5a8a60",
+        "vocab-a65bbb4a8724",
+        "vocab-0f380078e7aa",
+        "vocab-6a58435e5b12",
+        "vocab-ca1f6a18dd04",
+        "vocab-7d41edf8294d",
+        "vocab-4e1770b00570",
+        "vocab-753f90df9afc",
+        "vocab-628f2a330d63",
+        "vocab-fbb9240f6b9b",
+        "vocab-d6c597f19f33",
+        "vocab-3031d18b1cac",
+        "vocab-4a5a55547a21",
+        "vocab-4cfdb34f575e",
+        "vocab-a85ebc518011",
+        "vocab-4716b105d66b",
+        "vocab-3f94b219eb17",
+        "vocab-889194412017",
+        "vocab-2f232c1991d6",
+        "vocab-a44078b7d626",
+        "vocab-94b703f3540d",
+        "vocab-3886dba868f4",
+        "vocab-9eec414aaa94",
+        "vocab-e96c9278ed19",
+        "vocab-86bb32ce9277",
+        "vocab-4b0724380358",
+        "vocab-6e02105c838c",
+        "vocab-ac5e73d9cc53",
+        "vocab-066036cfeafe",
+        "vocab-c0b068d2702a",
+        "vocab-e6b44136245f",
+        "vocab-18b65d5e6890",
+        "vocab-82bbc0f2d090",
+        "vocab-d7ca8ad6ecc1",
+        "vocab-e6b99d4693c6",
+        "vocab-b1ac6ecfb0d4",
+        "vocab-d0983dd4a4d8",
+        "vocab-0abb0b95145c",
+        "vocab-b0b00876a445",
+        "vocab-20cbbc531625",
+        "vocab-00e47961fd0e"
       ]
     }
   ]

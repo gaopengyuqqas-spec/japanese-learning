@@ -1,9 +1,9 @@
 {
   "schemaVersion": 3,
-  "appVersion": "4.0.0",
-  "contentVersion": "2026.07.31-phase1-business-it",
+  "appVersion": "5.0.0",
+  "contentVersion": "2026.07.31-phase2-foundation-daily",
   "minimumAppVersion": "4.0.0",
-  "generatedAt": "2026-07-31T06:49:44.645729+00:00",
+  "generatedAt": "2026-07-31T07:35:32.490262+00:00",
   "defaultFocusWeights": {
     "business": 35,
     "it": 30,
@@ -11,12 +11,12 @@
     "daily": 15
   },
   "counts": {
-    "kanjiGroups": 218,
-    "uniqueVocabulary": 542,
-    "wordAssociations": 455,
-    "sentences": 1466,
-    "dialogues": 64,
-    "dialogueLines": 364
+    "kanjiGroups": 555,
+    "uniqueVocabulary": 1109,
+    "wordAssociations": 1110,
+    "sentences": 2933,
+    "dialogues": 124,
+    "dialogueLines": 677
   },
   "packs": [
     {
@@ -31,8 +31,8 @@
         "音读",
         "训读"
       ],
-      "itemCount": 218,
-      "sha256": "5ca16a97fb9c51e6f5392ba2779e40e52db0ec6456f14596a135eeb078dd550a"
+      "itemCount": 555,
+      "sha256": "8d44605c4d2b3b69db2550d90a56b0cae142d56c7db5684ffa58e6b7d2892488"
     },
     {
       "id": "vocabulary-general",
@@ -45,8 +45,8 @@
         "日常",
         "JLPT"
       ],
-      "itemCount": 24,
-      "sha256": "8a250e94ed8f4a0f1c164fb7d56586dc4f88fec006a6e3e0191d4de2890592a6"
+      "itemCount": 591,
+      "sha256": "25ae4cd2695219f6b9821f080b46df949af3bf67d66bcd20fb80d699ed350659"
     },
     {
       "id": "vocabulary-business-it",
@@ -63,7 +63,7 @@
         "AWS"
       ],
       "itemCount": 518,
-      "sha256": "99320801a940361d2e09b9eb051faac459d85138e3011af1dcf3c965b8d494c8"
+      "sha256": "423bb81df57b344b9a90213d649798a365ed214f729048c56782798824c599ec"
     },
     {
       "id": "dialogues-daily",
@@ -75,8 +75,8 @@
       "tags": [
         "日常"
       ],
-      "itemCount": 9,
-      "sha256": "064814f3996f5341836c07d2126b05a21ddc58da1c875d26215ec70105917c69"
+      "itemCount": 69,
+      "sha256": "44a1aad5cfaed8e1b8f5c70b5700acbca9daa146f6798134203111cc73e1c9ed"
     },
     {
       "id": "dialogues-business-it",
@@ -90,7 +90,7 @@
         "IT"
       ],
       "itemCount": 55,
-      "sha256": "1dff1ce8bbdb2f2f94baad88d797f5da5c07f9eb04af07d6cb3aec0bf4ab4ed0"
+      "sha256": "7c9529e4db0cc6c12d6c4951d18fe79a53686889abbfbbddff1803e001c3e4e4"
     },
     {
       "id": "business-expression-comparisons",
@@ -105,7 +105,7 @@
         "表达"
       ],
       "itemCount": 100,
-      "sha256": "229abcc2620b968faf72953ef11e3d7a6a73d8a8411e82b74cd9fa66c79b0536"
+      "sha256": "d575610aa117a724d5a809f1bdbd1c3905c7c69188452d4b5225ffeddf94f1c6"
     },
     {
       "id": "common-business-mistakes",
@@ -119,7 +119,7 @@
         "纠错"
       ],
       "itemCount": 100,
-      "sha256": "2ce604e170d74dc1a65a329f99a39e3aadfffd220ece13d41044058300db8e77"
+      "sha256": "8bdb1bdf00aac7b4c175b72a457b7c24420f2f096d884e5609ed7a214e131dca"
     }
   ],
   "idAliasesPath": "./data/id-aliases.json",
