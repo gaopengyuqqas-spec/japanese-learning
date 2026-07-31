@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 3,
+  "packId": "common-business-mistakes",
+  "packType": "mistake",
+  "contentVersion": "2026.07.31-phase1-business-it",
+  "title": "商务日语常见错误",
+  "description": "50个不同错误模式，分别提供一般商务和IT工作场景版本。",
+  "items": [
+    {
+      "id": "mistake-37f08784ae14",
+      "category": "商务基础",
+      "wrong": "原因を見つけました。",
+      "correct": "原因を特定しました。",
+      "explanationZh": "技术调查中更常用“特定する／判明する”。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-aa3d71332c1a",
+      "category": "IT工作",
+      "wrong": "原因を見つけました。",
+      "correct": "原因を特定しました。",
+      "explanationZh": "技术调查中更常用“特定する／判明する”。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-995d967cff61",
+      "category": "商务基础",
+      "wrong": "問題が発生する可能性がありますと思います。",
+      "correct": "問題が発生する可能性があると考えています。",
+      "explanationZh": "「と考える」前使用普通形。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-2591783ca516",
+      "category": "IT工作",
+      "wrong": "CI/CD処理上の問題が発生する可能性がありますと思います。",
+      "correct": "CI/CD処理上の問題が発生する可能性があると考えています。",
+      "explanationZh": "「と考える」前使用普通形。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-cce360fa4fd5",
+      "category": "商务基础",
+      "wrong": "確認してくださいませんか。",
+      "correct": "ご確認いただけますでしょうか。",
+      "explanationZh": "商务请求避免不自然的否定疑问。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-c36cf05f90dc",
+      "category": "IT工作",
+      "wrong": "確認してくださいませんか。",
+      "correct": "ご確認いただけますでしょうか。",
+      "explanationZh": "商务请求避免不自然的否定疑问。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-29f8053385fe",
+      "category": "商务基础",
+      "wrong": "この件を対応します。",
+      "correct": "この件に対応します。",
+      "explanationZh": "「対応する」通常搭配助词「に」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-35b376c6da78",
+      "category": "IT工作",
+      "wrong": "この件を対応します。",
+      "correct": "この件に対応します。",
+      "explanationZh": "「対応する」通常搭配助词「に」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-ca75367e4ddb",
+      "category": "商务基础",
+      "wrong": "テストが失敗をしました。",
+      "correct": "テストが失敗しました。",
+      "explanationZh": "「失敗する」不需要「を」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-8f18be065966",
+      "category": "IT工作",
+      "wrong": "テストが失敗をしました。",
+      "correct": "テストが失敗しました。",
+      "explanationZh": "「失敗する」不需要「を」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-19c409df14cc",
+      "category": "商务基础",
+      "wrong": "資料を確認してもらえます。",
+      "correct": "資料をご確認いただけますでしょうか。",
+      "explanationZh": "对领导或客户使用更礼貌的请求。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-d3e2b8c3ff45",
+      "category": "IT工作",
+      "wrong": "設計資料を確認してもらえます。",
+      "correct": "設計資料をご確認いただけますでしょうか。",
+      "explanationZh": "对领导或客户使用更礼貌的请求。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-aa646c6b0cbf",
+      "category": "商务基础",
+      "wrong": "進捗はどうになりますか。",
+      "correct": "進捗はどのようになっていますか。",
+      "explanationZh": "询问当前状态用「どのようになっていますか」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-c8c6cec39f3d",
+      "category": "IT工作",
+      "wrong": "進捗はどうになりますか。",
+      "correct": "進捗はどのようになっていますか。",
+      "explanationZh": "询问当前状态用「どのようになっていますか」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-3b1d3ee78fc3",
+      "category": "商务基础",
+      "wrong": "明日まで回答してください。",
+      "correct": "明日までにご回答をお願いいたします。",
+      "explanationZh": "期限前使用「までに」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-fd0774e3d7a6",
+      "category": "IT工作",
+      "wrong": "明日まで回答してください。",
+      "correct": "明日までにご回答をお願いいたします。",
+      "explanationZh": "期限前使用「までに」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-b9d2b469bea3",
+      "category": "商务基础",
+      "wrong": "影響がありませんと思います。",
+      "correct": "影響はないと考えています。",
+      "explanationZh": "引用前使用普通形。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-47b28253bf4e",
+      "category": "IT工作",
+      "wrong": "影響がありませんと思います。",
+      "correct": "影響はないと考えています。",
+      "explanationZh": "引用前使用普通形。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-5ba75140446e",
+      "category": "商务基础",
+      "wrong": "資料を追加しました。確認お願いします。",
+      "correct": "資料を更新しましたので、ご確認をお願いします。",
+      "explanationZh": "说明因果关系更自然。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-05c6eb21dcc3",
+      "category": "IT工作",
+      "wrong": "設計資料を追加しました。確認お願いします。",
+      "correct": "設計資料を更新しましたので、ご確認をお願いします。",
+      "explanationZh": "说明因果关系更自然。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-381ac8a38377",
+      "category": "商务基础",
+      "wrong": "障害を起こりました。",
+      "correct": "障害が発生しました。",
+      "explanationZh": "自动发生的事象使用「が」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-caa71d2c38c3",
+      "category": "IT工作",
+      "wrong": "障害を起こりました。",
+      "correct": "障害が発生しました。",
+      "explanationZh": "自动发生的事象使用「が」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-6269f88bc88e",
+      "category": "商务基础",
+      "wrong": "私から確認します。",
+      "correct": "私の方で確認します。",
+      "explanationZh": "表示由自己负责时常用「私の方で」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-58b81b582c3a",
+      "category": "IT工作",
+      "wrong": "私から確認します。",
+      "correct": "私の方で確認します。",
+      "explanationZh": "表示由自己负责时常用「私の方で」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-3d4da87af029",
+      "category": "商务基础",
+      "wrong": "二日を遅れます。",
+      "correct": "二日ほど遅れる見込みです。",
+      "explanationZh": "持续时间不用「を」，并加缓和表达。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-d2e127a1ca34",
+      "category": "IT工作",
+      "wrong": "二日を遅れます。",
+      "correct": "二日ほど遅れる見込みです。",
+      "explanationZh": "持续时间不用「を」，并加缓和表达。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-608be46f9450",
+      "category": "商务基础",
+      "wrong": "会議を参加します。",
+      "correct": "会議に参加します。",
+      "explanationZh": "「参加する」搭配「に」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-0c0ff044daaf",
+      "category": "IT工作",
+      "wrong": "会議を参加します。",
+      "correct": "会議に参加します。",
+      "explanationZh": "「参加する」搭配「に」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-859a467b4fe6",
+      "category": "商务基础",
+      "wrong": "意見を同意します。",
+      "correct": "意見に同意します。",
+      "explanationZh": "「同意する」搭配「に」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-3b901099d478",
+      "category": "IT工作",
+      "wrong": "意見を同意します。",
+      "correct": "意見に同意します。",
+      "explanationZh": "「同意する」搭配「に」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-ed8a6bbef934",
+      "category": "商务基础",
+      "wrong": "内容を理解しました。",
+      "correct": "内容を承知しました。",
+      "explanationZh": "商务场景表示知悉可用「承知しました」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-a442c808b0c2",
+      "category": "IT工作",
+      "wrong": "内容を理解しました。",
+      "correct": "内容を承知しました。",
+      "explanationZh": "商务场景表示知悉可用「承知しました」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-1e8f3283aad7",
+      "category": "商务基础",
+      "wrong": "後で連絡します。",
+      "correct": "確認後、改めてご連絡します。",
+      "explanationZh": "明确动作条件更专业。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-f0f5fe04e1bb",
+      "category": "IT工作",
+      "wrong": "後で連絡します。",
+      "correct": "確認後、改めてご連絡します。",
+      "explanationZh": "明确动作条件更专业。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-0cce8d073684",
+      "category": "商务基础",
+      "wrong": "問題をないです。",
+      "correct": "問題ありません。",
+      "explanationZh": "「ない」不能直接接「です」形成该表达。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-655d570d3654",
+      "category": "IT工作",
+      "wrong": "CI/CD処理上の問題をないです。",
+      "correct": "CI/CD処理上の問題ありません。",
+      "explanationZh": "「ない」不能直接接「です」形成该表达。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-5463aa8bffdf",
+      "category": "商务基础",
+      "wrong": "資料を見ました。",
+      "correct": "資料を拝見しました。",
+      "explanationZh": "对客户资料使用自谦语。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-bc4ed409438f",
+      "category": "IT工作",
+      "wrong": "設計資料を見ました。",
+      "correct": "設計資料を拝見しました。",
+      "explanationZh": "对客户资料使用自谦语。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-7722be47d843",
+      "category": "商务基础",
+      "wrong": "社内へ確認します。",
+      "correct": "社内で確認します。",
+      "explanationZh": "确认动作发生的场所使用「で」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-129c65433aba",
+      "category": "IT工作",
+      "wrong": "社内へ確認します。",
+      "correct": "社内で確認します。",
+      "explanationZh": "确认动作发生的场所使用「で」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-0e16ef3c5859",
+      "category": "商务基础",
+      "wrong": "この案が良いと思われます。",
+      "correct": "この案が妥当だと考えています。",
+      "explanationZh": "避免无必要的被动敬语。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-faa776965908",
+      "category": "IT工作",
+      "wrong": "この案が良いと思われます。",
+      "correct": "この案が妥当だと考えています。",
+      "explanationZh": "避免无必要的被动敬语。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-d62ca13d7bdb",
+      "category": "商务基础",
+      "wrong": "説明が分かりません。",
+      "correct": "説明の内容を十分に理解できていません。",
+      "explanationZh": "商务沟通中缓和直接否定。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-df96a4db06df",
+      "category": "IT工作",
+      "wrong": "説明が分かりません。",
+      "correct": "説明の内容を十分に理解できていません。",
+      "explanationZh": "商务沟通中缓和直接否定。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-41d2d0a09332",
+      "category": "商务基础",
+      "wrong": "すぐ対応してください。",
+      "correct": "可能な範囲で早めにご対応をお願いします。",
+      "explanationZh": "避免过强命令语气。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-ee7f41907760",
+      "category": "IT工作",
+      "wrong": "すぐ対応してください。",
+      "correct": "可能な範囲で早めにご対応をお願いします。",
+      "explanationZh": "避免过强命令语气。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-c40f11a55cec",
+      "category": "商务基础",
+      "wrong": "結果が出たら共有してください。",
+      "correct": "結果が分かり次第、ご共有をお願いします。",
+      "explanationZh": "「分かり次第」更自然。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-0e4908354bd5",
+      "category": "IT工作",
+      "wrong": "結果が出たら共有してください。",
+      "correct": "結果が分かり次第、ご共有をお願いします。",
+      "explanationZh": "「分かり次第」更自然。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-84c71c4eee5a",
+      "category": "商务基础",
+      "wrong": "質問がありますので答えてください。",
+      "correct": "確認事項がございますので、ご回答をお願いいたします。",
+      "explanationZh": "客户场景使用正式名词和敬语。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-4329fc2ac877",
+      "category": "IT工作",
+      "wrong": "質問がありますので答えてください。",
+      "correct": "確認事項がございますので、ご回答をお願いいたします。",
+      "explanationZh": "客户场景使用正式名词和敬语。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-5869a70128f5",
+      "category": "商务基础",
+      "wrong": "メールを送りましたです。",
+      "correct": "メールを送付しました。",
+      "explanationZh": "过去式后不能再接「です」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-af5a9840e878",
+      "category": "IT工作",
+      "wrong": "メールを送りましたです。",
+      "correct": "メールを送付しました。",
+      "explanationZh": "过去式后不能再接「です」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-cfbcf9aeea63",
+      "category": "商务基础",
+      "wrong": "確認する必要と思います。",
+      "correct": "確認する必要があると思います。",
+      "explanationZh": "「必要」后需要「がある」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-fa7e08a26782",
+      "category": "IT工作",
+      "wrong": "確認する必要と思います。",
+      "correct": "確認する必要があると思います。",
+      "explanationZh": "「必要」后需要「がある」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-62833a80bbcb",
+      "category": "商务基础",
+      "wrong": "この方法を反対します。",
+      "correct": "この方法には反対です。",
+      "explanationZh": "「反対」对象通常用「に／には」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-87220fb80101",
+      "category": "IT工作",
+      "wrong": "この方法を反対します。",
+      "correct": "この方法には反対です。",
+      "explanationZh": "「反対」对象通常用「に／には」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-05b0400d0dec",
+      "category": "商务基础",
+      "wrong": "資料に書いてありますしました。",
+      "correct": "資料に記載しました。",
+      "explanationZh": "避免混用「てある」和过去敬体。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-4cb8334d7b1d",
+      "category": "IT工作",
+      "wrong": "設計資料に書いてありますしました。",
+      "correct": "設計資料に記載しました。",
+      "explanationZh": "避免混用「てある」和过去敬体。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-fa94fa4e4b4e",
+      "category": "商务基础",
+      "wrong": "今調査していますところです。",
+      "correct": "現在、調査しているところです。",
+      "explanationZh": "「ているところ」前不再接「ます」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-0d9557c882c7",
+      "category": "IT工作",
+      "wrong": "今調査していますところです。",
+      "correct": "現在、調査しているところです。",
+      "explanationZh": "「ているところ」前不再接「ます」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-9f804dd511c0",
+      "category": "商务基础",
+      "wrong": "エラーが出しました。",
+      "correct": "エラーが発生しました。",
+      "explanationZh": "错误是自动发生，使用自动词表达。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-f84af9db0154",
+      "category": "IT工作",
+      "wrong": "エラーが出しました。",
+      "correct": "エラーが発生しました。",
+      "explanationZh": "错误是自动发生，使用自动词表达。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-ea7c0af8b2bf",
+      "category": "商务基础",
+      "wrong": "ログを確認して、原因が分かりません。",
+      "correct": "ログを確認しましたが、原因は特定できませんでした。",
+      "explanationZh": "逆接应使用「が」，并明确调查结果。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-820fc663634a",
+      "category": "IT工作",
+      "wrong": "ログを確認して、原因が分かりません。",
+      "correct": "ログを確認しましたが、原因は特定できませんでした。",
+      "explanationZh": "逆接应使用「が」，并明确调查结果。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-bdcbb436a795",
+      "category": "商务基础",
+      "wrong": "設定を変更したら、問題が直しました。",
+      "correct": "設定を変更したところ、問題が解消しました。",
+      "explanationZh": "问题恢复用自动词「解消する／直る」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-651abb2dfb0c",
+      "category": "IT工作",
+      "wrong": "設定を変更したら、CI/CD処理上の問題が直しました。",
+      "correct": "設定を変更したところ、CI/CD処理上の問題が解消しました。",
+      "explanationZh": "问题恢复用自动词「解消する／直る」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-9088a027f2ee",
+      "category": "商务基础",
+      "wrong": "この作業は一時間をかかります。",
+      "correct": "この作業には一時間かかります。",
+      "explanationZh": "耗时搭配「には～かかる」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-5da497784df2",
+      "category": "IT工作",
+      "wrong": "このデプロイ作業は一時間をかかります。",
+      "correct": "このデプロイ作業には一時間かかります。",
+      "explanationZh": "耗时搭配「には～かかる」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-8272fe1f5d39",
+      "category": "商务基础",
+      "wrong": "来週から実施する予定しています。",
+      "correct": "来週から実施する予定です。",
+      "explanationZh": "「予定」后直接接「です」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-d1bc115b9fec",
+      "category": "IT工作",
+      "wrong": "来週から実施する予定しています。",
+      "correct": "来週から実施する予定です。",
+      "explanationZh": "「予定」后直接接「です」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-c4c5063d9f6f",
+      "category": "商务基础",
+      "wrong": "確認をお願いできますでしょうか。",
+      "correct": "ご確認いただけますでしょうか。",
+      "explanationZh": "避免「できますでしょうか」的重复敬意。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-5d2c2c703a3f",
+      "category": "IT工作",
+      "wrong": "確認をお願いできますでしょうか。",
+      "correct": "ご確認いただけますでしょうか。",
+      "explanationZh": "避免「できますでしょうか」的重复敬意。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-7bb345e7d985",
+      "category": "商务基础",
+      "wrong": "ご確認してください。",
+      "correct": "ご確認ください。",
+      "explanationZh": "「お／ご～する」不是尊敬请求形式。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-229d9b26a406",
+      "category": "IT工作",
+      "wrong": "ご確認してください。",
+      "correct": "ご確認ください。",
+      "explanationZh": "「お／ご～する」不是尊敬请求形式。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-15d9a2011558",
+      "category": "商务基础",
+      "wrong": "部長が申しました。",
+      "correct": "部長がおっしゃいました。",
+      "explanationZh": "描述对方动作使用尊敬语。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-f32040ee3e4c",
+      "category": "IT工作",
+      "wrong": "部長が申しました。",
+      "correct": "部長がおっしゃいました。",
+      "explanationZh": "描述对方动作使用尊敬语。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-493805afeb75",
+      "category": "商务基础",
+      "wrong": "お客様に説明してあげます。",
+      "correct": "お客様にご説明いたします。",
+      "explanationZh": "对客户避免使用「てあげる」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-bdbfb3221850",
+      "category": "IT工作",
+      "wrong": "お客様に説明してあげます。",
+      "correct": "お客様にご説明いたします。",
+      "explanationZh": "对客户避免使用「てあげる」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-19a9bb87f552",
+      "category": "商务基础",
+      "wrong": "資料を拝見してください。",
+      "correct": "資料をご覧ください。",
+      "explanationZh": "「拝見する」是说话人自谦语，不能用于对方。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-cf382dbf08e6",
+      "category": "IT工作",
+      "wrong": "設計資料を拝見してください。",
+      "correct": "設計資料をご覧ください。",
+      "explanationZh": "「拝見する」是说话人自谦语，不能用于对方。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-537d40993020",
+      "category": "商务基础",
+      "wrong": "ご苦労様です。",
+      "correct": "お疲れ様です。",
+      "explanationZh": "对上级或客户通常不用「ご苦労様」。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-0e3725d6bdc7",
+      "category": "IT工作",
+      "wrong": "ご苦労様です。",
+      "correct": "お疲れ様です。",
+      "explanationZh": "对上级或客户通常不用「ご苦労様」。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-17a611ba7ecb",
+      "category": "商务基础",
+      "wrong": "了解しました。",
+      "correct": "承知しました。",
+      "explanationZh": "对上级或客户使用「承知しました」更稳妥。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-d321e8cad7a6",
+      "category": "IT工作",
+      "wrong": "了解しました。",
+      "correct": "承知しました。",
+      "explanationZh": "对上级或客户使用「承知しました」更稳妥。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-f6bbb6cea1cd",
+      "category": "商务基础",
+      "wrong": "すみませんでした。",
+      "correct": "申し訳ございませんでした。",
+      "explanationZh": "正式道歉使用更郑重表达。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-1930fb1ea685",
+      "category": "IT工作",
+      "wrong": "すみませんでした。",
+      "correct": "申し訳ございませんでした。",
+      "explanationZh": "正式道歉使用更郑重表达。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-a7ec160bc3c2",
+      "category": "商务基础",
+      "wrong": "多分問題ありません。",
+      "correct": "現時点では、問題ない認識です。",
+      "explanationZh": "商务说明减少随意推测，明确判断范围。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-313758e7a304",
+      "category": "IT工作",
+      "wrong": "多分CI/CD処理上の問題ありません。",
+      "correct": "現時点では、CI/CD処理上の問題ない認識です。",
+      "explanationZh": "商务说明减少随意推测，明确判断范围。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-fcb38bd9f2bc",
+      "category": "商务基础",
+      "wrong": "絶対に問題ありません。",
+      "correct": "確認した範囲では、問題ありません。",
+      "explanationZh": "避免无依据的绝对断言。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-9530e39b02bd",
+      "category": "IT工作",
+      "wrong": "絶対にCI/CD処理上の問題ありません。",
+      "correct": "確認した範囲では、CI/CD処理上の問題ありません。",
+      "explanationZh": "避免无依据的绝对断言。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-748645413960",
+      "category": "商务基础",
+      "wrong": "できません。",
+      "correct": "現状の条件では対応が難しい状況です。",
+      "explanationZh": "商务场景可说明条件并缓和拒绝。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-c992792cf26e",
+      "category": "IT工作",
+      "wrong": "できません。",
+      "correct": "現状の条件では対応が難しい状況です。",
+      "explanationZh": "商务场景可说明条件并缓和拒绝。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-f09f58c58426",
+      "category": "商务基础",
+      "wrong": "それは違います。",
+      "correct": "こちらの認識とは一部異なります。",
+      "explanationZh": "避免直接否定对方。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-db2e8544e76b",
+      "category": "IT工作",
+      "wrong": "それは違います。",
+      "correct": "こちらの認識とは一部異なります。",
+      "explanationZh": "避免直接否定对方。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-e52103eba741",
+      "category": "商务基础",
+      "wrong": "前にも言いました。",
+      "correct": "以前ご説明した内容と重複しますが、改めてご説明します。",
+      "explanationZh": "避免责备式表达。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-d8469c9e5527",
+      "category": "IT工作",
+      "wrong": "前にも言いました。",
+      "correct": "以前ご説明した内容と重複しますが、改めてご説明します。",
+      "explanationZh": "避免责备式表达。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-5821e053594e",
+      "category": "商务基础",
+      "wrong": "早くしてください。",
+      "correct": "可能であれば、優先的にご対応いただけますでしょうか。",
+      "explanationZh": "用请求形式说明紧急度。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-39e258164e87",
+      "category": "IT工作",
+      "wrong": "早くしてください。",
+      "correct": "可能であれば、優先的にご対応いただけますでしょうか。",
+      "explanationZh": "用请求形式说明紧急度。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    },
+    {
+      "id": "mistake-0e1fc1ce9ef9",
+      "category": "商务基础",
+      "wrong": "分からないです。",
+      "correct": "現時点では確認できていません。",
+      "explanationZh": "工作汇报应说明尚未确认，而非口语化“不知道”。",
+      "tags": [
+        "常见错误",
+        "商务"
+      ]
+    },
+    {
+      "id": "mistake-42ff534be10f",
+      "category": "IT工作",
+      "wrong": "分からないです。",
+      "correct": "現時点では確認できていません。",
+      "explanationZh": "工作汇报应说明尚未确认，而非口语化“不知道”。",
+      "tags": [
+        "常见错误",
+        "IT"
+      ]
+    }
+  ]
+}

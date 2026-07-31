@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "backup.schema.json",
+  "title": "Nihongo Lab Backup",
+  "type": "object",
+  "required": [
+    "app",
+    "formatVersion",
+    "exportedAt",
+    "state"
+  ],
+  "properties": {
+    "app": {
+      "const": "nihongo-lab"
+    },
+    "formatVersion": {
+      "const": 3
+    },
+    "exportedAt": {
+      "type": "string"
+    },
+    "state": {
+      "type": "object"
+    }
+  }
+}

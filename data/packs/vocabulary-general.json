@@ -1,0 +1,1005 @@
+{
+  "schemaVersion": 3,
+  "packId": "vocabulary-general",
+  "packType": "vocabulary",
+  "contentVersion": "2026.07.31-phase1-business-it",
+  "title": "通用与日常词汇",
+  "description": "第零阶段迁移后的内容包。",
+  "items": [
+    {
+      "id": "vocab-728d5809b8c0",
+      "word": "行く",
+      "reading": "いく",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N5",
+      "meaningsZh": [
+        "去"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u884c",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-f499e23b5120",
+          "jp": "明日は会社へ行きます。",
+          "reading": "あしたは かいしゃへ いきます。",
+          "zh": "明天去公司。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-90754800b22b",
+      "word": "銀行",
+      "reading": "ぎんこう",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N5",
+      "meaningsZh": [
+        "银行"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u884c",
+          "readingType": "on"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-506aafc3ed14",
+          "jp": "銀行で口座を作りました。",
+          "reading": "ぎんこうで こうざを つくりました。",
+          "zh": "在银行开了账户。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-15e4ca38d01a",
+      "word": "食べる",
+      "reading": "たべる",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N5",
+      "meaningsZh": [
+        "吃"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u98df",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-789149432afe",
+          "jp": "朝ご飯を食べます。",
+          "reading": "あさごはんを たべます。",
+          "zh": "吃早饭。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-b6a507acac25",
+      "word": "食事",
+      "reading": "しょくじ",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N5",
+      "meaningsZh": [
+        "用餐、饭食"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u98df",
+          "readingType": "on"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-32fbf9a9038d",
+          "jp": "昼休みに食事をします。",
+          "reading": "ひるやすみに しょくじを します。",
+          "zh": "午休时吃饭。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-992634f8c9fb",
+      "word": "食品",
+      "reading": "しょくひん",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N5",
+      "meaningsZh": [
+        "食品"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u98df",
+          "readingType": "on"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-fcaeb0e7847f",
+          "jp": "この店では日本の食品を販売しています。",
+          "reading": "このみせでは にほんの しょくひんを はんばいしています。",
+          "zh": "这家店销售日本食品。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-0c8fc478c9b5",
+      "word": "見る",
+      "reading": "みる",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N5",
+      "meaningsZh": [
+        "看"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u898b",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-6ca7f4b3958c",
+          "jp": "週末に映画を見ます。",
+          "reading": "しゅうまつに えいがを みます。",
+          "zh": "周末看电影。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-67dcef56eeca",
+      "word": "取る",
+      "reading": "とる",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N4",
+      "meaningsZh": [
+        "拿、取得"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u53d6",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-1680977296c7",
+          "jp": "会議のメモを取ります。",
+          "reading": "かいぎの メモを とります。",
+          "zh": "做会议记录。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-8d72b83db6a5",
+      "word": "合う",
+      "reading": "あう",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N4",
+      "meaningsZh": [
+        "合适、匹配"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u5408",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-9f89978f91b0",
+          "jp": "この靴はサイズが合いません。",
+          "reading": "このくつは サイズが あいません。",
+          "zh": "这双鞋尺寸不合适。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-d55c2f3291c5",
+      "word": "合併",
+      "reading": "がっぺい",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N4",
+      "meaningsZh": [
+        "合并"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "一般"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u5408",
+          "readingType": "on"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-b071f1b8212b",
+          "jp": "二つの組織が合併しました。",
+          "reading": "ふたつの そしきが がっぺいしました。",
+          "zh": "两个组织合并了。",
+          "register": "general",
+          "tags": [
+            "一般"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-c661ea883888",
+      "word": "変わる",
+      "reading": "かわる",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N4",
+      "meaningsZh": [
+        "改变"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u5909",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-998ec503dcd8",
+          "jp": "予定が変わりました。",
+          "reading": "よていが かわりました。",
+          "zh": "计划改变了。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-1474ddf9f379",
+      "word": "異変",
+      "reading": "いへん",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N4",
+      "meaningsZh": [
+        "异常变化"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "一般"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u5909",
+          "readingType": "on"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-1c2abe6ed3bc",
+          "jp": "サーバーの動作に異変が見られました。",
+          "reading": "サーバーの どうさに いへんが みられました。",
+          "zh": "发现服务器运行有异常。",
+          "register": "general",
+          "tags": [
+            "一般"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-ca7ac28465a9",
+      "word": "開ける",
+      "reading": "あける",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N4",
+      "meaningsZh": [
+        "打开"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u958b",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-61609d499a9f",
+          "jp": "窓を開けてもいいですか。",
+          "reading": "まどを あけても いいですか。",
+          "zh": "可以开窗吗？",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-cd295985ee1c",
+      "word": "直る",
+      "reading": "なおる",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N4",
+      "meaningsZh": [
+        "恢复、修好"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u76f4",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-7512ed5c8527",
+          "jp": "再起動したら問題が直りました。",
+          "reading": "さいきどうしたら もんだいが なおりました。",
+          "zh": "重启后问题解决了。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-5a4b1147d0dc",
+      "word": "分かる",
+      "reading": "わかる",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N5",
+      "meaningsZh": [
+        "明白、理解"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u5206",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-7f9fe382f7c8",
+          "jp": "説明の内容は分かりました。",
+          "reading": "せつめいの ないようは わかりました。",
+          "zh": "我明白说明内容了。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-6c6b087d200d",
+      "word": "確かめる",
+      "reading": "たしかめる",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N3",
+      "meaningsZh": [
+        "查明、确认"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u78ba",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-23032ff1a4b4",
+          "jp": "予約時間をもう一度確かめます。",
+          "reading": "よやくじかんを もういちど たしかめます。",
+          "zh": "再确认一次预约时间。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-f8fcbd4aa1f3",
+      "word": "戻る",
+      "reading": "もどる",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N3",
+      "meaningsZh": [
+        "返回、恢复"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u623b",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-f039d9ae789c",
+          "jp": "一つ前の画面に戻ります。",
+          "reading": "ひとつまえの がめんに もどります。",
+          "zh": "返回上一个页面。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-b23a85cb0402",
+      "word": "読書",
+      "reading": "どくしょ",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N5",
+      "meaningsZh": [
+        "读书"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u8aad",
+          "readingType": "on"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-cdfcbea2a833",
+          "jp": "週末は家で読書をして過ごします。",
+          "reading": "しゅうまつは いえで どくしょをして すごします。",
+          "zh": "周末在家读书度过。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        },
+        {
+          "id": "sentence-3df10a7e0dec",
+          "jp": "寝る前の読書が習慣になっています。",
+          "reading": "ねるまえの どくしょが しゅうかんに なっています。",
+          "zh": "睡前阅读已经成为习惯。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-81f434ee5fe7",
+      "word": "新聞",
+      "reading": "しんぶん",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N5",
+      "meaningsZh": [
+        "报纸"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u805e",
+          "readingType": "on"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-d0cf812d898a",
+          "jp": "朝、新聞で経済ニュースを確認します。",
+          "reading": "あさ、しんぶんで けいざいニュースを かくにんします。",
+          "zh": "早上通过报纸确认经济新闻。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        },
+        {
+          "id": "sentence-1edb0b6529b9",
+          "jp": "駅の売店で新聞を買いました。",
+          "reading": "えきの ばいてんで しんぶんを かいました。",
+          "zh": "在车站小卖部买了报纸。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-ba8d2a15973e",
+      "word": "会話",
+      "reading": "かいわ",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N5",
+      "meaningsZh": [
+        "会话"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常",
+        "学习"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u8a71",
+          "readingType": "on"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-0ca1ac28ae0b",
+          "jp": "仕事でよく使う会話を練習しています。",
+          "reading": "しごとで よく つかう かいわを れんしゅうしています。",
+          "zh": "正在练习工作中常用的对话。",
+          "register": "general",
+          "tags": [
+            "日常",
+            "学习"
+          ]
+        },
+        {
+          "id": "sentence-c07328a62002",
+          "jp": "自然な会話表現を少しずつ覚えたいです。",
+          "reading": "しぜんな かいわひょうげんを すこしずつ おぼえたいです。",
+          "zh": "想逐渐记住自然的会话表达。",
+          "register": "general",
+          "tags": [
+            "日常",
+            "学习"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-8543eac69204",
+      "word": "会う",
+      "reading": "あう",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N5",
+      "meaningsZh": [
+        "见面"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u4f1a",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-7ae6bb0c8230",
+          "jp": "来週、駅前で友達に会います。",
+          "reading": "らいしゅう、えきまえで ともだちに あいます。",
+          "zh": "下周在车站前和朋友见面。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        },
+        {
+          "id": "sentence-695d5eb05e16",
+          "jp": "初めて会う方には丁寧に挨拶します。",
+          "reading": "はじめて あう かたには ていねいに あいさつします。",
+          "zh": "初次见面的人要礼貌打招呼。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-aa7cd5e9b351",
+      "word": "連れる",
+      "reading": "つれる",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N3",
+      "meaningsZh": [
+        "带领、带着"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u9023",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-eb259fc6da62",
+          "jp": "週末に子どもを公園へ連れて行きます。",
+          "reading": "しゅうまつに こどもを こうえんへ つれていきます。",
+          "zh": "周末带孩子去公园。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        },
+        {
+          "id": "sentence-db04a5673505",
+          "jp": "初めての方を会議室まで連れて行きました。",
+          "reading": "はじめての かたを かいぎしつまで つれていきました。",
+          "zh": "把第一次来的人带到了会议室。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-627b461a3918",
+      "word": "解答",
+      "reading": "かいとう",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N4",
+      "meaningsZh": [
+        "解答"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "学习"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u7b54",
+          "readingType": "on"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-47e348516c33",
+          "jp": "問題を解いた後で解答を確認します。",
+          "reading": "もんだいを といた あとで かいとうを かくにんします。",
+          "zh": "做完题后确认答案。",
+          "register": "general",
+          "tags": [
+            "学习"
+          ]
+        },
+        {
+          "id": "sentence-a514f0c2e15b",
+          "jp": "解答だけでなく、理由も説明してください。",
+          "reading": "かいとうだけでなく、りゆうも せつめいしてください。",
+          "zh": "请不仅给出答案，也说明理由。",
+          "register": "general",
+          "tags": [
+            "学习"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-0d714911c399",
+      "word": "配送",
+      "reading": "はいそう",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N4",
+      "meaningsZh": [
+        "配送"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u9001",
+          "readingType": "on"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-1159abe2ffcc",
+          "jp": "荷物の配送状況を確認しました。",
+          "reading": "にもつの はいそうじょうきょうを かくにんしました。",
+          "zh": "确认了包裹配送状态。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        },
+        {
+          "id": "sentence-8f555863a051",
+          "jp": "本日の午後に配送される予定です。",
+          "reading": "ほんじつの ごごに はいそうされる よていです。",
+          "zh": "预计今天下午送达。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocab-50f9593a088d",
+      "word": "障る",
+      "reading": "さわる",
+      "partOfSpeech": "未分類",
+      "jlptLevel": "N2",
+      "meaningsZh": [
+        "妨碍、有害"
+      ],
+      "definitionJa": "",
+      "register": "general",
+      "tags": [
+        "日常"
+      ],
+      "collocations": [],
+      "synonymIds": [],
+      "antonymIds": [],
+      "confusableIds": [],
+      "nuanceZh": "",
+      "kanjiLinks": [
+        {
+          "kanjiGroupId": "kanji-u969c",
+          "readingType": "kun"
+        }
+      ],
+      "sentences": [
+        {
+          "id": "sentence-e2c539e6ca04",
+          "jp": "無理をすると体に障ります。",
+          "reading": "むりをすると からだに さわります。",
+          "zh": "过度勉强会伤身体。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        },
+        {
+          "id": "sentence-ad7f9b914e20",
+          "jp": "夜更かしは翌日の仕事に障ることがあります。",
+          "reading": "よふかしは よくじつの しごとに さわることが あります。",
+          "zh": "熬夜有时会影响第二天工作。",
+          "register": "general",
+          "tags": [
+            "日常"
+          ]
+        }
+      ]
+    }
+  ]
+}

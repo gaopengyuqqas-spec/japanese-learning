@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "catalog.schema.json",
+  "title": "Nihongo Lab Catalog",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "appVersion",
+    "contentVersion",
+    "counts",
+    "packs"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 3
+    },
+    "appVersion": {
+      "type": "string"
+    },
+    "contentVersion": {
+      "type": "string"
+    },
+    "counts": {
+      "type": "object"
+    },
+    "packs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "path",
+          "itemCount",
+          "sha256"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "kanji",
+              "vocabulary",
+              "dialogue",
+              "grammar",
+              "mistake",
+              "synonym"
+            ]
+          },
+          "path": {
+            "type": "string"
+          },
+          "itemCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "sha256": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

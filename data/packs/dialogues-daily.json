@@ -1,0 +1,670 @@
+{
+  "schemaVersion": 3,
+  "packId": "dialogues-daily",
+  "packType": "dialogue",
+  "contentVersion": "2026.07.31-phase1-business-it",
+  "title": "日常生活对话",
+  "description": "第零阶段迁移后的内容包。",
+  "items": [
+    {
+      "id": "dialogue-daily-8997893e53ad",
+      "category": "daily",
+      "title": "便利店结账",
+      "jlptLevel": "N5",
+      "register": "general",
+      "relationship": "unspecified",
+      "situation": "在便利店购买便当并请求加热。",
+      "lines": [
+        {
+          "id": "line-f21925d223e8",
+          "speaker": "店",
+          "jp": "こちら、温めますか。",
+          "reading": "",
+          "zh": "这个需要加热吗？"
+        },
+        {
+          "id": "line-14c6f44ffe57",
+          "speaker": "私",
+          "jp": "はい、お願いします。",
+          "reading": "",
+          "zh": "好的，麻烦您。"
+        },
+        {
+          "id": "line-60064e516c64",
+          "speaker": "店",
+          "jp": "お箸はお付けしますか。",
+          "reading": "",
+          "zh": "需要筷子吗？"
+        },
+        {
+          "id": "line-37496bea65fa",
+          "speaker": "私",
+          "jp": "はい、一膳お願いします。",
+          "reading": "",
+          "zh": "好的，请给我一双。"
+        }
+      ],
+      "keywordTexts": [
+        "温める",
+        "お箸",
+        "一膳",
+        "お願いします"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "日常"
+      ]
+    },
+    {
+      "id": "dialogue-daily-3ba8251a2314",
+      "category": "daily",
+      "title": "医院挂号",
+      "jlptLevel": "N4",
+      "register": "general",
+      "relationship": "unspecified",
+      "situation": "向医院前台说明症状。",
+      "lines": [
+        {
+          "id": "line-b4b40587ffc3",
+          "speaker": "受",
+          "jp": "今日はどうされましたか。",
+          "reading": "",
+          "zh": "今天哪里不舒服？"
+        },
+        {
+          "id": "line-e9a15cd8b81b",
+          "speaker": "私",
+          "jp": "昨日から喉が痛くて、少し熱があります。",
+          "reading": "",
+          "zh": "从昨天开始嗓子疼，还有一点发烧。"
+        },
+        {
+          "id": "line-a5f27e2563b3",
+          "speaker": "受",
+          "jp": "保険証をお持ちですか。",
+          "reading": "",
+          "zh": "带保险证了吗？"
+        },
+        {
+          "id": "line-91a54c5738b8",
+          "speaker": "私",
+          "jp": "はい、こちらです。",
+          "reading": "",
+          "zh": "带了，在这里。"
+        }
+      ],
+      "keywordTexts": [
+        "喉が痛い",
+        "熱がある",
+        "保険証"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "日常"
+      ]
+    },
+    {
+      "id": "dialogue-daily-223bf83d970d",
+      "category": "daily",
+      "title": "快递重新配送",
+      "jlptLevel": "N4",
+      "register": "general",
+      "relationship": "unspecified",
+      "situation": "电话申请再次配送。",
+      "lines": [
+        {
+          "id": "line-eff072b9ab50",
+          "speaker": "配",
+          "jp": "再配達のご希望日時をお願いします。",
+          "reading": "",
+          "zh": "请告诉我您希望再次配送的日期和时间。"
+        },
+        {
+          "id": "line-13660779b87c",
+          "speaker": "私",
+          "jp": "明日の午後六時以降でお願いします。",
+          "reading": "",
+          "zh": "请安排在明天下午六点以后。"
+        },
+        {
+          "id": "line-2fa4bf8f8856",
+          "speaker": "配",
+          "jp": "承知しました。明日の十八時から二十時の間にお届けします。",
+          "reading": "",
+          "zh": "明白了，将于明天18点到20点之间送达。"
+        }
+      ],
+      "keywordTexts": [
+        "再配達",
+        "希望日時",
+        "以降",
+        "承知しました"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "日常"
+      ]
+    },
+    {
+      "id": "dialogue-daily-9ff46af5c275",
+      "category": "daily",
+      "title": "餐厅电话预约",
+      "jlptLevel": "N4",
+      "register": "general",
+      "relationship": "unspecified",
+      "situation": "给餐厅打电话，预约两人的晚餐座位。",
+      "lines": [
+        {
+          "id": "line-8ffa0d6168b8",
+          "speaker": "店",
+          "jp": "お電話ありがとうございます。さくらレストランでございます。",
+          "reading": "",
+          "zh": "感谢来电，这里是樱花餐厅。"
+        },
+        {
+          "id": "line-1a40d2070199",
+          "speaker": "私",
+          "jp": "今週の土曜日、二名で予約をお願いしたいのですが。",
+          "reading": "",
+          "zh": "我想预约本周六两个人的位置。"
+        },
+        {
+          "id": "line-d9458fbe95da",
+          "speaker": "店",
+          "jp": "何時ごろをご希望でしょうか。",
+          "reading": "",
+          "zh": "您希望几点左右？"
+        },
+        {
+          "id": "line-81b0eef46936",
+          "speaker": "私",
+          "jp": "午後七時で空いていますか。",
+          "reading": "",
+          "zh": "晚上七点有空位吗？"
+        },
+        {
+          "id": "line-4bc437933bc5",
+          "speaker": "店",
+          "jp": "はい、お席をご用意できます。お名前をお願いします。",
+          "reading": "",
+          "zh": "有，可以为您准备座位。请问您的姓名？"
+        },
+        {
+          "id": "line-c8723ae337f6",
+          "speaker": "私",
+          "jp": "王です。よろしくお願いします。",
+          "reading": "",
+          "zh": "我姓王，麻烦您了。"
+        }
+      ],
+      "keywordTexts": [
+        "予約をお願いしたいのですが",
+        "何時ごろ",
+        "空いていますか",
+        "お席をご用意する"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "「〜たいのですが」可以柔和地提出请求。",
+        "电话中店员常使用「〜でございます」。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-1fb33e7b7841",
+          "label": "更简单",
+          "jp": "土曜日の七時に二人で予約したいです。",
+          "reading": "",
+          "zh": "想预约周六七点两个人。"
+        },
+        {
+          "id": "expression-d032610f8615",
+          "label": "更礼貌",
+          "jp": "土曜日の午後七時に、二名で予約をお願いできますでしょうか。",
+          "reading": "",
+          "zh": "可以帮我预约周六晚上七点两个人的位置吗？"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "日常"
+      ]
+    },
+    {
+      "id": "dialogue-daily-fbf51edf5517",
+      "category": "daily",
+      "title": "电车晚点向公司说明",
+      "jlptLevel": "N4",
+      "register": "general",
+      "relationship": "unspecified",
+      "situation": "上班途中电车晚点，电话联系同事。",
+      "lines": [
+        {
+          "id": "line-89566882222f",
+          "speaker": "私",
+          "jp": "おはようございます。電車が遅れており、到着が少し遅くなりそうです。",
+          "reading": "",
+          "zh": "早上好。电车晚点，可能会稍晚到达。"
+        },
+        {
+          "id": "line-53ce88fa7357",
+          "speaker": "同僚",
+          "jp": "分かりました。何時ごろ到着できそうですか。",
+          "reading": "",
+          "zh": "知道了。大概几点能到？"
+        },
+        {
+          "id": "line-b5b46543e13d",
+          "speaker": "私",
+          "jp": "現在のところ、九時半ごろになる見込みです。",
+          "reading": "",
+          "zh": "目前预计九点半左右到。"
+        },
+        {
+          "id": "line-2c49f387afde",
+          "speaker": "同僚",
+          "jp": "承知しました。気を付けて来てください。",
+          "reading": "",
+          "zh": "明白了，路上小心。"
+        },
+        {
+          "id": "line-b5189566a072",
+          "speaker": "私",
+          "jp": "ありがとうございます。到着しましたら、改めてご連絡します。",
+          "reading": "",
+          "zh": "谢谢。到达后我会再次联系。"
+        }
+      ],
+      "keywordTexts": [
+        "遅れており",
+        "〜になりそうです",
+        "見込みです",
+        "改めてご連絡します"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "「〜見込みです」用于说明预测时间。",
+        "迟到说明应同时给出预计到达时间。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-4d851923b408",
+          "label": "对同事",
+          "jp": "電車が遅れているので、少し遅れます。",
+          "reading": "",
+          "zh": "电车晚点，所以我会稍微迟到。"
+        },
+        {
+          "id": "expression-798d3d09be47",
+          "label": "对领导",
+          "jp": "電車遅延のため、始業時刻に間に合わない見込みです。",
+          "reading": "",
+          "zh": "因电车晚点，预计无法赶上上班时间。"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "日常"
+      ]
+    },
+    {
+      "id": "dialogue-daily-d465c19c0329",
+      "category": "daily",
+      "title": "市役所开具住民票",
+      "jlptLevel": "N4",
+      "register": "general",
+      "relationship": "unspecified",
+      "situation": "在市役所窗口申请住民票。",
+      "lines": [
+        {
+          "id": "line-32fee7ec74c0",
+          "speaker": "私",
+          "jp": "すみません、住民票を一通取りたいのですが。",
+          "reading": "",
+          "zh": "不好意思，我想开一份住民票。"
+        },
+        {
+          "id": "line-34341bcae252",
+          "speaker": "職員",
+          "jp": "ご本人の分でしょうか。",
+          "reading": "",
+          "zh": "是您本人的吗？"
+        },
+        {
+          "id": "line-d8b6fac1c8c1",
+          "speaker": "私",
+          "jp": "はい、本人分です。マイナンバーの記載は不要です。",
+          "reading": "",
+          "zh": "是本人的，不需要记载个人编号。"
+        },
+        {
+          "id": "line-76b4e646ac2a",
+          "speaker": "職員",
+          "jp": "こちらの申請書にご記入ください。本人確認書類もお願いします。",
+          "reading": "",
+          "zh": "请填写这张申请表，并出示身份证明文件。"
+        },
+        {
+          "id": "line-cfa4dc95940c",
+          "speaker": "私",
+          "jp": "分かりました。発行までどのくらいかかりますか。",
+          "reading": "",
+          "zh": "明白了。开具需要多长时间？"
+        },
+        {
+          "id": "line-55b29ea1d347",
+          "speaker": "職員",
+          "jp": "十分ほどでお呼びします。",
+          "reading": "",
+          "zh": "大约十分钟后叫您。"
+        }
+      ],
+      "keywordTexts": [
+        "一通",
+        "本人分",
+        "記載は不要",
+        "本人確認書類",
+        "発行"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "证件和文件的数量常用「一通」。",
+        "「〜たいのですが」适合窗口请求。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-e53048e10bf8",
+          "label": "确认用途",
+          "jp": "提出先は会社です。",
+          "reading": "",
+          "zh": "提交对象是公司。"
+        },
+        {
+          "id": "expression-93def980cea9",
+          "label": "询问费用",
+          "jp": "手数料はいくらですか。",
+          "reading": "",
+          "zh": "手续费多少钱？"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "日常"
+      ]
+    },
+    {
+      "id": "dialogue-daily-f49be4c2e49f",
+      "category": "daily",
+      "title": "联系管理公司报修",
+      "jlptLevel": "N3",
+      "register": "general",
+      "relationship": "unspecified",
+      "situation": "公寓热水器无法使用，联系管理公司。",
+      "lines": [
+        {
+          "id": "line-1343906126e4",
+          "speaker": "私",
+          "jp": "お世話になっております。〇〇マンションの三〇五号室に住んでいる王です。",
+          "reading": "",
+          "zh": "您好，我是住在〇〇公寓305室的王。"
+        },
+        {
+          "id": "line-d3cc626f1d56",
+          "speaker": "管理",
+          "jp": "お世話になっております。どうされましたか。",
+          "reading": "",
+          "zh": "您好，请问发生了什么？"
+        },
+        {
+          "id": "line-48be5fab3962",
+          "speaker": "私",
+          "jp": "昨夜から給湯器が動かず、お湯が出ない状態です。",
+          "reading": "",
+          "zh": "从昨晚开始热水器不工作，没有热水。"
+        },
+        {
+          "id": "line-8b710e5dec25",
+          "speaker": "管理",
+          "jp": "エラー表示は出ていますか。",
+          "reading": "",
+          "zh": "有显示错误代码吗？"
+        },
+        {
+          "id": "line-9c57948e2d40",
+          "speaker": "私",
+          "jp": "はい、画面にE03と表示されています。",
+          "reading": "",
+          "zh": "有，画面显示 E03。"
+        },
+        {
+          "id": "line-95441058930a",
+          "speaker": "管理",
+          "jp": "確認のうえ、修理業者からご連絡します。",
+          "reading": "",
+          "zh": "我们确认后会让维修人员联系您。"
+        },
+        {
+          "id": "line-12cf98b64488",
+          "speaker": "私",
+          "jp": "ありがとうございます。できれば本日中にお願いできますでしょうか。",
+          "reading": "",
+          "zh": "谢谢。可以的话能否今天之内处理？"
+        }
+      ],
+      "keywordTexts": [
+        "〜号室に住んでいる",
+        "動かない",
+        "〜状態です",
+        "エラー表示",
+        "本日中に"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "报修时说明住址、设备、发生时间和错误码。",
+        "「できれば」可以柔和表达希望。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-4d8d6bba0ab4",
+          "label": "紧急程度",
+          "jp": "生活に支障が出ているため、早めの対応をお願いします。",
+          "reading": "",
+          "zh": "已经影响生活，请尽快处理。"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "日常"
+      ]
+    },
+    {
+      "id": "dialogue-daily-31c78baa5d36",
+      "category": "daily",
+      "title": "药店咨询感冒药",
+      "jlptLevel": "N4",
+      "register": "general",
+      "relationship": "unspecified",
+      "situation": "在药店说明症状并咨询非处方药。",
+      "lines": [
+        {
+          "id": "line-01c25c936b5e",
+          "speaker": "私",
+          "jp": "すみません、喉の痛みと鼻水に効く薬はありますか。",
+          "reading": "",
+          "zh": "请问有对喉咙痛和流鼻涕有效的药吗？"
+        },
+        {
+          "id": "line-ef7e84845071",
+          "speaker": "薬剤師",
+          "jp": "熱や咳はありますか。",
+          "reading": "",
+          "zh": "有发烧或咳嗽吗？"
+        },
+        {
+          "id": "line-de964b34e7fd",
+          "speaker": "私",
+          "jp": "熱はありませんが、少し咳が出ます。",
+          "reading": "",
+          "zh": "没有发烧，但有一点咳嗽。"
+        },
+        {
+          "id": "line-f8a8708d30a6",
+          "speaker": "薬剤師",
+          "jp": "ほかに服用している薬はありますか。",
+          "reading": "",
+          "zh": "还有在服用其他药吗？"
+        },
+        {
+          "id": "line-b5b811233694",
+          "speaker": "私",
+          "jp": "いいえ、ありません。眠くなりにくいものがいいです。",
+          "reading": "",
+          "zh": "没有。希望是不太容易犯困的药。"
+        },
+        {
+          "id": "line-0af3e35a300c",
+          "speaker": "薬剤師",
+          "jp": "では、こちらを一日三回、食後に服用してください。",
+          "reading": "",
+          "zh": "那么请一天三次，饭后服用这个。"
+        }
+      ],
+      "keywordTexts": [
+        "〜に効く",
+        "咳が出る",
+        "服用する",
+        "眠くなりにくい",
+        "食後"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "药店中「飲む」也可说更正式的「服用する」。",
+        "说明是否发烧、咳嗽和其他药物很重要。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-52e52593262d",
+          "label": "确认副作用",
+          "jp": "副作用はありますか。",
+          "reading": "",
+          "zh": "有副作用吗？"
+        },
+        {
+          "id": "expression-153b70f3522b",
+          "label": "确认用法",
+          "jp": "一日に何回飲めばいいですか。",
+          "reading": "",
+          "zh": "一天吃几次？"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "日常"
+      ]
+    },
+    {
+      "id": "dialogue-daily-b7433085e8f0",
+      "category": "daily",
+      "title": "商店退换商品",
+      "jlptLevel": "N3",
+      "register": "general",
+      "relationship": "unspecified",
+      "situation": "购买的电器无法正常工作，去店里咨询换货。",
+      "lines": [
+        {
+          "id": "line-6e26ef5a0d61",
+          "speaker": "私",
+          "jp": "昨日こちらで購入した商品について相談したいのですが。",
+          "reading": "",
+          "zh": "想咨询一下昨天在这里购买的商品。"
+        },
+        {
+          "id": "line-e62c71dfaa4a",
+          "speaker": "店",
+          "jp": "どのような問題がございましたか。",
+          "reading": "",
+          "zh": "请问有什么问题？"
+        },
+        {
+          "id": "line-0b09379bd7db",
+          "speaker": "私",
+          "jp": "電源を入れても動かず、説明書の手順も確認しました。",
+          "reading": "",
+          "zh": "打开电源也不工作，说明书步骤也确认过了。"
+        },
+        {
+          "id": "line-d6bf968939a0",
+          "speaker": "店",
+          "jp": "レシートと商品を確認させていただけますか。",
+          "reading": "",
+          "zh": "可以让我们确认收据和商品吗？"
+        },
+        {
+          "id": "line-5f4f4ed0e10a",
+          "speaker": "私",
+          "jp": "はい、こちらです。可能であれば交換をお願いしたいです。",
+          "reading": "",
+          "zh": "可以，在这里。可以的话希望更换。"
+        },
+        {
+          "id": "line-b2f1b82aff8a",
+          "speaker": "店",
+          "jp": "状態を確認して、交換可能かご案内します。",
+          "reading": "",
+          "zh": "确认状态后告知是否可以更换。"
+        }
+      ],
+      "keywordTexts": [
+        "購入した商品",
+        "動かない",
+        "確認させていただく",
+        "交換をお願いしたい",
+        "交換可能"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明购买时间、故障现象和已尝试步骤。",
+        "「可能であれば」比直接要求更柔和。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-aa1ed7aee195",
+          "label": "希望退款",
+          "jp": "交換ではなく、返金をお願いすることは可能でしょうか。",
+          "reading": "",
+          "zh": "可以不换货而退款吗？"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "日常"
+      ]
+    }
+  ]
+}

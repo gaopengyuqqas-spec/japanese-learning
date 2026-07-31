@@ -1,0 +1,2919 @@
+{
+  "schemaVersion": 3,
+  "packId": "kanji-core",
+  "packType": "kanji",
+  "contentVersion": "2026.07.31-phase1-business-it",
+  "title": "汉字音训关联",
+  "description": "保留既有汉字音训关联，并补充商务与 IT 常用汉字组。",
+  "items": [
+    {
+      "id": "kanji-u4e00",
+      "kanji": "一",
+      "meaningsZh": [
+        "一"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-22e300888c2a"
+      ]
+    },
+    {
+      "id": "kanji-u4e0d",
+      "kanji": "不",
+      "meaningsZh": [
+        "不"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-332ac2c24d59"
+      ]
+    },
+    {
+      "id": "kanji-u4e26",
+      "kanji": "並",
+      "meaningsZh": [
+        "並"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-4da9f6a85924"
+      ]
+    },
+    {
+      "id": "kanji-u4e2d",
+      "kanji": "中",
+      "meaningsZh": [
+        "中"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-9b1b803e62bb"
+      ]
+    },
+    {
+      "id": "kanji-u4e86",
+      "kanji": "了",
+      "meaningsZh": [
+        "了"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-b5649b3fd766"
+      ]
+    },
+    {
+      "id": "kanji-u4e88",
+      "kanji": "予",
+      "meaningsZh": [
+        "予"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-04eac593a3d7",
+        "vocab-4ea27bdbd30a"
+      ]
+    },
+    {
+      "id": "kanji-u4e8b",
+      "kanji": "事",
+      "meaningsZh": [
+        "事"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-e5d878ae6e72"
+      ]
+    },
+    {
+      "id": "kanji-u4e92",
+      "kanji": "互",
+      "meaningsZh": [
+        "互"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-2bfca5d0b200"
+      ]
+    },
+    {
+      "id": "kanji-u4ee3",
+      "kanji": "代",
+      "meaningsZh": [
+        "代"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-21e169b937a8"
+      ]
+    },
+    {
+      "id": "kanji-u4f11",
+      "kanji": "休",
+      "meaningsZh": [
+        "休"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-afda50774936"
+      ]
+    },
+    {
+      "id": "kanji-u4f1a",
+      "kanji": "会",
+      "meaningsZh": [
+        "见面",
+        "会议",
+        "公司"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-8543eac69204",
+        "vocab-c5aaa91d226f",
+        "vocab-26e9a8ed1f87",
+        "vocab-fc42c93bd0b3",
+        "vocab-5ea699613ef9"
+      ]
+    },
+    {
+      "id": "kanji-u4f3a",
+      "kanji": "伺",
+      "meaningsZh": [
+        "伺"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-1cee4eccdf51"
+      ]
+    },
+    {
+      "id": "kanji-u4f53",
+      "kanji": "体",
+      "meaningsZh": [
+        "体"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-9f2eb7f0af05"
+      ]
+    },
+    {
+      "id": "kanji-u4f59",
+      "kanji": "余",
+      "meaningsZh": [
+        "余"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-0cd4c8c4ef8b",
+        "vocab-c708a75f2f88"
+      ]
+    },
+    {
+      "id": "kanji-u4f5c",
+      "kanji": "作",
+      "meaningsZh": [
+        "制作",
+        "操作",
+        "作业"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-a8a50ec950df",
+        "vocab-7681a27693c2",
+        "vocab-810566d84b32",
+        "vocab-6263ad330cd6"
+      ]
+    },
+    {
+      "id": "kanji-u4f8b",
+      "kanji": "例",
+      "meaningsZh": [
+        "例"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-454cfaf0bf37"
+      ]
+    },
+    {
+      "id": "kanji-u4f9d",
+      "kanji": "依",
+      "meaningsZh": [
+        "依"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-73eb4b06c1a1",
+        "vocab-06f914e726b0",
+        "vocab-732e848b1f99",
+        "vocab-3dac1ea559a1",
+        "vocab-edab23a9af46"
+      ]
+    },
+    {
+      "id": "kanji-u4fdd",
+      "kanji": "保",
+      "meaningsZh": [
+        "保"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-0f3c594cdd9c",
+        "vocab-88f27cf5a519",
+        "vocab-de8cc2c3d7ae",
+        "vocab-4f28ff8a8068"
+      ]
+    },
+    {
+      "id": "kanji-u4fe1",
+      "kanji": "信",
+      "meaningsZh": [
+        "信"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-eef65eb3c292"
+      ]
+    },
+    {
+      "id": "kanji-u4fee",
+      "kanji": "修",
+      "meaningsZh": [
+        "修"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-0675e559bd05",
+        "vocab-f43a76efdef1"
+      ]
+    },
+    {
+      "id": "kanji-u50be",
+      "kanji": "傾",
+      "meaningsZh": [
+        "傾"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-afc11e9c0d9e"
+      ]
+    },
+    {
+      "id": "kanji-u512a",
+      "kanji": "優",
+      "meaningsZh": [
+        "優"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-5fd825a8da2b",
+        "vocab-8953baa56ac7"
+      ]
+    },
+    {
+      "id": "kanji-u5146",
+      "kanji": "兆",
+      "meaningsZh": [
+        "兆"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-b78d8502f9f9"
+      ]
+    },
+    {
+      "id": "kanji-u5168",
+      "kanji": "全",
+      "meaningsZh": [
+        "全"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-1f5f4b0fc113"
+      ]
+    },
+    {
+      "id": "kanji-u5171",
+      "kanji": "共",
+      "meaningsZh": [
+        "共"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-f80ef97029bb",
+        "vocab-0ef962706ff6",
+        "vocab-2220105b4658",
+        "vocab-32a965a3ec7d"
+      ]
+    },
+    {
+      "id": "kanji-u5185",
+      "kanji": "内",
+      "meaningsZh": [
+        "内"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-14c18a56a6c3"
+      ]
+    },
+    {
+      "id": "kanji-u518d",
+      "kanji": "再",
+      "meaningsZh": [
+        "再"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-03f7188e01bc",
+        "vocab-b2a404da5e61",
+        "vocab-446b2d4037b7",
+        "vocab-ec7b10db5421",
+        "vocab-67d00369b586",
+        "vocab-7ab170e841a9",
+        "vocab-151e500047bf"
+      ]
+    },
+    {
+      "id": "kanji-u5197",
+      "kanji": "冗",
+      "meaningsZh": [
+        "冗"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-dfb1d0326ce9"
+      ]
+    },
+    {
+      "id": "kanji-u51fa",
+      "kanji": "出",
+      "meaningsZh": [
+        "出"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-b77a065d8620",
+        "vocab-fab3641d78d0",
+        "vocab-05eaee20ef96",
+        "vocab-db2dca65e275"
+      ]
+    },
+    {
+      "id": "kanji-u5206",
+      "kanji": "分",
+      "meaningsZh": [
+        "分",
+        "理解",
+        "差分"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-5a4b1147d0dc",
+        "vocab-42b6c224cb65",
+        "vocab-894d00bc5409",
+        "vocab-3713b3944be4"
+      ]
+    },
+    {
+      "id": "kanji-u5207",
+      "kanji": "切",
+      "meaningsZh": [
+        "切"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-5756a6451bd6"
+      ]
+    },
+    {
+      "id": "kanji-u521d",
+      "kanji": "初",
+      "meaningsZh": [
+        "初"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-59833a0f38f7"
+      ]
+    },
+    {
+      "id": "kanji-u5224",
+      "kanji": "判",
+      "meaningsZh": [
+        "判"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-ad0a4b12a7a7",
+        "vocab-a07938b0bf25",
+        "vocab-b292bf870882"
+      ]
+    },
+    {
+      "id": "kanji-u5236",
+      "kanji": "制",
+      "meaningsZh": [
+        "制"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-74861996718c"
+      ]
+    },
+    {
+      "id": "kanji-u524a",
+      "kanji": "削",
+      "meaningsZh": [
+        "削"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-7071b583f650",
+        "vocab-31753720b9ac"
+      ]
+    },
+    {
+      "id": "kanji-u524d",
+      "kanji": "前",
+      "meaningsZh": [
+        "前"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-26d08bea8c53",
+        "vocab-f8a4bcdb07d9",
+        "vocab-94c7c43fce5e"
+      ]
+    },
+    {
+      "id": "kanji-u52b9",
+      "kanji": "効",
+      "meaningsZh": [
+        "効"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-df308eb48a9d",
+        "vocab-83274b448cf2",
+        "vocab-ee1814e66f57"
+      ]
+    },
+    {
+      "id": "kanji-u52e4",
+      "kanji": "勤",
+      "meaningsZh": [
+        "勤"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-0580b3ddedd2"
+      ]
+    },
+    {
+      "id": "kanji-u5354",
+      "kanji": "協",
+      "meaningsZh": [
+        "協"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-a0b8b237de9c"
+      ]
+    },
+    {
+      "id": "kanji-u5358",
+      "kanji": "単",
+      "meaningsZh": [
+        "単"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-b03147636da9"
+      ]
+    },
+    {
+      "id": "kanji-u539f",
+      "kanji": "原",
+      "meaningsZh": [
+        "原"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-83756fedf1b5"
+      ]
+    },
+    {
+      "id": "kanji-u53c2",
+      "kanji": "参",
+      "meaningsZh": [
+        "参"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-931d71e873a1"
+      ]
+    },
+    {
+      "id": "kanji-u53cd",
+      "kanji": "反",
+      "meaningsZh": [
+        "反"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-0a236dd1c1a3"
+      ]
+    },
+    {
+      "id": "kanji-u53d6",
+      "kanji": "取",
+      "meaningsZh": [
+        "取",
+        "获取",
+        "引入"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-67dcef56eeca",
+        "vocab-b4b9add7c029",
+        "vocab-5d76f289b80a",
+        "vocab-4b3158d1f80e",
+        "vocab-f9f024fc50b9"
+      ]
+    },
+    {
+      "id": "kanji-u53d7",
+      "kanji": "受",
+      "meaningsZh": [
+        "接受",
+        "接收",
+        "受理"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-60ecf47fec14",
+        "vocab-951710f7e53d",
+        "vocab-0f6b22fa11cd",
+        "vocab-be945545afe6",
+        "vocab-650b8753433e",
+        "vocab-84e15c1be58e"
+      ]
+    },
+    {
+      "id": "kanji-u53ef",
+      "kanji": "可",
+      "meaningsZh": [
+        "可"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-1d1a570ddb09",
+        "vocab-9f4c5f2eada7"
+      ]
+    },
+    {
+      "id": "kanji-u53f8",
+      "kanji": "司",
+      "meaningsZh": [
+        "司"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-0bbdd7acc3a9"
+      ]
+    },
+    {
+      "id": "kanji-u5408",
+      "kanji": "合",
+      "meaningsZh": [
+        "合并",
+        "匹配",
+        "场合"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-8d72b83db6a5",
+        "vocab-0fdca0eb4ff8",
+        "vocab-d55c2f3291c5",
+        "vocab-ec13ab8234e2",
+        "vocab-137e80f949f2"
+      ]
+    },
+    {
+      "id": "kanji-u540d",
+      "kanji": "名",
+      "meaningsZh": [
+        "名"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-824ff490647a"
+      ]
+    },
+    {
+      "id": "kanji-u54c1",
+      "kanji": "品",
+      "meaningsZh": [
+        "品"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-f18f1feb3e20",
+        "vocab-0e88d668d399"
+      ]
+    },
+    {
+      "id": "kanji-u554f",
+      "kanji": "問",
+      "meaningsZh": [
+        "询问",
+        "问题"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-d9729670f3e8",
+        "vocab-73756f46c1dc",
+        "vocab-dba6220fec46",
+        "vocab-788294fcb460"
+      ]
+    },
+    {
+      "id": "kanji-u55b6",
+      "kanji": "営",
+      "meaningsZh": [
+        "営"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-9f2750653218"
+      ]
+    },
+    {
+      "id": "kanji-u56de",
+      "kanji": "回",
+      "meaningsZh": [
+        "回"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-72af5016a9b8",
+        "vocab-217ce0912e40",
+        "vocab-b297cd90a713",
+        "vocab-75bc1c76b2e7"
+      ]
+    },
+    {
+      "id": "kanji-u56fa",
+      "kanji": "固",
+      "meaningsZh": [
+        "固"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-539ddcb412fd",
+        "vocab-4e7bb359a4b4"
+      ]
+    },
+    {
+      "id": "kanji-u5728",
+      "kanji": "在",
+      "meaningsZh": [
+        "在"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-6f0eee4024e3"
+      ]
+    },
+    {
+      "id": "kanji-u57fa",
+      "kanji": "基",
+      "meaningsZh": [
+        "基"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-58728a8c3379"
+      ]
+    },
+    {
+      "id": "kanji-u5831",
+      "kanji": "報",
+      "meaningsZh": [
+        "報"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-950173cf874c"
+      ]
+    },
+    {
+      "id": "kanji-u5883",
+      "kanji": "境",
+      "meaningsZh": [
+        "境"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-c0f75d78ea15",
+        "vocab-4819b77b1efd"
+      ]
+    },
+    {
+      "id": "kanji-u5897",
+      "kanji": "増",
+      "meaningsZh": [
+        "増"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-08901b16a7ee"
+      ]
+    },
+    {
+      "id": "kanji-u5909",
+      "kanji": "変",
+      "meaningsZh": [
+        "变化",
+        "修改",
+        "异常"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-c661ea883888",
+        "vocab-caf4b789516d",
+        "vocab-5e0f7f3a61f7",
+        "vocab-1474ddf9f379",
+        "vocab-6c0d32d58073",
+        "vocab-a802534fe39f",
+        "vocab-ad1ad18f3db3"
+      ]
+    },
+    {
+      "id": "kanji-u5916",
+      "kanji": "外",
+      "meaningsZh": [
+        "外"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-9152b3637bbb"
+      ]
+    },
+    {
+      "id": "kanji-u5931",
+      "kanji": "失",
+      "meaningsZh": [
+        "失"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-07b20265e1fe"
+      ]
+    },
+    {
+      "id": "kanji-u5951",
+      "kanji": "契",
+      "meaningsZh": [
+        "契"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-d1d48179a181",
+        "vocab-fbdda6986828"
+      ]
+    },
+    {
+      "id": "kanji-u59a5",
+      "kanji": "妥",
+      "meaningsZh": [
+        "妥"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-263797fea208"
+      ]
+    },
+    {
+      "id": "kanji-u59cb",
+      "kanji": "始",
+      "meaningsZh": [
+        "开始",
+        "启动"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-05ee01a22459",
+        "vocab-eec90f3a5bcb",
+        "vocab-a9360c28e05a",
+        "vocab-0dbb40637718"
+      ]
+    },
+    {
+      "id": "kanji-u5b88",
+      "kanji": "守",
+      "meaningsZh": [
+        "遵守",
+        "保护",
+        "维护"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-a2e352f6d78f",
+        "vocab-ba19cbfcd5c9",
+        "vocab-0c4e2942dfd1"
+      ]
+    },
+    {
+      "id": "kanji-u5b89",
+      "kanji": "安",
+      "meaningsZh": [
+        "安"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-39a19ec2d6ba"
+      ]
+    },
+    {
+      "id": "kanji-u5b8c",
+      "kanji": "完",
+      "meaningsZh": [
+        "完"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-99aa91ef9100"
+      ]
+    },
+    {
+      "id": "kanji-u5b9a",
+      "kanji": "定",
+      "meaningsZh": [
+        "定"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-b551e78ffcba"
+      ]
+    },
+    {
+      "id": "kanji-u5b9f",
+      "kanji": "実",
+      "meaningsZh": [
+        "実"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-f6698a613643",
+        "vocab-05b094886e05",
+        "vocab-34a01b0153fd",
+        "vocab-a5b3bcef8c4c",
+        "vocab-0823c75cc81d",
+        "vocab-288641744d08",
+        "vocab-ed7443f05376",
+        "vocab-3a6a03e56083",
+        "vocab-f9f47d215810",
+        "vocab-b92272a4b5fd"
+      ]
+    },
+    {
+      "id": "kanji-u5bb9",
+      "kanji": "容",
+      "meaningsZh": [
+        "容"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-a815fe6a38b3",
+        "vocab-7df60475d815"
+      ]
+    },
+    {
+      "id": "kanji-u5bbf",
+      "kanji": "宿",
+      "meaningsZh": [
+        "宿"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-45f5b22d62cd"
+      ]
+    },
+    {
+      "id": "kanji-u5bfe",
+      "kanji": "対",
+      "meaningsZh": [
+        "対"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-fcd2c385a5f7",
+        "vocab-70a12e67622e",
+        "vocab-2dfcecf4dd6d",
+        "vocab-af9dac3e2124"
+      ]
+    },
+    {
+      "id": "kanji-u5c65",
+      "kanji": "履",
+      "meaningsZh": [
+        "履"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-155b5b5a89b3"
+      ]
+    },
+    {
+      "id": "kanji-u5de5",
+      "kanji": "工",
+      "meaningsZh": [
+        "工"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-9a15ef32ceb6"
+      ]
+    },
+    {
+      "id": "kanji-u5dee",
+      "kanji": "差",
+      "meaningsZh": [
+        "差"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-cb9b3a98658c",
+        "vocab-2ca66fe8d284",
+        "vocab-eedbf3001d8e"
+      ]
+    },
+    {
+      "id": "kanji-u5e2f",
+      "kanji": "帯",
+      "meaningsZh": [
+        "帯"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-20f8592da9df"
+      ]
+    },
+    {
+      "id": "kanji-u5e73",
+      "kanji": "平",
+      "meaningsZh": [
+        "平"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-d1c241c7809b"
+      ]
+    },
+    {
+      "id": "kanji-u5f15",
+      "kanji": "引",
+      "meaningsZh": [
+        "引"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-a69122424a1d",
+        "vocab-93c7bfcabe7b"
+      ]
+    },
+    {
+      "id": "kanji-u5f71",
+      "kanji": "影",
+      "meaningsZh": [
+        "影"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-0d9cb4a9e2e0",
+        "vocab-715ee19cb726",
+        "vocab-13856efb5e53"
+      ]
+    },
+    {
+      "id": "kanji-u5f79",
+      "kanji": "役",
+      "meaningsZh": [
+        "役"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-34de370c56c6"
+      ]
+    },
+    {
+      "id": "kanji-u5f8c",
+      "kanji": "後",
+      "meaningsZh": [
+        "後"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-deeb2eaf7c47"
+      ]
+    },
+    {
+      "id": "kanji-u5fa9",
+      "kanji": "復",
+      "meaningsZh": [
+        "復"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-dab3701d5a67"
+      ]
+    },
+    {
+      "id": "kanji-u5ff5",
+      "kanji": "念",
+      "meaningsZh": [
+        "念"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-40edb58f20b9"
+      ]
+    },
+    {
+      "id": "kanji-u6027",
+      "kanji": "性",
+      "meaningsZh": [
+        "性"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-fc77cb783ae6"
+      ]
+    },
+    {
+      "id": "kanji-u6050",
+      "kanji": "恐",
+      "meaningsZh": [
+        "恐"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-e12a3c73b8f8"
+      ]
+    },
+    {
+      "id": "kanji-u6052",
+      "kanji": "恒",
+      "meaningsZh": [
+        "恒"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-68e46daa1c5e"
+      ]
+    },
+    {
+      "id": "kanji-u61f8",
+      "kanji": "懸",
+      "meaningsZh": [
+        "懸"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-d157ac0c876a"
+      ]
+    },
+    {
+      "id": "kanji-u6210",
+      "kanji": "成",
+      "meaningsZh": [
+        "成"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-ef5306ddfde4",
+        "vocab-29d0d5e19664"
+      ]
+    },
+    {
+      "id": "kanji-u623b",
+      "kanji": "戻",
+      "meaningsZh": [
+        "返回",
+        "恢复",
+        "回滚"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-f8fcbd4aa1f3",
+        "vocab-1c7a74205477",
+        "vocab-09de5151954d"
+      ]
+    },
+    {
+      "id": "kanji-u624b",
+      "kanji": "手",
+      "meaningsZh": [
+        "手"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-01eae089799e",
+        "vocab-3754d32acc44"
+      ]
+    },
+    {
+      "id": "kanji-u627f",
+      "kanji": "承",
+      "meaningsZh": [
+        "承"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-f03f6458fdee",
+        "vocab-23fe0fab6ad5",
+        "vocab-ba0bed9de208",
+        "vocab-ab2af47a8680"
+      ]
+    },
+    {
+      "id": "kanji-u62bd",
+      "kanji": "抽",
+      "meaningsZh": [
+        "抽"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-1f0baae1d7b0"
+      ]
+    },
+    {
+      "id": "kanji-u62c5",
+      "kanji": "担",
+      "meaningsZh": [
+        "担"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-ca1fa411666f",
+        "vocab-677f2d3a0592"
+      ]
+    },
+    {
+      "id": "kanji-u62dd",
+      "kanji": "拝",
+      "meaningsZh": [
+        "拝"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-8b89ddbe4f2c"
+      ]
+    },
+    {
+      "id": "kanji-u62e1",
+      "kanji": "拡",
+      "meaningsZh": [
+        "拡"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-8333f1f0d9ad"
+      ]
+    },
+    {
+      "id": "kanji-u6301",
+      "kanji": "持",
+      "meaningsZh": [
+        "持"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-9ce60c325303"
+      ]
+    },
+    {
+      "id": "kanji-u6307",
+      "kanji": "指",
+      "meaningsZh": [
+        "指"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-8539acf46f4b",
+        "vocab-c1dbd18cd792"
+      ]
+    },
+    {
+      "id": "kanji-u6392",
+      "kanji": "排",
+      "meaningsZh": [
+        "排"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-2eb3d5c14fb0"
+      ]
+    },
+    {
+      "id": "kanji-u63a1",
+      "kanji": "採",
+      "meaningsZh": [
+        "採"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-96b4fb62647e"
+      ]
+    },
+    {
+      "id": "kanji-u63a5",
+      "kanji": "接",
+      "meaningsZh": [
+        "接"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-45691cb3a5a2",
+        "vocab-6e2ad9c95d8c",
+        "vocab-1b76d64001f7",
+        "vocab-4be6087d6503"
+      ]
+    },
+    {
+      "id": "kanji-u63d0",
+      "kanji": "提",
+      "meaningsZh": [
+        "提"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-eaaec0516246"
+      ]
+    },
+    {
+      "id": "kanji-u652f",
+      "kanji": "支",
+      "meaningsZh": [
+        "支"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-dfc6a13c8ba1"
+      ]
+    },
+    {
+      "id": "kanji-u6539",
+      "kanji": "改",
+      "meaningsZh": [
+        "改"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-98e6c381d7cf"
+      ]
+    },
+    {
+      "id": "kanji-u6559",
+      "kanji": "教",
+      "meaningsZh": [
+        "教"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-a76bcace9c57",
+        "vocab-9d0cf8c76616"
+      ]
+    },
+    {
+      "id": "kanji-u6574",
+      "kanji": "整",
+      "meaningsZh": [
+        "整"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-0412d05d4133",
+        "vocab-8fc83a1c6214"
+      ]
+    },
+    {
+      "id": "kanji-u65b9",
+      "kanji": "方",
+      "meaningsZh": [
+        "方"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-91cfea0d805b"
+      ]
+    },
+    {
+      "id": "kanji-u65e5",
+      "kanji": "日",
+      "meaningsZh": [
+        "日"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-dafecfb76fa9"
+      ]
+    },
+    {
+      "id": "kanji-u660e",
+      "kanji": "明",
+      "meaningsZh": [
+        "明"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-065c2a6c195f"
+      ]
+    },
+    {
+      "id": "kanji-u6697",
+      "kanji": "暗",
+      "meaningsZh": [
+        "暗"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-b07b47e3acec"
+      ]
+    },
+    {
+      "id": "kanji-u66ab",
+      "kanji": "暫",
+      "meaningsZh": [
+        "暫"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-e33e36d5529e"
+      ]
+    },
+    {
+      "id": "kanji-u66f4",
+      "kanji": "更",
+      "meaningsZh": [
+        "更"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-5d9859258cf6",
+        "vocab-e3fb40fc0278"
+      ]
+    },
+    {
+      "id": "kanji-u66f8",
+      "kanji": "書",
+      "meaningsZh": [
+        "写",
+        "文件"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-6f78c301e5ef",
+        "vocab-e148a97f3153",
+        "vocab-afe42871c308",
+        "vocab-c5e4e98051bd"
+      ]
+    },
+    {
+      "id": "kanji-u6700",
+      "kanji": "最",
+      "meaningsZh": [
+        "最"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-de32ec86692c"
+      ]
+    },
+    {
+      "id": "kanji-u6709",
+      "kanji": "有",
+      "meaningsZh": [
+        "有"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-3a5e9fa94d7a"
+      ]
+    },
+    {
+      "id": "kanji-u671f",
+      "kanji": "期",
+      "meaningsZh": [
+        "期"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-f11136bc7cb9",
+        "vocab-d47d003d5d4c"
+      ]
+    },
+    {
+      "id": "kanji-u672a",
+      "kanji": "未",
+      "meaningsZh": [
+        "未"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-e8d9b62470e4"
+      ]
+    },
+    {
+      "id": "kanji-u672c",
+      "kanji": "本",
+      "meaningsZh": [
+        "本"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-3dae5e0a18ce"
+      ]
+    },
+    {
+      "id": "kanji-u67d4",
+      "kanji": "柔",
+      "meaningsZh": [
+        "柔"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-9c97dfb6ad48"
+      ]
+    },
+    {
+      "id": "kanji-u67fb",
+      "kanji": "査",
+      "meaningsZh": [
+        "査"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-8bf3d660ee6f"
+      ]
+    },
+    {
+      "id": "kanji-u6839",
+      "kanji": "根",
+      "meaningsZh": [
+        "根"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-5ad937048c44",
+        "vocab-f2ae71e78cb0"
+      ]
+    },
+    {
+      "id": "kanji-u683c",
+      "kanji": "格",
+      "meaningsZh": [
+        "格"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-b65c9d28870d"
+      ]
+    },
+    {
+      "id": "kanji-u68da",
+      "kanji": "棚",
+      "meaningsZh": [
+        "棚"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-c8af68e2f4af"
+      ]
+    },
+    {
+      "id": "kanji-u691c",
+      "kanji": "検",
+      "meaningsZh": [
+        "検"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-579c2efb5f05",
+        "vocab-d0da18fb6a83",
+        "vocab-2a63dc3f3b1b",
+        "vocab-5d4f0ba03fb9"
+      ]
+    },
+    {
+      "id": "kanji-u6982",
+      "kanji": "概",
+      "meaningsZh": [
+        "概"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-b3822259485b",
+        "vocab-c4c69e29c58b"
+      ]
+    },
+    {
+      "id": "kanji-u69cb",
+      "kanji": "構",
+      "meaningsZh": [
+        "構"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-7387c96b5faa"
+      ]
+    },
+    {
+      "id": "kanji-u6a19",
+      "kanji": "標",
+      "meaningsZh": [
+        "標"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-08ddc6e23e3e"
+      ]
+    },
+    {
+      "id": "kanji-u6a29",
+      "kanji": "権",
+      "meaningsZh": [
+        "権"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-76e80b632242"
+      ]
+    },
+    {
+      "id": "kanji-u6b20",
+      "kanji": "欠",
+      "meaningsZh": [
+        "欠"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-27b18c35706c",
+        "vocab-9afc80ac34df"
+      ]
+    },
+    {
+      "id": "kanji-u6b62",
+      "kanji": "止",
+      "meaningsZh": [
+        "停止",
+        "中止"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-3898bd5af934",
+        "vocab-331802c70f05",
+        "vocab-24950ce58490",
+        "vocab-db56146336ed"
+      ]
+    },
+    {
+      "id": "kanji-u6b8b",
+      "kanji": "残",
+      "meaningsZh": [
+        "残"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-622f19ae6dfa",
+        "vocab-0765e4a9e178"
+      ]
+    },
+    {
+      "id": "kanji-u6bb5",
+      "kanji": "段",
+      "meaningsZh": [
+        "段"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-92b56a7fb8db"
+      ]
+    },
+    {
+      "id": "kanji-u6bd4",
+      "kanji": "比",
+      "meaningsZh": [
+        "比较",
+        "比例"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-90fc8533c606",
+        "vocab-585855adc4f6",
+        "vocab-a4a7e5c27f8f",
+        "vocab-e4863c1cd446",
+        "vocab-ea0b12f13f67"
+      ]
+    },
+    {
+      "id": "kanji-u6c7a",
+      "kanji": "決",
+      "meaningsZh": [
+        "決"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-e34895b1a499"
+      ]
+    },
+    {
+      "id": "kanji-u6dfb",
+      "kanji": "添",
+      "meaningsZh": [
+        "添"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-2b05309a935e"
+      ]
+    },
+    {
+      "id": "kanji-u6e2c",
+      "kanji": "測",
+      "meaningsZh": [
+        "测量",
+        "测定"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-8f5dbb80a811",
+        "vocab-06294fcacc19",
+        "vocab-26d78e5bf76d"
+      ]
+    },
+    {
+      "id": "kanji-u72b6",
+      "kanji": "状",
+      "meaningsZh": [
+        "状"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-2bfc0690371e"
+      ]
+    },
+    {
+      "id": "kanji-u73fe",
+      "kanji": "現",
+      "meaningsZh": [
+        "現"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-ab46ee47de36",
+        "vocab-bdd6ed48d336"
+      ]
+    },
+    {
+      "id": "kanji-u7406",
+      "kanji": "理",
+      "meaningsZh": [
+        "理"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-1568b4a92706"
+      ]
+    },
+    {
+      "id": "kanji-u74b0",
+      "kanji": "環",
+      "meaningsZh": [
+        "環"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-989894ae8e0b",
+        "vocab-435104187eb0"
+      ]
+    },
+    {
+      "id": "kanji-u751f",
+      "kanji": "生",
+      "meaningsZh": [
+        "生"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-d38619d6f4f3"
+      ]
+    },
+    {
+      "id": "kanji-u7528",
+      "kanji": "用",
+      "meaningsZh": [
+        "使用",
+        "准备",
+        "用途"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-ba19dea1d2f6",
+        "vocab-31aceffede11",
+        "vocab-b5fe3d1a82da",
+        "vocab-58da820364fb"
+      ]
+    },
+    {
+      "id": "kanji-u7533",
+      "kanji": "申",
+      "meaningsZh": [
+        "申"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-ae957e73ed02",
+        "vocab-f184339bd987"
+      ]
+    },
+    {
+      "id": "kanji-u7559",
+      "kanji": "留",
+      "meaningsZh": [
+        "留"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-2e6dbe6fb430"
+      ]
+    },
+    {
+      "id": "kanji-u7570",
+      "kanji": "異",
+      "meaningsZh": [
+        "異"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-32d31d723339",
+        "vocab-ad69348539b3"
+      ]
+    },
+    {
+      "id": "kanji-u758e",
+      "kanji": "疎",
+      "meaningsZh": [
+        "疎"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-cbea755743d6"
+      ]
+    },
+    {
+      "id": "kanji-u767a",
+      "kanji": "発",
+      "meaningsZh": [
+        "発"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-4a6bad20fe1d",
+        "vocab-3207e75d4c44",
+        "vocab-dae99456db10"
+      ]
+    },
+    {
+      "id": "kanji-u76e3",
+      "kanji": "監",
+      "meaningsZh": [
+        "監"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-b9570f26680f",
+        "vocab-8f041259f3a7",
+        "vocab-cc14e3cf8664"
+      ]
+    },
+    {
+      "id": "kanji-u76ee",
+      "kanji": "目",
+      "meaningsZh": [
+        "目"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-cd57abc7f261",
+        "vocab-f940885bb69c"
+      ]
+    },
+    {
+      "id": "kanji-u76f4",
+      "kanji": "直",
+      "meaningsZh": [
+        "直接",
+        "修复",
+        "重新"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-86861b6635eb",
+        "vocab-cd295985ee1c",
+        "vocab-b8a761771e3a"
+      ]
+    },
+    {
+      "id": "kanji-u76f8",
+      "kanji": "相",
+      "meaningsZh": [
+        "相"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-1c11e68354be",
+        "vocab-c353f37999cd"
+      ]
+    },
+    {
+      "id": "kanji-u7701",
+      "kanji": "省",
+      "meaningsZh": [
+        "省"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-ea82ae1c3f82"
+      ]
+    },
+    {
+      "id": "kanji-u7740",
+      "kanji": "着",
+      "meaningsZh": [
+        "着"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-edcabc0df55f"
+      ]
+    },
+    {
+      "id": "kanji-u7814",
+      "kanji": "研",
+      "meaningsZh": [
+        "研"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-7dd9ea324819"
+      ]
+    },
+    {
+      "id": "kanji-u78ba",
+      "kanji": "確",
+      "meaningsZh": [
+        "确认",
+        "确定",
+        "可靠"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-6c6b087d200d",
+        "vocab-d37926a2f152",
+        "vocab-0ddac20970e3",
+        "vocab-9e008aafc41c",
+        "vocab-108ef971f793"
+      ]
+    },
+    {
+      "id": "kanji-u79fb",
+      "kanji": "移",
+      "meaningsZh": [
+        "移"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-d01639b01ea9"
+      ]
+    },
+    {
+      "id": "kanji-u7a3c",
+      "kanji": "稼",
+      "meaningsZh": [
+        "稼"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-053e460911dc"
+      ]
+    },
+    {
+      "id": "kanji-u7b54",
+      "kanji": "答",
+      "meaningsZh": [
+        "回答",
+        "答案"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-4097cb413d5d",
+        "vocab-2f0cd0845086",
+        "vocab-627b461a3918"
+      ]
+    },
+    {
+      "id": "kanji-u7bc4",
+      "kanji": "範",
+      "meaningsZh": [
+        "範"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-82d6ca621d34"
+      ]
+    },
+    {
+      "id": "kanji-u7d0d",
+      "kanji": "納",
+      "meaningsZh": [
+        "納"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-f0f0eb34e896"
+      ]
+    },
+    {
+      "id": "kanji-u7d42",
+      "kanji": "終",
+      "meaningsZh": [
+        "结束",
+        "最终"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-2819ded8919f",
+        "vocab-bf73762cc3cd",
+        "vocab-eb003fb15191",
+        "vocab-c77d71a2426a",
+        "vocab-0e9cbc924ce3"
+      ]
+    },
+    {
+      "id": "kanji-u7d4c",
+      "kanji": "経",
+      "meaningsZh": [
+        "経"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-62d4d563bccd",
+        "vocab-cd965decdbd4"
+      ]
+    },
+    {
+      "id": "kanji-u7d50",
+      "kanji": "結",
+      "meaningsZh": [
+        "結"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-6ed2aab9ee25",
+        "vocab-83dc6cfc4c45"
+      ]
+    },
+    {
+      "id": "kanji-u7d99",
+      "kanji": "継",
+      "meaningsZh": [
+        "继承",
+        "继续"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-85cf51f64fd8",
+        "vocab-8ee6871d0401",
+        "vocab-eb59506afd14",
+        "vocab-8ef53150f9b7",
+        "vocab-2c49f8059b2a"
+      ]
+    },
+    {
+      "id": "kanji-u7db2",
+      "kanji": "網",
+      "meaningsZh": [
+        "網"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-d494bde9b2e7",
+        "vocab-4430c6c96c5f"
+      ]
+    },
+    {
+      "id": "kanji-u805e",
+      "kanji": "聞",
+      "meaningsZh": [
+        "听",
+        "询问",
+        "消息"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-7128f49b88b3",
+        "vocab-81f434ee5fe7",
+        "vocab-d30f1af01dcd"
+      ]
+    },
+    {
+      "id": "kanji-u80cc",
+      "kanji": "背",
+      "meaningsZh": [
+        "背"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-e625af014ad2"
+      ]
+    },
+    {
+      "id": "kanji-u81e8",
+      "kanji": "臨",
+      "meaningsZh": [
+        "臨"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-0df21a1802c5"
+      ]
+    },
+    {
+      "id": "kanji-u81ea",
+      "kanji": "自",
+      "meaningsZh": [
+        "自"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-f703a9b237a7"
+      ]
+    },
+    {
+      "id": "kanji-u84cb",
+      "kanji": "蓋",
+      "meaningsZh": [
+        "蓋"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-521b3cb0095f"
+      ]
+    },
+    {
+      "id": "kanji-u884c",
+      "kanji": "行",
+      "meaningsZh": [
+        "去",
+        "进行",
+        "执行"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-728d5809b8c0",
+        "vocab-aae5e371f4ed",
+        "vocab-1608818d723c",
+        "vocab-90754800b22b"
+      ]
+    },
+    {
+      "id": "kanji-u88cf",
+      "kanji": "裏",
+      "meaningsZh": [
+        "裏"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-74e2280b0dd6"
+      ]
+    },
+    {
+      "id": "kanji-u88dc",
+      "kanji": "補",
+      "meaningsZh": [
+        "補"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-4e5b514f9677"
+      ]
+    },
+    {
+      "id": "kanji-u8981",
+      "kanji": "要",
+      "meaningsZh": [
+        "要"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-53f4c5ee9bba",
+        "vocab-536f2c272f07",
+        "vocab-42d4a71aa5c9",
+        "vocab-ff30487a04e5",
+        "vocab-4a2e12872ae2"
+      ]
+    },
+    {
+      "id": "kanji-u898b",
+      "kanji": "見",
+      "meaningsZh": [
+        "看",
+        "确认",
+        "意见"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-0c8fc478c9b5",
+        "vocab-fee0e9c909e3",
+        "vocab-0ddac20970e3",
+        "vocab-550815ae4b6f",
+        "vocab-0bafa305f678",
+        "vocab-3ac6c8a9b1b6",
+        "vocab-56410f62c4ab",
+        "vocab-5e71cf0df374",
+        "vocab-ea4e90a1b548"
+      ]
+    },
+    {
+      "id": "kanji-u89b3",
+      "kanji": "観",
+      "meaningsZh": [
+        "観"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-6048921ffd2e"
+      ]
+    },
+    {
+      "id": "kanji-u89e3",
+      "kanji": "解",
+      "meaningsZh": [
+        "解"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-9ce43791b6a2"
+      ]
+    },
+    {
+      "id": "kanji-u8a08",
+      "kanji": "計",
+      "meaningsZh": [
+        "計"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-280fdb0583f0"
+      ]
+    },
+    {
+      "id": "kanji-u8a18",
+      "kanji": "記",
+      "meaningsZh": [
+        "記"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-59e681eab443"
+      ]
+    },
+    {
+      "id": "kanji-u8a2d",
+      "kanji": "設",
+      "meaningsZh": [
+        "设置",
+        "设计",
+        "设施"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-fbaab3d9e699",
+        "vocab-044ceb9d35cf",
+        "vocab-a75b19134ad2",
+        "vocab-af04b00d740b",
+        "vocab-647a4c32f6f4",
+        "vocab-4560abbc70f5"
+      ]
+    },
+    {
+      "id": "kanji-u8a3c",
+      "kanji": "証",
+      "meaningsZh": [
+        "証"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-8f27a943d93c",
+        "vocab-1ad399bec5df"
+      ]
+    },
+    {
+      "id": "kanji-u8a55",
+      "kanji": "評",
+      "meaningsZh": [
+        "評"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-0c005807e09c",
+        "vocab-ef925ddab718"
+      ]
+    },
+    {
+      "id": "kanji-u8a66",
+      "kanji": "試",
+      "meaningsZh": [
+        "試"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-52a398beb640"
+      ]
+    },
+    {
+      "id": "kanji-u8a71",
+      "kanji": "話",
+      "meaningsZh": [
+        "说话",
+        "会话",
+        "电话"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-0f6127158409",
+        "vocab-ba8d2a15973e",
+        "vocab-3c305bca9f86",
+        "vocab-d1a4771728e7"
+      ]
+    },
+    {
+      "id": "kanji-u8a73",
+      "kanji": "詳",
+      "meaningsZh": [
+        "詳"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-03381ee5ac4f",
+        "vocab-6d64517de71e"
+      ]
+    },
+    {
+      "id": "kanji-u8a8d",
+      "kanji": "認",
+      "meaningsZh": [
+        "認"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-55909ebb3b2b",
+        "vocab-38b5c660465b",
+        "vocab-8e2fc624ca25",
+        "vocab-a31d909a10ce",
+        "vocab-0fc9d1734dce",
+        "vocab-2a0fe7c2d93a",
+        "vocab-cfccb71f59d2"
+      ]
+    },
+    {
+      "id": "kanji-u8aac",
+      "kanji": "説",
+      "meaningsZh": [
+        "説"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-b1e5d86e7222"
+      ]
+    },
+    {
+      "id": "kanji-u8aad",
+      "kanji": "読",
+      "meaningsZh": [
+        "读",
+        "阅读"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-9eb268e71a7b",
+        "vocab-b23a85cb0402",
+        "vocab-36394cbb385a"
+      ]
+    },
+    {
+      "id": "kanji-u8ab2",
+      "kanji": "課",
+      "meaningsZh": [
+        "課"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-a67409ebdbdc"
+      ]
+    },
+    {
+      "id": "kanji-u8abf",
+      "kanji": "調",
+      "meaningsZh": [
+        "调查",
+        "调整",
+        "状态"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-681296836d9c",
+        "vocab-872e4ea3e867",
+        "vocab-22799329216b",
+        "vocab-af7b877b60c7",
+        "vocab-38b09d34f3d3"
+      ]
+    },
+    {
+      "id": "kanji-u8acb",
+      "kanji": "請",
+      "meaningsZh": [
+        "請"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-5ba83ae545a9"
+      ]
+    },
+    {
+      "id": "kanji-u8ad6",
+      "kanji": "論",
+      "meaningsZh": [
+        "論"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-8acefabab20e",
+        "vocab-7ef37d37cdaa"
+      ]
+    },
+    {
+      "id": "kanji-u8b66",
+      "kanji": "警",
+      "meaningsZh": [
+        "警"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-06aa231c5073"
+      ]
+    },
+    {
+      "id": "kanji-u8b70",
+      "kanji": "議",
+      "meaningsZh": [
+        "議"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-1a586dc72094",
+        "vocab-dde5854f4d10"
+      ]
+    },
+    {
+      "id": "kanji-u8ca0",
+      "kanji": "負",
+      "meaningsZh": [
+        "負"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-26f063245ca2",
+        "vocab-4e1006e67704"
+      ]
+    },
+    {
+      "id": "kanji-u8cac",
+      "kanji": "責",
+      "meaningsZh": [
+        "責"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-b09894b1d888"
+      ]
+    },
+    {
+      "id": "kanji-u8cbb",
+      "kanji": "費",
+      "meaningsZh": [
+        "費"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-b97d609eed11",
+        "vocab-cb53d181cda5"
+      ]
+    },
+    {
+      "id": "kanji-u8cc7",
+      "kanji": "資",
+      "meaningsZh": [
+        "資"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-82e000bc50de"
+      ]
+    },
+    {
+      "id": "kanji-u8da3",
+      "kanji": "趣",
+      "meaningsZh": [
+        "趣"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-983fcd6615f0"
+      ]
+    },
+    {
+      "id": "kanji-u8ffd",
+      "kanji": "追",
+      "meaningsZh": [
+        "追"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-62ddf88d75a2",
+        "vocab-d596089c26e6",
+        "vocab-a8f74d55f552",
+        "vocab-26df44aa1200",
+        "vocab-a94385a3adf3"
+      ]
+    },
+    {
+      "id": "kanji-u9001",
+      "kanji": "送",
+      "meaningsZh": [
+        "发送",
+        "寄送"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-9f82ef7fd477",
+        "vocab-491e0b1a08bd",
+        "vocab-9ffcea979c9e",
+        "vocab-0d714911c399",
+        "vocab-f5b4767e8df1"
+      ]
+    },
+    {
+      "id": "kanji-u900f",
+      "kanji": "透",
+      "meaningsZh": [
+        "透"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-6f35a803dbbe"
+      ]
+    },
+    {
+      "id": "kanji-u901a",
+      "kanji": "通",
+      "meaningsZh": [
+        "通"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-4bfa2e4a8691",
+        "vocab-3feebc811f4d"
+      ]
+    },
+    {
+      "id": "kanji-u9023",
+      "kanji": "連",
+      "meaningsZh": [
+        "带领",
+        "联系",
+        "关联"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-aa7cd5e9b351",
+        "vocab-d0d52fc26985",
+        "vocab-5055d584a8f1",
+        "vocab-7d7219871cf5",
+        "vocab-989186c68d16",
+        "vocab-11decd2f04f3"
+      ]
+    },
+    {
+      "id": "kanji-u9032",
+      "kanji": "進",
+      "meaningsZh": [
+        "前进",
+        "推进",
+        "进度"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-bc9986a7a76b",
+        "vocab-3c0d3cc8091f",
+        "vocab-afcc868d89a8",
+        "vocab-1fd05defefe1",
+        "vocab-15e7cb655151",
+        "vocab-ace4ab2ed763"
+      ]
+    },
+    {
+      "id": "kanji-u9045",
+      "kanji": "遅",
+      "meaningsZh": [
+        "遅"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-b785aae3de78"
+      ]
+    },
+    {
+      "id": "kanji-u904b",
+      "kanji": "運",
+      "meaningsZh": [
+        "運"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-3f6704165360",
+        "vocab-368dfc094855",
+        "vocab-efcd7c2e497e",
+        "vocab-1a0cd24aab3d"
+      ]
+    },
+    {
+      "id": "kanji-u9069",
+      "kanji": "適",
+      "meaningsZh": [
+        "適"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-ad9b06c756c8"
+      ]
+    },
+    {
+      "id": "kanji-u9078",
+      "kanji": "選",
+      "meaningsZh": [
+        "选择",
+        "选定"
+      ],
+      "jlptLevel": "N3",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-1652d44b4cde",
+        "vocab-d9e3f941ad99",
+        "vocab-1069439ef42a",
+        "vocab-f92a3cae2a00"
+      ]
+    },
+    {
+      "id": "kanji-u914d",
+      "kanji": "配",
+      "meaningsZh": [
+        "配"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-cf2025a43398"
+      ]
+    },
+    {
+      "id": "kanji-u91cd",
+      "kanji": "重",
+      "meaningsZh": [
+        "重"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-44431a66db6f"
+      ]
+    },
+    {
+      "id": "kanji-u91cf",
+      "kanji": "量",
+      "meaningsZh": [
+        "量"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-1ecbf2a0d9c7"
+      ]
+    },
+    {
+      "id": "kanji-u958b",
+      "kanji": "開",
+      "meaningsZh": [
+        "打开",
+        "召开",
+        "开发"
+      ],
+      "jlptLevel": "N4",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-ca7ac28465a9",
+        "vocab-732cfd7d125f",
+        "vocab-c7ec32e0ae68"
+      ]
+    },
+    {
+      "id": "kanji-u95a2",
+      "kanji": "関",
+      "meaningsZh": [
+        "関"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-a3161b54c5e7",
+        "vocab-a48f5b4d3a83"
+      ]
+    },
+    {
+      "id": "kanji-u9650",
+      "kanji": "限",
+      "meaningsZh": [
+        "限"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-de2e5def3bd2"
+      ]
+    },
+    {
+      "id": "kanji-u969c",
+      "kanji": "障",
+      "meaningsZh": [
+        "妨碍",
+        "故障"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-50f9593a088d",
+        "vocab-4e50115d69f8",
+        "vocab-1bf4f6f699b7",
+        "vocab-f3190fa3cc0b"
+      ]
+    },
+    {
+      "id": "kanji-u975e",
+      "kanji": "非",
+      "meaningsZh": [
+        "非"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "商务与 IT 常用词关联组。",
+      "wordIds": [
+        "vocab-447d39ccc6d4"
+      ]
+    },
+    {
+      "id": "kanji-u98df",
+      "kanji": "食",
+      "meaningsZh": [
+        "吃",
+        "食物"
+      ],
+      "jlptLevel": "N5",
+      "notesZh": "",
+      "wordIds": [
+        "vocab-15e4ca38d01a",
+        "vocab-b6a507acac25",
+        "vocab-992634f8c9fb"
+      ]
+    }
+  ]
+}

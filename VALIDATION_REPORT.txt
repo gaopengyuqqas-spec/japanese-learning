@@ -1,0 +1,14 @@
+Nihongo Lab Phase 1 validation
+{
+  "kanjiGroups": 218,
+  "uniqueVocabulary": 542,
+  "wordAssociations": 455,
+  "sentences": 1466,
+  "dialogues": 64,
+  "dialogueLines": 364
+}
+{
+  "expressionComparisons": 100,
+  "commonMistakes": 100
+}
+OK: all checks passed

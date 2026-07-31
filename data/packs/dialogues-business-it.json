@@ -1,0 +1,4474 @@
+{
+  "schemaVersion": 3,
+  "packId": "dialogues-business-it",
+  "packType": "dialogue",
+  "contentVersion": "2026.07.31-phase1-business-it",
+  "title": "商务与 IT 对话",
+  "description": "第零阶段迁移后的内容包。",
+  "items": [
+    {
+      "id": "dialogue-it-723b96947c64",
+      "category": "it",
+      "title": "报告开发进度",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "向领导汇报当前开发和测试状态。",
+      "lines": [
+        {
+          "id": "line-52225aa7258b",
+          "speaker": "上",
+          "jp": "現在の進捗状況を教えてください。",
+          "reading": "",
+          "zh": "请说明目前的进展情况。"
+        },
+        {
+          "id": "line-8971bcff7470",
+          "speaker": "私",
+          "jp": "Lambda側の修正は完了しており、現在は結合テストを実施しています。",
+          "reading": "",
+          "zh": "Lambda 侧的修改已经完成，目前正在实施集成测试。"
+        },
+        {
+          "id": "line-0aae5848f82f",
+          "speaker": "上",
+          "jp": "予定通りに完了できそうですか。",
+          "reading": "",
+          "zh": "看起来能按计划完成吗？"
+        },
+        {
+          "id": "line-53fd650e110b",
+          "speaker": "私",
+          "jp": "現時点では、予定通り完了できる見込みです。",
+          "reading": "",
+          "zh": "目前预计可以按计划完成。"
+        }
+      ],
+      "keywordTexts": [
+        "進捗状況",
+        "結合テスト",
+        "見込み",
+        "予定通り"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-23d7d635079d",
+      "category": "it",
+      "title": "请求确认资料",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "请同事确认修改后的设计资料。",
+      "lines": [
+        {
+          "id": "line-467c799f9702",
+          "speaker": "私",
+          "jp": "CI/CDの対応方針を資料にまとめました。",
+          "reading": "",
+          "zh": "我已把 CI/CD 的处理方针整理到资料中。"
+        },
+        {
+          "id": "line-c628d6f81c26",
+          "speaker": "私",
+          "jp": "お手数ですが、記載内容に認識相違がないかご確認いただけますか。",
+          "reading": "",
+          "zh": "麻烦您确认一下记载内容是否存在理解差异。"
+        },
+        {
+          "id": "line-ff2d8fde299a",
+          "speaker": "同",
+          "jp": "承知しました。確認後、コメントします。",
+          "reading": "",
+          "zh": "明白了，确认后我会留言。"
+        }
+      ],
+      "keywordTexts": [
+        "対応方針",
+        "お手数ですが",
+        "認識相違",
+        "確認後"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-7fdab394b6fb",
+      "category": "it",
+      "title": "说明测试失败",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "说明 CI/CD 本身没有问题，失败来自测试作业。",
+      "lines": [
+        {
+          "id": "line-0c25b70da426",
+          "speaker": "相",
+          "jp": "昨日のPRが失敗した原因は分かりましたか。",
+          "reading": "",
+          "zh": "知道昨天 PR 失败的原因了吗？"
+        },
+        {
+          "id": "line-fcd0cee8fe1d",
+          "speaker": "私",
+          "jp": "確認したところ、CI/CD処理ではなく、テストJob側のエラーが原因でした。",
+          "reading": "",
+          "zh": "确认后发现，不是 CI/CD 处理，而是测试 Job 侧错误导致的。"
+        },
+        {
+          "id": "line-f666c6e0bf90",
+          "speaker": "私",
+          "jp": "該当ログを共有しますので、開発担当者側でご確認をお願いします。",
+          "reading": "",
+          "zh": "我会共享相关日志，请开发负责人确认。"
+        }
+      ],
+      "keywordTexts": [
+        "確認したところ",
+        "原因",
+        "該当ログ",
+        "開発担当者"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-f9f750183729",
+      "category": "it",
+      "title": "讨论 merge 与 rebase",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "说明多人开发时为何倾向使用 merge。",
+      "lines": [
+        {
+          "id": "line-cb74e0535c4a",
+          "speaker": "同",
+          "jp": "topicブランチはrebaseしてからfeatureへマージした方がよいですか。",
+          "reading": "",
+          "zh": "topic 分支是否最好先 rebase 再 merge 到 feature？"
+        },
+        {
+          "id": "line-244e8eb63166",
+          "speaker": "私",
+          "jp": "複数担当者が同じfeatureへマージする運用では、通常のmergeの方が履歴を追跡しやすいと考えています。",
+          "reading": "",
+          "zh": "在多个负责人向同一个 feature 合并的运用中，我认为普通 merge 更容易追踪历史。"
+        },
+        {
+          "id": "line-1378995a5b4d",
+          "speaker": "私",
+          "jp": "rebaseでは既存コミットのSHAが変わるため、CI/CDの比較基準にも注意が必要です。",
+          "reading": "",
+          "zh": "rebase 会改变现有 commit 的 SHA，因此也需要注意 CI/CD 的比较基准。"
+        }
+      ],
+      "keywordTexts": [
+        "履歴を追跡する",
+        "既存コミット",
+        "比較基準",
+        "注意が必要"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-2c40565f97ba",
+      "category": "it",
+      "title": "向领导说明新方案风险",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "对比新旧部署方式并提出折中方案。",
+      "lines": [
+        {
+          "id": "line-540e141db7f9",
+          "speaker": "私",
+          "jp": "新方式では今回の変更分だけを取得できる一方、関連資材の判定が難しくなる可能性があります。",
+          "reading": "",
+          "zh": "新方式可以只获取本次修改，但关联资源的判断可能会变得困难。"
+        },
+        {
+          "id": "line-2234e93239c7",
+          "speaker": "私",
+          "jp": "そのため、デプロイは現行方式を維持し、テスト対象だけを今回の変更分に限定する折衷案が現実的だと考えています。",
+          "reading": "",
+          "zh": "因此，我认为维持现有部署方式，只把测试对象限定为本次修改内容的折中方案更现实。"
+        },
+        {
+          "id": "line-8246aa56d688",
+          "speaker": "上",
+          "jp": "将来的な拡張性も含めて、比較表に整理してください。",
+          "reading": "",
+          "zh": "请把未来扩展性也包含在内，整理成对比表。"
+        }
+      ],
+      "keywordTexts": [
+        "一方",
+        "可能性があります",
+        "折衷案",
+        "現実的"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [],
+      "expressions": [],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-55fc75c34fa0",
+      "category": "it",
+      "title": "说明PR追加Push后的处理",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "向同事说明开放状态PR发生追加Push时的CI/CD处理。",
+      "lines": [
+        {
+          "id": "line-4dbb6f976d5e",
+          "speaker": "同僚",
+          "jp": "PR作成後に追加Pushした場合、CI/CDは自動で再実行されますか。",
+          "reading": "",
+          "zh": "PR 创建后追加 Push 时，CI/CD 会自动重新执行吗？"
+        },
+        {
+          "id": "line-daa2731dd4d6",
+          "speaker": "私",
+          "jp": "はい、Open状態のPRへの追加Pushを契機として、最新のHEAD SHAを取得します。",
+          "reading": "",
+          "zh": "会。以开放状态 PR 的追加 Push 为契机，获取最新 HEAD SHA。"
+        },
+        {
+          "id": "line-72f28b4f55c2",
+          "speaker": "同僚",
+          "jp": "前回の処理が実行中の場合はどうなりますか。",
+          "reading": "",
+          "zh": "前一次处理仍在执行时怎么办？"
+        },
+        {
+          "id": "line-baefb2557cb6",
+          "speaker": "私",
+          "jp": "同一リポジトリ、同一labelの差分処理が実行中であれば、今回は並行実行しません。",
+          "reading": "",
+          "zh": "同一仓库、同一标签的差分处理正在执行时，本次不并行执行。"
+        },
+        {
+          "id": "line-c2a29d42c5f8",
+          "speaker": "同僚",
+          "jp": "前回処理が終わった後、自動で再開されますか。",
+          "reading": "",
+          "zh": "前一次处理结束后会自动继续吗？"
+        },
+        {
+          "id": "line-2d03ebec938b",
+          "speaker": "私",
+          "jp": "現時点では自動再開せず、必要に応じて開発者が再度Pushする運用です。",
+          "reading": "",
+          "zh": "目前不会自动继续，需要时由开发者再次 Push。"
+        }
+      ],
+      "keywordTexts": [
+        "追加Pushを契機として",
+        "最新のHEAD SHA",
+        "同一リポジトリ",
+        "並行実行しない",
+        "再度Pushする"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "说明流程时用「〜を契機として」。",
+        "明确区分当前实现和将来方案。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-c41f3ec0429f",
+          "label": "简洁版",
+          "jp": "追加Push時は最新SHAで再判定しますが、同一環境の処理中は並行実行しません。",
+          "reading": "",
+          "zh": "追加 Push 时以最新 SHA 重新判断，但同一环境处理期间不并行执行。"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-ac7c407f6dc5",
+      "category": "it",
+      "title": "说明差分比较基准",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "向客户解释PR画面差分和CI/CD差分可能不一致的原因。",
+      "lines": [
+        {
+          "id": "line-c061050d2244",
+          "speaker": "顧客",
+          "jp": "PR画面ではBファイルだけですが、なぜCI/CDではAファイルも対象になったのでしょうか。",
+          "reading": "",
+          "zh": "PR 页面只有 B 文件，为什么 CI/CD 也把 A 文件作为对象？"
+        },
+        {
+          "id": "line-1125e5b62a06",
+          "speaker": "私",
+          "jp": "PR画面とCI/CDでは、差分を比較する基準が異なるためです。",
+          "reading": "",
+          "zh": "因为 PR 页面和 CI/CD 的差分比较基准不同。"
+        },
+        {
+          "id": "line-58c653db17a3",
+          "speaker": "顧客",
+          "jp": "CI/CD側では何を基準にしていますか。",
+          "reading": "",
+          "zh": "CI/CD 侧以什么为基准？"
+        },
+        {
+          "id": "line-015977e7e447",
+          "speaker": "私",
+          "jp": "対象環境で前回正常終了したSHAと、今回のHEAD SHAを比較しています。",
+          "reading": "",
+          "zh": "比较目标环境上次正常结束的 SHA 和本次 HEAD SHA。"
+        },
+        {
+          "id": "line-9dc7b6b1a2ad",
+          "speaker": "顧客",
+          "jp": "比較基準が古い場合、差分が大きくなるということですか。",
+          "reading": "",
+          "zh": "比较基准旧时，差分会变大吗？"
+        },
+        {
+          "id": "line-4fd4623b11c1",
+          "speaker": "私",
+          "jp": "はい。本来の変更範囲より多くのファイルが検出される可能性があります。",
+          "reading": "",
+          "zh": "是的，可能检测到比实际修改范围更多的文件。"
+        }
+      ],
+      "keywordTexts": [
+        "比較する基準",
+        "前回正常終了したSHA",
+        "今回のHEAD SHA",
+        "差分が大きくなる",
+        "検出される可能性"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再说明两个比较对象。",
+        "风险说明使用「可能性があります」避免过度断言。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-34e093fefb7f",
+          "label": "客户正式版",
+          "jp": "PR画面上の差分とCI/CD側の差分は、比較基準が異なるため一致しない場合がございます。",
+          "reading": "",
+          "zh": "由于比较基准不同，PR 页面差分与 CI/CD 侧差分有时不会一致。"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-652eb773926c",
+      "category": "it",
+      "title": "申请AWS权限与服务",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "向基础设施负责人说明为什么需要追加AWS服务和权限。",
+      "lines": [
+        {
+          "id": "line-c3efde587da7",
+          "speaker": "基盤",
+          "jp": "今回、追加で申請が必要なサービスは何でしょうか。",
+          "reading": "",
+          "zh": "这次需要追加申请哪些服务？"
+        },
+        {
+          "id": "line-118fa8de6518",
+          "speaker": "私",
+          "jp": "処理の排他制御と実行履歴管理のため、PostgreSQLの利用を想定しています。",
+          "reading": "",
+          "zh": "为了排他控制和执行历史管理，计划使用 PostgreSQL。"
+        },
+        {
+          "id": "line-3cbba86ec762",
+          "speaker": "基盤",
+          "jp": "SQSとStep Functionsも必要ですか。",
+          "reading": "",
+          "zh": "SQS 和 Step Functions 也需要吗？"
+        },
+        {
+          "id": "line-3b7fc6812022",
+          "speaker": "私",
+          "jp": "はい。SQSは処理の順番待ち、Step Functionsは全体フローの制御に使用します。",
+          "reading": "",
+          "zh": "需要。SQS 用于排队等待，Step Functions 用于控制整体流程。"
+        },
+        {
+          "id": "line-d178a01d615d",
+          "speaker": "基盤",
+          "jp": "EFSはどの処理で使用しますか。",
+          "reading": "",
+          "zh": "EFS 用于什么处理？"
+        },
+        {
+          "id": "line-dba7f5bb7e24",
+          "speaker": "私",
+          "jp": "差分件数が多い場合に、CodeBuildからGitリポジトリを操作する作業領域として使用します。",
+          "reading": "",
+          "zh": "差分件数较多时，作为 CodeBuild 操作 Git 仓库的工作区。"
+        }
+      ],
+      "keywordTexts": [
+        "排他制御",
+        "実行履歴管理",
+        "順番待ち",
+        "全体フローの制御",
+        "作業領域"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "组件说明采用“目的＋组件”的顺序。",
+        "对非技术人员可用“等候室、门锁、流程管理者”等比喻。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-bcf44cf08625",
+          "label": "简要结论",
+          "jp": "PGは状態管理、SQSは待ち行列、Step Functionsは処理全体の制御に使用します。",
+          "reading": "",
+          "zh": "PG 用于状态管理，SQS 用于排队，Step Functions 用于整体处理控制。"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-35a74368e4f7",
+      "category": "it",
+      "title": "说明SSM SendCommand权限错误",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "向其他团队说明跨账号SSM命令执行失败及调查点。",
+      "lines": [
+        {
+          "id": "line-1962e88b7237",
+          "speaker": "相手",
+          "jp": "CodeBuildからの処理が失敗していますが、原因は分かりましたか。",
+          "reading": "",
+          "zh": "CodeBuild 发起的处理失败了，原因查到了吗？"
+        },
+        {
+          "id": "line-2cdcf1ca35db",
+          "speaker": "私",
+          "jp": "SSM SendCommandの実行時にAccessDeniedが発生しています。",
+          "reading": "",
+          "zh": "执行 SSM SendCommand 时发生了 AccessDenied。"
+        },
+        {
+          "id": "line-78c3dd100708",
+          "speaker": "相手",
+          "jp": "AssumeRole自体は成功していますか。",
+          "reading": "",
+          "zh": "AssumeRole 本身成功了吗？"
+        },
+        {
+          "id": "line-a2218f888622",
+          "speaker": "私",
+          "jp": "はい、AssumeRoleとセッションタグの付与までは成功しています。",
+          "reading": "",
+          "zh": "成功，AssumeRole 和会话标签添加都成功。"
+        },
+        {
+          "id": "line-ecbeeae73c63",
+          "speaker": "相手",
+          "jp": "どの権限を確認すればよいでしょうか。",
+          "reading": "",
+          "zh": "应该确认哪些权限？"
+        },
+        {
+          "id": "line-7a49bbbeac62",
+          "speaker": "私",
+          "jp": "対象インスタンスとSSM Documentの両方に対するSendCommand権限をご確認ください。",
+          "reading": "",
+          "zh": "请确认对目标实例和 SSM Document 两者的 SendCommand 权限。"
+        }
+      ],
+      "keywordTexts": [
+        "AccessDeniedが発生する",
+        "AssumeRole自体",
+        "セッションタグ",
+        "権限を確認する",
+        "両方に対する権限"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "调查说明要区分已成功的步骤和失败步骤。",
+        "请求确认时使用「ご確認ください」。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-a6710744e838",
+          "label": "更柔和",
+          "jp": "お手数ですが、対象リソースに対するIAMポリシーをご確認いただけますでしょうか。",
+          "reading": "",
+          "zh": "麻烦确认一下针对目标资源的 IAM 策略。"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-ff0366bf6a7a",
+      "category": "it",
+      "title": "说明DataStage监控进程停止",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "说明Job本身结束，但负责监控和写日志的进程提前停止。",
+      "lines": [
+        {
+          "id": "line-51924f7348d8",
+          "speaker": "上司",
+          "jp": "M1031のテストは失敗したのでしょうか。",
+          "reading": "",
+          "zh": "M1031 的测试失败了吗？"
+        },
+        {
+          "id": "line-a230e6b18042",
+          "speaker": "私",
+          "jp": "DataStage上で確認したところ、Job自体は正常に終了していました。",
+          "reading": "",
+          "zh": "在 DataStage 上确认后，Job 本身正常结束。"
+        },
+        {
+          "id": "line-3d3c0d007c88",
+          "speaker": "上司",
+          "jp": "では、なぜ後続のログが出ていないのですか。",
+          "reading": "",
+          "zh": "那为什么后续日志没有输出？"
+        },
+        {
+          "id": "line-d29e27cce131",
+          "speaker": "私",
+          "jp": "Jobを監視して結果を書き込むプロセスが途中で停止したためです。",
+          "reading": "",
+          "zh": "因为监控 Job 并写入结果的进程中途停止了。"
+        },
+        {
+          "id": "line-4b72ec1beaa8",
+          "speaker": "上司",
+          "jp": "OS側に異常の記録はありましたか。",
+          "reading": "",
+          "zh": "操作系统侧有异常记录吗？"
+        },
+        {
+          "id": "line-32ccc0d58ed8",
+          "speaker": "私",
+          "jp": "該当時間帯のjournalctlを確認しましたが、OOMやSegmentation Faultは見つかりませんでした。",
+          "reading": "",
+          "zh": "确认了对应时间段的 journalctl，但未发现 OOM 或段错误。"
+        }
+      ],
+      "keywordTexts": [
+        "Job自体は正常終了",
+        "結果を書き込むプロセス",
+        "途中で停止",
+        "該当時間帯",
+        "見つかりませんでした"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "故障说明要区分“业务 Job”和“监控进程”。",
+        "未找到原因时明确说“现有日志中未发现”。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-d8e039feca9a",
+          "label": "谨慎表述",
+          "jp": "現時点のログからは、OS起因と判断できる情報は確認されていません。",
+          "reading": "",
+          "zh": "从当前日志中尚未确认到可判断为 OS 原因的信息。"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-6c6ef96260b9",
+      "category": "it",
+      "title": "报告进度延迟与新计划",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "向领导说明测试延迟、原因和新的完成时间。",
+      "lines": [
+        {
+          "id": "line-a7c050c73b65",
+          "speaker": "上司",
+          "jp": "結合テストの進捗はいかがでしょうか。",
+          "reading": "",
+          "zh": "集成测试的进展如何？"
+        },
+        {
+          "id": "line-a6fa285ab503",
+          "speaker": "私",
+          "jp": "現在、全体の七割まで完了していますが、当初予定より一日遅れています。",
+          "reading": "",
+          "zh": "目前完成了整体的七成，但比原计划晚一天。"
+        },
+        {
+          "id": "line-19406e5ca25f",
+          "speaker": "上司",
+          "jp": "遅れている主な理由は何ですか。",
+          "reading": "",
+          "zh": "延迟的主要原因是什么？"
+        },
+        {
+          "id": "line-15ccf8152c41",
+          "speaker": "私",
+          "jp": "想定外の差分が検出され、影響確認に時間がかかっているためです。",
+          "reading": "",
+          "zh": "检测到了预期外的差分，影响确认花费了时间。"
+        },
+        {
+          "id": "line-8f04c7d6962b",
+          "speaker": "上司",
+          "jp": "完了見込みはいつですか。",
+          "reading": "",
+          "zh": "预计何时完成？"
+        },
+        {
+          "id": "line-8a5e61b833aa",
+          "speaker": "私",
+          "jp": "本日中に影響確認を終え、明日の午前中にテストを完了する見込みです。",
+          "reading": "",
+          "zh": "今天之内完成影响确认，预计明天上午完成测试。"
+        }
+      ],
+      "keywordTexts": [
+        "全体の七割",
+        "当初予定より",
+        "主な理由",
+        "完了見込み",
+        "〜する見込みです"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "进度汇报包含完成比例、延迟、原因、新预计时间。",
+        "避免只说“还没完成”。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-9834dbb797bf",
+          "label": "更正式",
+          "jp": "現時点では一日程度の遅延を見込んでおります。",
+          "reading": "",
+          "zh": "目前预计会有一天左右的延迟。"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-95f087c57242",
+      "category": "it",
+      "title": "会议中确认需求理解",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "在设计会议中确认触发条件和正式部署范围。",
+      "lines": [
+        {
+          "id": "line-62a104dc3b8b",
+          "speaker": "私",
+          "jp": "念のため、今回の要件について認識を確認させてください。",
+          "reading": "",
+          "zh": "为慎重起见，请允许我确认一下对本次需求的理解。"
+        },
+        {
+          "id": "line-7cab6c30bd44",
+          "speaker": "顧客",
+          "jp": "はい、お願いします。",
+          "reading": "",
+          "zh": "好的，请说。"
+        },
+        {
+          "id": "line-ba95b1f6325c",
+          "speaker": "私",
+          "jp": "PRへの追加Push時は、正式デプロイと単体テストの両方を実行する認識でよろしいでしょうか。",
+          "reading": "",
+          "zh": "PR 追加 Push 时，理解为同时执行正式部署和单元测试，可以吗？"
+        },
+        {
+          "id": "line-fc0d939e1a76",
+          "speaker": "顧客",
+          "jp": "はい、その認識で問題ありません。",
+          "reading": "",
+          "zh": "是的，这个理解没有问题。"
+        },
+        {
+          "id": "line-3b8596693756",
+          "speaker": "私",
+          "jp": "また、test-onlyの場合は比較基準を更新しない認識です。",
+          "reading": "",
+          "zh": "另外，test-only 时不更新比较基准。"
+        },
+        {
+          "id": "line-dd290b382be0",
+          "speaker": "顧客",
+          "jp": "はい。正式デプロイが成功した場合のみ更新してください。",
+          "reading": "",
+          "zh": "是的，只在正式部署成功时更新。"
+        }
+      ],
+      "keywordTexts": [
+        "念のため",
+        "認識を確認させてください",
+        "〜認識でよろしいでしょうか",
+        "問題ありません",
+        "場合のみ"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "需求确认中重复关键条件，避免模糊。",
+        "「認識でよろしいでしょうか」是常用确认句。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-80b96618d9bc",
+          "label": "邮件表达",
+          "jp": "記載内容について、認識に相違ございません。",
+          "reading": "",
+          "zh": "关于记载内容，理解没有差异。"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-3b0aeb5a1090",
+      "category": "it",
+      "title": "处理分支合并冲突",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "topic 分支合并到 feature 前发现冲突，与同事确认处理方式。",
+      "lines": [
+        {
+          "id": "line-986d1e2f7066",
+          "speaker": "同僚",
+          "jp": "featureブランチへマージしようとしたところ、コンフリクトが発生しました。",
+          "reading": "",
+          "zh": "尝试合并到 feature 分支时发生了冲突。"
+        },
+        {
+          "id": "line-ce61a90a18a2",
+          "speaker": "私",
+          "jp": "どのファイルで競合していますか。",
+          "reading": "",
+          "zh": "哪些文件发生冲突？"
+        },
+        {
+          "id": "line-1d34107169c7",
+          "speaker": "同僚",
+          "jp": "設定ファイルと共通スクリプトの二つです。",
+          "reading": "",
+          "zh": "配置文件和公共脚本两个。"
+        },
+        {
+          "id": "line-07c5d4f529fd",
+          "speaker": "私",
+          "jp": "feature側の最新変更を取り込んだうえで、内容を確認して解消してください。",
+          "reading": "",
+          "zh": "请引入 feature 侧最新修改后，确认内容并解决冲突。"
+        },
+        {
+          "id": "line-bcdbe55f4a1e",
+          "speaker": "同僚",
+          "jp": "解消後は再度テストしたほうがよいでしょうか。",
+          "reading": "",
+          "zh": "解决后最好重新测试吗？"
+        },
+        {
+          "id": "line-f10706ac9cd1",
+          "speaker": "私",
+          "jp": "はい。競合したファイルだけでなく、関連するJobも確認してください。",
+          "reading": "",
+          "zh": "是的，不仅冲突文件，也请确认相关 Job。"
+        }
+      ],
+      "keywordTexts": [
+        "コンフリクトが発生する",
+        "競合する",
+        "最新変更を取り込む",
+        "解消する",
+        "関連するJob"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "Git 语境中「コンフリクト」和「競合」都常用。",
+        "解决冲突后应说明重新确认范围。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-d52c148a935c",
+          "label": "简洁指示",
+          "jp": "最新のfeatureを取り込み、競合解消後に再テストをお願いします。",
+          "reading": "",
+          "zh": "请引入最新 feature，解决冲突后重新测试。"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-3c98bb0ac426",
+      "category": "it",
+      "title": "说明临时对策与正式对策",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "故障尚未彻底解决，向客户说明临时处理和后续计划。",
+      "lines": [
+        {
+          "id": "line-d52005c114ab",
+          "speaker": "顧客",
+          "jp": "今回の事象に対する対応方針を教えてください。",
+          "reading": "",
+          "zh": "请说明针对本次现象的处理方针。"
+        },
+        {
+          "id": "line-eb6535296145",
+          "speaker": "私",
+          "jp": "まず、影響を抑えるための暫定対応を実施します。",
+          "reading": "",
+          "zh": "首先实施用于控制影响的临时措施。"
+        },
+        {
+          "id": "line-646e7c98ab68",
+          "speaker": "顧客",
+          "jp": "具体的にはどのような対応ですか。",
+          "reading": "",
+          "zh": "具体是什么措施？"
+        },
+        {
+          "id": "line-de320ae84c08",
+          "speaker": "私",
+          "jp": "処理件数を制限し、同一環境での並行実行を停止します。",
+          "reading": "",
+          "zh": "限制处理件数，并停止同一环境的并行执行。"
+        },
+        {
+          "id": "line-9de4141fdb38",
+          "speaker": "顧客",
+          "jp": "恒久対応はいつ実施しますか。",
+          "reading": "",
+          "zh": "永久对策什么时候实施？"
+        },
+        {
+          "id": "line-b82b7d3e8a74",
+          "speaker": "私",
+          "jp": "原因調査と影響確認後に設計を見直し、次回リリースで対応する予定です。",
+          "reading": "",
+          "zh": "原因调查和影响确认后重新审视设计，计划在下次发布中处理。"
+        }
+      ],
+      "keywordTexts": [
+        "対応方針",
+        "暫定対応",
+        "影響を抑える",
+        "恒久対応",
+        "設計を見直す"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "明确区分「暫定対応」与「恒久対応」。",
+        "尚未确定时用「予定です」而不是断言。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-7f35ae046eac",
+          "label": "客户正式版",
+          "jp": "まず暫定対応により影響を抑えたうえで、原因調査後に恒久対応を実施する予定です。",
+          "reading": "",
+          "zh": "先通过临时措施控制影响，再在原因调查后实施永久对策。"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-it-b85338120705",
+      "category": "it",
+      "title": "技术选型会议：SQS与Step Functions",
+      "jlptLevel": "Unspecified",
+      "register": "business",
+      "relationship": "unspecified",
+      "situation": "在会议中比较组件作用，避免直接替领导做决定。",
+      "lines": [
+        {
+          "id": "line-c05bd1e593f1",
+          "speaker": "上司",
+          "jp": "SQSとStep Functionsは、どちらか一方だけではだめでしょうか。",
+          "reading": "",
+          "zh": "SQS 和 Step Functions 不能只用其中一个吗？"
+        },
+        {
+          "id": "line-0865474354db",
+          "speaker": "私",
+          "jp": "役割が異なるため、解決する課題も異なります。",
+          "reading": "",
+          "zh": "两者职责不同，解决的问题也不同。"
+        },
+        {
+          "id": "line-61549aaad32b",
+          "speaker": "上司",
+          "jp": "SQSは何を担当しますか。",
+          "reading": "",
+          "zh": "SQS 负责什么？"
+        },
+        {
+          "id": "line-496ce22f53e2",
+          "speaker": "私",
+          "jp": "SQSは実行要求を順番に待たせ、急な集中を吸収する役割です。",
+          "reading": "",
+          "zh": "SQS 让执行请求排队，并吸收突然的请求集中。"
+        },
+        {
+          "id": "line-00e8ccad333c",
+          "speaker": "上司",
+          "jp": "Step Functionsはどうでしょうか。",
+          "reading": "",
+          "zh": "Step Functions 呢？"
+        },
+        {
+          "id": "line-bd7c0dfa0684",
+          "speaker": "私",
+          "jp": "Step Functionsは各処理の順序、分岐、待機、失敗時の制御を担当します。",
+          "reading": "",
+          "zh": "Step Functions 负责各处理的顺序、分支、等待和失败控制。"
+        },
+        {
+          "id": "line-3921b97cc8af",
+          "speaker": "上司",
+          "jp": "それぞれのメリットとコストを比較して決めましょう。",
+          "reading": "",
+          "zh": "比较各自优点和成本后决定吧。"
+        }
+      ],
+      "keywordTexts": [
+        "役割が異なる",
+        "実行要求",
+        "順番に待たせる",
+        "分岐と待機",
+        "比較して決める"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "技术选型会议中先说明职责边界，再比较。",
+        "不要直接说“必须选某个组件”，而是给出判断材料。"
+      ],
+      "expressions": [
+        {
+          "id": "expression-5fb2c7763d2c",
+          "label": "通俗比喻",
+          "jp": "SQSは待合室、Step Functionsは処理全体の進行役です。",
+          "reading": "",
+          "zh": "SQS 是等候室，Step Functions 是整体流程的主持者。"
+        }
+      ],
+      "speakerIntentZh": "",
+      "rolePlayPromptZh": "",
+      "tags": [
+        "IT",
+        "工作"
+      ]
+    },
+    {
+      "id": "dialogue-2d0fd677cd05",
+      "category": "business",
+      "title": "确认会议目的",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "今天的会议需要确定下一阶段的实施范围。",
+      "lines": [
+        {
+          "id": "line-15587d3a807c",
+          "speaker": "上司",
+          "jp": "本日の会議では、次のフェーズで実施する範囲を決めたいと考えています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-d65d63d5cd85",
+          "speaker": "私",
+          "jp": "承知しました。まず、候補となる作業項目を整理しましょう。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-5f5fd9bb2881",
+          "speaker": "上司",
+          "jp": "優先度と依存関係を確認したうえで、実施順序を決める認識でよいでしょうか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-6d639d2889b8",
+          "speaker": "私",
+          "jp": "はい。その認識で問題ありません。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-75019523c2f0",
+          "speaker": "上司",
+          "jp": "では、決定事項と保留事項を分けて議事録に残します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-73ebbaf1caf5",
+          "speaker": "私",
+          "jp": "ありがとうございます。会議後に関係者へ共有をお願いします。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "本日",
+        "会議",
+        "フェーズ",
+        "実施",
+        "範囲",
+        "承知"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "本日の会議では、次のフェーズで実施する範囲を決めたいと考えています。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-5ac381a12deb",
+      "category": "business",
+      "title": "汇报延期风险",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "当前调查比预期耗时，可能影响完成日期。",
+      "lines": [
+        {
+          "id": "line-0eaa2276a6c5",
+          "speaker": "上司",
+          "jp": "現在、原因調査に想定以上の時間を要しています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-40ba629bfc33",
+          "speaker": "私",
+          "jp": "完了予定日への影響はありますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-db7f5e50a890",
+          "speaker": "上司",
+          "jp": "このままですと、二営業日ほど遅れる可能性があります。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f69366747e62",
+          "speaker": "私",
+          "jp": "後続作業への影響を最小限にする方法はありますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-6b64cce4f62d",
+          "speaker": "上司",
+          "jp": "優先度の高い部分を先に完了させ、残りを並行して進める案を検討しています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-30ffb70ec388",
+          "speaker": "私",
+          "jp": "その案で影響範囲を整理し、今日中に共有してください。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "現在",
+        "原因調査",
+        "想定以上",
+        "時間",
+        "完了予定日",
+        "影響"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "現在、原因調査に想定以上の時間を要しています。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-ec6118b87ad9",
+      "category": "business",
+      "title": "请求确认资料",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "已更新设计资料，请对方确认。",
+      "lines": [
+        {
+          "id": "line-b40c3f2d942c",
+          "speaker": "上司",
+          "jp": "設計資料を更新しましたので、ご確認をお願いいたします。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-bd48b80389e1",
+          "speaker": "私",
+          "jp": "主な変更点はどこですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-e79c1fd434ff",
+          "speaker": "上司",
+          "jp": "比較基準の管理方法と、失敗時の処理を追記しています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-51d5a8c6e7a1",
+          "speaker": "私",
+          "jp": "確認期限はいつまででしょうか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-6706f7e3b8ad",
+          "speaker": "上司",
+          "jp": "可能であれば、明日の午前中までにご確認いただけますと助かります。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-edba8aeeed00",
+          "speaker": "私",
+          "jp": "承知しました。確認結果をコメントします。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "設計資料",
+        "更新",
+        "確認",
+        "変更点",
+        "比較基準",
+        "管理方法"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "設計資料を更新しましたので、ご確認をお願いいたします。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-b214ea9f8fc9",
+      "category": "business",
+      "title": "说明认知差异",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "部分内容双方理解不一致。",
+      "lines": [
+        {
+          "id": "line-7d1a9ab47113",
+          "speaker": "上司",
+          "jp": "資料を確認したところ、一点だけ認識が異なる箇所がありました。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f284984cd468",
+          "speaker": "私",
+          "jp": "どの部分でしょうか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-98240825919c",
+          "speaker": "上司",
+          "jp": "追加Push時の処理は、テストのみではなく正式デプロイも含む認識です。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-04b0736c4211",
+          "speaker": "私",
+          "jp": "こちらではテストのみと理解していました。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-40bf268e449f",
+          "speaker": "上司",
+          "jp": "影響が大きいため、前提を整理して改めて確認しましょう。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-e21d4da82144",
+          "speaker": "私",
+          "jp": "承知しました。確認事項を資料に追記します。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "資料",
+        "確認",
+        "一点",
+        "認識",
+        "箇所",
+        "部分"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "資料を確認したところ、一点だけ認識が異なる箇所がありました。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-39c1beb28957",
+      "category": "business",
+      "title": "提出折中方案",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "全面切换风险高，提出兼容方案。",
+      "lines": [
+        {
+          "id": "line-1445c7511c96",
+          "speaker": "上司",
+          "jp": "新方式にはメリットがありますが、全面的な切り替えにはリスクがあります。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-395e334986b6",
+          "speaker": "私",
+          "jp": "具体的には、どのようなリスクでしょうか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-61463cfefa00",
+          "speaker": "上司",
+          "jp": "比較基準と実行状態の管理が複雑になり、障害時の切り分けが難しくなります。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-377bd536ac6b",
+          "speaker": "私",
+          "jp": "代替案はありますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-7b45292f4dad",
+          "speaker": "上司",
+          "jp": "デプロイ方式は現行のまま維持し、テスト対象の判定だけを新方式へ変更する案を提案します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-5f4c8ba89fc4",
+          "speaker": "私",
+          "jp": "その案のメリットと制約を資料にまとめてください。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "新方式",
+        "メリット",
+        "全面的",
+        "リスク",
+        "具体的",
+        "比較基準"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "新方式にはメリットがありますが、全面的な切り替えにはリスクがあります。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-e6617eb88fc8",
+      "category": "business",
+      "title": "委婉反对方案",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "认可优点后说明现阶段不建议。",
+      "lines": [
+        {
+          "id": "line-8a58205bc990",
+          "speaker": "上司",
+          "jp": "ご提案の方式は、処理を簡略化できる点で有効だと考えています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-5260e3c3d17e",
+          "speaker": "私",
+          "jp": "では、この方式で進めてもよいでしょうか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-2128102832cf",
+          "speaker": "上司",
+          "jp": "一方で、現時点では運用実績がなく、全面導入は時期尚早だと考えています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-505fdb0357f4",
+          "speaker": "私",
+          "jp": "まず何を確認すべきですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-e7aa0f43e2ec",
+          "speaker": "上司",
+          "jp": "限定的な範囲で試行し、問題がないことを確認してから適用範囲を広げるのが妥当です。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-3f3790c681c2",
+          "speaker": "私",
+          "jp": "分かりました。段階導入の計画を作成しましょう。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "提案",
+        "方式",
+        "処理",
+        "簡略化",
+        "有効",
+        "一方"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "ご提案の方式は、処理を簡略化できる点で有効だと考えています。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-2fe3d5ac0fa7",
+      "category": "business",
+      "title": "客户QA回答",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "先给结论，再解释例外。",
+      "lines": [
+        {
+          "id": "line-66b437d23eb2",
+          "speaker": "上司",
+          "jp": "ご質問の件ですが、通常の運用では問題ありません。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-9040d901729f",
+          "speaker": "私",
+          "jp": "例外となるケースはありますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-b6540c27793e",
+          "speaker": "上司",
+          "jp": "前回処理が失敗し、比較基準が更新されていない場合は差分が大きくなる可能性があります。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-2f7c7fa7476c",
+          "speaker": "私",
+          "jp": "その場合はどのように対応しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-4090304f489e",
+          "speaker": "上司",
+          "jp": "比較基準を確認し、必要に応じてリセットしたうえで再実行します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-079562cca862",
+          "speaker": "私",
+          "jp": "承知しました。資料にもその点を追記してください。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "質問",
+        "通常",
+        "運用",
+        "問題",
+        "例外",
+        "ケース"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "ご質問の件ですが、通常の運用では問題ありません。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-02ede19eb484",
+      "category": "business",
+      "title": "请求调整日程",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "请求将完成日顺延两天。",
+      "lines": [
+        {
+          "id": "line-c70af7421428",
+          "speaker": "上司",
+          "jp": "調査に時間を要しているため、完了予定日を二営業日ほど後ろ倒しさせていただきたいです。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-a4128fd04a94",
+          "speaker": "私",
+          "jp": "後続のテスト日程には影響しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-3ce117fbb939",
+          "speaker": "上司",
+          "jp": "一部影響がありますが、先行できる作業を進めることで最小限に抑える予定です。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-a5f229c94e62",
+          "speaker": "私",
+          "jp": "新しい完了予定日はいつですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-84f31caa91df",
+          "speaker": "上司",
+          "jp": "来週水曜日を予定しています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f06a920452ac",
+          "speaker": "私",
+          "jp": "影響範囲と対応策を記載したうえで、正式に共有してください。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "調査",
+        "時間",
+        "完了予定日",
+        "二営業日",
+        "後続",
+        "テスト日程"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "調査に時間を要しているため、完了予定日を二営業日ほど後ろ倒しさせていただきたいです。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-6c8901abd562",
+      "category": "business",
+      "title": "确认负责人",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "明确各任务负责人。",
+      "lines": [
+        {
+          "id": "line-500eae62bdeb",
+          "speaker": "上司",
+          "jp": "次の作業について、担当者を明確にしたいと思います。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-2f9a35991044",
+          "speaker": "私",
+          "jp": "設計修正は私が担当します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-c7fecd5f43bd",
+          "speaker": "上司",
+          "jp": "テスト計画はどなたが担当しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-062266638d29",
+          "speaker": "私",
+          "jp": "私が対応しますが、環境準備は基盤チームに依頼する必要があります。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-ed4bdb51f5a4",
+          "speaker": "上司",
+          "jp": "では、依頼期限も含めて役割分担表を更新してください。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-1eacbe30cdbc",
+          "speaker": "私",
+          "jp": "承知しました。本日中に共有します。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "作業",
+        "担当者",
+        "明確",
+        "設計修正",
+        "担当",
+        "テスト計画"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "次の作業について、担当者を明確にしたいと思います。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-0ab36e162e80",
+      "category": "business",
+      "title": "会议总结",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "总结决定事项与后续行动。",
+      "lines": [
+        {
+          "id": "line-5a25c1b92a4a",
+          "speaker": "上司",
+          "jp": "本日の決定事項を確認します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-a0332c8b2b0a",
+          "speaker": "私",
+          "jp": "お願いします。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-bb19cfb7d142",
+          "speaker": "上司",
+          "jp": "まず、第一段階では現行方式を維持します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-62c5ab115dc0",
+          "speaker": "私",
+          "jp": "第二に、テスト対象判定のみ新方式を試行します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-c43b516b7f5f",
+          "speaker": "上司",
+          "jp": "残っている宿題事項は何でしょうか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-3804cb436e0e",
+          "speaker": "私",
+          "jp": "権限申請と影響調査です。担当者と期限を議事録に記載します。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "本日",
+        "決定事項",
+        "確認",
+        "第一段階",
+        "現行方式",
+        "維持"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "本日の決定事項を確認します。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-012e661f3d49",
+      "category": "business",
+      "title": "说明调查结果",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "日志中未发现OS异常。",
+      "lines": [
+        {
+          "id": "line-ac365c9b0ac9",
+          "speaker": "上司",
+          "jp": "調査結果をご報告します。OSログには、OOMやセグメンテーションフォルトの記録はありませんでした。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-626c7498f3e8",
+          "speaker": "私",
+          "jp": "では、原因は特定できていないということですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-e37d5cca74b2",
+          "speaker": "上司",
+          "jp": "はい。現時点では、監視プロセスが停止した直接原因は特定できていません。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-1e80cb05b4de",
+          "speaker": "私",
+          "jp": "次に何を確認しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-6270f674a391",
+          "speaker": "上司",
+          "jp": "アプリケーションログとプロセス終了時刻を突き合わせて確認します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-0f0ddc2ca871",
+          "speaker": "私",
+          "jp": "追加調査の結果が分かり次第、共有してください。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "調査結果",
+        "報告",
+        "ログ",
+        "セグメンテーションフォルト",
+        "記録",
+        "原因"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "調査結果をご報告します。OSログには、OOMやセグメンテーションフォルトの記録はありませんでした。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-e69d9b2a73fd",
+      "category": "business",
+      "title": "临时与永久对策",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "区分暂定处理和永久处理。",
+      "lines": [
+        {
+          "id": "line-5fbc76ef5400",
+          "speaker": "上司",
+          "jp": "まずは暫定対応として、失敗時に再実行できる手順を整備します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-0c54ee0c0eea",
+          "speaker": "私",
+          "jp": "恒久対応はどのように考えていますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-a837d479c69b",
+          "speaker": "上司",
+          "jp": "実行状態をDBで管理し、重複実行を防止する仕組みを導入する予定です。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-ad6a5d3bc176",
+          "speaker": "私",
+          "jp": "暫定対応だけで運用開始できますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-439a0c6d5a43",
+          "speaker": "上司",
+          "jp": "短期間であれば可能ですが、手動対応が残るため運用負荷があります。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-a65d9b30ec2a",
+          "speaker": "私",
+          "jp": "その点をリスクとして明記してください。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "暫定対応",
+        "失敗時",
+        "再実行",
+        "手順",
+        "整備",
+        "恒久対応"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "まずは暫定対応として、失敗時に再実行できる手順を整備します。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-fe5ee6d898c6",
+      "category": "business",
+      "title": "确认优先级",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "多个任务中确定优先顺序。",
+      "lines": [
+        {
+          "id": "line-aaf53ac2f92b",
+          "speaker": "上司",
+          "jp": "現在、三つの課題が並行しています。優先順位を確認させてください。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-62b7bf9f3fd1",
+          "speaker": "私",
+          "jp": "最も影響が大きいのはどれですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-9615de2b3f13",
+          "speaker": "上司",
+          "jp": "Webhookのタイムアウト対応です。次に並行実行制御、その後に大量差分対応となります。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-fadf35505f03",
+          "speaker": "私",
+          "jp": "依存関係はありますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f76b751461c7",
+          "speaker": "上司",
+          "jp": "並行実行制御は状態管理の設計に依存します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-6e827f1c41c8",
+          "speaker": "私",
+          "jp": "では、その順序で計画を更新してください。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "現在",
+        "課題",
+        "並行",
+        "優先順位",
+        "確認",
+        "影響"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "現在、三つの課題が並行しています。優先順位を確認させてください。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-1966cde5e5ea",
+      "category": "business",
+      "title": "请求内部确认",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "无法立即回答，需要内部确认。",
+      "lines": [
+        {
+          "id": "line-02f336626133",
+          "speaker": "上司",
+          "jp": "ご質問の内容については、現時点で確定的な回答ができません。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-4c06dbf92eb2",
+          "speaker": "私",
+          "jp": "いつ頃回答できますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-4addbf07467b",
+          "speaker": "上司",
+          "jp": "社内の基盤担当者へ確認し、明日中に回答します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-40939d9971a2",
+          "speaker": "私",
+          "jp": "確認するポイントは何ですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-68820877f4bd",
+          "speaker": "上司",
+          "jp": "利用可能な権限とネットワーク制約です。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-1611019baad3",
+          "speaker": "私",
+          "jp": "承知しました。確認結果をお待ちしています。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "質問",
+        "内容",
+        "現時点",
+        "確定的",
+        "回答",
+        "頃回答"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "ご質問の内容については、現時点で確定的な回答ができません。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-f16511bbae6e",
+      "category": "business",
+      "title": "说明成本影响",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "比较两个方案的费用。",
+      "lines": [
+        {
+          "id": "line-45c59684443f",
+          "speaker": "上司",
+          "jp": "二つの案について、費用面の違いを説明します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-947a90dc5272",
+          "speaker": "私",
+          "jp": "どちらの方が安いですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-5ee0a97e7891",
+          "speaker": "上司",
+          "jp": "初期費用は案Aの方が低いですが、運用負荷を含めると案Bの方が有利です。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-9aa6915c5e4d",
+          "speaker": "私",
+          "jp": "判断に必要な情報はそろっていますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-6f5fad37f9e3",
+          "speaker": "上司",
+          "jp": "概算費用と運用工数は整理済みです。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-298469485e66",
+          "speaker": "私",
+          "jp": "では、費用対効果が分かる形で資料を更新してください。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "費用面",
+        "説明",
+        "初期費用",
+        "運用負荷",
+        "有利",
+        "判断"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "二つの案について、費用面の違いを説明します。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-d7f83cc9a072",
+      "category": "business",
+      "title": "交接工作",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "向接任者说明当前状态。",
+      "lines": [
+        {
+          "id": "line-7eac6537d73d",
+          "speaker": "上司",
+          "jp": "引継ぎにあたり、現在の対応状況をご説明します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-712359bdac48",
+          "speaker": "私",
+          "jp": "未完了の作業はありますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-bdd78791416a",
+          "speaker": "上司",
+          "jp": "権限申請と結合テストが未完了です。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-49a67301b359",
+          "speaker": "私",
+          "jp": "注意点はありますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f26026479ccd",
+          "speaker": "上司",
+          "jp": "テスト成功時のみ比較基準を更新する点にご留意ください。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-944df5b1691d",
+          "speaker": "私",
+          "jp": "承知しました。関連資料の格納先も教えてください。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "引継",
+        "現在",
+        "対応状況",
+        "説明",
+        "未完了",
+        "作業"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "引継ぎにあたり、現在の対応状況をご説明します。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-841bde79a955",
+      "category": "business",
+      "title": "确认发布判定",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "正式发布前确认条件。",
+      "lines": [
+        {
+          "id": "line-a219145d114b",
+          "speaker": "上司",
+          "jp": "本番リリースの判定条件を確認します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-0df89db05e55",
+          "speaker": "私",
+          "jp": "必要なテストはすべて完了していますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-870fcbe1cae1",
+          "speaker": "上司",
+          "jp": "単体テストと結合テストは完了しています。回帰テストの結果を確認中です。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-058a641ea989",
+          "speaker": "私",
+          "jp": "未解決の懸念はありますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-2e5afda04d02",
+          "speaker": "上司",
+          "jp": "性能面で軽微な懸念がありますが、業務影響はありません。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-e9cfd9f6ca99",
+          "speaker": "私",
+          "jp": "根拠を資料に残したうえで、最終判断を行いましょう。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "本番リリース",
+        "判定条件",
+        "確認",
+        "必要",
+        "テスト",
+        "完了"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "本番リリースの判定条件を確認します。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-e76691662c9d",
+      "category": "business",
+      "title": "请求追加信息",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "资料不足，请求补充。",
+      "lines": [
+        {
+          "id": "line-40bcf785c630",
+          "speaker": "上司",
+          "jp": "ご共有いただいた資料を確認しましたが、判断に必要な情報が一部不足しています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-97a4eb1039e4",
+          "speaker": "私",
+          "jp": "どの情報が必要でしょうか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-d9ad59a740d3",
+          "speaker": "上司",
+          "jp": "対象範囲、実施時期、想定工数の三点です。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-e58687957046",
+          "speaker": "私",
+          "jp": "いつまでに必要ですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-149bb7d9b582",
+          "speaker": "上司",
+          "jp": "次回会議の前日までにご共有ください。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-584c119fed4b",
+          "speaker": "私",
+          "jp": "承知しました。追記して再送します。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "共有",
+        "資料",
+        "確認",
+        "判断",
+        "必要",
+        "情報"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "ご共有いただいた資料を確認しましたが、判断に必要な情報が一部不足しています。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-d2be4a83c9ec",
+      "category": "business",
+      "title": "确认变更影响",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "设计变更前做影响调查。",
+      "lines": [
+        {
+          "id": "line-2b4a2ff31572",
+          "speaker": "上司",
+          "jp": "この設計変更を行う前に、既存機能への影響を確認したいです。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-4da89c2b73a8",
+          "speaker": "私",
+          "jp": "どの範囲を調査しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-89805a0f62aa",
+          "speaker": "上司",
+          "jp": "Lambda、CodeBuild、サーバースクリプトの三つです。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-13e16a258b00",
+          "speaker": "私",
+          "jp": "データ形式への影響はありますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-6e2a3c2a7a9f",
+          "speaker": "上司",
+          "jp": "現時点ではありませんが、念のため下流処理も確認します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-76cb0040baa1",
+          "speaker": "私",
+          "jp": "調査結果を一覧にまとめてください。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "設計変更",
+        "既存機能",
+        "影響",
+        "確認",
+        "範囲",
+        "調査"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "この設計変更を行う前に、既存機能への影響を確認したいです。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-d848ef6bc048",
+      "category": "business",
+      "title": "决定分阶段导入",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "通过试点后扩大范围。",
+      "lines": [
+        {
+          "id": "line-65567594c621",
+          "speaker": "上司",
+          "jp": "まずはUT1環境に限定して新方式を導入します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-1f6c98bb5837",
+          "speaker": "私",
+          "jp": "問題がなければ、他の環境にも展開しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-1fccc646b841",
+          "speaker": "上司",
+          "jp": "はい。運用実績を踏まえて、適用範囲を段階的に拡大します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-21f3f005bd10",
+          "speaker": "私",
+          "jp": "評価期間はどの程度ですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-fd36b2873f87",
+          "speaker": "上司",
+          "jp": "一か月を想定しています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-8360bd09e432",
+          "speaker": "私",
+          "jp": "評価項目と判断基準を事前に定義してください。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "環境",
+        "限定",
+        "新方式",
+        "導入",
+        "問題",
+        "展開"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "まずはUT1環境に限定して新方式を導入します。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "会议"
+      ]
+    },
+    {
+      "id": "dialogue-27ad96362209",
+      "category": "it",
+      "title": "PR追加Push处理",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "PR创建后又追加Push。",
+      "lines": [
+        {
+          "id": "line-81457bfb2cc9",
+          "speaker": "上司",
+          "jp": "PR作成後に追加Pushが行われました。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-538f121c058e",
+          "speaker": "私",
+          "jp": "現在のHEAD SHAを取得できていますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-edd0bebd93bf",
+          "speaker": "上司",
+          "jp": "はい。最新のHEAD SHAをもとに差分を再計算します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-fd528beb27d5",
+          "speaker": "私",
+          "jp": "前回の処理が実行中の場合はどうしますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-5b8ee04182d9",
+          "speaker": "上司",
+          "jp": "同一リポジトリとlabelの処理中は、新しい差分処理を開始しません。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-b758de74c8e0",
+          "speaker": "私",
+          "jp": "処理終了後に再度Pushする運用でよいですか。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "作成後",
+        "追加",
+        "現在",
+        "取得",
+        "最新",
+        "差分"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "PR作成後に追加Pushが行われました。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-51bbe4a679b6",
+      "category": "it",
+      "title": "比较基准更新",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "说明成功时更新、失败时不更新。",
+      "lines": [
+        {
+          "id": "line-2133a5f21bec",
+          "speaker": "上司",
+          "jp": "比較基準の更新タイミングを確認します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-362e9e525dbb",
+          "speaker": "私",
+          "jp": "正式デプロイが成功した場合のみ、最新SHAへ更新します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-5701acd1a394",
+          "speaker": "上司",
+          "jp": "テストだけを実行した場合はどうなりますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-91f04618a9ef",
+          "speaker": "私",
+          "jp": "test-onlyでは比較基準を更新しません。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-b03b8bc66ce4",
+          "speaker": "上司",
+          "jp": "失敗時も更新しない認識でよいですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-91c8e947616c",
+          "speaker": "私",
+          "jp": "はい。失敗時は旧基準を保持します。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "比較基準",
+        "更新タイミング",
+        "確認",
+        "正式デプロイ",
+        "成功",
+        "場合"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "比較基準の更新タイミングを確認します。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-832c3f02d033",
+      "category": "it",
+      "title": "Merge与Rebase",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "讨论团队分支策略。",
+      "lines": [
+        {
+          "id": "line-2c5bb0968654",
+          "speaker": "上司",
+          "jp": "複数のtopicブランチをfeatureへ取り込む場合、mergeとrebaseのどちらがよいでしょうか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-a58b7ca69edf",
+          "speaker": "私",
+          "jp": "履歴を追跡しやすくするなら、通常のmergeが適しています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-a6c857e60df7",
+          "speaker": "上司",
+          "jp": "rebaseのメリットは何ですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-2eb628fd5b88",
+          "speaker": "私",
+          "jp": "履歴を直線化できますが、既存コミットのSHAが変わります。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-19b8921d8056",
+          "speaker": "上司",
+          "jp": "CI/CDへの影響はありますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-3a8ee9e72c2f",
+          "speaker": "私",
+          "jp": "SHAを比較基準としているため、共有済みブランチのrebaseには注意が必要です。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "複数",
+        "ブランチ",
+        "場合",
+        "履歴",
+        "追跡",
+        "通常"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "複数のtopicブランチをfeatureへ取り込む場合、mergeとrebaseのどちらがよいでしょうか。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-4cb58faf00ae",
+      "category": "it",
+      "title": "差分过大",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "比较基准过旧导致差分扩大。",
+      "lines": [
+        {
+          "id": "line-3d4381748c08",
+          "speaker": "上司",
+          "jp": "今回の差分件数が通常より多くなっています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-abd9f283f4d4",
+          "speaker": "私",
+          "jp": "比較基準は最新の状態ですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-02cea23a5fbc",
+          "speaker": "上司",
+          "jp": "前回処理が失敗したため、古いSHAのままです。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-2aff1ddde4f6",
+          "speaker": "私",
+          "jp": "その場合、以前の変更も差分に含まれますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-0234993de4cc",
+          "speaker": "上司",
+          "jp": "はい。比較基準以降の累積差分として検出されます。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-e6e93ad1ee40",
+          "speaker": "私",
+          "jp": "基準を確認してから再実行しましょう。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "今回",
+        "差分件数",
+        "通常",
+        "比較基準",
+        "最新",
+        "状態"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "今回の差分件数が通常より多くなっています。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-d6c9aed60114",
+      "category": "it",
+      "title": "Compare API限制",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "说明件数风险。",
+      "lines": [
+        {
+          "id": "line-ea8a3619404f",
+          "speaker": "上司",
+          "jp": "Compare APIの差分件数について確認があります。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-dcdc5b83139c",
+          "speaker": "私",
+          "jp": "公式設定には100件の値がありますが、Compare APIへの直接適用は確認できていません。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-9bd1672260c2",
+          "speaker": "上司",
+          "jp": "100件を超えても問題ないですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-5a0d086ad16d",
+          "speaker": "私",
+          "jp": "実績上は取得できていますが、完全には保証できません。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f22d5fe05b01",
+          "speaker": "上司",
+          "jp": "運用上はどうしますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-203a290071b8",
+          "speaker": "私",
+          "jp": "通常は100件以内を目安とし、大量差分は別方式で処理します。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "差分件数",
+        "確認",
+        "公式設定",
+        "直接適用",
+        "問題",
+        "実績上"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "Compare APIの差分件数について確認があります。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-dfe443145b62",
+      "category": "it",
+      "title": "Lambda超时",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "Webhook调用Lambda发生超时。",
+      "lines": [
+        {
+          "id": "line-5688b1b03273",
+          "speaker": "上司",
+          "jp": "WebhookからLambdaへの呼び出しでタイムアウトが発生しました。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-de601ce2f472",
+          "speaker": "私",
+          "jp": "Lambda処理自体は継続していますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-a7a6d72ccd54",
+          "speaker": "上司",
+          "jp": "はい。ただし、Gitea側では失敗と判断される可能性があります。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-1e4d382e4eff",
+          "speaker": "私",
+          "jp": "対策はありますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-0fc94455af1d",
+          "speaker": "上司",
+          "jp": "受付処理と本処理を分離し、SQS経由で非同期実行する案を検討しています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-2ea14c3d4e4e",
+          "speaker": "私",
+          "jp": "重複イベントの対策も必要ですね。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "タイムアウト",
+        "発生",
+        "処理自体",
+        "継続",
+        "失敗",
+        "判断"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "WebhookからLambdaへの呼び出しでタイムアウトが発生しました。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-e401b2f28995",
+      "category": "it",
+      "title": "SQS并发控制",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "说明FIFO与数据库锁配合。",
+      "lines": [
+        {
+          "id": "line-0f686e9bdaf9",
+          "speaker": "上司",
+          "jp": "SQS FIFOだけで処理の重複を防げますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-0ad4ae7da947",
+          "speaker": "私",
+          "jp": "同一MessageGroupId内の順序は保てますが、Step Functions実行中の重複までは防げません。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-e3bd28d9f1dd",
+          "speaker": "上司",
+          "jp": "追加の制御が必要ですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-e27cbd214b42",
+          "speaker": "私",
+          "jp": "はい。PGのactive_runロックと組み合わせます。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-05c4189f57cc",
+          "speaker": "上司",
+          "jp": "役割分担はどうなりますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-bd2c217eb11c",
+          "speaker": "私",
+          "jp": "SQSが待ち行列、PGが排他制御、Step Functionsが全体の進行管理を担当します。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "処理",
+        "重複",
+        "同一",
+        "順序",
+        "実行中",
+        "追加"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "SQS FIFOだけで処理の重複を防げますか。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-747b6700d4f3",
+      "category": "it",
+      "title": "Step Functions选择",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "Standard与Express比较。",
+      "lines": [
+        {
+          "id": "line-37cb70f51b1e",
+          "speaker": "上司",
+          "jp": "CI/CDの制御にはStandardとExpressのどちらを使いますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-5a8910210c87",
+          "speaker": "私",
+          "jp": "Standardを推奨します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-fee2a8d0d11a",
+          "speaker": "上司",
+          "jp": "理由を教えてください。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-22ecd19e68cd",
+          "speaker": "私",
+          "jp": "長時間実行と外部callback待機が必要だからです。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-6a6349197def",
+          "speaker": "上司",
+          "jp": "Expressでは対応できませんか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f160b5ee6d9d",
+          "speaker": "私",
+          "jp": "主処理で必要なwaitForTaskTokenに適していません。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "制御",
+        "推奨",
+        "理由",
+        "長時間実行",
+        "外部",
+        "待機"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "CI/CDの制御にはStandardとExpressのどちらを使いますか。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-f4c744eb0806",
+      "category": "it",
+      "title": "EFS大差分",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "大量差分时使用EFS。",
+      "lines": [
+        {
+          "id": "line-3937aa052ec4",
+          "speaker": "上司",
+          "jp": "大量差分の場合は、どのように処理しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-cea13dae844b",
+          "speaker": "私",
+          "jp": "CodeBuildからEFS上のGitキャッシュを利用します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-0c2dbab07d94",
+          "speaker": "上司",
+          "jp": "通常の差分処理とは分けますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-c661fc312108",
+          "speaker": "私",
+          "jp": "はい。小規模はCompare API、大規模はgit diffを使います。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-bce0ff0bfc14",
+          "speaker": "上司",
+          "jp": "EFSには何を保存しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-8d414e6c731b",
+          "speaker": "私",
+          "jp": "Gitオブジェクトと一時worktreeのみで、正式成果物はS3へ保存します。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "大量差分",
+        "場合",
+        "処理",
+        "キャッシュ",
+        "利用",
+        "通常"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "大量差分の場合は、どのように処理しますか。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-f0c8eb53c0a2",
+      "category": "it",
+      "title": "RDS Proxy",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "Lambda连接数据库。",
+      "lines": [
+        {
+          "id": "line-d9c2e8741151",
+          "speaker": "上司",
+          "jp": "LambdaからPostgreSQLへ直接接続してもよいですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-6f6944bcbd8d",
+          "speaker": "私",
+          "jp": "小規模なら可能ですが、本番ではRDS Proxyを推奨します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-0355042d9bd2",
+          "speaker": "上司",
+          "jp": "どのようなメリットがありますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-98b17011f1c2",
+          "speaker": "私",
+          "jp": "接続をプールし、Lambda並列実行時の接続数増加を抑えられます。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-67c25ac7c029",
+          "speaker": "上司",
+          "jp": "認証情報はどこで管理しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-2312fd20a795",
+          "speaker": "私",
+          "jp": "Secrets Managerで管理します。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "直接接続",
+        "小規模",
+        "可能",
+        "本番",
+        "推奨",
+        "メリット"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "LambdaからPostgreSQLへ直接接続してもよいですか。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-65b575ffa7a5",
+      "category": "it",
+      "title": "跨账号SSM",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "Account AからAccount B执行。",
+      "lines": [
+        {
+          "id": "line-a97dab57e321",
+          "speaker": "上司",
+          "jp": "別アカウントのDataStageサーバーへ処理を依頼する方法を確認します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-6096e38a734e",
+          "speaker": "私",
+          "jp": "STSで対象ロールをAssumeRoleし、SSM SendCommandを実行します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-3ff7329dc002",
+          "speaker": "上司",
+          "jp": "対象インスタンスはどのように指定しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-e2c0a82d2d0d",
+          "speaker": "私",
+          "jp": "固定台数であればinstance IDを直接指定します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f8f36e089e83",
+          "speaker": "上司",
+          "jp": "共有Documentは使えますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-804526c1ec6d",
+          "speaker": "私",
+          "jp": "同一リージョンであれば、共有DocumentのARNを指定できます。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "別アカウント",
+        "サーバー",
+        "処理",
+        "依頼",
+        "方法",
+        "確認"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "別アカウントのDataStageサーバーへ処理を依頼する方法を確認します。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-00990e3374b5",
+      "category": "it",
+      "title": "SSM执行超时",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "一小时后命令停止。",
+      "lines": [
+        {
+          "id": "line-7a4455fad09a",
+          "speaker": "上司",
+          "jp": "SSMの処理が一時間で停止しました。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-6e1296d2f976",
+          "speaker": "私",
+          "jp": "executionTimeoutの設定を確認しましたか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-00f6096bbe9c",
+          "speaker": "上司",
+          "jp": "既定値が3600秒になっていました。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f780ddecb074",
+          "speaker": "私",
+          "jp": "長時間テストでは不足しますね。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-2f0272aff6cd",
+          "speaker": "上司",
+          "jp": "はい。実行時間を延長するか、非同期起動方式に変更する必要があります。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-253642f236f2",
+          "speaker": "私",
+          "jp": "監視方法も見直しましょう。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "処理",
+        "一時間",
+        "停止",
+        "設定",
+        "確認",
+        "既定値"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "SSMの処理が一時間で停止しました。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-bb2d1bb8f53e",
+      "category": "it",
+      "title": "CodeBuild与EFS",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "CodeBuild挂载EFS。",
+      "lines": [
+        {
+          "id": "line-9b9826ac8035",
+          "speaker": "上司",
+          "jp": "CodeBuildからEFSを利用する場合、何が必要ですか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-959106df6b31",
+          "speaker": "私",
+          "jp": "CodeBuildをVPC内で実行し、EFSのマウントターゲットへ接続できるようにします。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-129b114158c5",
+          "speaker": "上司",
+          "jp": "セキュリティグループの設定はどうしますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-a1d7f9ff3c4b",
+          "speaker": "私",
+          "jp": "CodeBuild SGからEFS SGへTCP 2049を許可します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-5be0524d5f37",
+          "speaker": "上司",
+          "jp": "IAM認証は使えますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-2f5f9a2fe6a3",
+          "speaker": "私",
+          "jp": "CodeBuildのネイティブマウントでは制約があるため、ネットワーク制御を中心に設計します。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "利用",
+        "場合",
+        "必要",
+        "実行",
+        "マウントターゲット",
+        "接続"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "CodeBuildからEFSを利用する場合、何が必要ですか。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-56f277b04871",
+      "category": "it",
+      "title": "NLB健康检查",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "目标组unhealthy。",
+      "lines": [
+        {
+          "id": "line-2bc7d6769d51",
+          "speaker": "上司",
+          "jp": "NLBのターゲットがunhealthyになっています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-d8b23f507a21",
+          "speaker": "私",
+          "jp": "対象サーバーではポート3000を待ち受けていますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-baf4c0fb1f91",
+          "speaker": "上司",
+          "jp": "はい。IPv6の全アドレスで待ち受けています。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-1cb99d7a8cd9",
+          "speaker": "私",
+          "jp": "セキュリティグループとルートは確認しましたか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-70f156b2c5ab",
+          "speaker": "上司",
+          "jp": "まだです。ヘルスチェック元からの通信を確認します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f5469ef97e18",
+          "speaker": "私",
+          "jp": "TCP疎通とアプリの待受状態を順番に確認しましょう。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "ターゲット",
+        "対象サーバー",
+        "ポート",
+        "全アドレス",
+        "セキュリティグループ",
+        "ルート"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "NLBのターゲットがunhealthyになっています。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-76b2dd13a021",
+      "category": "it",
+      "title": "证书与域名",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "申请正式域名和证书。",
+      "lines": [
+        {
+          "id": "line-4fd09cf635f8",
+          "speaker": "上司",
+          "jp": "Giteaを正式なドメイン名で利用したいです。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-410c5f505621",
+          "speaker": "私",
+          "jp": "ACMのパブリック証明書を申請しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-e77b1d2d0277",
+          "speaker": "上司",
+          "jp": "はい。証明書の自動更新も利用したいです。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-df9fb8234dcc",
+          "speaker": "私",
+          "jp": "DNS検証用のCNAME登録が必要です。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-09383a4e151d",
+          "speaker": "上司",
+          "jp": "基盤担当者へ登録を依頼します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-75a5ad69ef83",
+          "speaker": "私",
+          "jp": "内部名前解決の方式も合わせて確認してください。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "正式",
+        "ドメイン名",
+        "利用",
+        "パブリック証明書",
+        "申請",
+        "証明書"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "Giteaを正式なドメイン名で利用したいです。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-6582926b286c",
+      "category": "it",
+      "title": "DataStage监控停止",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "Job结束但监控进程停止。",
+      "lines": [
+        {
+          "id": "line-ddbf4a7f3d28",
+          "speaker": "上司",
+          "jp": "DataStageジョブは正常終了しましたが、監視プロセスが停止していました。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-7bacdc019d17",
+          "speaker": "私",
+          "jp": "結果ログは出力されていますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f9e293c94448",
+          "speaker": "上司",
+          "jp": "途中までしか出力されていません。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-cf1e5ffbd0bb",
+          "speaker": "私",
+          "jp": "OSログに異常はありましたか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-4186039768f3",
+          "speaker": "上司",
+          "jp": "OOMやセグメンテーションフォルトは確認されていません。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-97155ca748ba",
+          "speaker": "私",
+          "jp": "プロセス終了時刻とSSM実行時間を突き合わせて調査しましょう。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "ジョブ",
+        "正常終了",
+        "監視プロセス",
+        "停止",
+        "結果ログ",
+        "出力"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "DataStageジョブは正常終了しましたが、監視プロセスが停止していました。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-e3f12e6529f2",
+      "category": "it",
+      "title": "Retest设计",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "test-only不更新基准。",
+      "lines": [
+        {
+          "id": "line-918455fd550b",
+          "speaker": "上司",
+          "jp": "再テスト機能では、正式デプロイを行いますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-8ce79c104c55",
+          "speaker": "私",
+          "jp": "いいえ。指定したJobの単体テストのみ実行します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-d8f3d9b974f3",
+          "speaker": "上司",
+          "jp": "比較基準は更新しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-6c3435439c4b",
+          "speaker": "私",
+          "jp": "更新しません。正式デプロイの基準と分離します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-03676e50426f",
+          "speaker": "上司",
+          "jp": "同時に複数の再テストを実行できますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-9980f85853f3",
+          "speaker": "私",
+          "jp": "同一Issueでは一つだけactiveにする予定です。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "再テスト機能",
+        "正式デプロイ",
+        "指定",
+        "単体テスト",
+        "実行",
+        "比較基準"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "再テスト機能では、正式デプロイを行いますか。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-b339bb8a353e",
+      "category": "it",
+      "title": "Callback保护",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "旧callback影响新执行。",
+      "lines": [
+        {
+          "id": "line-5b8bb03228df",
+          "speaker": "上司",
+          "jp": "古い実行からのcallbackが届いた場合、どう扱いますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-d8c05eb98137",
+          "speaker": "私",
+          "jp": "run_idと現在の実行状態を確認してから更新します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f0af65233d43",
+          "speaker": "上司",
+          "jp": "PRのHEAD SHAも確認しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-baac118a54fe",
+          "speaker": "私",
+          "jp": "将来的には最新HEADとの一致確認を追加します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-23e46676d115",
+          "speaker": "上司",
+          "jp": "一致しない場合はどうしますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-fae36a40db45",
+          "speaker": "私",
+          "jp": "状態を更新せず、監査ログに記録します。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "実行",
+        "場合",
+        "現在",
+        "実行状態",
+        "確認",
+        "更新"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "古い実行からのcallbackが届いた場合、どう扱いますか。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-d904f0c80c44",
+      "category": "it",
+      "title": "PG双写",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "从S3主控迁移到PG。",
+      "lines": [
+        {
+          "id": "line-94fe499d886c",
+          "speaker": "上司",
+          "jp": "状態管理をS3からPGへ一度に切り替えますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-9bbbc6c21464",
+          "speaker": "私",
+          "jp": "いいえ。まずはS3を主読としたdual writeで進めます。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-c2f2a7820403",
+          "speaker": "上司",
+          "jp": "PG書き込みが失敗した場合はどうしますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-bf40c650ea15",
+          "speaker": "私",
+          "jp": "初期段階ではS3処理を継続し、警告ログを出します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-eed0cd35b81c",
+          "speaker": "上司",
+          "jp": "いつPG主読へ切り替えますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-5aaadbc64f9a",
+          "speaker": "私",
+          "jp": "データ整合性と運用実績を確認した後です。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "状態管理",
+        "一度",
+        "主読",
+        "失敗",
+        "場合",
+        "初期段階"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "状態管理をS3からPGへ一度に切り替えますか。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    },
+    {
+      "id": "dialogue-0d919f7b62a1",
+      "category": "it",
+      "title": "回滚设计",
+      "jlptLevel": "N2-N1",
+      "register": "business",
+      "relationship": "manager-colleague",
+      "situation": "回滚基于部署版本。",
+      "lines": [
+        {
+          "id": "line-90124ea3431e",
+          "speaker": "上司",
+          "jp": "ロールバックはSHAだけで管理しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f0838c75c2de",
+          "speaker": "私",
+          "jp": "いいえ。deployment_versionを作成し、成果物と対象環境を紐付けます。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-a2fe18026a9f",
+          "speaker": "上司",
+          "jp": "削除ファイルも管理しますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-775fc10793a3",
+          "speaker": "私",
+          "jp": "はい。diff情報と一緒に保持します。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-1a1839a49f24",
+          "speaker": "上司",
+          "jp": "比較基準はどうなりますか。",
+          "reading": "",
+          "zh": ""
+        },
+        {
+          "id": "line-f2f12ac1a736",
+          "speaker": "私",
+          "jp": "ロールバック成功後の環境状態に合わせて更新します。",
+          "reading": "",
+          "zh": ""
+        }
+      ],
+      "keywordTexts": [
+        "ロールバック",
+        "管理",
+        "作成",
+        "成果物",
+        "対象環境",
+        "紐付"
+      ],
+      "vocabularyIds": [],
+      "grammarPoints": [],
+      "learningPoints": [
+        "先说明结论，再补充理由。",
+        "根据对象调整礼貌程度和断言强度。"
+      ],
+      "expressions": [
+        {
+          "label": "更正式",
+          "jp": "ロールバックはSHAだけで管理しますか。",
+          "zh": ""
+        },
+        {
+          "label": "确认理解",
+          "jp": "こちらの認識で相違ないでしょうか。",
+          "zh": "请确认上述理解是否一致。"
+        }
+      ],
+      "speakerIntentZh": "在保证礼貌的同时明确结论、风险和下一步。",
+      "rolePlayPromptZh": "请替换项目名称和期限，重新完成一次说明。",
+      "tags": [
+        "商务",
+        "IT"
+      ]
+    }
+  ]
+}

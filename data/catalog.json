@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 3,
+  "appVersion": "4.0.0",
+  "contentVersion": "2026.07.31-phase1-business-it",
+  "minimumAppVersion": "4.0.0",
+  "generatedAt": "2026-07-31T06:49:44.645729+00:00",
+  "defaultFocusWeights": {
+    "business": 35,
+    "it": 30,
+    "jlpt": 20,
+    "daily": 15
+  },
+  "counts": {
+    "kanjiGroups": 218,
+    "uniqueVocabulary": 542,
+    "wordAssociations": 455,
+    "sentences": 1466,
+    "dialogues": 64,
+    "dialogueLines": 364
+  },
+  "packs": [
+    {
+      "id": "kanji-core",
+      "type": "kanji",
+      "title": "汉字音训关联",
+      "path": "./data/packs/kanji-core.json",
+      "priority": 10,
+      "lazy": false,
+      "tags": [
+        "汉字",
+        "音读",
+        "训读"
+      ],
+      "itemCount": 218,
+      "sha256": "5ca16a97fb9c51e6f5392ba2779e40e52db0ec6456f14596a135eeb078dd550a"
+    },
+    {
+      "id": "vocabulary-general",
+      "type": "vocabulary",
+      "title": "通用与日常词汇",
+      "path": "./data/packs/vocabulary-general.json",
+      "priority": 20,
+      "lazy": true,
+      "tags": [
+        "日常",
+        "JLPT"
+      ],
+      "itemCount": 24,
+      "sha256": "8a250e94ed8f4a0f1c164fb7d56586dc4f88fec006a6e3e0191d4de2890592a6"
+    },
+    {
+      "id": "vocabulary-business-it",
+      "type": "vocabulary",
+      "title": "商务与 IT 核心词汇",
+      "path": "./data/packs/vocabulary-business-it.json",
+      "priority": 30,
+      "lazy": true,
+      "tags": [
+        "商务",
+        "IT",
+        "Git",
+        "CI/CD",
+        "AWS"
+      ],
+      "itemCount": 518,
+      "sha256": "99320801a940361d2e09b9eb051faac459d85138e3011af1dcf3c965b8d494c8"
+    },
+    {
+      "id": "dialogues-daily",
+      "type": "dialogue",
+      "title": "日常生活对话",
+      "path": "./data/packs/dialogues-daily.json",
+      "priority": 40,
+      "lazy": true,
+      "tags": [
+        "日常"
+      ],
+      "itemCount": 9,
+      "sha256": "064814f3996f5341836c07d2126b05a21ddc58da1c875d26215ec70105917c69"
+    },
+    {
+      "id": "dialogues-business-it",
+      "type": "dialogue",
+      "title": "商务与 IT 对话",
+      "path": "./data/packs/dialogues-business-it.json",
+      "priority": 50,
+      "lazy": true,
+      "tags": [
+        "商务",
+        "IT"
+      ],
+      "itemCount": 55,
+      "sha256": "1dff1ce8bbdb2f2f94baad88d797f5da5c07f9eb04af07d6cb3aec0bf4ab4ed0"
+    },
+    {
+      "id": "business-expression-comparisons",
+      "type": "grammar",
+      "title": "商务表达层级对比",
+      "path": "./data/packs/business-expression-comparisons.json",
+      "priority": 60,
+      "lazy": true,
+      "tags": [
+        "商务",
+        "敬语",
+        "表达"
+      ],
+      "itemCount": 100,
+      "sha256": "229abcc2620b968faf72953ef11e3d7a6a73d8a8411e82b74cd9fa66c79b0536"
+    },
+    {
+      "id": "common-business-mistakes",
+      "type": "mistake",
+      "title": "商务日语常见错误",
+      "path": "./data/packs/common-business-mistakes.json",
+      "priority": 70,
+      "lazy": true,
+      "tags": [
+        "商务",
+        "纠错"
+      ],
+      "itemCount": 100,
+      "sha256": "2ce604e170d74dc1a65a329f99a39e3aadfffd220ece13d41044058300db8e77"
+    }
+  ],
+  "idAliasesPath": "./data/id-aliases.json",
+  "schemas": {
+    "catalog": "./schemas/catalog.schema.json",
+    "contentPack": "./schemas/content-pack.schema.json",
+    "backup": "./schemas/backup.schema.json"
+  },
+  "supplementCounts": {
+    "expressionComparisons": 100,
+    "commonMistakes": 100
+  }
+}

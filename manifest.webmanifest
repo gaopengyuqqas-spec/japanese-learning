@@ -1,7 +1,8 @@
 {
   "name": "日语随身学",
   "short_name": "日语学习",
-  "description": "汉字、训读、音读、例句、日常与 IT 对话学习工具",
+  "description": "汉字音训、JLPT、日常、商务与 IT 场景学习工具",
+  "id": "./",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -9,7 +10,15 @@
   "theme_color": "#15324b",
   "orientation": "portrait-primary",
   "icons": [
-    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ]
 }
