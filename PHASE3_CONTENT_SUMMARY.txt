@@ -1,0 +1,9 @@
+Phase 3 content summary
+new advanced vocabulary: 420
+new advanced sentences: 1260
+new advanced dialogues: 80
+new advanced dialogue lines: 640
+current unique vocabulary: 1529
+current sentences: 4193
+current dialogues: 204
+current dialogue lines: 1317

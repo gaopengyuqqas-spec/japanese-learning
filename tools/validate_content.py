@@ -47,7 +47,7 @@ def main():
         if new not in words: errors.append(f"alias points to missing word: {old}->{new}")
     expected=catalog['counts']; actual={'kanjiGroups':len(groups),'uniqueVocabulary':len(words),'wordAssociations':sum(len(g.get('wordIds',[])) for g in groups.values()),'sentences':len(sents),'dialogues':len(dialogues),'dialogueLines':sum(len(d.get('lines',[])) for d in dialogues.values())}
     if expected!=actual: errors.append(f"catalog counts mismatch: expected={expected}, actual={actual}")
-    print('Nihongo Lab Phase 2 validation')
+    print('Nihongo Lab Phase 3 validation')
     print(json.dumps(actual,ensure_ascii=False,indent=2)); print(json.dumps({'expressionComparisons':len(grammar),'commonMistakes':len(mistakes)},ensure_ascii=False,indent=2))
     for w in warnings: print('WARNING:',w)
     if errors:

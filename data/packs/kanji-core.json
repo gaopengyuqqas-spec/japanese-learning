@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "packId": "kanji-core",
   "packType": "kanji",
-  "contentVersion": "2026.07.31-phase2-foundation-daily",
+  "contentVersion": "2026.07.31-phase3-advanced-business",
   "title": "汉字音训关联",
   "description": "保留汉字音训关联，并新增 Phase 2 基础与日常词汇关联。",
   "items": [
@@ -18,7 +18,9 @@
         "vocab-22e300888c2a",
         "vocab-f3e9c3c4598b",
         "vocab-741c5c34ee56",
-        "vocab-c2fd7b2884ab"
+        "vocab-c2fd7b2884ab",
+        "vocab-6fad9f477f92",
+        "vocab-6809fb71de68"
       ]
     },
     {
@@ -84,7 +86,9 @@
         "vocab-332ac2c24d59",
         "vocab-b5c53f6cd787",
         "vocab-de1aa10da6ff",
-        "vocab-6b0200cb52b8"
+        "vocab-6b0200cb52b8",
+        "vocab-63ae7838e9c0",
+        "vocab-ee8d8560ada7"
       ]
     },
     {
@@ -123,7 +127,9 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-9b1b803e62bb"
+        "vocab-9b1b803e62bb",
+        "vocab-5cd59618cad5",
+        "vocab-69a24e399fcb"
       ]
     },
     {
@@ -147,7 +153,8 @@
       "jlptLevel": "N4",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-3b41912fe0ba"
+        "vocab-3b41912fe0ba",
+        "vocab-e3c29bdb9149"
       ]
     },
     {
@@ -189,7 +196,11 @@
         "vocab-4ea27bdbd30a",
         "vocab-20c0e64d0ee3",
         "vocab-d2c5055e1d8d",
-        "vocab-e8975447cc69"
+        "vocab-e8975447cc69",
+        "vocab-abd6fa568957",
+        "vocab-aa354acf7702",
+        "vocab-ea5462dce244",
+        "vocab-2f1a8bc89746"
       ]
     },
     {
@@ -202,7 +213,13 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-e5d878ae6e72",
-        "vocab-ebe137dcc5ef"
+        "vocab-ebe137dcc5ef",
+        "vocab-e26962b7d181",
+        "vocab-8cee56bc4c03",
+        "vocab-9fceec46e3e0",
+        "vocab-53507099265e",
+        "vocab-ab68fd689b28",
+        "vocab-b8f27457524f"
       ]
     },
     {
@@ -227,7 +244,8 @@
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
         "vocab-16cf94c6c048",
-        "vocab-7755ce5ea01c"
+        "vocab-7755ce5ea01c",
+        "vocab-67f6fe4a2fb4"
       ]
     },
     {
@@ -265,7 +283,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-21e169b937a8"
+        "vocab-21e169b937a8",
+        "vocab-2a542052f312"
       ]
     },
     {
@@ -377,7 +396,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-0cd4c8c4ef8b",
-        "vocab-c708a75f2f88"
+        "vocab-c708a75f2f88",
+        "vocab-dcee4a70129a"
       ]
     },
     {
@@ -437,7 +457,8 @@
         "vocab-06f914e726b0",
         "vocab-732e848b1f99",
         "vocab-3dac1ea559a1",
-        "vocab-edab23a9af46"
+        "vocab-edab23a9af46",
+        "vocab-1d6c1853941f"
       ]
     },
     {
@@ -465,7 +486,8 @@
         "vocab-88f27cf5a519",
         "vocab-de8cc2c3d7ae",
         "vocab-4f28ff8a8068",
-        "vocab-599b53749261"
+        "vocab-599b53749261",
+        "vocab-9a93a9edf48e"
       ]
     },
     {
@@ -478,7 +500,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-eef65eb3c292",
-        "vocab-f1b564643db8"
+        "vocab-f1b564643db8",
+        "vocab-51a54befac58"
       ]
     },
     {
@@ -515,7 +538,9 @@
       "jlptLevel": "N3",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-cac2bc2e6794"
+        "vocab-cac2bc2e6794",
+        "vocab-5957c268a989",
+        "vocab-f0e4570c93de"
       ]
     },
     {
@@ -577,7 +602,8 @@
       "wordIds": [
         "vocab-5fd825a8da2b",
         "vocab-8953baa56ac7",
-        "vocab-858232289808"
+        "vocab-858232289808",
+        "vocab-de6bd7047c7b"
       ]
     },
     {
@@ -692,7 +718,9 @@
         "vocab-f80ef97029bb",
         "vocab-0ef962706ff6",
         "vocab-2220105b4658",
-        "vocab-32a965a3ec7d"
+        "vocab-32a965a3ec7d",
+        "vocab-59e330a05fea",
+        "vocab-341a78bfaa5c"
       ]
     },
     {
@@ -704,7 +732,9 @@
       "jlptLevel": "N3",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-14c18a56a6c3"
+        "vocab-14c18a56a6c3",
+        "vocab-eb1496cb65e9",
+        "vocab-209f17848703"
       ]
     },
     {
@@ -722,7 +752,10 @@
         "vocab-ec7b10db5421",
         "vocab-67d00369b586",
         "vocab-7ab170e841a9",
-        "vocab-151e500047bf"
+        "vocab-151e500047bf",
+        "vocab-c0f2b1c82061",
+        "vocab-f33baf795e6a",
+        "vocab-eaf62181f7b6"
       ]
     },
     {
@@ -734,7 +767,8 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-dfb1d0326ce9"
+        "vocab-dfb1d0326ce9",
+        "vocab-c915275cd3a5"
       ]
     },
     {
@@ -797,7 +831,11 @@
         "vocab-5a4b1147d0dc",
         "vocab-42b6c224cb65",
         "vocab-894d00bc5409",
-        "vocab-3713b3944be4"
+        "vocab-3713b3944be4",
+        "vocab-d267188fefea",
+        "vocab-a53162213a0b",
+        "vocab-a43bb60291d7",
+        "vocab-22c82704179e"
       ]
     },
     {
@@ -811,7 +849,9 @@
       "wordIds": [
         "vocab-5756a6451bd6",
         "vocab-8bbfa06839db",
-        "vocab-39e0b53ee8db"
+        "vocab-39e0b53ee8db",
+        "vocab-2ec999b10aa9",
+        "vocab-fa9171377b9b"
       ]
     },
     {
@@ -838,7 +878,9 @@
       "wordIds": [
         "vocab-ad0a4b12a7a7",
         "vocab-a07938b0bf25",
-        "vocab-b292bf870882"
+        "vocab-b292bf870882",
+        "vocab-e90da906041f",
+        "vocab-a46b340de414"
       ]
     },
     {
@@ -862,7 +904,9 @@
       "jlptLevel": "N3",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-1baf4ea9e8eb"
+        "vocab-1baf4ea9e8eb",
+        "vocab-336384e87ff5",
+        "vocab-f626a89de1bf"
       ]
     },
     {
@@ -874,7 +918,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-74861996718c"
+        "vocab-74861996718c",
+        "vocab-203fc116b788"
       ]
     },
     {
@@ -901,7 +946,8 @@
       "wordIds": [
         "vocab-26d08bea8c53",
         "vocab-f8a4bcdb07d9",
-        "vocab-94c7c43fce5e"
+        "vocab-94c7c43fce5e",
+        "vocab-1bb79c6978af"
       ]
     },
     {
@@ -964,7 +1010,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-0580b3ddedd2",
-        "vocab-f3b478c5f7a5"
+        "vocab-f3b478c5f7a5",
+        "vocab-e03640d1d7ee"
       ]
     },
     {
@@ -1037,7 +1084,8 @@
       "jlptLevel": "N3",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-a0b8b237de9c"
+        "vocab-a0b8b237de9c",
+        "vocab-79bbc28f1151"
       ]
     },
     {
@@ -1050,7 +1098,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-b03147636da9",
-        "vocab-ce193894db0e"
+        "vocab-ce193894db0e",
+        "vocab-2690ff2a2d00"
       ]
     },
     {
@@ -1087,7 +1136,9 @@
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
         "vocab-a1e811ac5a00",
-        "vocab-331633f76491"
+        "vocab-331633f76491",
+        "vocab-2d4cb6746790",
+        "vocab-39b5a18aeb2b"
       ]
     },
     {
@@ -1123,7 +1174,9 @@
       "jlptLevel": "N3",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-83756fedf1b5"
+        "vocab-83756fedf1b5",
+        "vocab-f34247fc7c8f",
+        "vocab-63a5c2f35f1f"
       ]
     },
     {
@@ -1160,7 +1213,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-0a236dd1c1a3"
+        "vocab-0a236dd1c1a3",
+        "vocab-b54d76af690c"
       ]
     },
     {
@@ -1179,7 +1233,18 @@
         "vocab-5d76f289b80a",
         "vocab-4b3158d1f80e",
         "vocab-f9f024fc50b9",
-        "vocab-42ddd5ed6a53"
+        "vocab-42ddd5ed6a53",
+        "vocab-42cc420157db",
+        "vocab-08348faaa14e",
+        "vocab-28bbb8040070",
+        "vocab-b70cc5a2a12f",
+        "vocab-2f2a78ebbc7b",
+        "vocab-fbf623ed2e34",
+        "vocab-d8a5f54ff12a",
+        "vocab-cb373d27f686",
+        "vocab-9794d0823fee",
+        "vocab-e850bbe2d4c9",
+        "vocab-969b28c2880a"
       ]
     },
     {
@@ -1198,7 +1263,8 @@
         "vocab-0f6b22fa11cd",
         "vocab-be945545afe6",
         "vocab-650b8753433e",
-        "vocab-84e15c1be58e"
+        "vocab-84e15c1be58e",
+        "vocab-528d0bb47a08"
       ]
     },
     {
@@ -1237,7 +1303,9 @@
       "wordIds": [
         "vocab-1d1a570ddb09",
         "vocab-9f4c5f2eada7",
-        "vocab-3b448ec91cc3"
+        "vocab-3b448ec91cc3",
+        "vocab-7f45cca88075",
+        "vocab-1339da288df8"
       ]
     },
     {
@@ -1281,7 +1349,10 @@
         "vocab-d55c2f3291c5",
         "vocab-ec13ab8234e2",
         "vocab-137e80f949f2",
-        "vocab-13e3f5f6ea09"
+        "vocab-13e3f5f6ea09",
+        "vocab-e966dc67a2d7",
+        "vocab-7f67d053b54d",
+        "vocab-af8ae4b71a46"
       ]
     },
     {
@@ -1403,7 +1474,10 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-f18f1feb3e20",
-        "vocab-0e88d668d399"
+        "vocab-0e88d668d399",
+        "vocab-9c6f3e4b7ad2",
+        "vocab-2551e63fb342",
+        "vocab-82db61f26168"
       ]
     },
     {
@@ -1443,7 +1517,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-9f2750653218"
+        "vocab-9f2750653218",
+        "vocab-fcc5342b748d"
       ]
     },
     {
@@ -1458,7 +1533,10 @@
         "vocab-72af5016a9b8",
         "vocab-217ce0912e40",
         "vocab-b297cd90a713",
-        "vocab-75bc1c76b2e7"
+        "vocab-75bc1c76b2e7",
+        "vocab-2837af8fd73a",
+        "vocab-b2842ff83840",
+        "vocab-a7000e293f3d"
       ]
     },
     {
@@ -1521,7 +1599,9 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-6f0eee4024e3",
-        "vocab-e1d3faa92d8e"
+        "vocab-e1d3faa92d8e",
+        "vocab-dadc17d85a58",
+        "vocab-a823f0a1af23"
       ]
     },
     {
@@ -1546,7 +1626,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-58728a8c3379"
+        "vocab-58728a8c3379",
+        "vocab-be072161e6df"
       ]
     },
     {
@@ -1620,7 +1701,8 @@
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
         "vocab-f654ffbb4ae3",
-        "vocab-30df9f9d1098"
+        "vocab-30df9f9d1098",
+        "vocab-0edbd5abdc63"
       ]
     },
     {
@@ -1678,7 +1760,15 @@
       "jlptLevel": "N3",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-9152b3637bbb"
+        "vocab-9152b3637bbb",
+        "vocab-22d70ffe58f5",
+        "vocab-431e73c3e7be",
+        "vocab-cf041edf6abc",
+        "vocab-1d7954c7f371",
+        "vocab-eb6cba14519a",
+        "vocab-bbbfc00024cd",
+        "vocab-66257b170ea6",
+        "vocab-2a67f6212615"
       ]
     },
     {
@@ -1690,7 +1780,9 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-ffa102eaa836"
+        "vocab-ffa102eaa836",
+        "vocab-8d6fbc150126",
+        "vocab-2002e3ca913d"
       ]
     },
     {
@@ -1769,7 +1861,9 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-07b20265e1fe"
+        "vocab-07b20265e1fe",
+        "vocab-b866a159bc61",
+        "vocab-8ab48e187db7"
       ]
     },
     {
@@ -1782,7 +1876,10 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-d1d48179a181",
-        "vocab-fbdda6986828"
+        "vocab-fbdda6986828",
+        "vocab-8c7a3a0ee10e",
+        "vocab-81d9640a9ef8",
+        "vocab-5188e889e247"
       ]
     },
     {
@@ -1806,7 +1903,8 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-d5c889973390"
+        "vocab-d5c889973390",
+        "vocab-94f31e4d183d"
       ]
     },
     {
@@ -1818,7 +1916,8 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-263797fea208"
+        "vocab-263797fea208",
+        "vocab-d706fd8233df"
       ]
     },
     {
@@ -1947,7 +2046,8 @@
       "wordIds": [
         "vocab-a2e352f6d78f",
         "vocab-ba19cbfcd5c9",
-        "vocab-0c4e2942dfd1"
+        "vocab-0c4e2942dfd1",
+        "vocab-33c2e10f4ada"
       ]
     },
     {
@@ -1961,7 +2061,8 @@
       "wordIds": [
         "vocab-39a19ec2d6ba",
         "vocab-7aa18b47f76e",
-        "vocab-3625bf97d55b"
+        "vocab-3625bf97d55b",
+        "vocab-5a7b65309e6f"
       ]
     },
     {
@@ -1973,7 +2074,8 @@
       "jlptLevel": "N3",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-99aa91ef9100"
+        "vocab-99aa91ef9100",
+        "vocab-e9179530c289"
       ]
     },
     {
@@ -1987,7 +2089,8 @@
       "wordIds": [
         "vocab-b551e78ffcba",
         "vocab-c140ec55c30f",
-        "vocab-02aa937472c2"
+        "vocab-02aa937472c2",
+        "vocab-ba08d0ea98e4"
       ]
     },
     {
@@ -2009,7 +2112,10 @@
         "vocab-3a6a03e56083",
         "vocab-f9f47d215810",
         "vocab-b92272a4b5fd",
-        "vocab-0296c7fdb2aa"
+        "vocab-0296c7fdb2aa",
+        "vocab-20673d7413d6",
+        "vocab-5fdc10c3b817",
+        "vocab-b46b3b321d34"
       ]
     },
     {
@@ -2089,7 +2195,8 @@
         "vocab-fcd2c385a5f7",
         "vocab-70a12e67622e",
         "vocab-2dfcecf4dd6d",
-        "vocab-af9dac3e2124"
+        "vocab-af9dac3e2124",
+        "vocab-60527a7e88bb"
       ]
     },
     {
@@ -2204,7 +2311,12 @@
         "vocab-cb9b3a98658c",
         "vocab-2ca66fe8d284",
         "vocab-eedbf3001d8e",
-        "vocab-03b76e3a2d8c"
+        "vocab-03b76e3a2d8c",
+        "vocab-87d1c6415b55",
+        "vocab-20c857c8e3fd",
+        "vocab-41edde9d68ad",
+        "vocab-eb9adcbc38cd",
+        "vocab-8219ad35809a"
       ]
     },
     {
@@ -2216,7 +2328,9 @@
       "jlptLevel": "N4",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-a55bd3d92842"
+        "vocab-a55bd3d92842",
+        "vocab-4aeceba2f720",
+        "vocab-3435d0b3f2b7"
       ]
     },
     {
@@ -2277,7 +2391,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-d1c241c7809b",
-        "vocab-84fa4b2f324c"
+        "vocab-84fa4b2f324c",
+        "vocab-799fbc37e759"
       ]
     },
     {
@@ -2301,7 +2416,8 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-3f6fb506f65b"
+        "vocab-3f6fb506f65b",
+        "vocab-cebe9f516858"
       ]
     },
     {
@@ -2388,7 +2504,11 @@
         "vocab-a69122424a1d",
         "vocab-93c7bfcabe7b",
         "vocab-64e5441bf504",
-        "vocab-aa9b702d8537"
+        "vocab-aa9b702d8537",
+        "vocab-b0c23bedc161",
+        "vocab-15836d4917ac",
+        "vocab-cfe458e3d9df",
+        "vocab-7f5bb63e94ee"
       ]
     },
     {
@@ -2487,7 +2607,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-deeb2eaf7c47",
-        "vocab-d6e494e9a097"
+        "vocab-d6e494e9a097",
+        "vocab-88b4e35225f3"
       ]
     },
     {
@@ -2500,7 +2621,11 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-dab3701d5a67",
-        "vocab-6cdf62d81760"
+        "vocab-6cdf62d81760",
+        "vocab-3fa4876c36d4",
+        "vocab-3234d34ad241",
+        "vocab-a1a6cfa13879",
+        "vocab-389d62a3c14a"
       ]
     },
     {
@@ -2512,7 +2637,8 @@
       "jlptLevel": "N4",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-bc02983425a3"
+        "vocab-bc02983425a3",
+        "vocab-15637a3f252d"
       ]
     },
     {
@@ -2525,7 +2651,8 @@
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
         "vocab-2a5ba4088fda",
-        "vocab-6295de94b6b0"
+        "vocab-6295de94b6b0",
+        "vocab-7a6ca401ade7"
       ]
     },
     {
@@ -2598,7 +2725,8 @@
       "jlptLevel": "N3",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-fc77cb783ae6"
+        "vocab-fc77cb783ae6",
+        "vocab-09b21c6f6376"
       ]
     },
     {
@@ -2634,7 +2762,8 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-68e46daa1c5e"
+        "vocab-68e46daa1c5e",
+        "vocab-7b4ab087abee"
       ]
     },
     {
@@ -2682,7 +2811,10 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-61b5f184a77e"
+        "vocab-61b5f184a77e",
+        "vocab-a5536ab86c10",
+        "vocab-7daa4d348354",
+        "vocab-038768738788"
       ]
     },
     {
@@ -2720,7 +2852,8 @@
       "wordIds": [
         "vocab-ef5306ddfde4",
         "vocab-29d0d5e19664",
-        "vocab-d9c02301ffd9"
+        "vocab-d9c02301ffd9",
+        "vocab-38d84d051a83"
       ]
     },
     {
@@ -2766,7 +2899,8 @@
         "vocab-edb6dfb30e3c",
         "vocab-524dd5c8222f",
         "vocab-6782ab4f179f",
-        "vocab-4a4be4f12635"
+        "vocab-4a4be4f12635",
+        "vocab-c2b2587c64ef"
       ]
     },
     {
@@ -2778,7 +2912,8 @@
       "jlptLevel": "N3",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-d91611fd8909"
+        "vocab-d91611fd8909",
+        "vocab-44e863fe9dd9"
       ]
     },
     {
@@ -2817,7 +2952,9 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-aec8618c5a96"
+        "vocab-aec8618c5a96",
+        "vocab-9f99094c50a9",
+        "vocab-8bc4a44b728b"
       ]
     },
     {
@@ -2829,7 +2966,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-1f0baae1d7b0"
+        "vocab-1f0baae1d7b0",
+        "vocab-4374a9052d48"
       ]
     },
     {
@@ -2843,7 +2981,9 @@
       "wordIds": [
         "vocab-ca1fa411666f",
         "vocab-677f2d3a0592",
-        "vocab-68619a6138fd"
+        "vocab-68619a6138fd",
+        "vocab-5b8b334a0646",
+        "vocab-84212e58f2fc"
       ]
     },
     {
@@ -2867,7 +3007,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-8333f1f0d9ad"
+        "vocab-8333f1f0d9ad",
+        "vocab-39bc47273780"
       ]
     },
     {
@@ -2894,7 +3035,9 @@
       "wordIds": [
         "vocab-8539acf46f4b",
         "vocab-c1dbd18cd792",
-        "vocab-265a7cddae09"
+        "vocab-265a7cddae09",
+        "vocab-1d7eafb66935",
+        "vocab-0709ed405374"
       ]
     },
     {
@@ -2979,7 +3122,9 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-96b4fb62647e"
+        "vocab-96b4fb62647e",
+        "vocab-344eff9ee355",
+        "vocab-a05a5a128f8c"
       ]
     },
     {
@@ -2994,7 +3139,8 @@
         "vocab-45691cb3a5a2",
         "vocab-6e2ad9c95d8c",
         "vocab-1b76d64001f7",
-        "vocab-4be6087d6503"
+        "vocab-4be6087d6503",
+        "vocab-7738d3af43b1"
       ]
     },
     {
@@ -3044,7 +3190,9 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-dfc6a13c8ba1",
-        "vocab-eec98fce1f82"
+        "vocab-eec98fce1f82",
+        "vocab-48596f680da3",
+        "vocab-837386c77af8"
       ]
     },
     {
@@ -3123,7 +3271,10 @@
       "jlptLevel": "N3",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-8c02a3756dba"
+        "vocab-8c02a3756dba",
+        "vocab-ffa7ca6ae2fe",
+        "vocab-b33e607eaf82",
+        "vocab-9c5e6059fb9a"
       ]
     },
     {
@@ -3137,7 +3288,8 @@
       "wordIds": [
         "vocab-a375891d36df",
         "vocab-bbb405dd4787",
-        "vocab-e1eb9cadbe7b"
+        "vocab-e1eb9cadbe7b",
+        "vocab-ab5d1c0893ed"
       ]
     },
     {
@@ -3149,7 +3301,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-91cfea0d805b"
+        "vocab-91cfea0d805b",
+        "vocab-09612b3e54b6"
       ]
     },
     {
@@ -3188,7 +3341,9 @@
         "vocab-065c2a6c195f",
         "vocab-e8f40c04861a",
         "vocab-6b7cbce36793",
-        "vocab-f598400d4150"
+        "vocab-f598400d4150",
+        "vocab-6cade118a55a",
+        "vocab-486545037b7e"
       ]
     },
     {
@@ -3327,7 +3482,8 @@
       "wordIds": [
         "vocab-b07b47e3acec",
         "vocab-1b42bccb7ab4",
-        "vocab-45f19fe0cf0c"
+        "vocab-45f19fe0cf0c",
+        "vocab-dac20417acf7"
       ]
     },
     {
@@ -3339,7 +3495,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-e33e36d5529e"
+        "vocab-e33e36d5529e",
+        "vocab-ae028cc6af3c"
       ]
     },
     {
@@ -3407,7 +3564,10 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-de32ec86692c",
-        "vocab-6742863ee9ea"
+        "vocab-6742863ee9ea",
+        "vocab-b123b82a6964",
+        "vocab-e3613d86721a",
+        "vocab-3ea6d09eaf6d"
       ]
     },
     {
@@ -3432,7 +3592,9 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-3a5e9fa94d7a",
-        "vocab-6080779cf67c"
+        "vocab-6080779cf67c",
+        "vocab-e7bb4ed444c3",
+        "vocab-67c14174930b"
       ]
     },
     {
@@ -3483,7 +3645,9 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-e8d9b62470e4"
+        "vocab-e8d9b62470e4",
+        "vocab-7350f01f7d63",
+        "vocab-c3c78741e986"
       ]
     },
     {
@@ -3497,7 +3661,9 @@
       "wordIds": [
         "vocab-3dae5e0a18ce",
         "vocab-9fb45486b945",
-        "vocab-7cbf7d25ad8e"
+        "vocab-7cbf7d25ad8e",
+        "vocab-32731d79f113",
+        "vocab-0e12f0e5ab8d"
       ]
     },
     {
@@ -3558,7 +3724,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-9c97dfb6ad48",
-        "vocab-8f614fd19fe7"
+        "vocab-8f614fd19fe7",
+        "vocab-d7b311eec313"
       ]
     },
     {
@@ -3607,7 +3774,8 @@
       "jlptLevel": "N4",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-f4fd46702f0a"
+        "vocab-f4fd46702f0a",
+        "vocab-37c460b4f6fb"
       ]
     },
     {
@@ -3647,7 +3815,11 @@
         "vocab-579c2efb5f05",
         "vocab-d0da18fb6a83",
         "vocab-2a63dc3f3b1b",
-        "vocab-5d4f0ba03fb9"
+        "vocab-5d4f0ba03fb9",
+        "vocab-4b571860a7c6",
+        "vocab-5209c05d48be",
+        "vocab-0cbb429d60c5",
+        "vocab-2f474b7b1114"
       ]
     },
     {
@@ -3672,7 +3844,9 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-b3822259485b",
-        "vocab-c4c69e29c58b"
+        "vocab-c4c69e29c58b",
+        "vocab-5313720fcc7e",
+        "vocab-755a6b65dac8"
       ]
     },
     {
@@ -3684,7 +3858,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-7387c96b5faa"
+        "vocab-7387c96b5faa",
+        "vocab-b455c68dec49"
       ]
     },
     {
@@ -3696,7 +3871,8 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-08ddc6e23e3e"
+        "vocab-08ddc6e23e3e",
+        "vocab-29d3d5c5eb96"
       ]
     },
     {
@@ -3708,7 +3884,9 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-76e80b632242"
+        "vocab-76e80b632242",
+        "vocab-5f6d1773915b",
+        "vocab-4e15945954c2"
       ]
     },
     {
@@ -3721,7 +3899,9 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-27b18c35706c",
-        "vocab-9afc80ac34df"
+        "vocab-9afc80ac34df",
+        "vocab-ee7448c2bc1b",
+        "vocab-f1a605a9a584"
       ]
     },
     {
@@ -3837,7 +4017,8 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-a190b4cc9b77"
+        "vocab-a190b4cc9b77",
+        "vocab-47ae4b6f5056"
       ]
     },
     {
@@ -3869,7 +4050,8 @@
         "vocab-585855adc4f6",
         "vocab-a4a7e5c27f8f",
         "vocab-e4863c1cd446",
-        "vocab-ea0b12f13f67"
+        "vocab-ea0b12f13f67",
+        "vocab-0fd7026cfef3"
       ]
     },
     {
@@ -3918,7 +4100,8 @@
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
         "vocab-af4ef109a1ec",
-        "vocab-e3d391e7fbe8"
+        "vocab-e3d391e7fbe8",
+        "vocab-1a85eaa95c07"
       ]
     },
     {
@@ -4018,7 +4201,8 @@
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
         "vocab-867e05b1ccc5",
-        "vocab-4571f6990750"
+        "vocab-4571f6990750",
+        "vocab-df59ebc125c2"
       ]
     },
     {
@@ -4093,7 +4277,8 @@
       "jlptLevel": "N4",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-4d27f5eddc0d"
+        "vocab-4d27f5eddc0d",
+        "vocab-96962130b117"
       ]
     },
     {
@@ -4484,7 +4669,8 @@
         "vocab-ae957e73ed02",
         "vocab-f184339bd987",
         "vocab-aa2cf6dea066",
-        "vocab-1d024c50e135"
+        "vocab-1d024c50e135",
+        "vocab-493c380f1bbd"
       ]
     },
     {
@@ -4533,7 +4719,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-32d31d723339",
-        "vocab-ad69348539b3"
+        "vocab-ad69348539b3",
+        "vocab-7afee9365475"
       ]
     },
     {
@@ -4545,7 +4732,8 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-cbea755743d6"
+        "vocab-cbea755743d6",
+        "vocab-0e5fd7f38ca2"
       ]
     },
     {
@@ -4648,7 +4836,8 @@
       "wordIds": [
         "vocab-b9570f26680f",
         "vocab-8f041259f3a7",
-        "vocab-cc14e3cf8664"
+        "vocab-cc14e3cf8664",
+        "vocab-7b300702ed7f"
       ]
     },
     {
@@ -4663,7 +4852,8 @@
         "vocab-cd57abc7f261",
         "vocab-f940885bb69c",
         "vocab-a5ef6bd0c779",
-        "vocab-7b034bdcb791"
+        "vocab-7b034bdcb791",
+        "vocab-9d31ac73835b"
       ]
     },
     {
@@ -4679,7 +4869,8 @@
       "wordIds": [
         "vocab-86861b6635eb",
         "vocab-cd295985ee1c",
-        "vocab-b8a761771e3a"
+        "vocab-b8a761771e3a",
+        "vocab-54782e0941b3"
       ]
     },
     {
@@ -4693,7 +4884,9 @@
       "wordIds": [
         "vocab-1c11e68354be",
         "vocab-c353f37999cd",
-        "vocab-74c17c5b357a"
+        "vocab-74c17c5b357a",
+        "vocab-0a008d500643",
+        "vocab-6123b570873c"
       ]
     },
     {
@@ -4743,7 +4936,9 @@
       "wordIds": [
         "vocab-edcabc0df55f",
         "vocab-f370e6acf4fb",
-        "vocab-0118ed530b2b"
+        "vocab-0118ed530b2b",
+        "vocab-7284a55c0f57",
+        "vocab-2d8d611d5aeb"
       ]
     },
     {
@@ -4756,7 +4951,8 @@
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
         "vocab-45a74b36260e",
-        "vocab-1f85b0bd77aa"
+        "vocab-1f85b0bd77aa",
+        "vocab-a50bf9fea50e"
       ]
     },
     {
@@ -4874,7 +5070,9 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-d01639b01ea9",
-        "vocab-f64cfd725746"
+        "vocab-f64cfd725746",
+        "vocab-12bc391b7a63",
+        "vocab-413c142c6b18"
       ]
     },
     {
@@ -4923,7 +5121,8 @@
       "jlptLevel": "N3",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-8373c2100ebb"
+        "vocab-8373c2100ebb",
+        "vocab-52cefd4fe87d"
       ]
     },
     {
@@ -5024,7 +5223,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-f0f0eb34e896"
+        "vocab-f0f0eb34e896",
+        "vocab-4c0c3b873edb"
       ]
     },
     {
@@ -5090,7 +5290,11 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-62d4d563bccd",
-        "vocab-cd965decdbd4"
+        "vocab-cd965decdbd4",
+        "vocab-a29609b14027",
+        "vocab-9033f77bbc4c",
+        "vocab-94f96513f46c",
+        "vocab-9744ae1b6661"
       ]
     },
     {
@@ -5103,7 +5307,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-6ed2aab9ee25",
-        "vocab-83dc6cfc4c45"
+        "vocab-83dc6cfc4c45",
+        "vocab-925d4248e854"
       ]
     },
     {
@@ -5120,7 +5325,8 @@
         "vocab-8ee6871d0401",
         "vocab-eb59506afd14",
         "vocab-8ef53150f9b7",
-        "vocab-2c49f8059b2a"
+        "vocab-2c49f8059b2a",
+        "vocab-1df558f77484"
       ]
     },
     {
@@ -5145,7 +5351,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-d494bde9b2e7",
-        "vocab-4430c6c96c5f"
+        "vocab-4430c6c96c5f",
+        "vocab-18bc52d4e067"
       ]
     },
     {
@@ -5243,7 +5450,8 @@
       "jlptLevel": "N4",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-8fc5947d001a"
+        "vocab-8fc5947d001a",
+        "vocab-46dad5bd1851"
       ]
     },
     {
@@ -5295,7 +5503,9 @@
       "jlptLevel": "N3",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-4635929d2ee7"
+        "vocab-4635929d2ee7",
+        "vocab-692d89fd551c",
+        "vocab-0f363a52ed11"
       ]
     },
     {
@@ -5547,7 +5757,9 @@
         "vocab-728d5809b8c0",
         "vocab-aae5e371f4ed",
         "vocab-1608818d723c",
-        "vocab-90754800b22b"
+        "vocab-90754800b22b",
+        "vocab-9fb59c1e35a5",
+        "vocab-132c39e003b5"
       ]
     },
     {
@@ -5571,7 +5783,10 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-4e5b514f9677"
+        "vocab-4e5b514f9677",
+        "vocab-965cc947431f",
+        "vocab-23319ee3d534",
+        "vocab-1e560a0733b0"
       ]
     },
     {
@@ -5599,7 +5814,9 @@
         "vocab-536f2c272f07",
         "vocab-42d4a71aa5c9",
         "vocab-ff30487a04e5",
-        "vocab-4a2e12872ae2"
+        "vocab-4a2e12872ae2",
+        "vocab-25799887db95",
+        "vocab-05c7895dc30f"
       ]
     },
     {
@@ -5623,7 +5840,17 @@
         "vocab-5e71cf0df374",
         "vocab-ea4e90a1b548",
         "vocab-7a295076d953",
-        "vocab-4b4ee324b654"
+        "vocab-4b4ee324b654",
+        "vocab-19d72e1768db",
+        "vocab-f56d690cf0ed",
+        "vocab-ffbc8727ee72",
+        "vocab-79142b113dad",
+        "vocab-df4ed877578b",
+        "vocab-bbc96aa4c9fc",
+        "vocab-d64cb11c24f9",
+        "vocab-3e0779ec1866",
+        "vocab-4e98216efe3d",
+        "vocab-81ee246ab72c"
       ]
     },
     {
@@ -5635,7 +5862,8 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-c646821aef90"
+        "vocab-c646821aef90",
+        "vocab-0adc8882a4c0"
       ]
     },
     {
@@ -5661,7 +5889,8 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-6048921ffd2e"
+        "vocab-6048921ffd2e",
+        "vocab-dc82811135fe"
       ]
     },
     {
@@ -5673,7 +5902,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-9ce43791b6a2"
+        "vocab-9ce43791b6a2",
+        "vocab-56b9177fdf53"
       ]
     },
     {
@@ -5685,7 +5915,8 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-49bec87abb70"
+        "vocab-49bec87abb70",
+        "vocab-81ec584053fe"
       ]
     },
     {
@@ -5778,7 +6009,10 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-0c005807e09c",
-        "vocab-ef925ddab718"
+        "vocab-ef925ddab718",
+        "vocab-fc44a02faa00",
+        "vocab-41c9deb06726",
+        "vocab-347e10691f51"
       ]
     },
     {
@@ -5790,7 +6024,9 @@
       "jlptLevel": "N3",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-52a398beb640"
+        "vocab-52a398beb640",
+        "vocab-b2a785f5702b",
+        "vocab-b66b35dc76ff"
       ]
     },
     {
@@ -5839,7 +6075,8 @@
         "vocab-a31d909a10ce",
         "vocab-0fc9d1734dce",
         "vocab-2a0fe7c2d93a",
-        "vocab-cfccb71f59d2"
+        "vocab-cfccb71f59d2",
+        "vocab-e8f452ddfe9c"
       ]
     },
     {
@@ -5898,7 +6135,8 @@
         "vocab-872e4ea3e867",
         "vocab-22799329216b",
         "vocab-af7b877b60c7",
-        "vocab-38b09d34f3d3"
+        "vocab-38b09d34f3d3",
+        "vocab-43f4e8aab0f2"
       ]
     },
     {
@@ -5910,7 +6148,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-5ba83ae545a9"
+        "vocab-5ba83ae545a9",
+        "vocab-bed8c9840251"
       ]
     },
     {
@@ -5923,7 +6162,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-8acefabab20e",
-        "vocab-7ef37d37cdaa"
+        "vocab-7ef37d37cdaa",
+        "vocab-7025b92093fc"
       ]
     },
     {
@@ -6011,7 +6251,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-26f063245ca2",
-        "vocab-4e1006e67704"
+        "vocab-4e1006e67704",
+        "vocab-6786e2192378"
       ]
     },
     {
@@ -6035,7 +6276,9 @@
       "jlptLevel": "N1",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-b09894b1d888"
+        "vocab-b09894b1d888",
+        "vocab-f7fb56c2d58f",
+        "vocab-a3eaf363dd30"
       ]
     },
     {
@@ -6072,7 +6315,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-b97d609eed11",
-        "vocab-cb53d181cda5"
+        "vocab-cb53d181cda5",
+        "vocab-c385d2f3a4da"
       ]
     },
     {
@@ -6085,7 +6329,9 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-82e000bc50de",
-        "vocab-908f94643f17"
+        "vocab-908f94643f17",
+        "vocab-c4638d2951b2",
+        "vocab-18891ca6e6fd"
       ]
     },
     {
@@ -6158,7 +6404,9 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-7f998aeb0d91"
+        "vocab-7f998aeb0d91",
+        "vocab-56ca84c325cd",
+        "vocab-a489419bb8d0"
       ]
     },
     {
@@ -6246,7 +6494,8 @@
       "jlptLevel": "N3",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-7993b0c9d945"
+        "vocab-7993b0c9d945",
+        "vocab-2df0ae208b04"
       ]
     },
     {
@@ -6312,7 +6561,8 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-12a8fd578d92"
+        "vocab-12a8fd578d92",
+        "vocab-bbe109be023f"
       ]
     },
     {
@@ -6364,7 +6614,8 @@
         "vocab-afcc868d89a8",
         "vocab-1fd05defefe1",
         "vocab-15e7cb655151",
-        "vocab-ace4ab2ed763"
+        "vocab-ace4ab2ed763",
+        "vocab-af74f62cfdb9"
       ]
     },
     {
@@ -6378,7 +6629,8 @@
       "wordIds": [
         "vocab-b785aae3de78",
         "vocab-5816614cf6b9",
-        "vocab-6a2c87aca005"
+        "vocab-6a2c87aca005",
+        "vocab-9a4d1c82c2d3"
       ]
     },
     {
@@ -6407,7 +6659,10 @@
         "vocab-efcd7c2e497e",
         "vocab-1a0cd24aab3d",
         "vocab-a3d1598a30f5",
-        "vocab-2fd4f17ca1fb"
+        "vocab-2fd4f17ca1fb",
+        "vocab-a85c5542ae25",
+        "vocab-57284f7ddb4a",
+        "vocab-c1c79f6dfe57"
       ]
     },
     {
@@ -6419,7 +6674,10 @@
       "jlptLevel": "N3",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-4575a46cea73"
+        "vocab-4575a46cea73",
+        "vocab-11273a7068d8",
+        "vocab-f0a999cd0be6",
+        "vocab-4291cdcb189d"
       ]
     },
     {
@@ -6443,7 +6701,9 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-7b70c76bb9d4"
+        "vocab-7b70c76bb9d4",
+        "vocab-bf15221ca192",
+        "vocab-3ee489845331"
       ]
     },
     {
@@ -6455,7 +6715,8 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-d631d1aa431c"
+        "vocab-d631d1aa431c",
+        "vocab-425aeaca8833"
       ]
     },
     {
@@ -6467,7 +6728,13 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-ad9b06c756c8"
+        "vocab-ad9b06c756c8",
+        "vocab-73f056b4a762",
+        "vocab-b02b46fa03d8",
+        "vocab-b48faf12b957",
+        "vocab-d0c585b6ad95",
+        "vocab-9abf9810b76c",
+        "vocab-e3d79fff90cd"
       ]
     },
     {
@@ -6483,7 +6750,8 @@
         "vocab-1652d44b4cde",
         "vocab-d9e3f941ad99",
         "vocab-1069439ef42a",
-        "vocab-f92a3cae2a00"
+        "vocab-f92a3cae2a00",
+        "vocab-3f65e0f2ac60"
       ]
     },
     {
@@ -6531,7 +6799,9 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-cf2025a43398"
+        "vocab-cf2025a43398",
+        "vocab-38b34e210cee",
+        "vocab-fb71bdaaf44e"
       ]
     },
     {
@@ -6556,7 +6826,8 @@
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
         "vocab-44431a66db6f",
-        "vocab-12696960ffbf"
+        "vocab-12696960ffbf",
+        "vocab-cc5ab3353b93"
       ]
     },
     {
@@ -6616,7 +6887,8 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-65d8fe1c1e08"
+        "vocab-65d8fe1c1e08",
+        "vocab-e0fef987a13a"
       ]
     },
     {
@@ -6657,7 +6929,8 @@
       "jlptLevel": "N4",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-e3037492f700"
+        "vocab-e3037492f700",
+        "vocab-cf09f22bbd59"
       ]
     },
     {
@@ -6707,7 +6980,8 @@
       "jlptLevel": "N2",
       "notesZh": "商务与 IT 常用词关联组。",
       "wordIds": [
-        "vocab-de2e5def3bd2"
+        "vocab-de2e5def3bd2",
+        "vocab-9e427db2ed58"
       ]
     },
     {
@@ -6735,7 +7009,9 @@
         "vocab-50f9593a088d",
         "vocab-4e50115d69f8",
         "vocab-1bf4f6f699b7",
-        "vocab-f3190fa3cc0b"
+        "vocab-f3190fa3cc0b",
+        "vocab-53a7b680a34e",
+        "vocab-55b624eb5bd2"
       ]
     },
     {
@@ -6760,7 +7036,8 @@
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
         "vocab-8bae8d264670",
-        "vocab-1674c08e5171"
+        "vocab-1674c08e5171",
+        "vocab-f1d564842e89"
       ]
     },
     {
@@ -6858,7 +7135,8 @@
       "jlptLevel": "N5",
       "notesZh": "Phase 2 基础与日常词汇关联组。",
       "wordIds": [
-        "vocab-f50610bd7e01"
+        "vocab-f50610bd7e01",
+        "vocab-b27f98938610"
       ]
     },
     {
@@ -7170,7 +7448,8 @@
         "vocab-493e1b231ba7",
         "vocab-c599d4b256a0",
         "vocab-136569ce1fd5",
-        "vocab-f8014c434f46"
+        "vocab-f8014c434f46",
+        "vocab-e45ee1fefc74"
       ]
     },
     {
@@ -7275,6 +7554,1335 @@
         "vocab-b0b00876a445",
         "vocab-20cbbc531625",
         "vocab-00e47961fd0e"
+      ]
+    },
+    {
+      "id": "kanji-u5ba2",
+      "kanji": "客",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-c33e3a73d530"
+      ]
+    },
+    {
+      "id": "kanji-u662f",
+      "kanji": "是",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-48ad47dea7e0",
+        "vocab-384035a2d138"
+      ]
+    },
+    {
+      "id": "kanji-u5426",
+      "kanji": "否",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-1fc4913a0697"
+      ]
+    },
+    {
+      "id": "kanji-u88c1",
+      "kanji": "裁",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-0fc1541c79b9",
+        "vocab-b6b806c35168"
+      ]
+    },
+    {
+      "id": "kanji-u6240",
+      "kanji": "所",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-444b2837e18a",
+        "vocab-0f9f7b67dd36",
+        "vocab-0a8c9955326f"
+      ]
+    },
+    {
+      "id": "kanji-u6226",
+      "kanji": "戦",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-30efee94cfb4",
+        "vocab-91b6d0bedf96"
+      ]
+    },
+    {
+      "id": "kanji-u65bd",
+      "kanji": "施",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-3d1c90dbff3a"
+      ]
+    },
+    {
+      "id": "kanji-u5c55",
+      "kanji": "展",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-8f692138d1db",
+        "vocab-1014d1ec2f66"
+      ]
+    },
+    {
+      "id": "kanji-u7b4b",
+      "kanji": "筋",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-5b5aea77fdd1"
+      ]
+    },
+    {
+      "id": "kanji-u6b21",
+      "kanji": "次",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-35a3942f745b"
+      ]
+    },
+    {
+      "id": "kanji-u6298",
+      "kanji": "折",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-144d77783b51",
+        "vocab-3cb3d6ba604b"
+      ]
+    },
+    {
+      "id": "kanji-u629c",
+      "kanji": "抜",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-872d46ed5871"
+      ]
+    },
+    {
+      "id": "kanji-u4eba",
+      "kanji": "人",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-7adc4ec3389f",
+        "vocab-4db0928e8863",
+        "vocab-79b888286f01"
+      ]
+    },
+    {
+      "id": "kanji-u9054",
+      "kanji": "達",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-4c287abc78fb",
+        "vocab-a53c945f24b0"
+      ]
+    },
+    {
+      "id": "kanji-u64a4",
+      "kanji": "撤",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-268c1722971b"
+      ]
+    },
+    {
+      "id": "kanji-u8a31",
+      "kanji": "許",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-bc17e5f2c063",
+        "vocab-eb26a895eeab"
+      ]
+    },
+    {
+      "id": "kanji-u8106",
+      "kanji": "脆",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-a05b0d47330b",
+        "vocab-35a67fd7ae65"
+      ]
+    },
+    {
+      "id": "kanji-u6f5c",
+      "kanji": "潜",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-fa09abf462b4",
+        "vocab-e85dc53bb79a",
+        "vocab-17e1e913cf04"
+      ]
+    },
+    {
+      "id": "kanji-u9855",
+      "kanji": "顕",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-ad8bbe198b99",
+        "vocab-fb4cc64ac6c6"
+      ]
+    },
+    {
+      "id": "kanji-u6ce2",
+      "kanji": "波",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-8e5a19021471"
+      ]
+    },
+    {
+      "id": "kanji-u5f0a",
+      "kanji": "弊",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-7ebd48ba2698"
+      ]
+    },
+    {
+      "id": "kanji-u5076",
+      "kanji": "偶",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-598861473b0b"
+      ]
+    },
+    {
+      "id": "kanji-u7dca",
+      "kanji": "緊",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-1c62ee1945ab"
+      ]
+    },
+    {
+      "id": "kanji-u6cd5",
+      "kanji": "法",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-154411adc896"
+      ]
+    },
+    {
+      "id": "kanji-u898f",
+      "kanji": "規",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-17603c6d256d",
+        "vocab-bcc9f4f8ac54"
+      ]
+    },
+    {
+      "id": "kanji-u7d71",
+      "kanji": "統",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-239599f96923",
+        "vocab-6a97f8a6db66"
+      ]
+    },
+    {
+      "id": "kanji-u727d",
+      "kanji": "牽",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-22d260408273"
+      ]
+    },
+    {
+      "id": "kanji-u6291",
+      "kanji": "抑",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-718e3909055c"
+      ]
+    },
+    {
+      "id": "kanji-u7de9",
+      "kanji": "緩",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-103a109d416e"
+      ]
+    },
+    {
+      "id": "kanji-u514d",
+      "kanji": "免",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-e76c2d703b78"
+      ]
+    },
+    {
+      "id": "kanji-u640d",
+      "kanji": "損",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-ab2ab18dc2c4",
+        "vocab-4647d683c1a0"
+      ]
+    },
+    {
+      "id": "kanji-u8457",
+      "kanji": "著",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-2019679b156e",
+        "vocab-e40dfd6243f3"
+      ]
+    },
+    {
+      "id": "kanji-u79d8",
+      "kanji": "秘",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-f2e57d73cfb0"
+      ]
+    },
+    {
+      "id": "kanji-u7a1f",
+      "kanji": "稟",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-e85d14633ff6"
+      ]
+    },
+    {
+      "id": "kanji-u7d14",
+      "kanji": "純",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-94d8bd1b3cfd"
+      ]
+    },
+    {
+      "id": "kanji-u7c97",
+      "kanji": "粗",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-b0354e08d1f3"
+      ]
+    },
+    {
+      "id": "kanji-u53ce",
+      "kanji": "収",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-b35702eb8108",
+        "vocab-cff976248e67"
+      ]
+    },
+    {
+      "id": "kanji-u6295",
+      "kanji": "投",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-5b783d5db285"
+      ]
+    },
+    {
+      "id": "kanji-u7cbe",
+      "kanji": "精",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-190e5a1dfaca",
+        "vocab-bf68f0096657"
+      ]
+    },
+    {
+      "id": "kanji-u6e1b",
+      "kanji": "減",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-3746901c98c3"
+      ]
+    },
+    {
+      "id": "kanji-u7d44",
+      "kanji": "組",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-f592121f9ce8",
+        "vocab-9baa07217e05"
+      ]
+    },
+    {
+      "id": "kanji-u60c5",
+      "kanji": "情",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-ebca5589a7aa"
+      ]
+    },
+    {
+      "id": "kanji-u7ba1",
+      "kanji": "管",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-7d120bec0bfd"
+      ]
+    },
+    {
+      "id": "kanji-u517c",
+      "kanji": "兼",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-ad038c3ebf3a"
+      ]
+    },
+    {
+      "id": "kanji-u5c02",
+      "kanji": "専",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-f68507032c4c"
+      ]
+    },
+    {
+      "id": "kanji-u52b4",
+      "kanji": "労",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-12584d137285"
+      ]
+    },
+    {
+      "id": "kanji-u9042",
+      "kanji": "遂",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-e272b220c19e"
+      ]
+    },
+    {
+      "id": "kanji-u63a8",
+      "kanji": "推",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-90d5dee5963d",
+        "vocab-07eb8b2de401",
+        "vocab-13581bacc9f7",
+        "vocab-10d67f019c1a"
+      ]
+    },
+    {
+      "id": "kanji-u57f7",
+      "kanji": "執",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-f37f07392998"
+      ]
+    },
+    {
+      "id": "kanji-u903c",
+      "kanji": "逼",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-1e1a713a5738"
+      ]
+    },
+    {
+      "id": "kanji-u8feb",
+      "kanji": "迫",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-ae2e9ad1811a"
+      ]
+    },
+    {
+      "id": "kanji-u696d",
+      "kanji": "業",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-f61c501052e5"
+      ]
+    },
+    {
+      "id": "kanji-u771f",
+      "kanji": "真",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-908a50121d9d"
+      ]
+    },
+    {
+      "id": "kanji-u8108",
+      "kanji": "脈",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-78efd497dad3"
+      ]
+    },
+    {
+      "id": "kanji-u8cdb",
+      "kanji": "賛",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-f7316530b5e3",
+        "vocab-65bddaed9ed4"
+      ]
+    },
+    {
+      "id": "kanji-u5a49",
+      "kanji": "婉",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-ac5c5f4969fc"
+      ]
+    },
+    {
+      "id": "kanji-u793a",
+      "kanji": "示",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-1af145f3e454"
+      ]
+    },
+    {
+      "id": "kanji-u4eee",
+      "kanji": "仮",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-d6a355475540"
+      ]
+    },
+    {
+      "id": "kanji-u7b97",
+      "kanji": "算",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-febeeea3fe4d"
+      ]
+    },
+    {
+      "id": "kanji-u56e0",
+      "kanji": "因",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-5fc82e427f2e"
+      ]
+    },
+    {
+      "id": "kanji-u504f",
+      "kanji": "偏",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-388f4eb53ab8"
+      ]
+    },
+    {
+      "id": "kanji-u95be",
+      "kanji": "閾",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-2044b11e7f34"
+      ]
+    },
+    {
+      "id": "kanji-u8aa4",
+      "kanji": "誤",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-039c910d033f"
+      ]
+    },
+    {
+      "id": "kanji-u7455",
+      "kanji": "瑕",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-64be1030e05b"
+      ]
+    },
+    {
+      "id": "kanji-u65e2",
+      "kanji": "既",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-08ccd12a78fd",
+        "vocab-b1f085d30faa"
+      ]
+    },
+    {
+      "id": "kanji-u8010",
+      "kanji": "耐",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-baebb016e567"
+      ]
+    },
+    {
+      "id": "kanji-u63a2",
+      "kanji": "探",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-d425e92bc61e"
+      ]
+    },
+    {
+      "id": "kanji-u5bc6",
+      "kanji": "密",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-81235855246d"
+      ]
+    },
+    {
+      "id": "kanji-u51dd",
+      "kanji": "凝",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-e1feca57a050"
+      ]
+    },
+    {
+      "id": "kanji-u96a0",
+      "kanji": "隠",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-ab081f10801a"
+      ]
+    },
+    {
+      "id": "kanji-u5316",
+      "kanji": "化",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-8437e5cdafb7"
+      ]
+    },
+    {
+      "id": "kanji-u5782",
+      "kanji": "垂",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-0add76d623e5"
+      ]
+    },
+    {
+      "id": "kanji-u8b58",
+      "kanji": "識",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-aa8f70db5132"
+      ]
+    },
+    {
+      "id": "kanji-u8105",
+      "kanji": "脅",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-a4eae75ebaea"
+      ]
+    },
+    {
+      "id": "kanji-u653b",
+      "kanji": "攻",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-8ad518fff737"
+      ]
+    },
+    {
+      "id": "kanji-u4fb5",
+      "kanji": "侵",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-6e2c2ddeecdb"
+      ]
+    },
+    {
+      "id": "kanji-u8fc2",
+      "kanji": "迂",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-c04839700a4d"
+      ]
+    },
+    {
+      "id": "kanji-u7e2e",
+      "kanji": "縮",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-ed0a34efd76d"
+      ]
+    },
+    {
+      "id": "kanji-u5fdc",
+      "kanji": "応",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-854f71b23266"
+      ]
+    },
+    {
+      "id": "kanji-u81f4",
+      "kanji": "致",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-2b07e597557f"
+      ]
+    },
+    {
+      "id": "kanji-u4e8c",
+      "kanji": "二",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-635464fef687"
+      ]
+    },
+    {
+      "id": "kanji-u8e0f",
+      "kanji": "踏",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-e91f92d7b326"
+      ]
+    },
+    {
+      "id": "kanji-u9451",
+      "kanji": "鑑",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-616a6df7d4f1"
+      ]
+    },
+    {
+      "id": "kanji-u6398",
+      "kanji": "掘",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-5fe5c2475840"
+      ]
+    },
+    {
+      "id": "kanji-u5272",
+      "kanji": "割",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-cd5fd94c63be"
+      ]
+    },
+    {
+      "id": "kanji-u7136",
+      "kanji": "然",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-9cd881eb23d3"
+      ]
+    },
+    {
+      "id": "kanji-u671b",
+      "kanji": "望",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-34e7e11e5bbf"
+      ]
+    },
+    {
+      "id": "kanji-u751a",
+      "kanji": "甚",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-ca35d79f640e"
+      ]
+    },
+    {
+      "id": "kanji-u4e4f",
+      "kanji": "乏",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-adf0a2d0cb2a"
+      ]
+    },
+    {
+      "id": "kanji-u614e",
+      "kanji": "慎",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-badbfba34508"
+      ]
+    },
+    {
+      "id": "kanji-u8fc5",
+      "kanji": "迅",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-605e00a7c4e7"
+      ]
+    },
+    {
+      "id": "kanji-u5186",
+      "kanji": "円",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-240be5755f59"
+      ]
+    },
+    {
+      "id": "kanji-u5805",
+      "kanji": "堅",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-1b3c60115744"
+      ]
+    },
+    {
+      "id": "kanji-u7dfb",
+      "kanji": "緻",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-ba462fd94ad0"
+      ]
+    },
+    {
+      "id": "kanji-u53b3",
+      "kanji": "厳",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-927faf7e6aa7"
+      ]
+    },
+    {
+      "id": "kanji-u66d6",
+      "kanji": "曖",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-5a14fd8e324f"
+      ]
+    },
+    {
+      "id": "kanji-u6f20",
+      "kanji": "漠",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-c511776ad712"
+      ]
+    },
+    {
+      "id": "kanji-u9010",
+      "kanji": "逐",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-423435d5563c"
+      ]
+    },
+    {
+      "id": "kanji-u90fd",
+      "kanji": "都",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-0c61a49dce93"
+      ]
+    },
+    {
+      "id": "kanji-u9867",
+      "kanji": "顧",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-fafe6d802945",
+        "vocab-852fc774c43c",
+        "vocab-e159c2ed1922"
+      ]
+    },
+    {
+      "id": "kanji-u7af6",
+      "kanji": "競",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-bf2e5bb0ba2e",
+        "vocab-b479bd5517fa"
+      ]
+    },
+    {
+      "id": "kanji-u9700",
+      "kanji": "需",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-c61077d8f6b0",
+        "vocab-642bee2cf3e2"
+      ]
+    },
+    {
+      "id": "kanji-u4f9b",
+      "kanji": "供",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-a6398f8d700c"
+      ]
+    },
+    {
+      "id": "kanji-u8ca9",
+      "kanji": "販",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-d15587ec64a4",
+        "vocab-624de793d4c7"
+      ]
+    },
+    {
+      "id": "kanji-u5546",
+      "kanji": "商",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-7d65623c1cf2",
+        "vocab-9dbb48d89998"
+      ]
+    },
+    {
+      "id": "kanji-u7269",
+      "kanji": "物",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N2",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-87617ca97c64"
+      ]
+    },
+    {
+      "id": "kanji-u8a34",
+      "kanji": "訴",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-8fdd93cb3cf3"
+      ]
+    },
+    {
+      "id": "kanji-u4f01",
+      "kanji": "企",
+      "meaningsZh": [
+        "高级商务关联"
+      ],
+      "jlptLevel": "N1",
+      "notesZh": "Phase 3 N2～N1 高级商务词汇关联组。",
+      "wordIds": [
+        "vocab-878e0b61fbff"
       ]
     }
   ]

@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "packId": "vocabulary-business-it",
   "packType": "vocabulary",
-  "contentVersion": "2026.07.31-phase2-foundation-daily",
+  "contentVersion": "2026.07.31-phase3-advanced-business",
   "title": "商务与 IT 核心词汇",
   "description": "第一阶段扩充：商务沟通、IT、Git、CI/CD、AWS、架构、测试与运维核心词汇。",
   "items": [
